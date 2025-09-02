@@ -4,18 +4,18 @@
 
 
 
-.Buttons {
+.Button-Interface {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
 }
 
-.Cardlist {
+#Cardlist {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
   flex: auto;
-  width: 60%;
+  width: 100%;
 }
 
 .Card {
@@ -23,9 +23,33 @@
    height:14rem;
    border: 1em solid #00000000;
 }
-.CardZoom {
+#CardZoom {
   height: 100%;
-  width: 40%;
+  width: 0rem;
   background: #00000030;
   display: block;
+  background: blue;
+}
+
+#CardDisplay {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  /* flex-wrap: wrap; */
+  background: green;
+  height: 100%;
+}
+
+#BigCard {
+   width:20rem;
+   height:28rem;
+   border: 1em solid #00000000;
+   display: hidden;
+   margin: auto;
+}
+#zoomedInCard {
+  width: 100%;
+  height: 100%;
+  margin: 0;
 }
