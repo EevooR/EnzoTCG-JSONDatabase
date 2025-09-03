@@ -1,0 +1,269 @@
+[
+  {
+    "aerith" : {
+      "name" : "Aerith",
+      "indexname" : "aerith",
+      "archetype" : "Character",
+      "element" : "Positive",
+      "hitpoints" : 80,
+      "ability" : "Air of Vulnerability -- This card takes 2x damage from attacks done to it while in the party slots.",
+      "attack1" : {
+        "element" : "Positive",
+        "cost" : 1,
+        "name" : "Healing Prayer",
+        "damage" : null,
+        "description" : "Heal 10 hp from each party member and remove all status conditions."
+      },
+      "attack2" : {
+        "element" : "Positive",
+        "cost" : 1,
+        "name" : "Staff Bludgeon",
+        "damage" : 10,
+        "description" : null
+      },
+      "series" : "Final Fantasy",
+      "copyright" : "Square Enix",
+      "rcost" : 2,
+      "image" : "../Assets/ORCards/Character/Aerith.jpg"
+    },
+    "alexlouisarmstrongex" : {
+      "name" : "Alex Louis Armstrong EX",
+      "indexname" : "alexlouisarmstrongex",
+      "archetype" : "Character",
+      "element" : "Earth",
+      "hitpoints" : 220,
+      "ability" : "Armstrong Lineage -- if Olivier Mira Armstrong is in play as an ally, +50 to Alex Louis Armstrong's Attacks.",
+      "attack1" : {
+        "element" : "Earth",
+        "cost" : 3,
+        "name" : "Iron Fists",
+        "damage" : 40,
+        "description" : null
+      },
+      "attack2" : {
+        "element" : "Earth",
+        "cost" : 5,
+        "name" : "Alchemical Spikes",
+        "damage" : 70,
+        "description" : "Does 40 damage to the opponent's party 2"
+      },
+      "series" : "Fullmetal Alchemist",
+      "copyright" : "Aniplex",
+      "rcost" : 5,
+      "image" : "../Assets/ORCards/Character/AlexLouisArmstrongEX.jpg"
+    },
+    "allmightex" : {
+      "name" : "All Might EX",
+      "indexname" : "allmightex",
+      "archetype" : "Character",
+      "element" : "Positive",
+      "hitpoints" : 200,
+      "ability" : "I Am Here -- When this card enters the active spot, remove all debuffs from the player's side of the field. While this card is in play, Characters can not be affected by debuffs.",
+      "attack1" : {
+        "element" : "Positive",
+        "cost" : 3,
+        "name" : "Texas Smash",
+        "damage" : 50,
+        "description" : null
+      },
+      "attack2" : {
+        "element" : "Positive",
+        "cost" : 7,
+        "name" : "United States of Smash",
+        "damage" : 200,
+        "description" : "If this attack succeeds, retreat this card back into your hand."
+      },
+      "series" : "My Hero Academia",
+      "copyright" : "VIZ Media",
+      "rcost" : 5,
+      "image" : "../Assets/ORCards/Character/AllMightEX.jpg"
+    },
+    "aqua" : {
+      "name" : "Aqua",
+      "indexname" : "aqua",
+      "archetype" : "Character",
+      "element" : "Water",
+      "hitpoints" : 80,
+      "ability" : null,
+      "attack1" : {
+        "element" : "Water",
+        "cost" : 1,
+        "name" : "Purify",
+        "damage" : null,
+        "description" : "Heal 20 damage from an allied card."
+      },
+      "attack2" : {
+        "element" : "Water",
+        "cost" : 2,
+        "name" : "Panicked Staff",
+        "damage" : 10,
+        "description" : "Flip a coin. If heads, this attack does nothing."
+      },
+      "series" : "Konosuba",
+      "copyright" : "KadoKawa",
+      "rcost" : 1,
+      "image" : "../Assets/ORCards/Character/Aqua.jpg"
+    },
+    "artoriapendragonex" : {
+      "name" : "Artoria Pendragon EX",
+      "indexname" : "artoriapendragonex",
+      "archetype" : "Character",
+      "element" : "Wind",
+      "hitpoints" : 190,
+      "ability" : null,
+      "attack1" : {
+        "element" : "Wind",
+        "cost" : 1,
+        "name" : "Invisible Wind",
+        "damage" : 30,
+        "description" : "This attack will always deal a minimum of 30 damage. Even if the opponent's active card is unable to be attacked."
+      },
+      "attack2" : {
+        "element" : "Wind",
+        "cost" : 10,
+        "name" : "Excalibur",
+        "damage" : 400,
+        "description" : "discard all energies from this card, deal 30 damage to all of the opponent's non-active cards that can be damaged."
+      },
+      "series" : "Fate Stay/Night",
+      "copyright" : "Type Moon",
+      "rcost" : 5,
+      "image" : "../Assets/ORCards/Character/ArtoriaPendragonEX.jpg"
+    },
+
+    "asabaharumasa" : {
+      "name" : "Asaba Harumasa",
+      "indexname" : "asabaharumasa",
+      "archetype" : "Character",
+      "element" : "Electricity",
+      "hitpoints" : 140,
+      "ability" : "No one cares more about my safety -- When this card is at or between 70 and 10 hp, it takes 10 damage every other turn, but does +30 damage on every attack.",
+      "attack1" : {
+        "element" : "Electricity",
+        "cost" : 1,
+        "name" : "Cloud Piercer",
+        "damage" : "20+",
+        "description" : "Every consecutive use of Cloud Piercer does +10 damage on the last, caps at +60 damage."
+      },
+      "attack2" : {
+        "element" : "Electricity",
+        "cost" : 3,
+        "name" : "Ha-Oto no Ya",
+        "damage" : 60,
+        "description" : "Ignore stage all applied damage changes including invincibility. Discard one Electric energy. This card cannot retreat during its next turn."
+      },
+      "series" : "Zenless Zone Zero",
+      "copyright" : "HoYoverse",
+      "rcost" : 2,
+      "image" : "../Assets/ORCards/Character/AsabaHarumasa.jpg"
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    "alexlouisarmstrongexspecial" : {
+      "name" : "Alex Louis Armstrong EX",
+      "indexname" : "alexlouisarmstrongexspecial",
+      "archetype" : "Character",
+      "element" : "Earth",
+      "hitpoints" : 220,
+      "ability" : "Armstrong Lineage -- if Olivier Mira Armstrong is in play as an ally, +50 to Alex Louis Armstrong's Attacks.",
+      "attack1" : {
+        "element" : "Earth",
+        "cost" : 3,
+        "name" : "Iron Fists",
+        "damage" : 40,
+        "description" : null
+      },
+      "attack2" : {
+        "element" : "Earth",
+        "cost" : 5,
+        "name" : "Alchemical Spikes",
+        "damage" : 70,
+        "description" : "Does 40 damage to the opponent's party 2"
+      },
+      "series" : "Fullmetal Alchemist",
+      "copyright" : "Aniplex",
+      "rcost" : 5,
+      "image" : "../Assets/ORCards/Character/AlexLouisArmstrongEX(ColorArt).jpg"
+    },
+    "allmightexspecial" : {
+      "name" : "All Might EX",
+      "indexname" : "allmightexspecial",
+      "archetype" : "Character",
+      "element" : "Positive",
+      "hitpoints" : 200,
+      "ability" : "I Am Here -- When this card enters the active spot, remove all debuffs from the player's side of the field. While this card is in play, Characters can not be affected by debuffs.",
+      "attack1" : {
+        "element" : "Positive",
+        "cost" : 3,
+        "name" : "Texas Smash",
+        "damage" : 50,
+        "description" : null
+      },
+      "attack2" : {
+        "element" : "Positive",
+        "cost" : 7,
+        "name" : "United States of Smash",
+        "damage" : 200,
+        "description" : "If this attack succeeds, retreat this card back into your hand."
+      },
+      "series" : "My Hero Academia",
+      "copyright" : "VIZ Media",
+      "rcost" : 5,
+      "image" : "../Assets/ORCards/Character/AllMightEX(FullArt).jpg"
+    },
+
+
+
+
+
+
+  }
+]
