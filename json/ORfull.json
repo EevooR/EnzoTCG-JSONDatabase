@@ -1,6 +1,6 @@
 [
     {
-        "aerith": {
+        1: {
             "name": "Aerith",
             "indexname": "aerith",
             "archetype": "Character",
@@ -26,7 +26,7 @@
             "rcost": 2,
             "image": "../Assets/ORCards/Character/Aerith.jpg"
         },
-        "alexlouisarmstrongex": {
+        2: {
             "name": "Alex Louis Armstrong EX",
             "indexname": "alexlouisarmstrongex",
             "archetype": "Character",
@@ -52,7 +52,7 @@
             "rcost": 5,
             "image": "../Assets/ORCards/Character/AlexLouisArmstrongEX.jpg"
         },
-        "allmightex": {
+        3: {
             "name": "All Might EX",
             "indexname": "allmightex",
             "archetype": "Character",
@@ -78,7 +78,7 @@
             "rcost": 5,
             "image": "../Assets/ORCards/Character/AllMightEX.jpg"
         },
-        "aqua": {
+        4: {
             "name": "Aqua",
             "indexname": "aqua",
             "archetype": "Character",
@@ -104,7 +104,7 @@
             "rcost": 1,
             "image": "../Assets/ORCards/Character/Aqua.jpg"
         },
-        "artoriapendragonex": {
+        5: {
             "name": "Artoria Pendragon EX",
             "indexname": "artoriapendragonex",
             "archetype": "Character",
@@ -130,7 +130,7 @@
             "rcost": 5,
             "image": "../Assets/ORCards/Character/ArtoriaPendragonEX.jpg"
         },
-        "asabaharumasa": {
+        6: {
             "name": "Asaba Harumasa",
             "indexname": "asabaharumasa",
             "archetype": "Character",
@@ -156,7 +156,7 @@
             "rcost": 2,
             "image": "../Assets/ORCards/Character/AsabaHarumasa.jpg"
         },
-        "alexlouisarmstrongexspecial": {
+        7: {
             "name": "Alex Louis Armstrong EX",
             "indexname": "alexlouisarmstrongexspecial",
             "archetype": "Character",
@@ -182,7 +182,7 @@
             "rcost": 5,
             "image": "../Assets/ORCards/Character/AlexLouisArmstrongEX(ColorArt).jpg"
         },
-        "allmightexspecial": {
+        8: {
             "name": "All Might EX",
             "indexname": "allmightexspecial",
             "archetype": "Character",
