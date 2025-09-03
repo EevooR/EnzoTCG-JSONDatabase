@@ -16,14 +16,14 @@ window.onload = async (event) => {
 
     const data = await orFullCards(); // await the async function
 
-    Object.keys(data).forEach((key) => {
-  console.log(key.name);
-});
+//     Object.keys(data).forEach((key) => {
+//   console.log(key);
+// });
 
 
-//     data.forEach((i) => {
-//       console.log(i.allmightex.name);
-//     });
+    data.forEach((i) => {
+      console.log(i.allmightex.name);
+    });
   } catch (error) {
     console.log(error);
   }
