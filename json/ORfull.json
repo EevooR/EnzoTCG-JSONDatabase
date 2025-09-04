@@ -156,6 +156,114 @@
             "rcost": 2,
             "image": "../Assets/ORCards/Character/AsabaHarumasa.jpg"
         },
+
+        "aunnkomano": {
+            "name": "Aunn Komano",
+            "indexname": "aunnkomano",
+            "archetype": "Character",
+            "element": "Wind",
+            "hitpoints": 90,
+            "ability": "Exorcism Aura (Komano) -- When an energy is attached to this card, alternating every two turns, the first attack against this and any allied characters vertically aligned with this card ot the same with the cards horizantally aligned, Party 1 and 3 if active does 20 less damage.",
+            "attack1": {
+                "element": "Wind",
+                "cost": 1,
+                "name": "Rotating Shots",
+                "damage": "20",
+                "description": "Hits the opponent's active card, Party 1, and Party 3."
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Touhou Project",
+            "copyright": "ZUN",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/AunnKomano.jpg"
+        },
+        "aventurineex": {
+            "name": "Aventurine EX",
+            "indexname": "aventurineex",
+            "archetype": "Character",
+            "element": "Omni",
+            "hitpoints": 250,
+            "ability": "Conerstone Deluxe -- No characters in your party as if using Cornerstone Deluxe will take any damage during the opponent's next turn. Effect ends at the start of this player's next turn. End your turn once you activate this ability.",
+            "attack1": {
+                "element": "Omni",
+                "cost": 8,
+                "name": "Willing to take that bet",
+                "damage": null,
+                "description": "Have the opponent search through their draw deck and pull out the first Character or E Character and shows it to the attacker, If their HP is below the amount of energies on this card (each energy being 10 hp), the opponent discards the drawn card and the attacker takes the reward respective to the discarded card, otherwise, the drawn card is moved to the opponent’s hand. Once this ability is used, discard ALL energy from this card."
+            },
+            "attack2": {
+                "element": "Omni",
+                "cost": 1,
+                "name": "Straight Bet",
+                "damage": "30",
+                "description": null
+            },
+            "series": "Honkai: Star Rail",
+            "copyright": "HoYoverse",
+            "rcost": 5,
+            "image": "../Assets/ORCards/Character/AventurineEX.jpg"
+        },
+        "balloonarcher": {
+            "name": "Balloon Archer",
+            "indexname": "balloonarcher",
+            "archetype": "Character",
+            "element": "Wind",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Wind",
+                "cost": 1,
+                "name": "Balloon Arrow",
+                "damage": 10,
+                "description": "During the opponent's next turn, their active character is not affected by stage effects."
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Totally Accurate Battle Simulator",
+            "copyright": "Landfall Games",
+            "rcost": 3,
+            "image": "../Assets/ORCards/Character/BalloonArcher.jpg"
+        },
+        "bender": {
+            "name": "Bender",
+            "indexname": "bender",
+            "archetype": "Character",
+            "element": "Fire",
+            "hitpoints": 120,
+            "ability": "Fourty Percent Digital -- At the start of your turn, you may discard a digital energy. If you do, heal 40hp from this card.",
+            "attack1": {
+                "element": "Fire",
+                "cost": 1,
+                "name": "Burning Burp",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": "Omni",
+                "cost": 4,
+                "name": "Girder Bend",
+                "damage": 50,
+                "description": null
+            },
+            "series": "Futurama",
+            "copyright": "20th Century Fox",
+            "rcost": 3,
+            "image": "../Assets/ORCards/Character/Bender.jpg"
+        },
+
+
+
         "alexlouisarmstrongexspecial": {
             "name": "Alex Louis Armstrong EX",
             "indexname": "alexlouisarmstrongexspecial",
@@ -181,6 +289,32 @@
             "copyright": "Aniplex",
             "rcost": 5,
             "image": "../Assets/ORCards/Character/AlexLouisArmstrongEX(ColorArt).jpg"
+        },
+        "aventurineexspecial": {
+            "name": "Aventurine EX",
+            "indexname": "aventurineexspecial",
+            "archetype": "Character",
+            "element": "Omni",
+            "hitpoints": 250,
+            "ability": "Conerstone Deluxe -- No characters in your party as if using Cornerstone Deluxe will take any damage during the opponent's next turn. Effect ends at the start of this player's next turn. End your turn once you activate this ability.",
+            "attack1": {
+                "element": "Omni",
+                "cost": 8,
+                "name": "Willing to take that bet",
+                "damage": null,
+                "description": "Have the opponent search through their draw deck and pull out the first Character or E Character and shows it to the attacker, If their HP is below the amount of energies on this card (each energy being 10 hp), the opponent discards the drawn card and the attacker takes the reward respective to the discarded card, otherwise, the drawn card is moved to the opponent’s hand. Once this ability is used, discard ALL energy from this card."
+            },
+            "attack2": {
+                "element": "Omni",
+                "cost": 1,
+                "name": "Straight Bet",
+                "damage": "30",
+                "description": null
+            },
+            "series": "Honkai: Star Rail",
+            "copyright": "HoYoverse",
+            "rcost": 5,
+            "image": "../Assets/ORCards/Character/AventurineEX(ColorArt).jpg"
         },
         "allmightexspecial": {
             "name": "All Might EX",
