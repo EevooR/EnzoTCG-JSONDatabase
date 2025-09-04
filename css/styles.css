@@ -19,11 +19,14 @@
   flex: auto;
   width: 100%;
 }
-
+#Cardlist * {
+  border-radius: 10px;
+}
 .Card {
    width:10rem;
    height:14rem;
    border: 1em solid #00000000;
+   border-radius: 10px;
 }
 #CardZoom {
   height: 55rem;
@@ -55,6 +58,8 @@
 #zoomedInCard {
   width: 100%;
   margin: 0;
+  border-radius: 10px;
+
 }
 #CardInfo {
   overflow-y: scroll;

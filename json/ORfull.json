@@ -156,7 +156,6 @@
             "rcost": 2,
             "image": "../Assets/ORCards/Character/AsabaHarumasa.jpg"
         },
-
         "aunnkomano": {
             "name": "Aunn Komano",
             "indexname": "aunnkomano",
@@ -209,6 +208,7 @@
             "rcost": 5,
             "image": "../Assets/ORCards/Character/AventurineEX.jpg"
         },
+
         "balloonarcher": {
             "name": "Balloon Archer",
             "indexname": "balloonarcher",
@@ -260,6 +260,110 @@
             "copyright": "20th Century Fox",
             "rcost": 3,
             "image": "../Assets/ORCards/Character/Bender.jpg"
+        },
+        "birb": {
+            "name": "Birb",
+            "indexname": "birb",
+            "archetype": "Character",
+            "element": "Positive",
+            "hitpoints": 90,
+            "ability": null,
+            "attack1": {
+                "element": "Omni",
+                "cost": 1,
+                "name": "Good Vibes",
+                "damage": "0+",
+                "description": "If the opposing card is negative or has negative energies on it, this attack deals 20 damage. Attach a positive energy to an allied card."
+            },
+            "attack2": {
+                "element": "Positive",
+                "cost": 2,
+                "name": "Adventure",
+                "damage": null,
+                "description": "Draw a random card from the draw deck"
+            },
+            "series": "Finch",
+            "copyright": "Finch Care Public Benefit Corporation",
+            "rcost": 0,
+            "image": "../Assets/ORCards/Character/Birb.jpg"
+        },
+        "blakebelladonnamistral": {
+            "name": "Blake Belladonna - Mistral",
+            "indexname": "blakebelladonnamistral",
+            "archetype": "Character",
+            "element": "Negative",
+            "hitpoints": 80,
+            "ability": null,
+            "attack1": {
+                "element": "Omni",
+                "cost": 1,
+                "name": "Swing",
+                "damage": 20,
+                "description": "If no other actions are used by the player during this turn than using this attack, this attack does +30 damage."
+            },
+            "attack2": {
+                "element": "Omni & Negative",
+                "cost": "1 & 3",
+                "name": "Shadow Clone",
+                "damage": null,
+                "description": "If the opponent attacks, during the opponent’s turn, sacrifice the energy that is not part of the three negative energies used in the attack, nullify the attack, do 40 Omni Damage, and move this card into the party."
+            },
+            "series": "Rwby",
+            "copyright": "Viz Media",
+            "rcost": 3,
+            "image": "../Assets/ORCards/Character/BlakeBelladonnaMistral.jpg"
+        },
+        "blizzaria": {
+            "name": "Blizzaria",
+            "indexname": "blizzaria",
+            "archetype": "Character",
+            "element": "Frost",
+            "hitpoints": 90,
+            "ability": null,
+            "attack1": {
+                "element": "Frost",
+                "cost": 2,
+                "name": "Frost",
+                "damage": 30,
+                "description": null
+            },
+            "attack2": {
+                "element": "Frost",
+                "cost": 4,
+                "name": "Shiny Snowdrift",
+                "damage": 80,
+                "description": "The defending character is now paralyzed."
+            },
+            "series": "Yo-Kai Watch",
+            "copyright": "Level 5",
+            "rcost": 2,
+            "image": "../Assets/ORCards/Character/Blizzaria.jpg"
+        },
+        "burnicewhite": {
+            "name": "Burnice White",
+            "indexname": "burnicewhite",
+            "archetype": "Character",
+            "element": "Fire",
+            "hitpoints": 100,
+            "ability": null,
+            "attack1": {
+                "element": "Fire",
+                "cost": 2,
+                "name": "Flaming Brew",
+                "damage": 20,
+                "description": "The defending characteris now burned."
+            },
+            "attack2": {
+                "element": "Fire",
+                "cost": 5,
+                "name": "Glorious Inferno",
+                "damage": 90,
+                "description": "Every card in both parties take 20 fire damage, excluding active cards."
+            },
+            "series": "Zenless Zone Zero",
+            "copyright": "HoYoverse",
+            "rcost": 2,
+            "image": "../Assets/ORCards/Character/BurniceWhite.jpg"
         },
 
 
@@ -315,6 +419,32 @@
             "copyright": "HoYoverse",
             "rcost": 5,
             "image": "../Assets/ORCards/Character/AventurineEX(ColorArt).jpg"
+        },
+        "burnicewhitespecial": {
+            "name": "Burnice White",
+            "indexname": "burnicewhitespecial",
+            "archetype": "Character",
+            "element": "Fire",
+            "hitpoints": 100,
+            "ability": null,
+            "attack1": {
+                "element": "Fire",
+                "cost": 2,
+                "name": "Flaming Brew",
+                "damage": 20,
+                "description": "The defending characteris now burned."
+            },
+            "attack2": {
+                "element": "Fire",
+                "cost": 5,
+                "name": "Glorious Inferno",
+                "damage": 90,
+                "description": "Every card in both parties take 20 fire damage, excluding active cards."
+            },
+            "series": "Zenless Zone Zero",
+            "copyright": "HoYoverse",
+            "rcost": 2,
+            "image": "../Assets/ORCards/Character/BurniceWhite(FullArt).jpg"
         },
         "allmightexspecial": {
             "name": "All Might EX",
