@@ -71,11 +71,70 @@ window.onload = async (event) => {
     console.log(error);
   }
 };
+function hidezoom() {
+  cardZoomArea.style.width = '0px';
+  // cardZoomImg.style.display = 'none';
+  // cardZoomImg.style.backgroundSize = 'contain';
+  // cardZoomImg.style.backgroundRepeat = 'no-repeat';
+  cardList.style.width = "100%";
+};
 
+async function filtertype(type) {
+  try {
+    cardList.innerHTML = "";
+    const data = await orFullCards(); // await the async function
+    console.log(data);
 
+    data.forEach(item => {
+  for (const key in item) {
+    if (item[key] && item[key].name !== undefined) {
+      console.log(`${key}: ${item[key].element}`);
+      if (item[key].element == type) {
+        const newCard = document.createElement('div');
+        newCard.classList.add('Card');
+        cardList.appendChild(newCard);
+        newCard.title = item[key].indexname;
+        newCard.style.background = "url('" + item[key].image + "')";
+        newCard.style.backgroundSize = "contain";
+        newCard.style.backgroundRepeat = "no-repeat";
+        newCard.setAttribute('onclick', 'makebig("' + item[key].image + '", "' + item[key].indexname + '")');
+      }
 
+    }
+  }
+});
 
+  } catch (error) {
+    console.log(error);
+  }
+};
 
+async function resetfilters() {
+  try {
+    cardList.innerHTML = "";
+    const data = await orFullCards(); // await the async function
+    console.log(data);
+
+    data.forEach(item => {
+  for (const key in item) {
+    if (item[key] && item[key].name !== undefined) {
+      console.log(`${key}: ${item[key].element}`);
+        const newCard = document.createElement('div');
+        newCard.classList.add('Card');
+        cardList.appendChild(newCard);
+        newCard.title = item[key].indexname;
+        newCard.style.background = "url('" + item[key].image + "')";
+        newCard.style.backgroundSize = "contain";
+        newCard.style.backgroundRepeat = "no-repeat";
+        newCard.setAttribute('onclick', 'makebig("' + item[key].image + '", "' + item[key].indexname + '")');
+    }
+  }
+});
+
+  } catch (error) {
+    console.log(error);
+  }
+};
 
 async function makebig(url, indexnamelocal) {
   try {
