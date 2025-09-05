@@ -51,7 +51,7 @@
             "copyright": "Aniplex",
             "rcost": 5,
             "image": "../Assets/ORCards/Character/AlexLouisArmstrongEX.jpg"
-        },
+    },
         "allmightex": {
             "name": "All Might EX",
             "indexname": "allmightex",
@@ -77,7 +77,7 @@
             "copyright": "VIZ Media",
             "rcost": 5,
             "image": "../Assets/ORCards/Character/AllMightEX.jpg"
-        },
+    },
         "aqua": {
             "name": "Aqua",
             "indexname": "aqua",
@@ -366,7 +366,266 @@
             "image": "../Assets/ORCards/Character/BurniceWhite.jpg"
         },
 
-
+        "caelusremembrance": {
+            "name": "Caelus - Remembrance",
+            "indexname": "caelusremembrance",
+            "archetype": "Character",
+            "element": "Frost",
+            "hitpoints": 110,
+            "ability": "I Choose You -- Discard an energy, if there is no Mem summon in play, look for a Mem summon in the draw deck, Discard pile, or hand, and put it into play. If Mem is in play, this ability resets it’s timer. End your turn.",
+            "attack1": {
+                "element": "Frost",
+                "cost": 1,
+                "name": "Leave it to me!",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": "Frost",
+                "cost": 3,
+                "name": "Together, Mem!",
+                "damage": 50,
+                "description": "If the Mem summon is in play, deal 20 damage to the opponents party characters."
+            },
+            "series": "Honkai: Star Rail",
+            "copyright": "HoYoverse",
+            "rcost": 3,
+            "image": "../Assets/ORCards/Character/CaelusRememberence.jpg"
+        },
+        "cassandraalexandra": {
+            "name": "Cassandra Alexandra",
+            "indexname": "cassandraalexandra",
+            "archetype": "Character",
+            "element": "Electricity",
+            "hitpoints": 90,
+            "ability": null,
+            "attack1": {
+                "element": "Omni",
+                "cost": 1,
+                "name": "Slash",
+                "damage": 10,
+                "description": null
+            },
+            "attack2": {
+                "element": "Electricity",
+                "cost": 5,
+                "name": "Lightning bolt",
+                "damage": 70,
+                "description": "Discard all but 1 energy from this card and paralyze the opponent."
+            },
+            "series": "Soul Calibur",
+            "copyright": "Bandai Namco",
+            "rcost": 4,
+            "image": "../Assets/ORCards/Character/CassandraAlexandra.jpg"
+        },
+        "cataquack": {
+            "name": "Cataquack",
+            "indexname": "cataquack",
+            "archetype": "Character",
+            "element": "Water",
+            "hitpoints": 90,
+            "ability": null,
+            "attack1": {
+                "element": "Water",
+                "cost": 1,
+                "name": "Cata-Flip",
+                "damage": 20,
+                "description": "If this attack is successful, the opponent swaps the active card with a character in the party."
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Super Mario Bros",
+            "copyright": "Nintendo",
+            "rcost": 2,
+            "image": "../Assets/ORCards/Character/Cataquack.jpg"
+        },
+        "charvaargh": {
+            "name": "Charvaargh",
+            "indexname": "charvaargh",
+            "archetype": "Enhanced Character",
+            "element": "Fire",
+            "hitpoints": 130,
+            "ability": null,
+            "attack1": {
+                "element": "Fire",
+                "cost": 3,
+                "name": "Lava Dive",
+                "damage": 50,
+                "description": null
+            },
+            "attack2": {
+                "element": "Fire",
+                "cost": 7,
+                "name": "Molten Monster",
+                "damage": "80+",
+                "description": "Discard all energies from this card. If the stage boosts the power of fire moves, this attack does +50 damage."
+            },
+            "series": "Super Mario Bros",
+            "copyright": "Nintendo",
+            "rcost": 8,
+            "image": "../Assets/ORCards/Character/Charvaargh.jpg"
+        },
+        "chompymage": {
+            "name": "Chompy Mage",
+            "indexname": "chompymage",
+            "archetype": "Character",
+            "element": "Biological",
+            "hitpoints": 110,
+            "ability": null,
+            "attack1": {
+                "element": "Biological",
+                "cost": 1,
+                "name": "Chompy Army",
+                "damage": "10+",
+                "description": "Deal 10 damage for each additional Biological energy on this card."
+            },
+            "attack2": {
+                "element": "Omni & Biological",
+                "cost": "1 & 2",
+                "name": "Elemental Chompy",
+                "damage": 30,
+                "description": "sacrifice an energy to deal damage of that respective energy."
+            },
+            "series": "Skylanders",
+            "copyright": "Activision",
+            "rcost": 4,
+            "image": "../Assets/ORCards/Character/ChompyMage.jpg"
+        },
+        "claude": {
+            "name": "Claude",
+            "indexname": "claude",
+            "archetype": "Character",
+            "element": "Omni",
+            "hitpoints": 100,
+            "ability": null,
+            "attack1": {
+                "element": "Omni",
+                "cost": 1,
+                "name": "Steel Bow",
+                "damage": null,
+                "description": "This attack does 20 damage to an opposing party member of your choice."
+            },
+            "attack2": {
+                "element": "Omni & Wind",
+                "cost": "1 & 1",
+                "name": "Gusty Arrow",
+                "damage": 30,
+                "description": "Swap the defending character with a party member (the opponent can pick which one)."
+            },
+            "series": "Fire Emblem",
+            "copyright": "Nintendo",
+            "rcost": 3,
+            "image": "../Assets/ORCards/Character/Claude.jpg"
+        },
+        "claudeex": {
+            "name": "Claude EX",
+            "indexname": "claudeex",
+            "archetype": "Enhanced Character",
+            "element": "Wind",
+            "hitpoints": 180,
+            "ability": "Crest of Riegan -- Attacks used by this card heal 30 damage from this card.",
+            "attack1": {
+                "element": "Wind",
+                "cost": 3,
+                "name": "Failnaught",
+                "damage": "70+",
+                "description": "You may discard a wind energy from this card, if you do, this attack does 30 more damage to the opponent’s active character and 30 damage to the party member directly behind the active slot."
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Fire Emblem",
+            "copyright": "Nintendo",
+            "rcost": 3,
+            "image": "../Assets/ORCards/Character/ClaudeEX.jpg"
+        },
+        "clockie": {
+            "name": "Clockie",
+            "indexname": "clockie",
+            "archetype": "Character",
+            "element": "Time",
+            "hitpoints": 70,
+            "ability": null,
+            "attack1": {
+                "element": "Time & Omni",
+                "cost": "1 & 1",
+                "name": "Clockwork",
+                "damage": null,
+                "description": "Discard an energy from this card, Select an energy type (Excluding Omni). For the next 6 turns, The chosen element on the card (Card type, energies required for moves and abilities) will be treated as the changed element."
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Honkai: Star Rail",
+            "copyright": "HoYoverse",
+            "rcost": 2,
+            "image": "../Assets/ORCards/Character/Clockie.jpg"
+        },
+        "cyberman": {
+            "name": "Cyberman",
+            "indexname": "cyberman",
+            "archetype": "Enhanced Character",
+            "element": "Digital",
+            "hitpoints": 120,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Call for Help",
+                "damage": null,
+                "description": "Search your hand for any Tech card and place it into an empty party slot."
+            },
+            "attack2": {
+                "element": "Digital",
+                "cost": 2,
+                "name": "Delete",
+                "damage": 60,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 4,
+            "image": "../Assets/ORCards/Character/Cyberman.jpg"
+        },
+        "cybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
 
         "alexlouisarmstrongexspecial": {
             "name": "Alex Louis Armstrong EX",
@@ -446,6 +705,136 @@
             "rcost": 2,
             "image": "../Assets/ORCards/Character/BurniceWhite(FullArt).jpg"
         },
+        "cassandraalexandraspecial": {
+            "name": "Cassandra Alexandra",
+            "indexname": "cassandraalexandraspecial",
+            "archetype": "Character",
+            "element": "Electricity",
+            "hitpoints": 90,
+            "ability": null,
+            "attack1": {
+                "element": "Omni",
+                "cost": 1,
+                "name": "Slash",
+                "damage": 10,
+                "description": null
+            },
+            "attack2": {
+                "element": "Electricity",
+                "cost": 5,
+                "name": "Lightning bolt",
+                "damage": 70,
+                "description": "Discard all but 1 energy from this card and paralyze the opponent."
+            },
+            "series": "Soul Calibur",
+            "copyright": "Bandai Namco",
+            "rcost": 4,
+            "image": "../Assets/ORCards/Character/CassandraAlexandra(FullArt).jpg"
+        },
+        "cataquackspecial": {
+            "name": "Cataquack",
+            "indexname": "cataquackspecial",
+            "archetype": "Character",
+            "element": "Water",
+            "hitpoints": 90,
+            "ability": null,
+            "attack1": {
+                "element": "Water",
+                "cost": 1,
+                "name": "Cata-Flip",
+                "damage": 20,
+                "description": "If this attack is successful, the opponent swaps the active card with a character in the party."
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Super Mario Bros",
+            "copyright": "Nintendo",
+            "rcost": 2,
+            "image": "../Assets/ORCards/Character/Cataquack(FullArt).jpg"
+        },
+        "charvaarghspecial": {
+            "name": "Charvaargh",
+            "indexname": "charvaarghspecial",
+            "archetype": "Enhanced Character",
+            "element": "Fire",
+            "hitpoints": 130,
+            "ability": null,
+            "attack1": {
+                "element": "Fire",
+                "cost": 3,
+                "name": "Lava Dive",
+                "damage": 50,
+                "description": null
+            },
+            "attack2": {
+                "element": "Fire",
+                "cost": 7,
+                "name": "Molten Monster",
+                "damage": "80+",
+                "description": "Discard all energies from this card. If the stage boosts the power of fire moves, this attack does +50 damage."
+            },
+            "series": "Super Mario Bros",
+            "copyright": "Nintendo",
+            "rcost": 8,
+            "image": "../Assets/ORCards/Character/Charvaargh(ColorArt).jpg"
+        },
+        "claudeexspecial": {
+            "name": "Claude EX",
+            "indexname": "claudeexspecial",
+            "archetype": "Enhanced Character",
+            "element": "Wind",
+            "hitpoints": 180,
+            "ability": "Crest of Riegan -- Attacks used by this card heal 30 damage from this card.",
+            "attack1": {
+                "element": "Wind",
+                "cost": 3,
+                "name": "Failnaught",
+                "damage": "70+",
+                "description": "You may discard a wind energy from this card, if you do, this attack does 30 more damage to the opponent’s active character and 30 damage to the party member directly behind the active slot."
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Fire Emblem",
+            "copyright": "Nintendo",
+            "rcost": 3,
+            "image": "../Assets/ORCards/Character/ClaudeEX(Rainbow).jpg"
+        },
+        "cybermanspecial": {
+            "name": "Cyberman",
+            "indexname": "cybermanspecial",
+            "archetype": "Enhanced Character",
+            "element": "Digital",
+            "hitpoints": 120,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Call for Help",
+                "damage": null,
+                "description": "Search your hand for any Tech card and place it into an empty party slot."
+            },
+            "attack2": {
+                "element": "Digital",
+                "cost": 2,
+                "name": "Delete",
+                "damage": 60,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 4,
+            "image": "../Assets/ORCards/Character/Cyberman(FullArt).jpg"
+        },
         "allmightexspecial": {
             "name": "All Might EX",
             "indexname": "allmightexspecial",
@@ -471,6 +860,6 @@
             "copyright": "VIZ Media",
             "rcost": 5,
             "image": "../Assets/ORCards/Character/AllMightEX(FullArt).jpg"
-        }
+      }
     }
 ]
