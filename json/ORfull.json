@@ -627,6 +627,3511 @@
             "image": "../Assets/ORCards/Character/Cybermat.jpg"
         },
 
+        "darkness": {
+            "name": "Darkness",
+            "indexname": "darkness",
+            "archetype": "Character",
+            "element": "Positive",
+            "hitpoints": 180,
+            "ability": "Valiant Guard -- When this card is active, all attacks from the opposing card exclusively hit this card, regardless of whether or not it would attack the bench.",
+            "attack1": {
+                "element": "Positive",
+                "cost": 1,
+                "name": "Knight Swing",
+                "damage": 30,
+                "description": "Flip a coin ten times. If a single flip lands on tails, this attack does nothing."
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Konosuba",
+            "copyright": "KadoKawa",
+            "rcost": 5,
+            "image": "../Assets/ORCards/Character/Darkness.jpg"
+        },
+        "denkikaminari": {
+            "name": "Denki Kaminari",
+            "indexname": "denkikaminari",
+            "archetype": "Character",
+            "element": "Electricity",
+            "hitpoints": 110,
+            "ability": null,
+            "attack1": {
+                "element": "Electricity",
+                "cost": 2,
+                "name": "Conductive Gate",
+                "damage": "10+",
+                "description": "You may choose two opposing cards to use this attack on. If there is a card between them, that card takes 30 damage."
+            },
+            "attack2": {
+                "element": "Electricity",
+                "cost": 5,
+                "name": "Overdrive",
+                "damage": 100,
+                "description": "Discard all energies from this card. This card is now confused."
+            },
+            "series": "My Hero Academia",
+            "copyright": "VIZ Media",
+            "rcost": 3,
+            "image": "../Assets/ORCards/Character/DenkiKaminari.jpg"
+        },
+        "dimitri": {
+            "name": "Dimitri",
+            "indexname": "dimitri",
+            "archetype": "Character",
+            "element": "Omni",
+            "hitpoints": 100,
+            "ability": null,
+            "attack1": {
+                "element": "Omni",
+                "cost": 1,
+                "name": "Steel Spear",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": "Omni & Electricity",
+                "cost": "1 & 1",
+                "name": "Shocking Spear",
+                "damage": 30,
+                "description": "This attack paralyzes and does 20 damage to a party member of your choice."
+            },
+            "series": "Fire Emblem",
+            "copyright": "Nintendo",
+            "rcost": 3,
+            "image": "../Assets/ORCards/Character/Dimitri.jpg"
+        },
+        "dimitriex": {
+            "name": "Dimitri EX",
+            "indexname": "dimitriex",
+            "archetype": "Enhanced Character",
+            "element": "Electricity",
+            "hitpoints": 180,
+            "ability": "Crest of Blaiddyd -- If this card is in play, all attacks from the player discard all energies in exchange for double damage.",
+            "attack1": {
+                "element": "Electricity",
+                "cost": 2,
+                "name": "Areadbhar",
+                "damage": "50+",
+                "description": "This attack does 10 extra damage for every basic character in the discard pile."
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Fire Emblem",
+            "copyright": "Nintendo",
+            "rcost": 3,
+            "image": "../Assets/ORCards/Character/DimitriEX.jpg"
+        },
+        "dioex": {
+            "name": "Dio EX",
+            "indexname": "dioex",
+            "archetype": "Character",
+            "element": "Time",
+            "hitpoints": 200,
+            "ability": "Vampire Blood -- Attacks used by this card also do negative energy damage to the opponent.",
+            "attack1": {
+                "element": "Time",
+                "cost": 2,
+                "name": "Road Roller",
+                "damage": "30+",
+                "description": "If this card has an item attached, discard the item. If you do, this attack does 30 extra damage."
+            },
+            "attack2": {
+                "element": "Time",
+                "cost": 7,
+                "name": "Za Warudo",
+                "damage": 100,
+                "description": "Flip a coin. If heads, skip your opponent’s next turn. Discard 3 energies from this character."
+            },
+            "series": "JoJo’s Bizarre Adventure",
+            "copyright": "Lucky Land Communications",
+            "rcost": 5,
+            "image": "../Assets/ORCards/Character/DioEx.jpg"
+        },
+        "doll": {
+            "name": "Doll",
+            "indexname": "doll",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 100,
+            "ability": null,
+            "attack1": {
+                "element": "Omni",
+                "cost": 1,
+                "name": "Stab",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Murder Drones",
+            "copyright": "Glitch Productions",
+            "rcost": 2,
+            "image": "../Assets/ORCards/Character/Doll.jpg"
+        },
+        "dollabsolutesolverex": {
+            "name": "Doll (Absolute Solver) EX",
+            "indexname": "dollabsolutesolverex",
+            "archetype": "Enhanced Character",
+            "element": "Digital",
+            "hitpoints": 170,
+            "ability": "Teleport -- as long as Doll is active, the opponent can not switch party cards and their active cards, or return cards to their hand.",
+            "attack1": {
+                "element": "Digital",
+                "cost": 2,
+                "name": "Absolute Solver",
+                "damage": null,
+                "description": "Select a random card from the opponent’s hand to shuffle back into their deck, can not be used consecutively."
+            },
+            "attack2": {
+                "element": "Digital",
+                "cost": 4,
+                "name": "Knife Barrage",
+                "damage": "20x",
+                "description": "Flip a coin 7 times, multiply the damage by how many times the coin lands on heads. Sacrifice two energies."
+            },
+            "series": "Murder Drones",
+            "copyright": "Glitch Productions",
+            "rcost": 4,
+            "image": "../Assets/ORCards/Character/DollAbsoluteSolverEX.jpg"
+        },
+        "dovahkiin": {
+            "name": "Dovahkiin",
+            "indexname": "dovahkiin",
+            "archetype": "Character",
+            "element": "Wind",
+            "hitpoints": 120,
+            "ability": null,
+            "attack1": {
+                "element": "Wind",
+                "cost": 2,
+                "name": "Whirlwind Sprint",
+                "damage": 20,
+                "description": "This attack can be used while in the party spot. If used in the party spot, swap it and the active card and end your turn."
+            },
+            "attack2": {
+                "element": "Wind",
+                "cost": 4,
+                "name": "Fus Ro Dah",
+                "damage": null,
+                "description": "Flip a coin for the active card and all cards in the opponent’s party. If every coin lands on heads, send every opposing character to the opposing player’s hand. This does not allow you to draw prize cards. The opponent may put one character back in play without energies or Items."
+            },
+            "series": "The Elder Scrolls: Skyrim",
+            "copyright": "Bethesda Studios",
+            "rcost": 3,
+            "image": "../Assets/ORCards/Character/Dovahkiin.jpg"
+        },
+        "drheinzdoofenshmirtz": {
+            "name": "Dr. Heinz Doofenshmirtz",
+            "indexname": "drheinzdoofenshmirtz",
+            "archetype": "Character",
+            "element": "Fire",
+            "hitpoints": 110,
+            "ability": "Self-Destruct button -- In the case of this card reaching 0hp, it deals any overflow damage to all damageable cards in play. If any other characters reach 0 hp, prize cards may still be drawn.",
+            "attack1": {
+                "element": "Omni",
+                "cost": 1,
+                "name": "Trap",
+                "damage": null,
+                "description": "Paralyze the opponent's active card."
+            },
+            "attack2": {
+                "element": "Fire",
+                "cost": 3,
+                "name": "Inator Beam",
+                "damage": 50,
+                "description": "Choose whether to Blind, Burn, Confuse, Poison, Paralyze, or put to sleep the opponent’s active card."
+            },
+            "series": "Phineas and Ferb",
+            "copyright": "Disney",
+            "rcost": 2,
+            "image": "../Assets/ORCards/Character/DrHeinzDoofenshmirtz.jpg"
+        },
+        "drillsergeant": {
+            "name": "Drill Sergeant",
+            "indexname": "drillsergeant",
+            "archetype": "Character",
+            "element": "Earth",
+            "hitpoints": 80,
+            "ability": null,
+            "attack1": {
+                "element": "Earth",
+                "cost": 4,
+                "name": "Drill",
+                "damage": "30*",
+                "description": "Flip coins until you get tails, do 30 damage for each heads."
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Skylanders",
+            "copyright": "Activision",
+            "rcost": 2,
+            "image": "../Assets/ORCards/Character/DrillSergeant.jpg"
+        },
+        "drratio": {
+            "name": "Dr. Ratio",
+            "indexname": "drratio",
+            "archetype": "Character",
+            "element": "Earth",
+            "hitpoints": 130,
+            "ability": "Cogito, Ergo Sum -- Whenever a card performs an attack while this card is in play, flip a coin, if it lands heads, deal an additional 30 Earth damage to the target.",
+            "attack1": {
+                "element": "Earth",
+                "cost": 1,
+                "name": "Mold of Idolatry",
+                "damage": null,
+                "description": "The opponent’s active card can not perform a move in the following turn."
+            },
+            "attack2": {
+                "element": "Earth",
+                "cost": 4,
+                "name": "Syllogistic Paradox",
+                "damage": 120,
+                "description": "Paralyze the opponent’s active card, discard all energies from this card."
+            },
+            "series": "Honkai: Star Rail",
+            "copyright": "HoYoverse",
+            "rcost": 4,
+            "image": "../Assets/ORCards/Character/DrRatio.jpg"
+        },
+        "dwaynetherockjohnson": {
+            "name": "Dwayne “The Rock” Johnson",
+            "indexname": "dwaynetherockjohnson",
+            "archetype": "Character",
+            "element": "Earth",
+            "hitpoints": 140,
+            "ability": "Can’t Lose Clause -- If the opponent’s card is an EX, then this card takes 30 less damage per attack.",
+            "attack1": {
+                "element": "Omni",
+                "cost": 1,
+                "name": "Jumping Clothesline",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": "Earth",
+                "cost": 3,
+                "name": "Rock Bottom",
+                "damage": 40,
+                "description": "Blind the opponent."
+            },
+            "series": "WWE",
+            "copyright": "TKO Group Holdings",
+            "rcost": 4,
+            "image": "../Assets/ORCards/Character/DwayneTheRockJohnson.jpg"
+        },
+
+        "edelgard": {
+            "name": "Edelgard",
+            "indexname": "edelgard",
+            "archetype": "Character",
+            "element": "Omni",
+            "hitpoints": 100,
+            "ability": null,
+            "attack1": {
+                "element": "Omni",
+                "cost": 2,
+                "name": "Steel Axe",
+                "damage": 40,
+                "description": null
+            },
+            "attack2": {
+                "element": "Omni & Fire",
+                "cost": "1 & 2",
+                "name": "Flaming Axe",
+                "damage": 50,
+                "description": "The defending character is now burned."
+            },
+            "series": "Fire Emblem",
+            "copyright": "Nintendo",
+            "rcost": 3,
+            "image": "../Assets/ORCards/Character/Edelgard.jpg"
+        },
+        "edelgardex": {
+            "name": "Edelgard EX",
+            "indexname": "edelgardex",
+            "archetype": "Enhanced Character",
+            "element": "Digital",
+            "hitpoints": 180,
+            "ability": "Crest of Seiros -- When this card is in play, any attacks used on its side flips a coin. If heads, the character hit by the attack becomes burned.",
+            "attack1": {
+                "element": "Fire",
+                "cost": 3,
+                "name": "Aymr",
+                "damage": 70,
+                "description": "Flip a coin. If heads, Edelgard EX can use a second attack. If this attack is triggered by Aymr, do not flip a coin."
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Fire Emblem",
+            "copyright": "Nintendo",
+            "rcost": 3,
+            "image": "../Assets/ORCards/Character/EdelgardEX.jpg"
+        },
+        "eijirokirishima": {
+            "name": "Eijiro Kirishima",
+            "indexname": "eijirokirishima",
+            "archetype": "Character",
+            "element": "Earth",
+            "hitpoints": 120,
+            "ability": "Unbreakable -- If this card has at least 3 Earth energies attached, attacks done to this card do 30 less damage.",
+            "attack1": {
+                "element": "Earth",
+                "cost": 4,
+                "name": "Stone Arms",
+                "damage": "40+",
+                "description": "Flip a coin. If heads, this attack does 20 extra damage."
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "My Hero Academia",
+            "copyright": "VIZ Media",
+            "rcost": 4,
+            "image": "../Assets/ORCards/Character/EijiroKirishima.jpg"
+        },
+        "eve": {
+            "name": "EVE",
+            "indexname": "eve",
+            "archetype": "Character",
+            "element": "Electricity",
+            "hitpoints": 110,
+            "ability": "Directive -- If at any point while this card is active that the opponent’s Active card is Biological, move this and the opponent’s active card to the summons area, until this card is defeated as a summon, in which the opponent is allowed to decide where their card Re-enters play.",
+            "attack1": {
+                "element": "Electricity",
+                "cost": 1,
+                "name": "Blaster",
+                "damage": 40,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Wall•E",
+            "copyright": "Pixar",
+            "rcost": 3,
+            "image": "../Assets/ORCards/Character/EVE.jpg"
+        },
+
+        "finwhale": {
+            "name": "Fin Whale",
+            "indexname": "finwhale",
+            "archetype": "Character",
+            "element": "Water",
+            "hitpoints": 250,
+            "ability": null,
+            "attack1": {
+                "element": "Water",
+                "cost": 1,
+                "name": "Ain't No Fin Like the Real Fin",
+                "damage": null,
+                "description": "This Move costs the sum of the minimum required amount of energies of all the party members. When used this move does the sum of the minimum for each attack of all the party characters."
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Cards, The Universe, And Everything",
+            "copyright": null,
+            "rcost": 10,
+            "image": "../Assets/ORCards/Character/FinWhale.jpg"
+        },
+        "fireworkarcher": {
+            "name": "Firework Archer",
+            "indexname": "fireworkarcher",
+            "archetype": "Character",
+            "element": "Fire",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Fire",
+                "cost": 1,
+                "name": "Firework",
+                "damage": "20+",
+                "description": "If this attack would leave the opponent at 50hp or lower, this attack forces the defending character into the party, doing 30 damage to it and the others in the party. The opposing player can choose who to put in the active spot."
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Totally Accurate Battle Simulator",
+            "copyright": "Landfall Games",
+            "rcost": 3,
+            "image": "../Assets/ORCards/Character/FireworkArcher.jpg"
+        },
+        "focalors": {
+            "name": "Focalors",
+            "indexname": "focalors",
+            "archetype": "Character",
+            "element": "Water",
+            "hitpoints": 80,
+            "ability": "Masquerade of the Guilty -- If the Furina card is in play simultaneously as this Card, Discard this card, and the opponent must shuffle their party and hand into their deck and draw an equal amount of cards.",
+            "attack1": {
+                "element": "Water",
+                "cost": 1,
+                "name": "The “Justice” that belongs to You",
+                "damage": null,
+                "description": "Heal 20 damage from all allied Cards, If this card has been attacked, heal twenty damage from it as well. Discard 1 energy from this card."
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Genshin Impact",
+            "copyright": "HoYoverse",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Focalors.jpg"
+        },
+        "furina": {
+            "name": "Furina",
+            "indexname": "furina",
+            "archetype": "Character",
+            "element": "Water",
+            "hitpoints": 120,
+            "ability": "Water Walk -- takes 20 less damage from water attacks. This card is Immune to “Masquerade of the Guilty”",
+            "attack1": {
+                "element": "Water",
+                "cost": 1,
+                "name": "Acting the part",
+                "damage": null,
+                "description": "This Card takes 20 less damage, but takes 30 damage if it does damage the next turn, Resets after 2 turns.."
+            },
+            "attack2": {
+                "element": "Water",
+                "cost": 3,
+                "name": "Flood",
+                "damage": 40,
+                "description": "Does 20 damage to all of the opponent's benched cards."
+            },
+            "series": "Genshin Impact",
+            "copyright": "HoYoverse",
+            "rcost": 3,
+            "image": "../Assets/ORCards/Character/Furina.jpg"
+        },
+
+        "genasagiri": {
+            "name": "Gen Asagiri",
+            "indexname": "genasagiri",
+            "archetype": "Character",
+            "element": "Negative",
+            "hitpoints": 90,
+            "ability": null,
+            "attack1": {
+                "element": "Negative",
+                "cost": 2,
+                "name": "Silver Tongue",
+                "damage": null,
+                "description": "The opponent shuffles their hand into their deck and takes out an equivalent amount of cards. Discard an energy."
+            },
+            "attack2": {
+                "element": "Omni",
+                "cost": 3,
+                "name": "Word Play",
+                "damage": "30+",
+                "description": "Flip a coin, +30 if heads."
+            },
+            "series": "Dr. Stone",
+            "copyright": "VIZ Media",
+            "rcost": 2,
+            "image": "../Assets/ORCards/Character/GenAsagiri.jpg"
+        },
+        "gentlecriminal": {
+            "name": "Gentle Criminal",
+            "indexname": "gentlecriminal",
+            "archetype": "Character",
+            "element": "Wind",
+            "hitpoints": 100,
+            "ability": "Dynamic Combination -- If the “La Brava” card is attached to this character, attacks from this card do +40 damage",
+            "attack1": {
+                "element": "Wind",
+                "cost": 2,
+                "name": "Hardened Air",
+                "damage": 30,
+                "description": "On the opponent’s next turn, attacks done to this card do -20 damage."
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "My Hero Academia",
+            "copyright": "VIZ Media",
+            "rcost": 2,
+            "image": "../Assets/ORCards/Character/GentleCriminal.jpg"
+        },
+        "glados": {
+            "name": "GLaDOS",
+            "indexname": "glados",
+            "archetype": "Enhanced Character",
+            "element": "Digital",
+            "hitpoints": 170,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 2,
+                "name": "Rocket Turret",
+                "damage": 40,
+                "description": null
+            },
+            "attack2": {
+                "element": "Omni & Digital",
+                "cost": "1 & 3",
+                "name": "Cube Drop",
+                "damage": 100,
+                "description": "Discard two energies"
+            },
+            "series": "Portal",
+            "copyright": "Valve",
+            "rcost": 5,
+            "image": "../Assets/ORCards/Character/GLaDOS.jpg"
+        },
+        "gladospotato": {
+            "name": "GLaDOS Potato",
+            "indexname": "gladospotato",
+            "archetype": "Character",
+            "element": "Biological",
+            "hitpoints": 50,
+            "ability": null,
+            "attack1": {
+                "element": "Omni",
+                "cost": 1,
+                "name": "Trash Talk",
+                "damage": "0+",
+                "description": "Flip a coin, if heads, insult the opposition’s active character and deal 10 damage. If tails the attack fails"
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Portal",
+            "copyright": "Valve",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/GLaDOSPotato.jpg"
+        },
+        "goose": {
+            "name": "Goose",
+            "indexname": "goose",
+            "archetype": "Character",
+            "element": "Omni",
+            "hitpoints": 100,
+            "ability": null,
+            "attack1": {
+                "element": "Omni",
+                "cost": 1,
+                "name": "Honk!",
+                "damage": null,
+                "description": "The opponent must shuffle their active card's item into their deck and switch out their active card for a benched card, if applicable."
+            },
+            "attack2": {
+                "element": "Omni",
+                "cost": 1,
+                "name": "Stab",
+                "damage": 20,
+                "description": null
+            },
+            "series": "Untitled Goose Game",
+            "copyright": "House House",
+            "rcost": 2,
+            "image": "../Assets/ORCards/Character/Goose.jpg"
+        },
+        "greatintelligencesnowman": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "gumicopycat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+
+        "hybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "hybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "hybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "hybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "hybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+
+        "iybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "iybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "iybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "iybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+
+        "jybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "jybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+
+        "kybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "kybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "kybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "kybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "kybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "kybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "kybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "kybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "kybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "kybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "kybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "kybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "kybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+
+        "lybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "lybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "lybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+
+        "mybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "mybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "mybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "mybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "mybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "mybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "mybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "mybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "mybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "mybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "mybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "mybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "mybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "mybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "mybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "mybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+
+        "nybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "nybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "nybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "nybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "nybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "nybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+
+        "oybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "oybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+
+        "pybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "pybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "pybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "pybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "pybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "pybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "pybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "pybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "pybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "pybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "pybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "pybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+
+        "rybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "rybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "rybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "rybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "rybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "rybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "rybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "rybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "rybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "rybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "rybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+
+        "sybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "sybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "sybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "sybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "sybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "sybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "sybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "sybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "sybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "sybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "sybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "sybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "sybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "sybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+
+        "tybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "tybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "tybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "tybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "tybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "tybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "tybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "tybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+
+        "uybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "uybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "uybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+
+        "wybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "wybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "wybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "wybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "wybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "wybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+        "wybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+
+        "yybermat": {
+            "name": "Cybermat",
+            "indexname": "cybermat",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Byte",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+        },
+
+
+
         "alexlouisarmstrongexspecial": {
             "name": "Alex Louis Armstrong EX",
             "indexname": "alexlouisarmstrongexspecial",
@@ -834,6 +4339,32 @@
             "copyright": "BBC",
             "rcost": 4,
             "image": "../Assets/ORCards/Character/Cyberman(FullArt).jpg"
+        },
+        "eijirokirishimaspecial": {
+            "name": "Eijiro Kirishima",
+            "indexname": "eijirokirishimaspecial",
+            "archetype": "Character",
+            "element": "Earth",
+            "hitpoints": 120,
+            "ability": "Unbreakable -- If this card has at least 3 Earth energies attached, attacks done to this card do 30 less damage.",
+            "attack1": {
+                "element": "Earth",
+                "cost": 4,
+                "name": "Stone Arms",
+                "damage": "40+",
+                "description": "Flip a coin. If heads, this attack does 20 extra damage."
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "My Hero Academia",
+            "copyright": "VIZ Media",
+            "rcost": 4,
+            "image": "../Assets/ORCards/Character/EijiroKirishima(FullArt).jpg"
         },
         "allmightexspecial": {
             "name": "All Might EX",
