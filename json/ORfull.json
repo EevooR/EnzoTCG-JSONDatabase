@@ -1830,45 +1830,45 @@
             "rcost": 4,
             "image": "../Assets/ORCards/Character/KinitoPET.jpg"
         },
-        "kybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
+        "kirbykirbyrightbackatya": {
+            "name": "Kirby - Kirby Right back at ya!",
+            "indexname": "kirbykirbyrightbackatya",
             "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
+            "element": "Wind",
+            "hitpoints": 100,
             "ability": null,
             "attack1": {
-                "element": "Digital",
-                "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
+                "element": "Wind",
+                "cost": 2,
+                "name": "Inhale attack",
+                "damage": 40,
+                "description": "Discard all summons and Items on the field, including allied summons and Items."
             },
             "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
-                "damage": null,
-                "description": null
+                "element": "Omni & Wind",
+                "cost": "1 & 3",
+                "name": "Copy Ability",
+                "damage": 50,
+                "description": "Discard an energy and deal that element’s damage respectively as well as wind."
             },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+            "series": "Kirby",
+            "copyright": "Nintendo",
+            "rcost": 4,
+            "image": "../Assets/ORCards/Character/Kirby-KirbyRightBackAtYa.jpg"
         },
-        "kybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
+        "koolaidman": {
+            "name": "Kool-Aid Man",
+            "indexname": "koolaidman",
             "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
+            "element": "Water",
+            "hitpoints": 150,
             "ability": null,
             "attack1": {
-                "element": "Digital",
-                "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
+                "element": "Water",
+                "cost": 4,
+                "name": "Oh Yeah!",
+                "damage": 80,
+                "description": "This attack ignores any damage modifiers that would lower its damage."
             },
             "attack2": {
                 "element": null,
@@ -1877,77 +1877,51 @@
                 "damage": null,
                 "description": null
             },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
-        },
-        "kybermatspecial": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
-            "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
-            "ability": null,
-            "attack1": {
-                "element": "Digital",
-                "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
-            },
-            "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
-                "damage": null,
-                "description": null
-            },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+            "series": null,
+            "copyright": "Kool-Aid",
+            "rcost": 4,
+            "image": "../Assets/ORCards/Character/Kool-AidMan.jpg"
         },
 
-        "lybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
+        "lesserlordkusanali": {
+            "name": "Lesser Lord Kusanali",
+            "indexname": "lesserlordkusanali",
             "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
-            "ability": null,
+            "element": "Biological",
+            "hitpoints": 100,
+            "ability": "The Akademia -- This Card cannot be forced to move positions by the opponent, and can not be forced to return to hand by the opponent.",
             "attack1": {
-                "element": "Digital",
+                "element": "Omni",
                 "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
+                "name": "On All Things Meditated",
+                "damage": null,
+                "description": "Take an Item from your Draw deck"
             },
             "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
-                "damage": null,
-                "description": null
+                "element": "Biological",
+                "cost": 2,
+                "name": "Mind Read",
+                "damage": 20,
+                "description": "The opponent must show their Hand"
             },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+            "series": "Genshin Impact",
+            "copyright": "HoYoverse",
+            "rcost": 3,
+            "image": "../Assets/ORCards/Character/LesserLordKusanali.jpg"
         },
-        "lybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
+        "lightningreed": {
+            "name": "Lightning Reed",
+            "indexname": "lightningreed",
             "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
+            "element": "Electricity",
+            "hitpoints": 70,
             "ability": null,
             "attack1": {
-                "element": "Digital",
+                "element": "Electricity",
                 "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
+                "name": "Bolt",
+                "damage": 40,
+                "description": "Choose opposing party members to do 30, 20, and 10 damage respectively."
             },
             "attack2": {
                 "element": null,
@@ -1956,23 +1930,23 @@
                 "damage": null,
                 "description": null
             },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+            "series": "Plants Vs. Zombies",
+            "copyright": "EA",
+            "rcost": 3,
+            "image": "../Assets/ORCards/Character/LightningReed.jpg"
         },
-        "lybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
+        "lightyagami": {
+            "name": "Light Yagami",
+            "indexname": "lightyagami",
             "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
-            "ability": null,
+            "element": "Negative",
+            "hitpoints": 80,
+            "ability": "Death Note -- When this card enters the active slot, you may sacrifice 40 hp. If you do, the defending card will be defeated after three turns regardless of location. Once the defending card is discarded, you may draw a singular prize card. This can only be used once per game.",
             "attack1": {
-                "element": "Digital",
+                "element": "Negative",
                 "cost": 1,
-                "name": "Byte",
-                "damage": 20,
+                "name": "Serve",
+                "damage": 10,
                 "description": null
             },
             "attack2": {
@@ -1982,24 +1956,24 @@
                 "damage": null,
                 "description": null
             },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+            "series": "Death Note",
+            "copyright": "VIZ Media",
+            "rcost": 3,
+            "image": "../Assets/ORCards/Character/LightYagami.jpg"
         },
 
-        "mybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
+        "machionaruzo": {
+            "name": "Machio Naruzo",
+            "indexname": "machionaruzo",
             "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
-            "ability": null,
+            "element": "Positive",
+            "hitpoints": 120,
+            "ability": "Encouraging Muscles -- When this card is in your party, all attacks used by this player do 20 extra damage.",
             "attack1": {
-                "element": "Digital",
-                "cost": 1,
-                "name": "Byte",
-                "damage": 20,
+                "element": "Positive",
+                "cost": 4,
+                "name": "Impressive Flexing",
+                "damage": 60,
                 "description": null
             },
             "attack2": {
@@ -2009,76 +1983,76 @@
                 "damage": null,
                 "description": null
             },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+            "series": "How Heavy are the Dumbells you Lift?",
+            "copyright": "Seven Seas entertainment",
+            "rcost": 4,
+            "image": "../Assets/ORCards/Character/MachioNaruzo.jpg"
         },
-        "mybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
+        "marisakirisame": {
+            "name": "Marisa Kirisame",
+            "indexname": "marisakirisame",
             "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
-            "ability": null,
+            "element": "Negative",
+            "hitpoints": 130,
+            "ability": "Exorcism Aura (Kirisame) -- When an energy is attached to this card, this character, and allied character in front or behind her take 50 less damage from the first attack against them.",
             "attack1": {
-                "element": "Digital",
+                "element": "Omni",
                 "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
+                "name": "Imitate",
+                "damage": null,
+                "description": "Imitate the opponent’s last move, given that this card has the appropriate energy to do so."
             },
             "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
-                "damage": null,
-                "description": null
+                "element": "Negative",
+                "cost": 3,
+                "name": "Laser",
+                "damage": 50,
+                "description": "Do 50 damage to the opponent’s active character and, if applicable, the character behind it as well. Discard 2 energies from this card."
             },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+            "series": "Touhou Project",
+            "copyright": "ZUN",
+            "rcost": 3,
+            "image": "../Assets/ORCards/Character/MarisaKirisame.jpg"
         },
-        "mybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
+        "mavuikaex": {
+            "name": "Mavuika EX",
+            "indexname": "mavuikaex",
             "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
+            "element": "Fire",
+            "hitpoints": 160,
             "ability": null,
             "attack1": {
-                "element": "Digital",
+                "element": "Fire",
                 "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
+                "name": "Doughnuts",
+                "damage": 30,
+                "description": "Deal 30 damage to the opponent's party characters."
             },
             "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
-                "damage": null,
-                "description": null
+                "element": "Fire",
+                "cost": 4,
+                "name": "Ring of Searing Radiance",
+                "damage": "60+",
+                "description": "Burn the opponent’s active card. If the opponent’s active card is burned, this attack does 40 extra damage."
             },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+            "series": "Genshin Impact",
+            "copyright": "HoYoverse",
+            "rcost": 5,
+            "image": "../Assets/ORCards/Character/MavuikaEx.jpg"
         },
-        "mybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
+        "megumin": {
+            "name": "Megumin",
+            "indexname": "megumin",
             "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
+            "element": "Fire",
+            "hitpoints": 70,
             "ability": null,
             "attack1": {
-                "element": "Digital",
-                "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
+                "element": "Fire",
+                "cost": 5,
+                "name": "Explosion",
+                "damage": 300,
+                "description": "If this attack is successful, discard all energies from this card. This card can not use held items, retreat, use energies, or use this move until it is knocked out."
             },
             "attack2": {
                 "element": null,
@@ -2087,76 +2061,76 @@
                 "damage": null,
                 "description": null
             },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+            "series": "Konosuba",
+            "copyright": "KadoKawa",
+            "rcost": 3,
+            "image": "../Assets/ORCards/Character/Megumin.jpg"
         },
-        "mybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
+        "minmin": {
+            "name": "Min-Min",
+            "indexname": "minmin",
             "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
+            "element": "Omni",
+            "hitpoints": 90,
             "ability": null,
             "attack1": {
-                "element": "Digital",
-                "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
+                "element": "Fire",
+                "cost": 2,
+                "name": "Dragon Arm",
+                "damage": null,
+                "description": "This attack does 30 fire damage to a party member of your choice."
             },
             "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
+                "element": "Electricity",
+                "cost": 2,
+                "name": "Megawatt Arm",
                 "damage": null,
-                "description": null
+                "description": "This attack does 30 electric damage to a party member of your choice."
             },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+            "series": "ARMS",
+            "copyright": "Nintendo",
+            "rcost": 3,
+            "image": "../Assets/ORCards/Character/Min-Min.jpg"
         },
-        "mybermatspecial": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
+        "minaashido": {
+            "name": "Mina Ashido",
+            "indexname": "minaashido",
             "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
+            "element": "Water",
+            "hitpoints": 100,
             "ability": null,
             "attack1": {
-                "element": "Digital",
+                "element": "Water",
                 "cost": 1,
-                "name": "Byte",
+                "name": "Acid Step",
                 "damage": 20,
-                "description": null
+                "description": "The opposing character is now poisoned."
             },
             "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
-                "damage": null,
-                "description": null
+                "element": "Water",
+                "cost": 3,
+                "name": "Breakdance",
+                "damage": "40+",
+                "description": "Flip a coin for each character in the opponent’s party. If heads, the respective characters are now poisoned. If a character is poisoned, this attack does 20 extra damage."
             },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+            "series": "My Hero Academia",
+            "copyright": "VIZ Media",
+            "rcost": 2,
+            "image": "../Assets/ORCards/Character/MinaAshido.jpg"
         },
-        "mybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
+        "missy": {
+            "name": "Missy",
+            "indexname": "missy",
             "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
-            "ability": null,
+            "element": "Time",
+            "hitpoints": 80,
+            "ability": "False Heaven -- Any Allied Discarded cards whilst this card is in play go into the draw pile instead of the discard pile. The opponent still draws prize cards the same.",
             "attack1": {
-                "element": "Digital",
+                "element": "Omni",
                 "cost": 1,
-                "name": "Byte",
+                "name": "Dalek Shove",
                 "damage": 20,
-                "description": null
+                "description": "Paralyze the opponent"
             },
             "attack2": {
                 "element": null,
@@ -2167,60 +2141,34 @@
             },
             "series": "Doctor Who",
             "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+            "rcost": 6,
+            "image": "../Assets/ORCards/Character/Missy.jpg"
         },
-        "mybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
+        "mobiusmmobius": {
+            "name": "Mobius M. Mobius",
+            "indexname": "mobiusmmobius",
             "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
+            "element": "Time",
+            "hitpoints": 90,
             "ability": null,
             "attack1": {
-                "element": "Digital",
+                "element": "Time",
                 "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
+                "name": "Time Twister",
+                "damage": null,
+                "description": "Swap this card with a character in your party. Flip a coin. If heads, the swapped character can attack on this turn."
             },
             "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
-                "damage": null,
-                "description": null
-            },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
-        },
-        "mybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
-            "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
-            "ability": null,
-            "attack1": {
-                "element": "Digital",
-                "cost": 1,
-                "name": "Byte",
+                "element": "Time",
+                "cost": 2,
+                "name": "TVA Tech",
                 "damage": 20,
-                "description": null
+                "description": "Flip a coin. If heads, the defending character is now paralyzed."
             },
-            "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
-                "damage": null,
-                "description": null
-            },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+            "series": "Loki",
+            "copyright": "Marvel",
+            "rcost": 2,
+            "image": "../Assets/ORCards/Character/MobiusMMobius.jpg"
         },
         "mybermat": {
             "name": "Cybermat",
@@ -4365,6 +4313,58 @@
             "copyright": "Syfy",
             "rcost": 10,
             "image": "../Assets/ORCards/Character/KaijuSninjaEX(FullArt).jpg"
+        },
+        "koolaidmanspecial": {
+            "name": "Kool-Aid Man",
+            "indexname": "koolaidmanspecial",
+            "archetype": "Character",
+            "element": "Water",
+            "hitpoints": 150,
+            "ability": null,
+            "attack1": {
+                "element": "Water",
+                "cost": 4,
+                "name": "Oh Yeah!",
+                "damage": 80,
+                "description": "This attack ignores any damage modifiers that would lower its damage."
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": null,
+            "copyright": "Kool-Aid",
+            "rcost": 4,
+            "image": "../Assets/ORCards/Character/Kool-AidMan(Splash).jpg"
+        },
+        "minminspecial": {
+            "name": "Min-Min",
+            "indexname": "minminspecial",
+            "archetype": "Character",
+            "element": "Omni",
+            "hitpoints": 90,
+            "ability": null,
+            "attack1": {
+                "element": "Fire",
+                "cost": 2,
+                "name": "Dragon Arm",
+                "damage": null,
+                "description": "This attack does 30 fire damage to a party member of your choice."
+            },
+            "attack2": {
+                "element": "Electricity",
+                "cost": 2,
+                "name": "Megawatt Arm",
+                "damage": null,
+                "description": "This attack does 30 electric damage to a party member of your choice."
+            },
+            "series": "ARMS",
+            "copyright": "Nintendo",
+            "rcost": 3,
+            "image": "../Assets/ORCards/Character/Min-Min(FullArt).jpg"
         },
         "allmightexspecial": {
             "name": "All Might EX",
