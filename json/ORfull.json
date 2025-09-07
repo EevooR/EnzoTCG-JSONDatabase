@@ -755,7 +755,7 @@
             "series": "JoJo’s Bizarre Adventure",
             "copyright": "Lucky Land Communications",
             "rcost": 5,
-            "image": "../Assets/ORCards/Character/DioEx.jpg"
+            "image": "../Assets/ORCards/Character/DioEX.jpg"
         },
         "doll": {
             "name": "Doll",
@@ -1281,71 +1281,71 @@
             "image": "../Assets/ORCards/Character/Goose.jpg"
         },
         "greatintelligencesnowman": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
+            "name": "Great Intelligence - Snowman",
+            "indexname": "greatintelligencesnowman",
             "archetype": "Character",
-            "element": "Digital",
+            "element": "Frost",
             "hitpoints": 60,
             "ability": null,
             "attack1": {
-                "element": "Digital",
+                "element": "Frost",
                 "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
+                "name": "multiply",
+                "damage": null,
+                "description": "Search the draw deck for a Frost character, put it in your hand and shuffle the deck."
             },
             "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
+                "element": "Omni",
+                "cost": 1,
+                "name": "Manipulate",
                 "damage": null,
-                "description": null
+                "description": "Confuse the opponent"
             },
             "series": "Doctor Who",
             "copyright": "BBC",
             "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+            "image": "../Assets/ORCards/Character/GreatIntelligenceSnowman.jpg"
         },
         "gumicopycat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
+            "name": "GUMI Copycat",
+            "indexname": "gumicopycat",
             "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
+            "element": "Omni",
+            "hitpoints": 130,
             "ability": null,
             "attack1": {
-                "element": "Digital",
-                "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
+                "element": "Omni",
+                "cost": 3,
+                "name": "Copy That",
+                "damage": null,
+                "description": "Given a sufficient amount of Energies, use an attack on the opponent’s active card. Deal 20 damage to this card."
             },
             "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
+                "element": "Omni",
+                "cost": 4,
+                "name": "I Can't Remember",
                 "damage": null,
-                "description": null
+                "description": "Discard any cards attached to this one (Items and Energies) and fully heal this character."
             },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+            "series": "Megpoid",
+            "copyright": "Internet Co., Ltd.",
+            "rcost": 6,
+            "image": "../Assets/ORCards/Character/GUMICopycat.jpg"
         },
 
-        "hybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
+        "haruurara": {
+            "name": "Haru Urara",
+            "indexname": "haruurara",
             "archetype": "Character",
-            "element": "Digital",
+            "element": "Positive",
             "hitpoints": 60,
-            "ability": null,
+            "ability": "Destined to Lose -- If an attack from this card would knock out an opposing card, the opposing card is left at 10hp, regardless of any damage-increasing buffs.",
             "attack1": {
-                "element": "Digital",
+                "element": "Positive",
                 "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
+                "name": "Hopeful Flail",
+                "damage": 10,
+                "description": "Flip a coin. If tails, this attack does nothing."
             },
             "attack2": {
                 "element": null,
@@ -1354,76 +1354,76 @@
                 "damage": null,
                 "description": null
             },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+            "series": "Uma Musume: Pretty Derby",
+            "copyright": "Cygames",
+            "rcost": 2,
+            "image": "../Assets/ORCards/Character/HaruUrara.jpg"
         },
-        "hybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
+        "hatsunemikugekishou": {
+            "name": "Hatsune Miku Gekishou",
+            "indexname": "hatsunemikugekishou",
             "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
+            "element": "Wind",
+            "hitpoints": 130,
             "ability": null,
             "attack1": {
-                "element": "Digital",
-                "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
+                "element": "Wind",
+                "cost": 3,
+                "name": "A Song of Joy in Unprecedented Speed",
+                "damage": "30*",
+                "description": "Flip coins until you get a tails, do 30 damage for each heads, then flip a coin, if heads paralyze the opponent."
             },
             "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
-                "damage": null,
-                "description": null
+                "element": "Wind",
+                "cost": 6,
+                "name": "-Happy Ending-",
+                "damage": 120,
+                "description": "If this attack does more than enough damage to kill an opponent, heal the excess to all allied party members. Discard 4 energies."
             },
-            "series": "Doctor Who",
-            "copyright": "BBC",
+            "series": "Vocaloid",
+            "copyright": "SEGA",
             "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+            "image": "../Assets/ORCards/Character/HatsuneMikuGekishou.jpg"
         },
-        "hybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
+        "hazelrainart": {
+            "name": "Hazel Rainart",
+            "indexname": "hazelrainart",
             "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
+            "element": "Earth",
+            "hitpoints": 170,
             "ability": null,
             "attack1": {
-                "element": "Digital",
+                "element": "Omni",
                 "cost": 1,
-                "name": "Byte",
-                "damage": 20,
+                "name": "Punch",
+                "damage": 30,
                 "description": null
             },
             "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
+                "element": "Omni",
+                "cost": 1,
+                "name": "Dust Infusion",
                 "damage": null,
-                "description": null
+                "description": "Discard an energy and deal 30 damage to this card, until this attack is used again, this card will deal damage with the sacrificed energy element as well as Earth."
             },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+            "series": "Rwby",
+            "copyright": "VIZ Media",
+            "rcost": 5,
+            "image": "../Assets/ORCards/Character/HazelRainart.jpg"
         },
-        "hybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
+        "helix": {
+            "name": "Helix",
+            "indexname": "helix",
             "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
-            "ability": null,
+            "element": "Biological",
+            "hitpoints": 80,
+            "ability": "Stretchy -- This character can attack from the bench, this is treated like an attack from the active card and still ends the turn.",
             "attack1": {
-                "element": "Digital",
-                "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
+                "element": "Biological",
+                "cost": 2,
+                "name": "Bouncy punch",
+                "damage": 40,
+                "description": "This attack also does 10 damage to any one of the opponent’s benched characters."
             },
             "attack2": {
                 "element": null,
@@ -1432,156 +1432,51 @@
                 "damage": null,
                 "description": null
             },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+            "series": "ARMS",
+            "copyright": "Nintendo",
+            "rcost": 2,
+            "image": "../Assets/ORCards/Character/Helix.jpg"
         },
-        "hybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
+        "hitorigotoh": {
+            "name": "Hitori Gotoh",
+            "indexname": "hitorigotoh",
             "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
-            "ability": null,
+            "element": "Negative",
+            "hitpoints": 80,
+            "ability": "Social Anxiety -- Flip a coin every turn, if tails switch out with a party character and use your retreat for your turn.",
             "attack1": {
-                "element": "Digital",
+                "element": "Omnni",
                 "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
+                "name": "Box",
+                "damage": null,
+                "description": "Flip a coin, if heads, takes no damage from the opponent."
             },
             "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
-                "damage": null,
-                "description": null
+                "element": "Negative",
+                "cost": 2,
+                "name": "Depressed Mumble",
+                "damage": "20*",
+                "description": "Flip a coin for each Negative energy on this card, do 20 damage for each heads."
             },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
-        },
-
-        "iybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
-            "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
-            "ability": null,
-            "attack1": {
-                "element": "Digital",
-                "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
-            },
-            "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
-                "damage": null,
-                "description": null
-            },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
-        },
-        "iybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
-            "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
-            "ability": null,
-            "attack1": {
-                "element": "Digital",
-                "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
-            },
-            "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
-                "damage": null,
-                "description": null
-            },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
-        },
-        "iybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
-            "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
-            "ability": null,
-            "attack1": {
-                "element": "Digital",
-                "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
-            },
-            "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
-                "damage": null,
-                "description": null
-            },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
-        },
-        "iybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
-            "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
-            "ability": null,
-            "attack1": {
-                "element": "Digital",
-                "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
-            },
-            "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
-                "damage": null,
-                "description": null
-            },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+            "series": "Bocchi the Rock",
+            "copyright": "Aniplex",
+            "rcost": 0,
+            "image": "../Assets/ORCards/Character/HitoriGotoh.jpg"
         },
 
-        "jybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
+        "icearcher": {
+            "name": "Ice Archer",
+            "indexname": "icearcher",
             "archetype": "Character",
-            "element": "Digital",
+            "element": "Frost",
             "hitpoints": 60,
             "ability": null,
             "attack1": {
-                "element": "Digital",
+                "element": "Frost",
                 "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
+                "name": "Ice Arrow",
+                "damage": 10,
+                "description": "The defending character is now paralyzed."
             },
             "attack2": {
                 "element": null,
@@ -1590,24 +1485,50 @@
                 "damage": null,
                 "description": null
             },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+            "series": "Totally Accurate Battle Simulator",
+            "copyright": "Landfall Games",
+            "rcost": 3,
+            "image": "../Assets/ORCards/Character/IceArcher.jpg"
         },
-        "jybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
+        "ikuyokita": {
+            "name": "IkuyoKita",
+            "indexname": "ikuyokita",
             "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
+            "element": "Positive",
+            "hitpoints": 80,
+            "ability": "Kitaura -- Every turn, the opponent must flip a coin to decide whether or not blinded by Kitaura. When Kita is active.",
+            "attack1": {
+                "element": "Omni",
+                "cost": 1,
+                "name": "Throw",
+                "damage": 10,
+                "description": null
+            },
+            "attack2": {
+                "element": "Positive",
+                "cost": 4,
+                "name": "Encorage",
+                "damage": null,
+                "description": "Automatically switch with a random party member, +20 to their next three attacks."
+            },
+            "series": "Bocchi the Rock",
+            "copyright": "Aniplex",
+            "rcost": 2,
+            "image": "../Assets/ORCards/Character/IkuyoKita.jpg"
+        },
+        "inigomontoya": {
+            "name": "Inigo Montoya",
+            "indexname": "inigomontoya",
+            "archetype": "Character",
+            "element": "Omni",
+            "hitpoints": 100,
             "ability": null,
             "attack1": {
-                "element": "Digital",
-                "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
+                "element": "Omni",
+                "cost": 2,
+                "name": "Ability Slash",
+                "damage": "30+",
+                "description": "If the defending character has an ability, this attack does 60 more damage."
             },
             "attack2": {
                 "element": null,
@@ -1616,25 +1537,51 @@
                 "damage": null,
                 "description": null
             },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+            "series": "The Princess Bride",
+            "copyright": "20th Century Fox",
+            "rcost": 4,
+            "image": "../Assets/ORCards/Character/InigoMontoya.jpg"
+        },
+        "irongolem": {
+            "name": "IronGolem",
+            "indexname": "irongolem",
+            "archetype": "Character",
+            "element": "Earth",
+            "hitpoints": 170,
+            "ability": null,
+            "attack1": {
+                "element": "Earth",
+                "cost": 4,
+                "name": "Launch",
+                "damage": 50,
+                "description": "Flip a coin until you get heads, discard the amount of energies equal to the amount of tails. The opponent mus switch their active card for a party card, unless they have none."
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Minecraft",
+            "copyright": "Mojang",
+            "rcost": 4,
+            "image": "../Assets/ORCards/Character/IronGolem.jpg"
         },
 
-        "kybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
+        "jarl": {
+            "name": "Jarl",
+            "indexname": "jarl",
             "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
-            "ability": null,
+            "element": "Frost",
+            "hitpoints": 140,
+            "ability": "Ice Arena -- When this Character is in the active position, cards without frost energies are unable to retreat.",
             "attack1": {
-                "element": "Digital",
-                "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
+                "element": "Frost",
+                "cost": 3,
+                "name": "Rage Axe",
+                "damage": "50+",
+                "description": "If this card has any damage counters on it, this attack does 40 more damage."
             },
             "attack2": {
                 "element": null,
@@ -1643,10 +1590,245 @@
                 "damage": null,
                 "description": null
             },
-            "series": "Doctor Who",
-            "copyright": "BBC",
+            "series": "Totally Accurate Battle Simulator",
+            "copyright": "Landfall Games",
+            "rcost": 2,
+            "image": "../Assets/ORCards/Character/Jarl.jpg"
+        },
+        "jobbot": {
+            "name": "JobBot",
+            "indexname": "jobbot",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 100,
+            "ability": "Get to {Job} -- While in play, all active cards must perform an action if possible if they do not, they take 20 Damage.",
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Replace",
+                "damage": null,
+                "description": "Flip a coin, if heads, shuffle the discard pile and draw the bottom card."
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Job Simulator",
+            "copyright": "Owlchemy Labs",
             "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+            "image": "../Assets/ORCards/Character/JobBot.jpg"
+        },
+
+        "kafkaex": {
+            "name": "Kafka EX",
+            "indexname": "kafkaex",
+            "archetype": "Character",
+            "element": "Electricity",
+            "hitpoints": 200,
+            "ability": null,
+            "attack1": {
+                "element": "Electricity",
+                "cost": 1,
+                "name": "Mercy is not Forgiveness",
+                "damage": "30+",
+                "description": "Deal 20 damage to all of the opponent’s party characters. Flip a coin, if heads paralyze the opponent’s active card. If the opponent’s active card is paralyzed, this attack does +20 damage to all cards."
+            },
+            "attack2": {
+                "element": "Electricity",
+                "cost": 4,
+                "name": "Twilight Twirl",
+                "damage": 120,
+                "description": "Deal 50 damage to the opponent’s party cards and applicable summons, discard all energies from this card."
+            },
+            "series": "Kakfa EX",
+            "copyright": "HoYoverse",
+            "rcost": 3,
+            "image": "../Assets/ORCards/Character/KafkaEX.jpg"
+        },
+        "kagura": {
+            "name": "Kagura",
+            "indexname": "kagura",
+            "archetype": "Character",
+            "element": "Wind",
+            "hitpoints": 130,
+            "ability": null,
+            "attack1": {
+                "element": "Wind",
+                "cost": 1,
+                "name": "Dance of Blades",
+                "damage": 30,
+                "description": null
+            },
+            "attack2": {
+                "element": "Wind",
+                "cost": 3,
+                "name": "Dance of the Dragon",
+                "damage": 70,
+                "description": "Discard 2 energies, the opponent must switch out their active card with a party card. (If Applicable)"
+            },
+            "series": "Inuyasha",
+            "copyright": "VIZ Media",
+            "rcost": 2,
+            "image": "../Assets/ORCards/Character/Kagura.jpg"
+        },
+        "kaijusninjaex": {
+            "name": "Kaiju Sninja EX",
+            "indexname": "kaijusninjaex",
+            "archetype": "Enhanced Character",
+            "element": "Frost",
+            "hitpoints": 200,
+            "ability": "Super Photons -- as long as this card is in play, the setting can not be changed",
+            "attack1": {
+                "element": "Frost",
+                "cost": 5,
+                "name": "Genki Desu ka Eureka",
+                "damage": "70*",
+                "description": "Flip 3 coins, for each coin do 70 damage to a unique character card on the opponent’s side. If the opponent has less than three characters, land as many hits as both the coins and the Opponent's characters can permit."
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Eureka",
+            "copyright": "Syfy",
+            "rcost": 10,
+            "image": "../Assets/ORCards/Character/KaijuSninjaEX.jpg"
+        },
+        "kaitomammonscourt": {
+            "name": "KAITO - Mammon's Court",
+            "indexname": "kaitomammonscourt",
+            "archetype": "Character",
+            "element": "Negative",
+            "hitpoints": 130,
+            "ability": null,
+            "attack1": {
+                "element": "Negative",
+                "cost": 4,
+                "name": "The Hammer of Injustice",
+                "damage": "50+",
+                "description": "The opponent can opt to sacrifice up to 6 energies from their active card, at the sacrifice of any amount, attach an equal amount of energies to this card and roll a D6, every number up to the amount of sacrificed energies make this attack fail, If this attack succeeds, Do 50 extra damage for each energy attached to the opponent's card. Discard 4 energies."
+            },
+            "attack2": {
+                "element": "Negative",
+                "cost": 2,
+                "name": "Judgment of Sin",
+                "damage": 30,
+                "description": "If the opponent’s card has Negative energy attached, deal +40 Omni damage. Discard 2 energies."
+            },
+            "series": "Vocaloid",
+            "copyright": "SEGA",
+            "rcost": 5,
+            "image": "../Assets/ORCards/Character/KAITO-MammonsCourt.jpg"
+        },
+        "kamisatoayaka": {
+            "name": "Kamisato Ayaka",
+            "indexname": "kamisatoayaka",
+            "archetype": "Character",
+            "element": "Frost",
+            "hitpoints": 90,
+            "ability": null,
+            "attack1": {
+                "element": "Frost",
+                "cost": 2,
+                "name": "Hyouka",
+                "damage": 30,
+                "description": "Paralyze the opponent's active card."
+            },
+            "attack2": {
+                "element": "Frost",
+                "cost": 4,
+                "name": "Soumetsu",
+                "damage": 60,
+                "description": "Deal 30 damage to the opponent’s party 2. Paralyze The opponent’s active and party 2 card. Discard 4 energies."
+            },
+            "series": "Genshin Impact",
+            "copyright": "HoYoverse",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/KamisatoAyaka.jpg"
+        },
+        "kamisatoayatoex": {
+            "name": "Kamisato Ayato EX",
+            "indexname": "kamisatoayatoex",
+            "archetype": "Character",
+            "element": "Water",
+            "hitpoints": 180,
+            "ability": "Hagetsu -- If this Card has less than 4 energies and is benched during the player’s turn, attach a water energy to this card.",
+            "attack1": {
+                "element": "Water",
+                "cost": 2,
+                "name": "Kyouka",
+                "damage": "30*",
+                "description": "Flip a coin for each energy on this card, for each heads do 30 damage to the opponent’s Active card."
+            },
+            "attack2": {
+                "element": "Water",
+                "cost": 6,
+                "name": "Suiyuu",
+                "damage": null,
+                "description": "Roll a D6 , for the amount of turns provided by the die, deal 60 Water damage to all applicable cards on the opponent’s side. Discard all energies from this card."
+            },
+            "series": "Genshin Impact",
+            "copyright": "HoYoverse",
+            "rcost": 5,
+            "image": "../Assets/ORCards/Character/KamisatoAyatoEX.jpg"
+        },
+        "katara": {
+            "name": "Katara",
+            "indexname": "katara",
+            "archetype": "Character",
+            "element": "Water",
+            "hitpoints": 90,
+            "ability": null,
+            "attack1": {
+                "element": "Water",
+                "cost": 1,
+                "name": "Water Whip",
+                "damage": 10,
+                "description": null
+            },
+            "attack2": {
+                "element": "Water & Negative",
+                "cost": "2 & 1",
+                "name": "Blood",
+                "damage": 3,
+                "description": "On your opponent's next turn, the turn, the defending character can not atttack"
+            },
+            "series": "Avatar: The Last Airbender",
+            "copyright": "Nickelodeon",
+            "rcost": 2,
+            "image": "../Assets/ORCards/Character/Katara.jpg"
+        },
+        "kinitopet": {
+            "name": "KinitoPET",
+            "indexname": "kinitopet",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 70,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "name": "Can I see your Face?",
+                "damage": null,
+                "description": "The opponent must show a card in their hand"
+            },
+            "attack2": {
+                "element": "Digital",
+                "cost": 3,
+                "name": "Administrative Access",
+                "damage": 50,
+                "description": "Look at the opponent’s top 5 cards in their draw deck, then place them however you please within their draw deck. Discard 2 energies."
+            },
+            "series": "KinitoPET",
+            "copyright": "Troy_En",
+            "rcost": 4,
+            "image": "../Assets/ORCards/Character/KinitoPET.jpg"
         },
         "kybermat": {
             "name": "Cybermat",
@@ -1700,241 +1882,7 @@
             "rcost": 1,
             "image": "../Assets/ORCards/Character/Cybermat.jpg"
         },
-        "kybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
-            "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
-            "ability": null,
-            "attack1": {
-                "element": "Digital",
-                "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
-            },
-            "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
-                "damage": null,
-                "description": null
-            },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
-        },
-        "kybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
-            "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
-            "ability": null,
-            "attack1": {
-                "element": "Digital",
-                "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
-            },
-            "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
-                "damage": null,
-                "description": null
-            },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
-        },
-        "kybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
-            "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
-            "ability": null,
-            "attack1": {
-                "element": "Digital",
-                "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
-            },
-            "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
-                "damage": null,
-                "description": null
-            },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
-        },
-        "kybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
-            "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
-            "ability": null,
-            "attack1": {
-                "element": "Digital",
-                "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
-            },
-            "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
-                "damage": null,
-                "description": null
-            },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
-        },
-        "kybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
-            "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
-            "ability": null,
-            "attack1": {
-                "element": "Digital",
-                "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
-            },
-            "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
-                "damage": null,
-                "description": null
-            },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
-        },
-        "kybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
-            "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
-            "ability": null,
-            "attack1": {
-                "element": "Digital",
-                "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
-            },
-            "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
-                "damage": null,
-                "description": null
-            },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
-        },
-        "kybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
-            "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
-            "ability": null,
-            "attack1": {
-                "element": "Digital",
-                "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
-            },
-            "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
-                "damage": null,
-                "description": null
-            },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
-        },
-        "kybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
-            "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
-            "ability": null,
-            "attack1": {
-                "element": "Digital",
-                "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
-            },
-            "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
-                "damage": null,
-                "description": null
-            },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
-        },
-        "kybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
-            "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
-            "ability": null,
-            "attack1": {
-                "element": "Digital",
-                "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
-            },
-            "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
-                "damage": null,
-                "description": null
-            },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
-        },
-        "kybermat": {
+        "kybermatspecial": {
             "name": "Cybermat",
             "indexname": "cybermat",
             "archetype": "Character",
@@ -2170,7 +2118,7 @@
             "rcost": 1,
             "image": "../Assets/ORCards/Character/Cybermat.jpg"
         },
-        "mybermat": {
+        "mybermatspecial": {
             "name": "Cybermat",
             "indexname": "cybermat",
             "archetype": "Character",
@@ -2352,7 +2300,7 @@
             "rcost": 1,
             "image": "../Assets/ORCards/Character/Cybermat.jpg"
         },
-        "mybermat": {
+        "mybermatspecial": {
             "name": "Cybermat",
             "indexname": "cybermat",
             "archetype": "Character",
@@ -2430,7 +2378,7 @@
             "rcost": 1,
             "image": "../Assets/ORCards/Character/Cybermat.jpg"
         },
-        "mybermat": {
+        "mybermatspecial": {
             "name": "Cybermat",
             "indexname": "cybermat",
             "archetype": "Character",
@@ -2483,7 +2431,7 @@
             "rcost": 1,
             "image": "../Assets/ORCards/Character/Cybermat.jpg"
         },
-        "nybermat": {
+        "nybermatspecial": {
             "name": "Cybermat",
             "indexname": "cybermat",
             "archetype": "Character",
@@ -2561,7 +2509,7 @@
             "rcost": 1,
             "image": "../Assets/ORCards/Character/Cybermat.jpg"
         },
-        "nybermat": {
+        "nybermatspecial": {
             "name": "Cybermat",
             "indexname": "cybermat",
             "archetype": "Character",
@@ -2771,7 +2719,7 @@
             "rcost": 1,
             "image": "../Assets/ORCards/Character/Cybermat.jpg"
         },
-        "pybermat": {
+        "pybermatspecial": {
             "name": "Cybermat",
             "indexname": "cybermat",
             "archetype": "Character",
@@ -3006,7 +2954,7 @@
             "rcost": 1,
             "image": "../Assets/ORCards/Character/Cybermat.jpg"
         },
-        "rybermat": {
+        "rybermatspecial": {
             "name": "Cybermat",
             "indexname": "cybermat",
             "archetype": "Character",
@@ -3084,7 +3032,7 @@
             "rcost": 1,
             "image": "../Assets/ORCards/Character/Cybermat.jpg"
         },
-        "rybermat": {
+        "rybermatspecial": {
             "name": "Cybermat",
             "indexname": "cybermat",
             "archetype": "Character",
@@ -3162,7 +3110,7 @@
             "rcost": 1,
             "image": "../Assets/ORCards/Character/Cybermat.jpg"
         },
-        "rybermat": {
+        "rybermatspecial": {
             "name": "Cybermat",
             "indexname": "cybermat",
             "archetype": "Character",
@@ -3423,7 +3371,7 @@
             "rcost": 1,
             "image": "../Assets/ORCards/Character/Cybermat.jpg"
         },
-        "sybermat": {
+        "sybermatspecial": {
             "name": "Cybermat",
             "indexname": "cybermat",
             "archetype": "Character",
@@ -3972,7 +3920,7 @@
             "rcost": 1,
             "image": "../Assets/ORCards/Character/Cybermat.jpg"
         },
-        "wybermat": {
+        "wybermatspecial": {
             "name": "Cybermat",
             "indexname": "cybermat",
             "archetype": "Character",
@@ -4365,6 +4313,58 @@
             "copyright": "VIZ Media",
             "rcost": 4,
             "image": "../Assets/ORCards/Character/EijiroKirishima(FullArt).jpg"
+        },
+        "kafkaexspecial": {
+            "name": "Kafka EX",
+            "indexname": "kafkaexspecial",
+            "archetype": "Character",
+            "element": "Electricity",
+            "hitpoints": 200,
+            "ability": null,
+            "attack1": {
+                "element": "Electricity",
+                "cost": 1,
+                "name": "Mercy is not Forgiveness",
+                "damage": "30+",
+                "description": "Deal 20 damage to all of the opponent’s party characters. Flip a coin, if heads paralyze the opponent’s active card. If the opponent’s active card is paralyzed, this attack does +20 damage to all cards."
+            },
+            "attack2": {
+                "element": "Electricity",
+                "cost": 4,
+                "name": "Twilight Twirl",
+                "damage": 120,
+                "description": "Deal 50 damage to the opponent’s party cards and applicable summons, discard all energies from this card."
+            },
+            "series": "Kakfa EX",
+            "copyright": "HoYoverse",
+            "rcost": 3,
+            "image": "../Assets/ORCards/Character/KafkaEX(ColorArt).jpg"
+        },
+        "kaijusninjaexspecial": {
+            "name": "Kaiju Sninja EX",
+            "indexname": "kaijusninjaexspecial",
+            "archetype": "Enhanced Character",
+            "element": "Frost",
+            "hitpoints": 200,
+            "ability": "Super Photons -- as long as this card is in play, the setting can not be changed",
+            "attack1": {
+                "element": "Frost",
+                "cost": 5,
+                "name": "Genki Desu ka Eureka",
+                "damage": "70*",
+                "description": "Flip 3 coins, for each coin do 70 damage to a unique character card on the opponent’s side. If the opponent has less than three characters, land as many hits as both the coins and the Opponent's characters can permit."
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Eureka",
+            "copyright": "Syfy",
+            "rcost": 10,
+            "image": "../Assets/ORCards/Character/KaijuSninjaEX(FullArt).jpg"
         },
         "allmightexspecial": {
             "name": "All Might EX",
