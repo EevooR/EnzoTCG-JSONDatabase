@@ -1445,7 +1445,7 @@
             "hitpoints": 80,
             "ability": "Social Anxiety -- Flip a coin every turn, if tails switch out with a party character and use your retreat for your turn.",
             "attack1": {
-                "element": "Omnni",
+                "element": "Omni",
                 "cost": 1,
                 "name": "Box",
                 "damage": null,
@@ -2170,19 +2170,19 @@
             "rcost": 2,
             "image": "../Assets/ORCards/Character/MobiusMMobius.jpg"
         },
-        "mybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
+        "molduga": {
+            "name": "Molduga",
+            "indexname": "molduga",
             "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
-            "ability": null,
+            "element": "Earth",
+            "hitpoints": 130,
+            "ability": "Earth Swim -- If the setting boosts the power of earth moves, this card's retreat cost becomes 0.",
             "attack1": {
-                "element": "Digital",
-                "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
+                "element": "Earth",
+                "cost": 3,
+                "name": "Sandy Maw",
+                "damage": 70,
+                "description": "On your opponent's next turn, the active card cannot retreat."
             },
             "attack2": {
                 "element": null,
@@ -2191,76 +2191,76 @@
                 "damage": null,
                 "description": null
             },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+            "series": "Legend of Zelda",
+            "copyright": "Nintendo",
+            "rcost": 6,
+            "image": "../Assets/ORCards/Character/Molduga.jpg"
         },
-        "mybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
+        "monika": {
+            "name": "Monika",
+            "indexname": "monika",
             "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
+            "element": "Omni",
+            "hitpoints": 80,
             "ability": null,
             "attack1": {
-                "element": "Digital",
+                "element": "Omni",
                 "cost": 1,
-                "name": "Byte",
+                "name": "Scribble",
                 "damage": 20,
                 "description": null
             },
             "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
-                "damage": null,
-                "description": null
+                "element": "Omni",
+                "cost": 3,
+                "name": "Thorough Research",
+                "damage": 30,
+                "description": "Apply the weaknesses and resistances of the energies attatched to this card against the opponent."
             },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+            "series": "Doki Doki Literature Club",
+            "copyright": "Dan Salvato",
+            "rcost": 2,
+            "image": "../Assets/ORCards/Character/Monika.jpg"
         },
-        "mybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
-            "archetype": "Character",
+        "monikaex": {
+            "name": "Monika EX",
+            "indexname": "monikaex",
+            "archetype": "Enhanced Character",
             "element": "Digital",
-            "hitpoints": 60,
-            "ability": null,
+            "hitpoints": 150,
+            "ability": "Just Monika -- If this card is in the active position, ignore stage effects, party effects, and any items played on either side.",
             "attack1": {
                 "element": "Digital",
                 "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
+                "name": "Code Search",
+                "damage": null,
+                "description": "Search the top three cards of your deck. Select a card and place it in your hand. Shuffle the other two cards back into your deck."
             },
             "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
-                "damage": null,
-                "description": null
+                "element": "Digital",
+                "cost": 5,
+                "name": "Your Reality",
+                "damage": 130,
+                "description": "Discard 3 energies from this character."
             },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+            "series": "Doki Doki Literature Club",
+            "copyright": "Dan Salvato",
+            "rcost": 5,
+            "image": "../Assets/ORCards/Character/MonikaEX.jpg"
         },
-        "mybermatspecial": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
+        "mydei": {
+            "name": "Mydei",
+            "indexname": "mydei",
             "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
-            "ability": null,
+            "element": "Negative",
+            "hitpoints": 150,
+            "ability": "Blood for Blood -- When this card has damage, add the equivalent amount of damage, add the equivalent amount of damage on this card to it's attacks.",
             "attack1": {
-                "element": "Digital",
-                "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
+                "element": "Negative",
+                "cost": 3,
+                "name": "Vow of Voyage",
+                "damage": 30,
+                "description": "Deal 10 damage to Mydei, Flip a coin for every energy on this card, every tails, remove 1 energy."
             },
             "attack2": {
                 "element": null,
@@ -2269,24 +2269,24 @@
                 "damage": null,
                 "description": null
             },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+            "series": "Honkai: Star Rail",
+            "copyright": "HoYoverse",
+            "rcost": 3,
+            "image": "../Assets/ORCards/Character/Mydei.jpg"
         },
-        "mybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
-            "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
-            "ability": null,
+        "mydeiex": {
+            "name": "Mydei EX",
+            "indexname": "mydeiex",
+            "archetype": "Enhanced Character",
+            "element": "Negative",
+            "hitpoints": 200,
+            "ability": "Vendetta -- Each time Mydei attacks, add an Ability Counter. At each Fibonacci number starting from 3, he does +30 Damage. When KO'd, heal 100 damage, keep Mydei in play, flip a coin per energy-keep the heads-and advance to the next fibonacci number.",
             "attack1": {
-                "element": "Digital",
-                "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
+                "element": "Negative",
+                "cost": 4,
+                "name": "Kingslayer be King",
+                "damage": 90,
+                "description": "Flip a coin, if tails remove two energies"
             },
             "attack2": {
                 "element": null,
@@ -2295,260 +2295,156 @@
                 "damage": null,
                 "description": null
             },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
-        },
-        "mybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
-            "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
-            "ability": null,
-            "attack1": {
-                "element": "Digital",
-                "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
-            },
-            "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
-                "damage": null,
-                "description": null
-            },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
-        },
-        "mybermatspecial": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
-            "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
-            "ability": null,
-            "attack1": {
-                "element": "Digital",
-                "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
-            },
-            "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
-                "damage": null,
-                "description": null
-            },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+            "series": "Honkai: Star Rail",
+            "copyright": "HoYoverse",
+            "rcost": 4,
+            "image": "../Assets/ORCards/Character/MydeiEX.jpg"
         },
 
-        "nybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
-            "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
-            "ability": null,
+        "nahidaex": {
+            "name": "Nahida EX",
+            "indexname": "nahidaex",
+            "archetype": "Enhanced Character",
+            "element": "Biological",
+            "hitpoints": 240,
+            "ability": "All Schemes to Know -- While in play, anything the opponent's active card isn't weak to that Biological is weak to, the opponent's active card is now weak to.",
             "attack1": {
-                "element": "Digital",
-                "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
+                "element": "Biological",
+                "cost": 5,
+                "name": "Time Loop",
+                "damage": "10*",
+                "description": "Flip coins until you get tails, then do 10 times 2 to the power of the ammount of heads. Discard two energies."
             },
             "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
-                "damage": null,
-                "description": null
+                "element": "Biological",
+                "cost": 3,
+                "name": "Mass Dream",
+                "damage": "30+",
+                "description": "Flip a coin for each card on the field, for every heads put the respective card (Left to Right, Top to Bottom, from this card's player's perspective) to sleep, for each sleeping character after the coin flips, add 30 damage."
             },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+            "series": "Genshin Impact",
+            "copyright": "HoYoverse",
+            "rcost": 7,
+            "image": "../Assets/ORCards/Character/NahidaEX.jpg"
         },
-        "nybermatspecial": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
+        "nazrin": {
+            "name": "Nazrin",
+            "indexname": "nazrin",
             "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
-            "ability": null,
+            "element": "Earth",
+            "hitpoints": 110,
+            "ability": "Exorcism Aura (Nazrin) -- When an energy is attached to this card, the character with the least ammount of health takes 40 less damage from the first attack against it.",
             "attack1": {
-                "element": "Digital",
+                "element": "Omni",
                 "cost": 1,
-                "name": "Byte",
+                "name": "Mice",
                 "damage": 20,
                 "description": null
             },
             "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
-                "damage": null,
-                "description": null
+                "element": "Earth",
+                "cost": 3,
+                "name": "Finding",
+                "damage": "*40",
+                "description": "Flip coins equivalent to the amount of energy on this card until you reach tails, deal 40 damage for the character that can be hit with the highest health on the opponent's side, as of each hit, Discard the energies equivalent to the ammount of heads."
             },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+            "series": "Touhou Project",
+            "copyright": "ZUN",
+            "rcost": 2,
+            "image": "../Assets/ORCards/Character/Nazrin.jpg"
         },
-        "nybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
+        "nightmare": {
+            "name": "Nightmare",
+            "indexname": "nightmare",
             "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
+            "element": "Negative",
+            "hitpoints": 140,
             "ability": null,
             "attack1": {
-                "element": "Digital",
-                "cost": 1,
-                "name": "Byte",
-                "damage": 20,
+                "element": "Negative",
+                "cost": 3,
+                "name": "Heavy Slash",
+                "damage": 40,
                 "description": null
             },
             "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
-                "damage": null,
-                "description": null
+                "element": "Negative",
+                "cost": 4,
+                "name": "Soul Harvest",
+                "damage": 70,
+                "description": "Heal 30 damage from this character."
             },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+            "series": "Soul Calibur",
+            "copyright": "Bandai Namco",
+            "rcost": 5,
+            "image": "../Assets/ORCards/Character/Nightmare.jpg"
         },
-        "nybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
+        "nijikaijichi": {
+            "name": "Nijika Ijichi",
+            "indexname": "nijikaijichi",
             "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
+            "element": "Electricity",
+            "hitpoints": 80,
             "ability": null,
             "attack1": {
-                "element": "Digital",
+                "element": "Omni",
                 "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
+                "name": "Call For Friends",
+                "damage": null,
+                "description": "Search your deck for a basic character. Show the opponent the character and put it in your hand."
             },
             "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
-                "damage": null,
-                "description": null
+                "element": "Electricity & Omni",
+                "cost": "2 & 2",
+                "name": "Steady Beat",
+                "damage": "20+",
+                "description": "Flip a coin 3 times. This attack does 20 extra damage for each heads."
             },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
-        },
-        "nybermatspecial": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
-            "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
-            "ability": null,
-            "attack1": {
-                "element": "Digital",
-                "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
-            },
-            "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
-                "damage": null,
-                "description": null
-            },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
-        },
-        "nybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
-            "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
-            "ability": null,
-            "attack1": {
-                "element": "Digital",
-                "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
-            },
-            "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
-                "damage": null,
-                "description": null
-            },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+            "series": "Bocchi the Rock",
+            "copyright": "Aniplex",
+            "rcost": 2,
+            "image": "../Assets/ORCards/Character/NijikaIjichi.jpg"
         },
 
-        "oybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
+        "obiwankenobiex": {
+            "name": "Obi-Wan Kenobi EX",
+            "indexname": "obiwankenobiex",
             "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
-            "ability": null,
+            "element": "Positive",
+            "hitpoints": 170,
+            "ability": "Honed Force -- When this card's health is lowered to 0, all energies attached to this card are distributrd to the allied cards in the party.",
             "attack1": {
-                "element": "Digital",
-                "cost": 1,
-                "name": "Byte",
-                "damage": 20,
+                "element": "Positive",
+                "cost": 2,
+                "name": "Force Push",
+                "damage": 30,
                 "description": null
             },
             "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
-                "damage": null,
-                "description": null
+                "element": "Positive",
+                "cost": 5,
+                "name": "Lightsaber Slash",
+                "damage": "60+",
+                "description": "This attack does +30 extra damageto opposing digital or negative characters."
             },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+            "series": "Star Wars",
+            "copyright": "Disney",
+            "rcost": 3,
+            "image": "../Assets/ORCards/Character/Obi-WanKenobiEX.jpg"
         },
-        "oybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
+        "oliviermiraarmstrong": {
+            "name": "Olivier Mira Armstrong",
+            "indexname": "oliviermiraarmstrong",
             "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
-            "ability": null,
+            "element": "Omni",
+            "hitpoints": 140,
+            "ability": "Armstrong Lineage -- if Alex Louis Armstrong is in play as an ally, +50 to Alex Louis Armstrong's attacks",
             "attack1": {
-                "element": "Digital",
-                "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
+                "element": "Omni",
+                "cost": 2,
+                "name": "Armstrong Sword",
+                "damage": 60,
+                "description": "This Attack ignores damage decreases, but does not ignore damage nullifications."
             },
             "attack2": {
                 "element": null,
@@ -2557,23 +2453,75 @@
                 "damage": null,
                 "description": null
             },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+            "series": "Fullmetal Alchemist",
+            "copyright": "Aniplex",
+            "rcost": 3,
+            "image": "../Assets/ORCards/Character/OlivierMiraArmstrong.jpg"
         },
 
-        "pybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
+        "paigematthews": {
+            "name": "Paige Matthews",
+            "indexname": "paigematthews",
             "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
+            "element": "Positive",
+            "hitpoints": 100,
+            "ability": "Power of Three -- If “Piper Halliwell” and Phoebe Halliwell” are both in the party, attacks from this card do +30 damage.",
+            "attack1": {
+                "element": "Positive",
+                "cost": 1,
+                "name": "Whitelighter Heal",
+                "damage": null,
+                "description": "Heal 30 hp from an allied party member."
+            },
+            "attack2": {
+                "element": "Positive",
+                "cost": 2,
+                "name": "Telekinetic Orbing",
+                "damage": 10,
+                "description": "Discard the opponnent's attached item card. If you do, apply its effects for this attack."
+            },
+            "series": "Charmed",
+            "copyright": "CBS Studios",
+            "rcost": 3,
+            "image": "../Assets/ORCards/Character/PaigeMatthews.jpg"
+        },
+        "parker": {
+            "name": "Parker",
+            "indexname": "parker",
+            "archetype": "Character",
+            "element": "Electricity",
+            "hitpoints": 100,
             "ability": null,
             "attack1": {
-                "element": "Digital",
+                "element": "Electricity",
                 "cost": 1,
-                "name": "Byte",
+                "name": "Taser",
+                "damage": 20,
+                "description": "The defending card is now paralyzed."
+            },
+            "attack2": {
+                "element": "Electricity",
+                "cost": 3,
+                "name": "Elevator Drop",
+                "damage": 50,
+                "description": "The defending card must swap with a party card. The entering party card takes 10 damage. Retreat this card to the party."
+            },
+            "series": "Leverage",
+            "copyright": "Electric Entertainment",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Parker.jpg"
+        },
+        "peashooterzombie": {
+            "name": "Peashooter Zombie",
+            "indexname": "peashooterzombie",
+            "archetype": "Character",
+            "element": "Biological",
+            "hitpoints": 70,
+            "ability": "Peashooter head -- when in play, do 10 Biological damage to the opponent's active character every turn.",
+            "attack1": {
+                "element": "Omni",
+                "cost": 1,
+                "name": "Chomp",
                 "damage": 20,
                 "description": null
             },
@@ -2584,115 +2532,38 @@
                 "damage": null,
                 "description": null
             },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+            "series": "Plants Vs. Zombies",
+            "copyright": "EA",
+            "rcost": 2,
+            "image": "../Assets/ORCards/Character/PeashooterZombie.jpg"
         },
-        "pybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
-            "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
+        "peteypiranhaex": {
+            "name": "Petey Piranha EX",
+            "indexname": "peteypiranhaex",
+            "archetype": "Enhanced Character",
+            "element": "Biological",
+            "hitpoints": 190,
             "ability": null,
             "attack1": {
-                "element": "Digital",
-                "cost": 1,
-                "name": "Byte",
+                "element": "Biological",
+                "cost": 2,
+                "name": "Cage Snare",
                 "damage": 20,
-                "description": null
+                "description": "Take two opposing bench characters. Until this card doesn't use Cage Snare, any attacks used against this card also do half damage to the bench cards selected."
             },
             "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
-                "damage": null,
-                "description": null
+                "element": "Biological",
+                "cost": 4,
+                "name": "Toxic Belch",
+                "damage": 90,
+                "description": "The defending card is now poisoned."
             },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+            "series": "Super Mario Bros",
+            "copyright": "Nintendo",
+            "rcost": 5,
+            "image": "../Assets/ORCards/Character/PeteyPiranhaEX.jpg"
         },
-        "pybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
-            "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
-            "ability": null,
-            "attack1": {
-                "element": "Digital",
-                "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
-            },
-            "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
-                "damage": null,
-                "description": null
-            },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
-        },
-        "pybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
-            "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
-            "ability": null,
-            "attack1": {
-                "element": "Digital",
-                "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
-            },
-            "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
-                "damage": null,
-                "description": null
-            },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
-        },
-        "pybermatspecial": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
-            "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
-            "ability": null,
-            "attack1": {
-                "element": "Digital",
-                "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
-            },
-            "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
-                "damage": null,
-                "description": null
-            },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
-        },
+        
         "pybermat": {
             "name": "Cybermat",
             "indexname": "cybermat",
@@ -4054,6 +3925,32 @@
             "rcost": 5,
             "image": "../Assets/ORCards/Character/AlexLouisArmstrongEX(ColorArt).jpg"
         },
+        "allmightexspecial": {
+            "name": "All Might EX",
+            "indexname": "allmightexspecial",
+            "archetype": "Character",
+            "element": "Positive",
+            "hitpoints": 200,
+            "ability": "I Am Here -- When this card enters the active spot, remove all debuffs from the player's side of the field. While this card is in play, Characters can not be affected by debuffs.",
+            "attack1": {
+                "element": "Positive",
+                "cost": 3,
+                "name": "Texas Smash",
+                "damage": 50,
+                "description": null
+            },
+            "attack2": {
+                "element": "Positive",
+                "cost": 7,
+                "name": "United States of Smash",
+                "damage": 200,
+                "description": "If this attack succeeds, retreat this card back into your hand."
+            },
+            "series": "My Hero Academia",
+            "copyright": "VIZ Media",
+            "rcost": 5,
+            "image": "../Assets/ORCards/Character/AllMightEX(FullArt).jpg"
+      },
         "aventurineexspecial": {
             "name": "Aventurine EX",
             "indexname": "aventurineexspecial",
@@ -4366,31 +4263,135 @@
             "rcost": 3,
             "image": "../Assets/ORCards/Character/Min-Min(FullArt).jpg"
         },
-        "allmightexspecial": {
-            "name": "All Might EX",
-            "indexname": "allmightexspecial",
-            "archetype": "Character",
-            "element": "Positive",
-            "hitpoints": 200,
-            "ability": "I Am Here -- When this card enters the active spot, remove all debuffs from the player's side of the field. While this card is in play, Characters can not be affected by debuffs.",
+        "monikaexspecial": {
+            "name": "Monika EX",
+            "indexname": "monikaexspecial",
+            "archetype": "Enhanced Character",
+            "element": "Digital",
+            "hitpoints": 150,
+            "ability": "Just Monika -- If this card is in the active position, ignore stage effects, party effects, and any items played on either side.",
             "attack1": {
-                "element": "Positive",
+                "element": "Digital",
+                "cost": 1,
+                "name": "Code Search",
+                "damage": null,
+                "description": "Search the top three cards of your deck. Select a card and place it in your hand. Shuffle the other two cards back into your deck."
+            },
+            "attack2": {
+                "element": "Digital",
+                "cost": 5,
+                "name": "Your Reality",
+                "damage": 130,
+                "description": "Discard 3 energies from this character."
+            },
+            "series": "Doki Doki Literature Club",
+            "copyright": "Dan Salvato",
+            "rcost": 5,
+            "image": "../Assets/ORCards/Character/MonikaEX(Color).jpg"
+        },
+        "mydeiexspecial": {
+            "name": "Mydei EX",
+            "indexname": "mydeiexspecial",
+            "archetype": "Enhanced Character",
+            "element": "Negative",
+            "hitpoints": 200,
+            "ability": "Vendetta -- Each time Mydei attacks, add an Ability Counter. At each Fibonacci number starting from 3, he does +30 Damage. When KO'd, heal 100 damage, keep Mydei in play, flip a coin per energy-keep the heads-and advance to the next fibonacci number.",
+            "attack1": {
+                "element": "Negative",
+                "cost": 4,
+                "name": "Kingslayer be King",
+                "damage": 90,
+                "description": "Flip a coin, if tails remove two energies"
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Honkai: Star Rail",
+            "copyright": "HoYoverse",
+            "rcost": 4,
+            "image": "../Assets/ORCards/Character/MydeiEX(FullArt).jpg"
+        },
+        "nahidaexspecial": {
+            "name": "Nahida EX",
+            "indexname": "nahidaexspecial",
+            "archetype": "Enhanced Character",
+            "element": "Biological",
+            "hitpoints": 240,
+            "ability": "All Schemes to Know -- While in play, anything the opponent's active card isn't weak to that Biological is weak to, the opponent's active card is now weak to.",
+            "attack1": {
+                "element": "Biological",
+                "cost": 5,
+                "name": "Time Loop",
+                "damage": "10*",
+                "description": "Flip coins until you get tails, then do 10 times 2 to the power of the ammount of heads. Discard two energies."
+            },
+            "attack2": {
+                "element": "Biological",
                 "cost": 3,
-                "name": "Texas Smash",
-                "damage": 50,
+                "name": "Mass Dream",
+                "damage": "30+",
+                "description": "Flip a coin for each card on the field, for every heads put the respective card (Left to Right, Top to Bottom, from this card's player's perspective) to sleep, for each sleeping character after the coin flips, add 30 damage."
+            },
+            "series": "Genshin Impact",
+            "copyright": "HoYoverse",
+            "rcost": 7,
+            "image": "../Assets/ORCards/Character/NahidaEX(ColorArt).jpg"
+        },
+        "nightmarespecial": {
+            "name": "Nightmare",
+            "indexname": "nightmarespecial",
+            "archetype": "Character",
+            "element": "Negative",
+            "hitpoints": 140,
+            "ability": null,
+            "attack1": {
+                "element": "Negative",
+                "cost": 3,
+                "name": "Heavy Slash",
+                "damage": 40,
                 "description": null
             },
             "attack2": {
-                "element": "Positive",
-                "cost": 7,
-                "name": "United States of Smash",
-                "damage": 200,
-                "description": "If this attack succeeds, retreat this card back into your hand."
+                "element": "Negative",
+                "cost": 4,
+                "name": "Soul Harvest",
+                "damage": 70,
+                "description": "Heal 30 damage from this character."
             },
-            "series": "My Hero Academia",
-            "copyright": "VIZ Media",
+            "series": "Soul Calibur",
+            "copyright": "Bandai Namco",
             "rcost": 5,
-            "image": "../Assets/ORCards/Character/AllMightEX(FullArt).jpg"
-      }
+            "image": "../Assets/ORCards/Character/Nightmare(InverseArt).jpg"
+        },
+        "peteypiranhaexspecial": {
+            "name": "Petey Piranha EX",
+            "indexname": "peteypiranhaexspecial",
+            "archetype": "Enhanced Character",
+            "element": "Biological",
+            "hitpoints": 190,
+            "ability": null,
+            "attack1": {
+                "element": "Biological",
+                "cost": 2,
+                "name": "Cage Snare",
+                "damage": 20,
+                "description": "Take two opposing bench characters. Until this card doesn't use Cage Snare, any attacks used against this card also do half damage to the bench cards selected."
+            },
+            "attack2": {
+                "element": "Biological",
+                "cost": 4,
+                "name": "Toxic Belch",
+                "damage": 90,
+                "description": "The defending card is now poisoned."
+            },
+            "series": "Super Mario Bros",
+            "copyright": "Nintendo",
+            "rcost": 5,
+            "image": "../Assets/ORCards/Character/PeteyPiranhaEX(Full).jpg"
+        }
     }
 ]
