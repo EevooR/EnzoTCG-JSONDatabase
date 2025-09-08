@@ -1828,7 +1828,7 @@
             "series": "KinitoPET",
             "copyright": "Troy_En",
             "rcost": 4,
-            "image": "../Assets/ORCards/Character/KinitoPET.jpg"
+            "image": "../Assets/ORCards/Character/KinitoPet.jpg"
         },
         "kirbykirbyrightbackatya": {
             "name": "Kirby - Kirby Right back at ya!",
@@ -2563,7 +2563,7 @@
             "rcost": 5,
             "image": "../Assets/ORCards/Character/PeteyPiranhaEX.jpg"
         },
-        
+
         "pybermat": {
             "name": "Cybermat",
             "indexname": "cybermat",
