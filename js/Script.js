@@ -27,7 +27,7 @@ const cardCopyright = document.querySelector('#cardCopyright');
 const cardRCost = document.querySelector('#cardRCost');
 
 
-const elements = {
+const elements = [
   "Biological",
   "Digital",
   "Earth",
@@ -41,7 +41,7 @@ const elements = {
   "Water",
   "Wind",
   null
-}
+];
 
 
 // Corrected function declaration
