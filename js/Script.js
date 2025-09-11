@@ -27,7 +27,21 @@ const cardCopyright = document.querySelector('#cardCopyright');
 const cardRCost = document.querySelector('#cardRCost');
 
 
-
+const elements = {
+  "Biological",
+  "Digital",
+  "Earth",
+  "Electricity",
+  "Fire",
+  "Frost",
+  "Negative",
+  "Omni",
+  "Positive",
+  "Time",
+  "Water",
+  "Wind",
+  null
+}
 
 
 // Corrected function declaration
@@ -55,6 +69,21 @@ window.onload = async (event) => {
   for (const key in item) {
     if (item[key] && item[key].name !== undefined) {
       console.log(`${key}: ${item[key].name}`);
+      if (elements.includes(item[key].element)) {} else {
+        alert(item[key].element + "Is not valid in" + item[key])
+      }
+      if (elements.includes(item[key].attack1.element)) {} else {
+        alert(item[key].attack1.element + "Is not valid in" + item[key])
+      }
+      if (elements.includes(item[key].attack1.element2)) {} else {
+        alert(item[key].attack1.element2 + "Is not valid in" + item[key])
+      }
+      if (elements.includes(item[key].attack2.element)) {} else {
+        alert(item[key].attack2.element + "Is not valid in" + item[key])
+      }
+      if (elements.includes(item[key].attack2.element2)) {} else {
+        alert(item[key].attack2.element2 + "Is not valid in" + item[key])
+      }
       const newCard = document.createElement('div');
       newCard.classList.add('Card');
       cardList.appendChild(newCard);

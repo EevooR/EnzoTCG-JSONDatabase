@@ -10,6 +10,8 @@
             "attack1": {
                 "element": "Positive",
                 "cost": 1,
+                "element2": null,
+                "cost2": null,
                 "name": "Healing Prayer",
                 "damage": null,
                 "description": "Heal 10 hp from each party member and remove all status conditions."
@@ -17,6 +19,8 @@
             "attack2": {
                 "element": "Positive",
                 "cost": 1,
+                "element2": null,
+                "cost2": null,
                 "name": "Staff Bludgeon",
                 "damage": 10,
                 "description": null
@@ -36,6 +40,8 @@
             "attack1": {
                 "element": "Earth",
                 "cost": 3,
+                "element2": null,
+                "cost2": null,
                 "name": "Iron Fists",
                 "damage": 40,
                 "description": null
@@ -43,6 +49,8 @@
             "attack2": {
                 "element": "Earth",
                 "cost": 5,
+                "element2": null,
+                "cost2": null,
                 "name": "Alchemical Spikes",
                 "damage": 70,
                 "description": "Does 40 damage to the opponent's party 2"
@@ -62,6 +70,8 @@
             "attack1": {
                 "element": "Positive",
                 "cost": 3,
+                "element2": null,
+                "cost2": null,
                 "name": "Texas Smash",
                 "damage": 50,
                 "description": null
@@ -69,6 +79,8 @@
             "attack2": {
                 "element": "Positive",
                 "cost": 7,
+                "element2": null,
+                "cost2": null,
                 "name": "United States of Smash",
                 "damage": 200,
                 "description": "If this attack succeeds, retreat this card back into your hand."
@@ -78,6 +90,36 @@
             "rcost": 5,
             "image": "../Assets/ORCards/Character/AllMightEX.jpg"
     },
+        "theapathy": {
+          "name": "The Apathy",
+          "indexname": "theapathy",
+          "archetype": "Character",
+          "element": "Negative",
+          "hitpoints": 70,
+          "ability": "Apathy -- Every turn, whilst this card is active, the opponent must flip a coin, if the coin lands tails, they must end their turn.",
+          "attack1": {
+              "element": "Negative",
+              "cost": 1,
+              "element2": null,
+              "cost2": null,
+              "name": "Forfeiture",
+              "damage": null,
+              "description": "Flip 2 coins, if both land heads the opponent’s active character must drop any attached Item."
+            },
+            "attack2": {
+              "element": null,
+              "cost": null,
+              "element2": null,
+              "cost2": null,
+              "name": null,
+              "damage": null,
+              "description": null
+            },
+            "series": "Rwby",
+            "copyright": "VIZ Media",
+            "rcost": 2,
+            "image": "../Assets/ORCards/Character/TheApathy.jpg"
+          },
         "aqua": {
             "name": "Aqua",
             "indexname": "aqua",
@@ -88,6 +130,8 @@
             "attack1": {
                 "element": "Water",
                 "cost": 1,
+                "element2": null,
+                "cost2": null,
                 "name": "Purify",
                 "damage": null,
                 "description": "Heal 20 damage from an allied card."
@@ -95,6 +139,8 @@
             "attack2": {
                 "element": "Water",
                 "cost": 2,
+                "element2": null,
+                "cost2": null,
                 "name": "Panicked Staff",
                 "damage": 10,
                 "description": "Flip a coin. If heads, this attack does nothing."
@@ -114,6 +160,8 @@
             "attack1": {
                 "element": "Wind",
                 "cost": 1,
+                "element2": null,
+                "cost2": null,
                 "name": "Invisible Wind",
                 "damage": 30,
                 "description": "This attack will always deal a minimum of 30 damage. Even if the opponent's active card is unable to be attacked."
@@ -121,6 +169,8 @@
             "attack2": {
                 "element": "Wind",
                 "cost": 10,
+                "element2": null,
+                "cost2": null,
                 "name": "Excalibur",
                 "damage": 400,
                 "description": "discard all energies from this card, deal 30 damage to all of the opponent's non-active cards that can be damaged."
@@ -140,6 +190,8 @@
             "attack1": {
                 "element": "Electricity",
                 "cost": 1,
+                "element2": null,
+                "cost2": null,
                 "name": "Cloud Piercer",
                 "damage": "20+",
                 "description": "Every consecutive use of Cloud Piercer does +10 damage on the last, caps at +60 damage."
@@ -147,6 +199,8 @@
             "attack2": {
                 "element": "Electricity",
                 "cost": 3,
+                "element2": null,
+                "cost2": null,
                 "name": "Ha-Oto no Ya",
                 "damage": 60,
                 "description": "Ignore stage all applied damage changes including invincibility. Discard one Electric energy. This card cannot retreat during its next turn."
@@ -166,6 +220,8 @@
             "attack1": {
                 "element": "Wind",
                 "cost": 1,
+                "element2": null,
+                "cost2": null,
                 "name": "Rotating Shots",
                 "damage": "20",
                 "description": "Hits the opponent's active card, Party 1, and Party 3."
@@ -173,6 +229,8 @@
             "attack2": {
                 "element": null,
                 "cost": null,
+                "element2": null,
+                "cost2": null,
                 "name": null,
                 "damage": null,
                 "description": null
@@ -192,6 +250,8 @@
             "attack1": {
                 "element": "Omni",
                 "cost": 8,
+                "element2": null,
+                "cost2": null,
                 "name": "Willing to take that bet",
                 "damage": null,
                 "description": "Have the opponent search through their draw deck and pull out the first Character or E Character and shows it to the attacker, If their HP is below the amount of energies on this card (each energy being 10 hp), the opponent discards the drawn card and the attacker takes the reward respective to the discarded card, otherwise, the drawn card is moved to the opponent’s hand. Once this ability is used, discard ALL energy from this card."
@@ -199,6 +259,8 @@
             "attack2": {
                 "element": "Omni",
                 "cost": 1,
+                "element2": null,
+                "cost2": null,
                 "name": "Straight Bet",
                 "damage": "30",
                 "description": null
@@ -219,6 +281,8 @@
             "attack1": {
                 "element": "Wind",
                 "cost": 1,
+                "element2": null,
+                "cost2": null,
                 "name": "Balloon Arrow",
                 "damage": 10,
                 "description": "During the opponent's next turn, their active character is not affected by stage effects."
@@ -226,6 +290,8 @@
             "attack2": {
                 "element": null,
                 "cost": null,
+                "element2": null,
+                "cost2": null,
                 "name": null,
                 "damage": null,
                 "description": null
@@ -245,6 +311,8 @@
             "attack1": {
                 "element": "Fire",
                 "cost": 1,
+                "element2": null,
+                "cost2": null,
                 "name": "Burning Burp",
                 "damage": 20,
                 "description": null
@@ -252,6 +320,8 @@
             "attack2": {
                 "element": "Omni",
                 "cost": 4,
+                "element2": null,
+                "cost2": null,
                 "name": "Girder Bend",
                 "damage": 50,
                 "description": null
@@ -271,6 +341,8 @@
             "attack1": {
                 "element": "Omni",
                 "cost": 1,
+                "element2": null,
+                "cost2": null,
                 "name": "Good Vibes",
                 "damage": "0+",
                 "description": "If the opposing card is negative or has negative energies on it, this attack deals 20 damage. Attach a positive energy to an allied card."
@@ -278,6 +350,8 @@
             "attack2": {
                 "element": "Positive",
                 "cost": 2,
+                "element2": null,
+                "cost2": null,
                 "name": "Adventure",
                 "damage": null,
                 "description": "Draw a random card from the draw deck"
@@ -297,6 +371,8 @@
             "attack1": {
                 "element": "Omni",
                 "cost": 1,
+                "element2": null,
+                "cost2": null,
                 "name": "Swing",
                 "damage": 20,
                 "description": "If no other actions are used by the player during this turn than using this attack, this attack does +30 damage."
@@ -304,6 +380,8 @@
             "attack2": {
                 "element": "Omni & Negative",
                 "cost": "1 & 3",
+                "element2": null,
+                "cost2": null,
                 "name": "Shadow Clone",
                 "damage": null,
                 "description": "If the opponent attacks, during the opponent’s turn, sacrifice the energy that is not part of the three negative energies used in the attack, nullify the attack, do 40 Omni Damage, and move this card into the party."
@@ -323,6 +401,8 @@
             "attack1": {
                 "element": "Frost",
                 "cost": 2,
+                "element2": null,
+                "cost2": null,
                 "name": "Frost",
                 "damage": 30,
                 "description": null
@@ -330,6 +410,8 @@
             "attack2": {
                 "element": "Frost",
                 "cost": 4,
+                "element2": null,
+                "cost2": null,
                 "name": "Shiny Snowdrift",
                 "damage": 80,
                 "description": "The defending character is now paralyzed."
@@ -338,6 +420,36 @@
             "copyright": "Level 5",
             "rcost": 2,
             "image": "../Assets/ORCards/Character/Blizzaria.jpg"
+        },
+        "theboulder": {
+            "name": "The Boulder",
+            "indexname": "theboulder",
+            "archetype": "Character",
+            "element": "Earth",
+            "hitpoints": 110,
+            "ability": "The Boulder Has Conflictions -- This card ignores the secondary effects of attacks used on it.",
+            "attack1": {
+                "element": "Earth",
+                "cost": 2,
+                "element2": null,
+                "cost2": null,
+                "name": "Landslide",
+                "damage": 30,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "element2": null,
+                "cost2": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Avatar: The Last Airbender",
+            "copyright": "Nickelodeon",
+            "rcost": 5,
+            "image": "../Assets/ORCards/Character/TheBoulder.jpg"
         },
         "burnicewhite": {
             "name": "Burnice White",
@@ -349,6 +461,8 @@
             "attack1": {
                 "element": "Fire",
                 "cost": 2,
+                "element2": null,
+                "cost2": null,
                 "name": "Flaming Brew",
                 "damage": 20,
                 "description": "The defending characteris now burned."
@@ -356,6 +470,8 @@
             "attack2": {
                 "element": "Fire",
                 "cost": 5,
+                "element2": null,
+                "cost2": null,
                 "name": "Glorious Inferno",
                 "damage": 90,
                 "description": "Every card in both parties take 20 fire damage, excluding active cards."
@@ -376,6 +492,8 @@
             "attack1": {
                 "element": "Frost",
                 "cost": 1,
+                "element2": null,
+                "cost2": null,
                 "name": "Leave it to me!",
                 "damage": 20,
                 "description": null
@@ -383,9 +501,11 @@
             "attack2": {
                 "element": "Frost",
                 "cost": 3,
+                "element2": null,
+                "cost2": null,
                 "name": "Together, Mem!",
                 "damage": 50,
-                "description": "If the Mem summon is in play, deal 20 damage to the opponents party characters."
+                "description": "If the Mem summon is in play, deal 20 damage to the opponent's party characters."
             },
             "series": "Honkai: Star Rail",
             "copyright": "HoYoverse",
@@ -402,6 +522,8 @@
             "attack1": {
                 "element": "Omni",
                 "cost": 1,
+                "element2": null,
+                "cost2": null,
                 "name": "Slash",
                 "damage": 10,
                 "description": null
@@ -409,6 +531,8 @@
             "attack2": {
                 "element": "Electricity",
                 "cost": 5,
+                "element2": null,
+                "cost2": null,
                 "name": "Lightning bolt",
                 "damage": 70,
                 "description": "Discard all but 1 energy from this card and paralyze the opponent."
@@ -428,6 +552,8 @@
             "attack1": {
                 "element": "Water",
                 "cost": 1,
+                "element2": null,
+                "cost2": null,
                 "name": "Cata-Flip",
                 "damage": 20,
                 "description": "If this attack is successful, the opponent swaps the active card with a character in the party."
@@ -435,6 +561,8 @@
             "attack2": {
                 "element": null,
                 "cost": null,
+                "element2": null,
+                "cost2": null,
                 "name": null,
                 "damage": null,
                 "description": null
@@ -454,6 +582,8 @@
             "attack1": {
                 "element": "Fire",
                 "cost": 3,
+                "element2": null,
+                "cost2": null,
                 "name": "Lava Dive",
                 "damage": 50,
                 "description": null
@@ -461,6 +591,8 @@
             "attack2": {
                 "element": "Fire",
                 "cost": 7,
+                "element2": null,
+                "cost2": null,
                 "name": "Molten Monster",
                 "damage": "80+",
                 "description": "Discard all energies from this card. If the stage boosts the power of fire moves, this attack does +50 damage."
@@ -480,6 +612,8 @@
             "attack1": {
                 "element": "Biological",
                 "cost": 1,
+                "element2": null,
+                "cost2": null,
                 "name": "Chompy Army",
                 "damage": "10+",
                 "description": "Deal 10 damage for each additional Biological energy on this card."
@@ -487,6 +621,8 @@
             "attack2": {
                 "element": "Omni & Biological",
                 "cost": "1 & 2",
+                "element2": null,
+                "cost2": null,
                 "name": "Elemental Chompy",
                 "damage": 30,
                 "description": "sacrifice an energy to deal damage of that respective energy."
@@ -506,6 +642,8 @@
             "attack1": {
                 "element": "Omni",
                 "cost": 1,
+                "element2": null,
+                "cost2": null,
                 "name": "Steel Bow",
                 "damage": null,
                 "description": "This attack does 20 damage to an opposing party member of your choice."
@@ -513,6 +651,8 @@
             "attack2": {
                 "element": "Omni & Wind",
                 "cost": "1 & 1",
+                "element2": null,
+                "cost2": null,
                 "name": "Gusty Arrow",
                 "damage": 30,
                 "description": "Swap the defending character with a party member (the opponent can pick which one)."
@@ -532,6 +672,8 @@
             "attack1": {
                 "element": "Wind",
                 "cost": 3,
+                "element2": null,
+                "cost2": null,
                 "name": "Failnaught",
                 "damage": "70+",
                 "description": "You may discard a wind energy from this card, if you do, this attack does 30 more damage to the opponent’s active character and 30 damage to the party member directly behind the active slot."
@@ -539,6 +681,8 @@
             "attack2": {
                 "element": null,
                 "cost": null,
+                "element2": null,
+                "cost2": null,
                 "name": null,
                 "damage": null,
                 "description": null
@@ -558,6 +702,8 @@
             "attack1": {
                 "element": "Time & Omni",
                 "cost": "1 & 1",
+                "element2": null,
+                "cost2": null,
                 "name": "Clockwork",
                 "damage": null,
                 "description": "Discard an energy from this card, Select an energy type (Excluding Omni). For the next 6 turns, The chosen element on the card (Card type, energies required for moves and abilities) will be treated as the changed element."
@@ -565,6 +711,8 @@
             "attack2": {
                 "element": null,
                 "cost": null,
+                "element2": null,
+                "cost2": null,
                 "name": null,
                 "damage": null,
                 "description": null
@@ -584,6 +732,8 @@
             "attack1": {
                 "element": "Digital",
                 "cost": 1,
+                "element2": null,
+                "cost2": null,
                 "name": "Call for Help",
                 "damage": null,
                 "description": "Search your hand for any Tech card and place it into an empty party slot."
@@ -591,6 +741,8 @@
             "attack2": {
                 "element": "Digital",
                 "cost": 2,
+                "element2": null,
+                "cost2": null,
                 "name": "Delete",
                 "damage": 60,
                 "description": null
@@ -610,6 +762,8 @@
             "attack1": {
                 "element": "Digital",
                 "cost": 1,
+                "element2": null,
+                "cost2": null,
                 "name": "Byte",
                 "damage": 20,
                 "description": null
@@ -617,6 +771,8 @@
             "attack2": {
                 "element": null,
                 "cost": null,
+                "element2": null,
+                "cost2": null,
                 "name": null,
                 "damage": null,
                 "description": null
@@ -637,6 +793,8 @@
             "attack1": {
                 "element": "Positive",
                 "cost": 1,
+                "element2": null,
+                "cost2": null,
                 "name": "Knight Swing",
                 "damage": 30,
                 "description": "Flip a coin ten times. If a single flip lands on tails, this attack does nothing."
@@ -644,6 +802,8 @@
             "attack2": {
                 "element": null,
                 "cost": null,
+                "element2": null,
+                "cost2": null,
                 "name": null,
                 "damage": null,
                 "description": null
@@ -663,6 +823,8 @@
             "attack1": {
                 "element": "Electricity",
                 "cost": 2,
+                "element2": null,
+                "cost2": null,
                 "name": "Conductive Gate",
                 "damage": "10+",
                 "description": "You may choose two opposing cards to use this attack on. If there is a card between them, that card takes 30 damage."
@@ -670,6 +832,8 @@
             "attack2": {
                 "element": "Electricity",
                 "cost": 5,
+                "element2": null,
+                "cost2": null,
                 "name": "Overdrive",
                 "damage": 100,
                 "description": "Discard all energies from this card. This card is now confused."
@@ -689,6 +853,8 @@
             "attack1": {
                 "element": "Omni",
                 "cost": 1,
+                "element2": null,
+                "cost2": null,
                 "name": "Steel Spear",
                 "damage": 20,
                 "description": null
@@ -696,6 +862,8 @@
             "attack2": {
                 "element": "Omni & Electricity",
                 "cost": "1 & 1",
+                "element2": null,
+                "cost2": null,
                 "name": "Shocking Spear",
                 "damage": 30,
                 "description": "This attack paralyzes and does 20 damage to a party member of your choice."
@@ -715,6 +883,8 @@
             "attack1": {
                 "element": "Electricity",
                 "cost": 2,
+                "element2": null,
+                "cost2": null,
                 "name": "Areadbhar",
                 "damage": "50+",
                 "description": "This attack does 10 extra damage for every basic character in the discard pile."
@@ -722,6 +892,8 @@
             "attack2": {
                 "element": null,
                 "cost": null,
+                "element2": null,
+                "cost2": null,
                 "name": null,
                 "damage": null,
                 "description": null
@@ -741,6 +913,8 @@
             "attack1": {
                 "element": "Time",
                 "cost": 2,
+                "element2": null,
+                "cost2": null,
                 "name": "Road Roller",
                 "damage": "30+",
                 "description": "If this card has an item attached, discard the item. If you do, this attack does 30 extra damage."
@@ -748,6 +922,8 @@
             "attack2": {
                 "element": "Time",
                 "cost": 7,
+                "element2": null,
+                "cost2": null,
                 "name": "Za Warudo",
                 "damage": 100,
                 "description": "Flip a coin. If heads, skip your opponent’s next turn. Discard 3 energies from this character."
@@ -767,6 +943,8 @@
             "attack1": {
                 "element": "Omni",
                 "cost": 1,
+                "element2": null,
+                "cost2": null,
                 "name": "Stab",
                 "damage": 20,
                 "description": null
@@ -774,6 +952,8 @@
             "attack2": {
                 "element": null,
                 "cost": null,
+                "element2": null,
+                "cost2": null,
                 "name": null,
                 "damage": null,
                 "description": null
@@ -793,6 +973,8 @@
             "attack1": {
                 "element": "Digital",
                 "cost": 2,
+                "element2": null,
+                "cost2": null,
                 "name": "Absolute Solver",
                 "damage": null,
                 "description": "Select a random card from the opponent’s hand to shuffle back into their deck, can not be used consecutively."
@@ -800,6 +982,8 @@
             "attack2": {
                 "element": "Digital",
                 "cost": 4,
+                "element2": null,
+                "cost2": null,
                 "name": "Knife Barrage",
                 "damage": "20x",
                 "description": "Flip a coin 7 times, multiply the damage by how many times the coin lands on heads. Sacrifice two energies."
@@ -819,6 +1003,8 @@
             "attack1": {
                 "element": "Wind",
                 "cost": 2,
+                "element2": null,
+                "cost2": null,
                 "name": "Whirlwind Sprint",
                 "damage": 20,
                 "description": "This attack can be used while in the party spot. If used in the party spot, swap it and the active card and end your turn."
@@ -826,6 +1012,8 @@
             "attack2": {
                 "element": "Wind",
                 "cost": 4,
+                "element2": null,
+                "cost2": null,
                 "name": "Fus Ro Dah",
                 "damage": null,
                 "description": "Flip a coin for the active card and all cards in the opponent’s party. If every coin lands on heads, send every opposing character to the opposing player’s hand. This does not allow you to draw prize cards. The opponent may put one character back in play without energies or Items."
@@ -845,6 +1033,8 @@
             "attack1": {
                 "element": "Omni",
                 "cost": 1,
+                "element2": null,
+                "cost2": null,
                 "name": "Trap",
                 "damage": null,
                 "description": "Paralyze the opponent's active card."
@@ -852,6 +1042,8 @@
             "attack2": {
                 "element": "Fire",
                 "cost": 3,
+                "element2": null,
+                "cost2": null,
                 "name": "Inator Beam",
                 "damage": 50,
                 "description": "Choose whether to Blind, Burn, Confuse, Poison, Paralyze, or put to sleep the opponent’s active card."
@@ -871,6 +1063,8 @@
             "attack1": {
                 "element": "Earth",
                 "cost": 4,
+                "element2": null,
+                "cost2": null,
                 "name": "Drill",
                 "damage": "30*",
                 "description": "Flip coins until you get tails, do 30 damage for each heads."
@@ -878,6 +1072,8 @@
             "attack2": {
                 "element": null,
                 "cost": null,
+                "element2": null,
+                "cost2": null,
                 "name": null,
                 "damage": null,
                 "description": null
@@ -897,6 +1093,8 @@
             "attack1": {
                 "element": "Earth",
                 "cost": 1,
+                "element2": null,
+                "cost2": null,
                 "name": "Mold of Idolatry",
                 "damage": null,
                 "description": "The opponent’s active card can not perform a move in the following turn."
@@ -904,6 +1102,8 @@
             "attack2": {
                 "element": "Earth",
                 "cost": 4,
+                "element2": null,
+                "cost2": null,
                 "name": "Syllogistic Paradox",
                 "damage": 120,
                 "description": "Paralyze the opponent’s active card, discard all energies from this card."
@@ -923,6 +1123,8 @@
             "attack1": {
                 "element": "Omni",
                 "cost": 1,
+                "element2": null,
+                "cost2": null,
                 "name": "Jumping Clothesline",
                 "damage": 20,
                 "description": null
@@ -930,6 +1132,8 @@
             "attack2": {
                 "element": "Earth",
                 "cost": 3,
+                "element2": null,
+                "cost2": null,
                 "name": "Rock Bottom",
                 "damage": 40,
                 "description": "Blind the opponent."
@@ -950,6 +1154,8 @@
             "attack1": {
                 "element": "Omni",
                 "cost": 2,
+                "element2": null,
+                "cost2": null,
                 "name": "Steel Axe",
                 "damage": 40,
                 "description": null
@@ -957,6 +1163,8 @@
             "attack2": {
                 "element": "Omni & Fire",
                 "cost": "1 & 2",
+                "element2": null,
+                "cost2": null,
                 "name": "Flaming Axe",
                 "damage": 50,
                 "description": "The defending character is now burned."
@@ -976,6 +1184,8 @@
             "attack1": {
                 "element": "Fire",
                 "cost": 3,
+                "element2": null,
+                "cost2": null,
                 "name": "Aymr",
                 "damage": 70,
                 "description": "Flip a coin. If heads, Edelgard EX can use a second attack. If this attack is triggered by Aymr, do not flip a coin."
@@ -983,6 +1193,8 @@
             "attack2": {
                 "element": null,
                 "cost": null,
+                "element2": null,
+                "cost2": null,
                 "name": null,
                 "damage": null,
                 "description": null
@@ -1002,6 +1214,8 @@
             "attack1": {
                 "element": "Earth",
                 "cost": 4,
+                "element2": null,
+                "cost2": null,
                 "name": "Stone Arms",
                 "damage": "40+",
                 "description": "Flip a coin. If heads, this attack does 20 extra damage."
@@ -1009,6 +1223,8 @@
             "attack2": {
                 "element": null,
                 "cost": null,
+                "element2": null,
+                "cost2": null,
                 "name": null,
                 "damage": null,
                 "description": null
@@ -1028,6 +1244,8 @@
             "attack1": {
                 "element": "Electricity",
                 "cost": 1,
+                "element2": null,
+                "cost2": null,
                 "name": "Blaster",
                 "damage": 40,
                 "description": null
@@ -1035,6 +1253,8 @@
             "attack2": {
                 "element": null,
                 "cost": null,
+                "element2": null,
+                "cost2": null,
                 "name": null,
                 "damage": null,
                 "description": null
@@ -1055,6 +1275,8 @@
             "attack1": {
                 "element": "Water",
                 "cost": 1,
+                "element2": null,
+                "cost2": null,
                 "name": "Ain't No Fin Like the Real Fin",
                 "damage": null,
                 "description": "This Move costs the sum of the minimum required amount of energies of all the party members. When used this move does the sum of the minimum for each attack of all the party characters."
@@ -1062,6 +1284,8 @@
             "attack2": {
                 "element": null,
                 "cost": null,
+                "element2": null,
+                "cost2": null,
                 "name": null,
                 "damage": null,
                 "description": null
@@ -1081,6 +1305,8 @@
             "attack1": {
                 "element": "Fire",
                 "cost": 1,
+                "element2": null,
+                "cost2": null,
                 "name": "Firework",
                 "damage": "20+",
                 "description": "If this attack would leave the opponent at 50hp or lower, this attack forces the defending character into the party, doing 30 damage to it and the others in the party. The opposing player can choose who to put in the active spot."
@@ -1088,6 +1314,8 @@
             "attack2": {
                 "element": null,
                 "cost": null,
+                "element2": null,
+                "cost2": null,
                 "name": null,
                 "damage": null,
                 "description": null
@@ -1107,6 +1335,8 @@
             "attack1": {
                 "element": "Water",
                 "cost": 1,
+                "element2": null,
+                "cost2": null,
                 "name": "The “Justice” that belongs to You",
                 "damage": null,
                 "description": "Heal 20 damage from all allied Cards, If this card has been attacked, heal twenty damage from it as well. Discard 1 energy from this card."
@@ -1114,6 +1344,8 @@
             "attack2": {
                 "element": null,
                 "cost": null,
+                "element2": null,
+                "cost2": null,
                 "name": null,
                 "damage": null,
                 "description": null
@@ -1133,6 +1365,8 @@
             "attack1": {
                 "element": "Water",
                 "cost": 1,
+                "element2": null,
+                "cost2": null,
                 "name": "Acting the part",
                 "damage": null,
                 "description": "This Card takes 20 less damage, but takes 30 damage if it does damage the next turn, Resets after 2 turns.."
@@ -1140,6 +1374,8 @@
             "attack2": {
                 "element": "Water",
                 "cost": 3,
+                "element2": null,
+                "cost2": null,
                 "name": "Flood",
                 "damage": 40,
                 "description": "Does 20 damage to all of the opponent's benched cards."
@@ -1160,6 +1396,8 @@
             "attack1": {
                 "element": "Negative",
                 "cost": 2,
+                "element2": null,
+                "cost2": null,
                 "name": "Silver Tongue",
                 "damage": null,
                 "description": "The opponent shuffles their hand into their deck and takes out an equivalent amount of cards. Discard an energy."
@@ -1167,6 +1405,8 @@
             "attack2": {
                 "element": "Omni",
                 "cost": 3,
+                "element2": null,
+                "cost2": null,
                 "name": "Word Play",
                 "damage": "30+",
                 "description": "Flip a coin, +30 if heads."
@@ -1186,6 +1426,8 @@
             "attack1": {
                 "element": "Wind",
                 "cost": 2,
+                "element2": null,
+                "cost2": null,
                 "name": "Hardened Air",
                 "damage": 30,
                 "description": "On the opponent’s next turn, attacks done to this card do -20 damage."
@@ -1193,6 +1435,8 @@
             "attack2": {
                 "element": null,
                 "cost": null,
+                "element2": null,
+                "cost2": null,
                 "name": null,
                 "damage": null,
                 "description": null
@@ -1212,6 +1456,8 @@
             "attack1": {
                 "element": "Digital",
                 "cost": 2,
+                "element2": null,
+                "cost2": null,
                 "name": "Rocket Turret",
                 "damage": 40,
                 "description": null
@@ -1219,6 +1465,8 @@
             "attack2": {
                 "element": "Omni & Digital",
                 "cost": "1 & 3",
+                "element2": null,
+                "cost2": null,
                 "name": "Cube Drop",
                 "damage": 100,
                 "description": "Discard two energies"
@@ -1238,6 +1486,8 @@
             "attack1": {
                 "element": "Omni",
                 "cost": 1,
+                "element2": null,
+                "cost2": null,
                 "name": "Trash Talk",
                 "damage": "0+",
                 "description": "Flip a coin, if heads, insult the opposition’s active character and deal 10 damage. If tails the attack fails"
@@ -1245,6 +1495,8 @@
             "attack2": {
                 "element": null,
                 "cost": null,
+                "element2": null,
+                "cost2": null,
                 "name": null,
                 "damage": null,
                 "description": null
@@ -1264,6 +1516,8 @@
             "attack1": {
                 "element": "Omni",
                 "cost": 1,
+                "element2": null,
+                "cost2": null,
                 "name": "Honk!",
                 "damage": null,
                 "description": "The opponent must shuffle their active card's item into their deck and switch out their active card for a benched card, if applicable."
@@ -1271,6 +1525,8 @@
             "attack2": {
                 "element": "Omni",
                 "cost": 1,
+                "element2": null,
+                "cost2": null,
                 "name": "Stab",
                 "damage": 20,
                 "description": null
@@ -1290,6 +1546,8 @@
             "attack1": {
                 "element": "Frost",
                 "cost": 1,
+                "element2": null,
+                "cost2": null,
                 "name": "multiply",
                 "damage": null,
                 "description": "Search the draw deck for a Frost character, put it in your hand and shuffle the deck."
@@ -1297,6 +1555,8 @@
             "attack2": {
                 "element": "Omni",
                 "cost": 1,
+                "element2": null,
+                "cost2": null,
                 "name": "Manipulate",
                 "damage": null,
                 "description": "Confuse the opponent"
@@ -1316,6 +1576,8 @@
             "attack1": {
                 "element": "Omni",
                 "cost": 3,
+                "element2": null,
+                "cost2": null,
                 "name": "Copy That",
                 "damage": null,
                 "description": "Given a sufficient amount of Energies, use an attack on the opponent’s active card. Deal 20 damage to this card."
@@ -1323,6 +1585,8 @@
             "attack2": {
                 "element": "Omni",
                 "cost": 4,
+                "element2": null,
+                "cost2": null,
                 "name": "I Can't Remember",
                 "damage": null,
                 "description": "Discard any cards attached to this one (Items and Energies) and fully heal this character."
@@ -1343,6 +1607,8 @@
             "attack1": {
                 "element": "Positive",
                 "cost": 1,
+                "element2": null,
+                "cost2": null,
                 "name": "Hopeful Flail",
                 "damage": 10,
                 "description": "Flip a coin. If tails, this attack does nothing."
@@ -1350,6 +1616,8 @@
             "attack2": {
                 "element": null,
                 "cost": null,
+                "element2": null,
+                "cost2": null,
                 "name": null,
                 "damage": null,
                 "description": null
@@ -1369,6 +1637,8 @@
             "attack1": {
                 "element": "Wind",
                 "cost": 3,
+                "element2": null,
+                "cost2": null,
                 "name": "A Song of Joy in Unprecedented Speed",
                 "damage": "30*",
                 "description": "Flip coins until you get a tails, do 30 damage for each heads, then flip a coin, if heads paralyze the opponent."
@@ -1376,6 +1646,8 @@
             "attack2": {
                 "element": "Wind",
                 "cost": 6,
+                "element2": null,
+                "cost2": null,
                 "name": "-Happy Ending-",
                 "damage": 120,
                 "description": "If this attack does more than enough damage to kill an opponent, heal the excess to all allied party members. Discard 4 energies."
@@ -1395,6 +1667,8 @@
             "attack1": {
                 "element": "Omni",
                 "cost": 1,
+                "element2": null,
+                "cost2": null,
                 "name": "Punch",
                 "damage": 30,
                 "description": null
@@ -1402,6 +1676,8 @@
             "attack2": {
                 "element": "Omni",
                 "cost": 1,
+                "element2": null,
+                "cost2": null,
                 "name": "Dust Infusion",
                 "damage": null,
                 "description": "Discard an energy and deal 30 damage to this card, until this attack is used again, this card will deal damage with the sacrificed energy element as well as Earth."
@@ -1421,6 +1697,8 @@
             "attack1": {
                 "element": "Biological",
                 "cost": 2,
+                "element2": null,
+                "cost2": null,
                 "name": "Bouncy punch",
                 "damage": 40,
                 "description": "This attack also does 10 damage to any one of the opponent’s benched characters."
@@ -1428,6 +1706,8 @@
             "attack2": {
                 "element": null,
                 "cost": null,
+                "element2": null,
+                "cost2": null,
                 "name": null,
                 "damage": null,
                 "description": null
@@ -1447,6 +1727,8 @@
             "attack1": {
                 "element": "Omni",
                 "cost": 1,
+                "element2": null,
+                "cost2": null,
                 "name": "Box",
                 "damage": null,
                 "description": "Flip a coin, if heads, takes no damage from the opponent."
@@ -1454,6 +1736,8 @@
             "attack2": {
                 "element": "Negative",
                 "cost": 2,
+                "element2": null,
+                "cost2": null,
                 "name": "Depressed Mumble",
                 "damage": "20*",
                 "description": "Flip a coin for each Negative energy on this card, do 20 damage for each heads."
@@ -1474,6 +1758,8 @@
             "attack1": {
                 "element": "Frost",
                 "cost": 1,
+                "element2": null,
+                "cost2": null,
                 "name": "Ice Arrow",
                 "damage": 10,
                 "description": "The defending character is now paralyzed."
@@ -1481,6 +1767,8 @@
             "attack2": {
                 "element": null,
                 "cost": null,
+                "element2": null,
+                "cost2": null,
                 "name": null,
                 "damage": null,
                 "description": null
@@ -1500,6 +1788,8 @@
             "attack1": {
                 "element": "Omni",
                 "cost": 1,
+                "element2": null,
+                "cost2": null,
                 "name": "Throw",
                 "damage": 10,
                 "description": null
@@ -1507,6 +1797,8 @@
             "attack2": {
                 "element": "Positive",
                 "cost": 4,
+                "element2": null,
+                "cost2": null,
                 "name": "Encorage",
                 "damage": null,
                 "description": "Automatically switch with a random party member, +20 to their next three attacks."
@@ -1526,6 +1818,8 @@
             "attack1": {
                 "element": "Omni",
                 "cost": 2,
+                "element2": null,
+                "cost2": null,
                 "name": "Ability Slash",
                 "damage": "30+",
                 "description": "If the defending character has an ability, this attack does 60 more damage."
@@ -1533,6 +1827,8 @@
             "attack2": {
                 "element": null,
                 "cost": null,
+                "element2": null,
+                "cost2": null,
                 "name": null,
                 "damage": null,
                 "description": null
@@ -1552,6 +1848,8 @@
             "attack1": {
                 "element": "Earth",
                 "cost": 4,
+                "element2": null,
+                "cost2": null,
                 "name": "Launch",
                 "damage": 50,
                 "description": "Flip a coin until you get heads, discard the amount of energies equal to the amount of tails. The opponent mus switch their active card for a party card, unless they have none."
@@ -1559,6 +1857,8 @@
             "attack2": {
                 "element": null,
                 "cost": null,
+                "element2": null,
+                "cost2": null,
                 "name": null,
                 "damage": null,
                 "description": null
@@ -1579,6 +1879,8 @@
             "attack1": {
                 "element": "Frost",
                 "cost": 3,
+                "element2": null,
+                "cost2": null,
                 "name": "Rage Axe",
                 "damage": "50+",
                 "description": "If this card has any damage counters on it, this attack does 40 more damage."
@@ -1586,6 +1888,8 @@
             "attack2": {
                 "element": null,
                 "cost": null,
+                "element2": null,
+                "cost2": null,
                 "name": null,
                 "damage": null,
                 "description": null
@@ -1605,6 +1909,8 @@
             "attack1": {
                 "element": "Digital",
                 "cost": 1,
+                "element2": null,
+                "cost2": null,
                 "name": "Replace",
                 "damage": null,
                 "description": "Flip a coin, if heads, shuffle the discard pile and draw the bottom card."
@@ -1612,6 +1918,8 @@
             "attack2": {
                 "element": null,
                 "cost": null,
+                "element2": null,
+                "cost2": null,
                 "name": null,
                 "damage": null,
                 "description": null
@@ -1632,6 +1940,8 @@
             "attack1": {
                 "element": "Electricity",
                 "cost": 1,
+                "element2": null,
+                "cost2": null,
                 "name": "Mercy is not Forgiveness",
                 "damage": "30+",
                 "description": "Deal 20 damage to all of the opponent’s party characters. Flip a coin, if heads paralyze the opponent’s active card. If the opponent’s active card is paralyzed, this attack does +20 damage to all cards."
@@ -1639,6 +1949,8 @@
             "attack2": {
                 "element": "Electricity",
                 "cost": 4,
+                "element2": null,
+                "cost2": null,
                 "name": "Twilight Twirl",
                 "damage": 120,
                 "description": "Deal 50 damage to the opponent’s party cards and applicable summons, discard all energies from this card."
@@ -1658,6 +1970,8 @@
             "attack1": {
                 "element": "Wind",
                 "cost": 1,
+                "element2": null,
+                "cost2": null,
                 "name": "Dance of Blades",
                 "damage": 30,
                 "description": null
@@ -1665,6 +1979,8 @@
             "attack2": {
                 "element": "Wind",
                 "cost": 3,
+                "element2": null,
+                "cost2": null,
                 "name": "Dance of the Dragon",
                 "damage": 70,
                 "description": "Discard 2 energies, the opponent must switch out their active card with a party card. (If Applicable)"
@@ -1684,6 +2000,8 @@
             "attack1": {
                 "element": "Frost",
                 "cost": 5,
+                "element2": null,
+                "cost2": null,
                 "name": "Genki Desu ka Eureka",
                 "damage": "70*",
                 "description": "Flip 3 coins, for each coin do 70 damage to a unique character card on the opponent’s side. If the opponent has less than three characters, land as many hits as both the coins and the Opponent's characters can permit."
@@ -1691,6 +2009,8 @@
             "attack2": {
                 "element": null,
                 "cost": null,
+                "element2": null,
+                "cost2": null,
                 "name": null,
                 "damage": null,
                 "description": null
@@ -1710,6 +2030,8 @@
             "attack1": {
                 "element": "Negative",
                 "cost": 4,
+                "element2": null,
+                "cost2": null,
                 "name": "The Hammer of Injustice",
                 "damage": "50+",
                 "description": "The opponent can opt to sacrifice up to 6 energies from their active card, at the sacrifice of any amount, attach an equal amount of energies to this card and roll a D6, every number up to the amount of sacrificed energies make this attack fail, If this attack succeeds, Do 50 extra damage for each energy attached to the opponent's card. Discard 4 energies."
@@ -1717,6 +2039,8 @@
             "attack2": {
                 "element": "Negative",
                 "cost": 2,
+                "element2": null,
+                "cost2": null,
                 "name": "Judgment of Sin",
                 "damage": 30,
                 "description": "If the opponent’s card has Negative energy attached, deal +40 Omni damage. Discard 2 energies."
@@ -1736,6 +2060,8 @@
             "attack1": {
                 "element": "Frost",
                 "cost": 2,
+                "element2": null,
+                "cost2": null,
                 "name": "Hyouka",
                 "damage": 30,
                 "description": "Paralyze the opponent's active card."
@@ -1743,6 +2069,8 @@
             "attack2": {
                 "element": "Frost",
                 "cost": 4,
+                "element2": null,
+                "cost2": null,
                 "name": "Soumetsu",
                 "damage": 60,
                 "description": "Deal 30 damage to the opponent’s party 2. Paralyze The opponent’s active and party 2 card. Discard 4 energies."
@@ -1762,6 +2090,8 @@
             "attack1": {
                 "element": "Water",
                 "cost": 2,
+                "element2": null,
+                "cost2": null,
                 "name": "Kyouka",
                 "damage": "30*",
                 "description": "Flip a coin for each energy on this card, for each heads do 30 damage to the opponent’s Active card."
@@ -1769,6 +2099,8 @@
             "attack2": {
                 "element": "Water",
                 "cost": 6,
+                "element2": null,
+                "cost2": null,
                 "name": "Suiyuu",
                 "damage": null,
                 "description": "Roll a D6 , for the amount of turns provided by the die, deal 60 Water damage to all applicable cards on the opponent’s side. Discard all energies from this card."
@@ -1788,6 +2120,8 @@
             "attack1": {
                 "element": "Water",
                 "cost": 1,
+                "element2": null,
+                "cost2": null,
                 "name": "Water Whip",
                 "damage": 10,
                 "description": null
@@ -1795,6 +2129,8 @@
             "attack2": {
                 "element": "Water & Negative",
                 "cost": "2 & 1",
+                "element2": null,
+                "cost2": null,
                 "name": "Blood",
                 "damage": 3,
                 "description": "On your opponent's next turn, the turn, the defending character can not atttack"
@@ -1814,6 +2150,8 @@
             "attack1": {
                 "element": "Digital",
                 "cost": 1,
+                "element2": null,
+                "cost2": null,
                 "name": "Can I see your Face?",
                 "damage": null,
                 "description": "The opponent must show a card in their hand"
@@ -1821,6 +2159,8 @@
             "attack2": {
                 "element": "Digital",
                 "cost": 3,
+                "element2": null,
+                "cost2": null,
                 "name": "Administrative Access",
                 "damage": 50,
                 "description": "Look at the opponent’s top 5 cards in their draw deck, then place them however you please within their draw deck. Discard 2 energies."
@@ -1840,6 +2180,8 @@
             "attack1": {
                 "element": "Wind",
                 "cost": 2,
+                "element2": null,
+                "cost2": null,
                 "name": "Inhale attack",
                 "damage": 40,
                 "description": "Discard all summons and Items on the field, including allied summons and Items."
@@ -1847,6 +2189,8 @@
             "attack2": {
                 "element": "Omni & Wind",
                 "cost": "1 & 3",
+                "element2": null,
+                "cost2": null,
                 "name": "Copy Ability",
                 "damage": 50,
                 "description": "Discard an energy and deal that element’s damage respectively as well as wind."
@@ -1866,6 +2210,8 @@
             "attack1": {
                 "element": "Water",
                 "cost": 4,
+                "element2": null,
+                "cost2": null,
                 "name": "Oh Yeah!",
                 "damage": 80,
                 "description": "This attack ignores any damage modifiers that would lower its damage."
@@ -1873,6 +2219,8 @@
             "attack2": {
                 "element": null,
                 "cost": null,
+                "element2": null,
+                "cost2": null,
                 "name": null,
                 "damage": null,
                 "description": null
@@ -1893,6 +2241,8 @@
             "attack1": {
                 "element": "Omni",
                 "cost": 1,
+                "element2": null,
+                "cost2": null,
                 "name": "On All Things Meditated",
                 "damage": null,
                 "description": "Take an Item from your Draw deck"
@@ -1900,6 +2250,8 @@
             "attack2": {
                 "element": "Biological",
                 "cost": 2,
+                "element2": null,
+                "cost2": null,
                 "name": "Mind Read",
                 "damage": 20,
                 "description": "The opponent must show their Hand"
@@ -1919,6 +2271,8 @@
             "attack1": {
                 "element": "Electricity",
                 "cost": 1,
+                "element2": null,
+                "cost2": null,
                 "name": "Bolt",
                 "damage": 40,
                 "description": "Choose opposing party members to do 30, 20, and 10 damage respectively."
@@ -1926,6 +2280,8 @@
             "attack2": {
                 "element": null,
                 "cost": null,
+                "element2": null,
+                "cost2": null,
                 "name": null,
                 "damage": null,
                 "description": null
@@ -1945,6 +2301,8 @@
             "attack1": {
                 "element": "Negative",
                 "cost": 1,
+                "element2": null,
+                "cost2": null,
                 "name": "Serve",
                 "damage": 10,
                 "description": null
@@ -1952,6 +2310,8 @@
             "attack2": {
                 "element": null,
                 "cost": null,
+                "element2": null,
+                "cost2": null,
                 "name": null,
                 "damage": null,
                 "description": null
@@ -1972,6 +2332,8 @@
             "attack1": {
                 "element": "Positive",
                 "cost": 4,
+                "element2": null,
+                "cost2": null,
                 "name": "Impressive Flexing",
                 "damage": 60,
                 "description": null
@@ -1979,6 +2341,8 @@
             "attack2": {
                 "element": null,
                 "cost": null,
+                "element2": null,
+                "cost2": null,
                 "name": null,
                 "damage": null,
                 "description": null
@@ -1998,6 +2362,8 @@
             "attack1": {
                 "element": "Omni",
                 "cost": 1,
+                "element2": null,
+                "cost2": null,
                 "name": "Imitate",
                 "damage": null,
                 "description": "Imitate the opponent’s last move, given that this card has the appropriate energy to do so."
@@ -2005,6 +2371,8 @@
             "attack2": {
                 "element": "Negative",
                 "cost": 3,
+                "element2": null,
+                "cost2": null,
                 "name": "Laser",
                 "damage": 50,
                 "description": "Do 50 damage to the opponent’s active character and, if applicable, the character behind it as well. Discard 2 energies from this card."
@@ -2024,6 +2392,8 @@
             "attack1": {
                 "element": "Fire",
                 "cost": 1,
+                "element2": null,
+                "cost2": null,
                 "name": "Doughnuts",
                 "damage": 30,
                 "description": "Deal 30 damage to the opponent's party characters."
@@ -2031,6 +2401,8 @@
             "attack2": {
                 "element": "Fire",
                 "cost": 4,
+                "element2": null,
+                "cost2": null,
                 "name": "Ring of Searing Radiance",
                 "damage": "60+",
                 "description": "Burn the opponent’s active card. If the opponent’s active card is burned, this attack does 40 extra damage."
@@ -2050,6 +2422,8 @@
             "attack1": {
                 "element": "Fire",
                 "cost": 5,
+                "element2": null,
+                "cost2": null,
                 "name": "Explosion",
                 "damage": 300,
                 "description": "If this attack is successful, discard all energies from this card. This card can not use held items, retreat, use energies, or use this move until it is knocked out."
@@ -2057,6 +2431,8 @@
             "attack2": {
                 "element": null,
                 "cost": null,
+                "element2": null,
+                "cost2": null,
                 "name": null,
                 "damage": null,
                 "description": null
@@ -2076,6 +2452,8 @@
             "attack1": {
                 "element": "Fire",
                 "cost": 2,
+                "element2": null,
+                "cost2": null,
                 "name": "Dragon Arm",
                 "damage": null,
                 "description": "This attack does 30 fire damage to a party member of your choice."
@@ -2083,6 +2461,8 @@
             "attack2": {
                 "element": "Electricity",
                 "cost": 2,
+                "element2": null,
+                "cost2": null,
                 "name": "Megawatt Arm",
                 "damage": null,
                 "description": "This attack does 30 electric damage to a party member of your choice."
@@ -2102,6 +2482,8 @@
             "attack1": {
                 "element": "Water",
                 "cost": 1,
+                "element2": null,
+                "cost2": null,
                 "name": "Acid Step",
                 "damage": 20,
                 "description": "The opposing character is now poisoned."
@@ -2109,6 +2491,8 @@
             "attack2": {
                 "element": "Water",
                 "cost": 3,
+                "element2": null,
+                "cost2": null,
                 "name": "Breakdance",
                 "damage": "40+",
                 "description": "Flip a coin for each character in the opponent’s party. If heads, the respective characters are now poisoned. If a character is poisoned, this attack does 20 extra damage."
@@ -2128,6 +2512,8 @@
             "attack1": {
                 "element": "Omni",
                 "cost": 1,
+                "element2": null,
+                "cost2": null,
                 "name": "Dalek Shove",
                 "damage": 20,
                 "description": "Paralyze the opponent"
@@ -2135,6 +2521,8 @@
             "attack2": {
                 "element": null,
                 "cost": null,
+                "element2": null,
+                "cost2": null,
                 "name": null,
                 "damage": null,
                 "description": null
@@ -2154,6 +2542,8 @@
             "attack1": {
                 "element": "Time",
                 "cost": 1,
+                "element2": null,
+                "cost2": null,
                 "name": "Time Twister",
                 "damage": null,
                 "description": "Swap this card with a character in your party. Flip a coin. If heads, the swapped character can attack on this turn."
@@ -2161,6 +2551,8 @@
             "attack2": {
                 "element": "Time",
                 "cost": 2,
+                "element2": null,
+                "cost2": null,
                 "name": "TVA Tech",
                 "damage": 20,
                 "description": "Flip a coin. If heads, the defending character is now paralyzed."
@@ -2180,6 +2572,8 @@
             "attack1": {
                 "element": "Earth",
                 "cost": 3,
+                "element2": null,
+                "cost2": null,
                 "name": "Sandy Maw",
                 "damage": 70,
                 "description": "On your opponent's next turn, the active card cannot retreat."
@@ -2187,6 +2581,8 @@
             "attack2": {
                 "element": null,
                 "cost": null,
+                "element2": null,
+                "cost2": null,
                 "name": null,
                 "damage": null,
                 "description": null
@@ -2206,6 +2602,8 @@
             "attack1": {
                 "element": "Omni",
                 "cost": 1,
+                "element2": null,
+                "cost2": null,
                 "name": "Scribble",
                 "damage": 20,
                 "description": null
@@ -2213,6 +2611,8 @@
             "attack2": {
                 "element": "Omni",
                 "cost": 3,
+                "element2": null,
+                "cost2": null,
                 "name": "Thorough Research",
                 "damage": 30,
                 "description": "Apply the weaknesses and resistances of the energies attatched to this card against the opponent."
@@ -2232,6 +2632,8 @@
             "attack1": {
                 "element": "Digital",
                 "cost": 1,
+                "element2": null,
+                "cost2": null,
                 "name": "Code Search",
                 "damage": null,
                 "description": "Search the top three cards of your deck. Select a card and place it in your hand. Shuffle the other two cards back into your deck."
@@ -2239,6 +2641,8 @@
             "attack2": {
                 "element": "Digital",
                 "cost": 5,
+                "element2": null,
+                "cost2": null,
                 "name": "Your Reality",
                 "damage": 130,
                 "description": "Discard 3 energies from this character."
@@ -2258,6 +2662,8 @@
             "attack1": {
                 "element": "Negative",
                 "cost": 3,
+                "element2": null,
+                "cost2": null,
                 "name": "Vow of Voyage",
                 "damage": 30,
                 "description": "Deal 10 damage to Mydei, Flip a coin for every energy on this card, every tails, remove 1 energy."
@@ -2265,6 +2671,8 @@
             "attack2": {
                 "element": null,
                 "cost": null,
+                "element2": null,
+                "cost2": null,
                 "name": null,
                 "damage": null,
                 "description": null
@@ -2284,6 +2692,8 @@
             "attack1": {
                 "element": "Negative",
                 "cost": 4,
+                "element2": null,
+                "cost2": null,
                 "name": "Kingslayer be King",
                 "damage": 90,
                 "description": "Flip a coin, if tails remove two energies"
@@ -2291,6 +2701,8 @@
             "attack2": {
                 "element": null,
                 "cost": null,
+                "element2": null,
+                "cost2": null,
                 "name": null,
                 "damage": null,
                 "description": null
@@ -2311,6 +2723,8 @@
             "attack1": {
                 "element": "Biological",
                 "cost": 5,
+                "element2": null,
+                "cost2": null,
                 "name": "Time Loop",
                 "damage": "10*",
                 "description": "Flip coins until you get tails, then do 10 times 2 to the power of the ammount of heads. Discard two energies."
@@ -2318,6 +2732,8 @@
             "attack2": {
                 "element": "Biological",
                 "cost": 3,
+                "element2": null,
+                "cost2": null,
                 "name": "Mass Dream",
                 "damage": "30+",
                 "description": "Flip a coin for each card on the field, for every heads put the respective card (Left to Right, Top to Bottom, from this card's player's perspective) to sleep, for each sleeping character after the coin flips, add 30 damage."
@@ -2337,6 +2753,8 @@
             "attack1": {
                 "element": "Omni",
                 "cost": 1,
+                "element2": null,
+                "cost2": null,
                 "name": "Mice",
                 "damage": 20,
                 "description": null
@@ -2344,6 +2762,8 @@
             "attack2": {
                 "element": "Earth",
                 "cost": 3,
+                "element2": null,
+                "cost2": null,
                 "name": "Finding",
                 "damage": "*40",
                 "description": "Flip coins equivalent to the amount of energy on this card until you reach tails, deal 40 damage for the character that can be hit with the highest health on the opponent's side, as of each hit, Discard the energies equivalent to the ammount of heads."
@@ -2363,6 +2783,8 @@
             "attack1": {
                 "element": "Negative",
                 "cost": 3,
+                "element2": null,
+                "cost2": null,
                 "name": "Heavy Slash",
                 "damage": 40,
                 "description": null
@@ -2370,6 +2792,8 @@
             "attack2": {
                 "element": "Negative",
                 "cost": 4,
+                "element2": null,
+                "cost2": null,
                 "name": "Soul Harvest",
                 "damage": 70,
                 "description": "Heal 30 damage from this character."
@@ -2389,6 +2813,8 @@
             "attack1": {
                 "element": "Omni",
                 "cost": 1,
+                "element2": null,
+                "cost2": null,
                 "name": "Call For Friends",
                 "damage": null,
                 "description": "Search your deck for a basic character. Show the opponent the character and put it in your hand."
@@ -2396,6 +2822,8 @@
             "attack2": {
                 "element": "Electricity & Omni",
                 "cost": "2 & 2",
+                "element2": null,
+                "cost2": null,
                 "name": "Steady Beat",
                 "damage": "20+",
                 "description": "Flip a coin 3 times. This attack does 20 extra damage for each heads."
@@ -2412,10 +2840,12 @@
             "archetype": "Character",
             "element": "Positive",
             "hitpoints": 170,
-            "ability": "Honed Force -- When this card's health is lowered to 0, all energies attached to this card are distributrd to the allied cards in the party.",
+            "ability": "Honed Force -- When this card's health is lowered to 0, all energies attached to this card are distributed to the allied cards in the party.",
             "attack1": {
                 "element": "Positive",
                 "cost": 2,
+                "element2": null,
+                "cost2": null,
                 "name": "Force Push",
                 "damage": 30,
                 "description": null
@@ -2423,6 +2853,8 @@
             "attack2": {
                 "element": "Positive",
                 "cost": 5,
+                "element2": null,
+                "cost2": null,
                 "name": "Lightsaber Slash",
                 "damage": "60+",
                 "description": "This attack does +30 extra damageto opposing digital or negative characters."
@@ -2442,6 +2874,8 @@
             "attack1": {
                 "element": "Omni",
                 "cost": 2,
+                "element2": null,
+                "cost2": null,
                 "name": "Armstrong Sword",
                 "damage": 60,
                 "description": "This Attack ignores damage decreases, but does not ignore damage nullifications."
@@ -2449,6 +2883,8 @@
             "attack2": {
                 "element": null,
                 "cost": null,
+                "element2": null,
+                "cost2": null,
                 "name": null,
                 "damage": null,
                 "description": null
@@ -2469,6 +2905,8 @@
             "attack1": {
                 "element": "Positive",
                 "cost": 1,
+                "element2": null,
+                "cost2": null,
                 "name": "Whitelighter Heal",
                 "damage": null,
                 "description": "Heal 30 hp from an allied party member."
@@ -2476,6 +2914,8 @@
             "attack2": {
                 "element": "Positive",
                 "cost": 2,
+                "element2": null,
+                "cost2": null,
                 "name": "Telekinetic Orbing",
                 "damage": 10,
                 "description": "Discard the opponnent's attached item card. If you do, apply its effects for this attack."
@@ -2495,6 +2935,8 @@
             "attack1": {
                 "element": "Electricity",
                 "cost": 1,
+                "element2": null,
+                "cost2": null,
                 "name": "Taser",
                 "damage": 20,
                 "description": "The defending card is now paralyzed."
@@ -2502,6 +2944,8 @@
             "attack2": {
                 "element": "Electricity",
                 "cost": 3,
+                "element2": null,
+                "cost2": null,
                 "name": "Elevator Drop",
                 "damage": 50,
                 "description": "The defending card must swap with a party card. The entering party card takes 10 damage. Retreat this card to the party."
@@ -2521,6 +2965,8 @@
             "attack1": {
                 "element": "Omni",
                 "cost": 1,
+                "element2": null,
+                "cost2": null,
                 "name": "Chomp",
                 "damage": 20,
                 "description": null
@@ -2528,6 +2974,8 @@
             "attack2": {
                 "element": null,
                 "cost": null,
+                "element2": null,
+                "cost2": null,
                 "name": null,
                 "damage": null,
                 "description": null
@@ -2547,6 +2995,8 @@
             "attack1": {
                 "element": "Biological",
                 "cost": 2,
+                "element2": null,
+                "cost2": null,
                 "name": "Cage Snare",
                 "damage": 20,
                 "description": "Take two opposing bench characters. Until this card doesn't use Cage Snare, any attacks used against this card also do half damage to the bench cards selected."
@@ -2554,6 +3004,8 @@
             "attack2": {
                 "element": "Biological",
                 "cost": 4,
+                "element2": null,
+                "cost2": null,
                 "name": "Toxic Belch",
                 "damage": 90,
                 "description": "The defending card is now poisoned."
@@ -2563,1338 +3015,1331 @@
             "rcost": 5,
             "image": "../Assets/ORCards/Character/PeteyPiranhaEX.jpg"
         },
-
-        "pybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
+        "philipjfry": {
+            "name": "Philip J. Fry",
+            "indexname": "philipjfry",
             "archetype": "Character",
             "element": "Digital",
-            "hitpoints": 60,
-            "ability": null,
+            "hitpoints": 80,
+            "ability": "A Series of Oddly Fortunate Events -- Discard an energy and flip a coin, if heads, every coin flip in the turn will be considered a heads until the total reaches 20 flips.",
             "attack1": {
-                "element": "Digital",
+                "element": "Omni",
                 "cost": 1,
-                "name": "Byte",
-                "damage": 20,
+                "element2": null,
+                "cost2": null,
+                "name": "Flail",
+                "damage": 10,
                 "description": null
             },
             "attack2": {
                 "element": null,
                 "cost": null,
+                "element2": null,
+                "cost2": null,
                 "name": null,
                 "damage": null,
                 "description": null
             },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+            "series": "Futurama",
+            "copyright": "20th Century Fox",
+            "rcost": 2,
+            "image": "../Assets/ORCards/Character/PhilipJFry.jpg"
         },
-        "pybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
+        "phoebehalliwell": {
+            "name": "Phoebe Halliwell",
+            "indexname": "phoebehalliwell",
             "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
-            "ability": null,
+            "element": "Positive",
+            "hitpoints": 100,
+            "ability": "Power of Three -- If “Piper Halliwell” and “Piper Halliwell” are both in the party, attacks from this card do +30 damage.",
             "attack1": {
-                "element": "Digital",
+                "element": "Positive",
                 "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
+                "element2": null,
+                "cost2": null,
+                "name": "Power Deviation",
+                "damage": 10,
+                "description": "On the opponent's next turn, attacks done to this card also do half of the total damage to the attacking card rounded down."
             },
             "attack2": {
                 "element": null,
                 "cost": null,
+                "element2": null,
+                "cost2": null,
                 "name": null,
                 "damage": null,
                 "description": null
             },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+            "series": "Charmed",
+            "copyright": "CBS Studios",
+            "rcost": 3,
+            "image": "../Assets/ORCards/Character/PhoebeHalliwell.jpg"
         },
-        "pybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
+        "piperhalliwell": {
+            "name": "Piper Halliwell",
+            "indexname": "piperhalliwell",
             "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
-            "ability": null,
+            "element": "Time",
+            "hitpoints": 100,
+            "ability": "Power of Three -- “If Phoebe Halliwell” and “Piper Halliwell” are both in the party, attacks from this card do +30 damage.",
             "attack1": {
-                "element": "Digital",
-                "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
+                "element": "Time & Fire",
+                "cost": "1 & 1",
+                "element2": null,
+                "cost2": null,
+                "name": "Molecular Instability",
+                "damage": "20+",
+                "description": "Flip a coin. If heads, the opposing character is paralyzed. If tails, the opposing card takes +40 fire damage."
             },
             "attack2": {
                 "element": null,
                 "cost": null,
+                "element2": null,
+                "cost2": null,
                 "name": null,
                 "damage": null,
                 "description": null
             },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+            "series": "Charmed",
+            "copyright": "CBS Studios",
+            "rcost": 3,
+            "image": "../Assets/ORCards/Character/PiperHalliwell.jpg"
         },
-        "pybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
+        "piranhaplant": {
+            "name": "Piranha Plant",
+            "indexname": "piranhaplant",
             "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
+            "element": "Biological",
+            "hitpoints": 110,
             "ability": null,
             "attack1": {
-                "element": "Digital",
+                "element": "Biological",
                 "cost": 1,
-                "name": "Byte",
+                "element2": null,
+                "cost2": null,
+                "name": "Ptooie",
                 "damage": 20,
                 "description": null
             },
             "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
-                "damage": null,
+                "element": "Biological",
+                "cost": 3,
+                "element2": null,
+                "cost2": null,
+                "name": "Chomp",
+                "damage": 80,
                 "description": null
             },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+            "series": "Super Mario Bros",
+            "copyright": "Nintendo",
+            "rcost": 5,
+            "image": "../Assets/ORCards/Character/PiranhaPlant.jpg"
         },
-        "pybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
+        "prodoboo": {
+            "name": "Prodoboo",
+            "indexname": "prodoboo",
             "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
+            "element": "Fire",
+            "hitpoints": 50,
             "ability": null,
             "attack1": {
-                "element": "Digital",
+                "element": "Fire",
                 "cost": 1,
-                "name": "Byte",
-                "damage": 20,
+                "element2": null,
+                "cost2": null,
+                "name": "Lava Bubble",
+                "damage": 10,
                 "description": null
             },
             "attack2": {
                 "element": null,
                 "cost": null,
+                "element2": null,
+                "cost2": null,
                 "name": null,
                 "damage": null,
                 "description": null
             },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+            "series": "Super Mario Bros",
+            "copyright": "Nintendo",
+            "rcost": 2,
+            "image": "../Assets/ORCards/Character/Prodoboo.jpg"
         },
-        "pybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
+        "pokey": {
+            "name": "Pokey",
+            "indexname": "pokey",
             "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
-            "ability": null,
+            "element": "Biological",
+            "hitpoints": 90,
+            "ability": "Thorns -- If this attack takes damage, it does 20 damage against the attacking card.",
             "attack1": {
-                "element": "Digital",
+                "element": "Biological",
                 "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
+                "element2": null,
+                "cost2": null,
+                "name": "Dance",
+                "damage": null,
+                "description": "Flip a coin, if heads, the opponent's active card cannot attack."
             },
             "attack2": {
                 "element": null,
                 "cost": null,
+                "element2": null,
+                "cost2": null,
                 "name": null,
                 "damage": null,
                 "description": null
             },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+            "series": "Super Mario Bros.",
+            "copyright": "Nintendo",
+            "rcost": 0,
+            "image": "../Assets/ORCards/Character/Pokey.jpg"
         },
-        "pybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
+        "poseidonex": {
+            "name": "Poseidon EX",
+            "indexname": "poseidonex",
             "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
-            "ability": null,
+            "element": "Water",
+            "hitpoints": 200,
+            "ability": "God of the Sea -- When this card is in the active spot, discard any settings currently in play. Search your deck for the Deep Ocean setting and play it.",
             "attack1": {
-                "element": "Digital",
-                "cost": 1,
-                "name": "Byte",
-                "damage": 20,
+                "element": "Water",
+                "cost": 3,
+                "element2": null,
+                "cost2": null,
+                "name": "Trident Strike",
+                "damage": 60,
                 "description": null
             },
             "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
-                "damage": null,
+                "element": "Water",
+                "cost": 5,
+                "element2": null,
+                "cost2": null,
+                "name": "Ruthlessness",
+                "damage": 150,
                 "description": null
             },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
-        },
-
-        "rybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
-            "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
-            "ability": null,
-            "attack1": {
-                "element": "Digital",
-                "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
-            },
-            "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
-                "damage": null,
-                "description": null
-            },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
-        },
-        "rybermatspecial": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
-            "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
-            "ability": null,
-            "attack1": {
-                "element": "Digital",
-                "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
-            },
-            "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
-                "damage": null,
-                "description": null
-            },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
-        },
-        "rybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
-            "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
-            "ability": null,
-            "attack1": {
-                "element": "Digital",
-                "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
-            },
-            "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
-                "damage": null,
-                "description": null
-            },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
-        },
-        "rybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
-            "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
-            "ability": null,
-            "attack1": {
-                "element": "Digital",
-                "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
-            },
-            "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
-                "damage": null,
-                "description": null
-            },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
-        },
-        "rybermatspecial": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
-            "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
-            "ability": null,
-            "attack1": {
-                "element": "Digital",
-                "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
-            },
-            "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
-                "damage": null,
-                "description": null
-            },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
-        },
-        "rybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
-            "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
-            "ability": null,
-            "attack1": {
-                "element": "Digital",
-                "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
-            },
-            "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
-                "damage": null,
-                "description": null
-            },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
-        },
-        "rybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
-            "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
-            "ability": null,
-            "attack1": {
-                "element": "Digital",
-                "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
-            },
-            "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
-                "damage": null,
-                "description": null
-            },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
-        },
-        "rybermatspecial": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
-            "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
-            "ability": null,
-            "attack1": {
-                "element": "Digital",
-                "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
-            },
-            "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
-                "damage": null,
-                "description": null
-            },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
-        },
-        "rybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
-            "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
-            "ability": null,
-            "attack1": {
-                "element": "Digital",
-                "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
-            },
-            "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
-                "damage": null,
-                "description": null
-            },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
-        },
-        "rybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
-            "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
-            "ability": null,
-            "attack1": {
-                "element": "Digital",
-                "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
-            },
-            "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
-                "damage": null,
-                "description": null
-            },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
-        },
-        "rybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
-            "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
-            "ability": null,
-            "attack1": {
-                "element": "Digital",
-                "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
-            },
-            "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
-                "damage": null,
-                "description": null
-            },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+            "series": "Epic: The Musical",
+            "copyright": "Jorge Rivera-Herrans",
+            "rcost": 5,
+            "image": "../Assets/ORCards/Character/PoseidonEX.jpg"
         },
 
-        "sybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
+        "reimuhakurei": {
+            "name": "Reimu Hakurei",
+            "indexname": "reimuhakurei",
             "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
-            "ability": null,
+            "element": "Positive",
+            "hitpoints": 110,
+            "ability": "Exorcism Aura (Hakurei) -- When an energy is attached to this card, this character takes 30 less damage from the first attack against it.",
             "attack1": {
-                "element": "Digital",
+                "element": "Omni",
                 "cost": 1,
-                "name": "Byte",
-                "damage": 20,
+                "element2": null,
+                "cost2": null,
+                "name": "Ofuda",
+                "damage": 10,
                 "description": null
             },
             "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
-                "damage": null,
-                "description": null
+                "element": "Negative & Positive",
+                "cost": "2 & 2",
+                "element2": null,
+                "cost2": null,
+                "name": "Yin-Yang Orbs",
+                "damage": "*30",
+                "description": "Flip coins until you get tails, cap 8, 30 damage per heads. Evenly distribute the damage across all of the opponent's cards, any excess damage placed on the opponent's active card. Discard half of this card's total energy."
             },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+            "series": "Touhou Project",
+            "copyright": "ZUN",
+            "rcost": 4,
+            "image": "../Assets/ORCards/Character/ReimuHakurei.jpg"
         },
-        "sybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
+        "ritsu": {
+            "name": "Ritsu",
+            "indexname": "ritsu",
             "archetype": "Character",
             "element": "Digital",
-            "hitpoints": 60,
+            "hitpoints": 100,
             "ability": null,
             "attack1": {
-                "element": "Digital",
-                "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
+                "element": "Omni",
+                "cost": 2,
+                "element2": null,
+                "cost2": null,
+                "name": "Fixed Artillery",
+                "damage": 40,
+                "description": "Deals 20 damage to all of the opponent's party characters and applicable summons."
             },
             "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
+                "element": "Digital",
+                "cost": 3,
+                "element2": null,
+                "cost2": null,
+                "name": "Subroutine",
                 "damage": null,
-                "description": null
+                "description": "Add an ability counter to this card, if it's put under a negative status effect, remove the ability counter and cure the status effect."
             },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+            "series": "Assassination Classroom",
+            "copyright": "Viz Media",
+            "rcost": 4,
+            "image": "../Assets/ORCards/Character/Ritsu.jpg"
         },
-        "sybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
+        "riversong": {
+            "name": "River Song",
+            "indexname": "riversong",
             "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
+            "element": "Time",
+            "hitpoints": 120,
             "ability": null,
             "attack1": {
-                "element": "Digital",
-                "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
+                "element": "Time",
+                "cost": 5,
+                "element2": null,
+                "cost2": null,
+                "name": "Poisonous Lipstick",
+                "damage": null,
+                "description": "Poison the opponent’s active card, while the card is still in play, the opponent must flip a coin, if tails, they must immediately discard the card, and the player draws a single prize card. This effect can only be active for one opposing card at a time. If this card has the status effect cleared by an external force or is moved into the deck, this effect clears as well. Discard all energies from this card."
             },
             "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
-                "damage": null,
+                "element": "Omni",
+                "cost": 1,
+                "element2": null,
+                "cost2": null,
+                "name": "Gun",
+                "damage": 30,
                 "description": null
             },
             "series": "Doctor Who",
             "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+            "rcost": 6,
+            "image": "../Assets/ORCards/Character/RiverSong.jpg"
         },
-        "sybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
+        "roymustang": {
+            "name": "Roy Mustang",
+            "indexname": "roymustang",
             "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
-            "ability": null,
+            "element": "Fire",
+            "hitpoints": 100,
+            "ability": "Bad Weather -- If the setting boosts the power of water attacks, attacks from this card do nothing.",
             "attack1": {
-                "element": "Digital",
-                "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
+                "element": "Fire",
+                "cost": 2,
+                "element2": null,
+                "cost2": null,
+                "name": "Strong Snap",
+                "damage": "50+",
+                "description": "This attack does 30 extra damage to negative cards."
             },
             "attack2": {
                 "element": null,
                 "cost": null,
+                "element2": null,
+                "cost2": null,
                 "name": null,
                 "damage": null,
                 "description": null
             },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+            "series": "Fullmetal Alchemist",
+            "copyright": "Square Enix",
+            "rcost": 2,
+            "image": "../Assets/ORCards/Character/RoyMustang.jpg"
         },
-        "sybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
+        "rubyroseatlas": {
+            "name": "Ruby Rose - Atlas",
+            "indexname": "rubyroseatlas",
             "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
-            "ability": null,
+            "element": "Wind",
+            "hitpoints": 120,
+            "ability": "Petal Burst -- For the cost of one wind energy, roll a d-6. if the number rolls above a 5, then the opponent's next attack misses.",
             "attack1": {
-                "element": "Digital",
+                "element": "Wind",
                 "cost": 1,
-                "name": "Byte",
-                "damage": 20,
+                "element2": null,
+                "cost2": null,
+                "name": "Slash",
+                "damage": 10,
                 "description": null
             },
             "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
-                "damage": null,
-                "description": null
+                "element": "Omni",
+                "cost": 2,
+                "element2": null,
+                "cost2": null,
+                "name": "Energized bullet",
+                "damage": "30+",
+                "description": "Sacrifice two or more identical energies to apply that energy to the enemy, every extra energy does and extra 10 damage."
             },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+            "series": "Rwby",
+            "copyright": "VIZ Media",
+            "rcost": 3,
+            "image": "../Assets/ORCards/Character/RubyRoseAtlas.jpg"
         },
-        "sybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
+        "rubyrosevale": {
+            "name": "Ruby Rose - Vale",
+            "indexname": "rubyrosevale",
             "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
+            "element": "Omni",
+            "hitpoints": 120,
             "ability": null,
             "attack1": {
-                "element": "Digital",
+                "element": "Omni",
                 "cost": 1,
-                "name": "Byte",
-                "damage": 20,
+                "element2": null,
+                "cost2": null,
+                "name": "Slash",
+                "damage": 10,
                 "description": null
             },
             "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
-                "damage": null,
-                "description": null
+                "element": "Omni",
+                "cost": 2,
+                "element2": null,
+                "cost2": null,
+                "name": "Shot Boosted Slash",
+                "damage": 40,
+                "description": "Sacrifice one energy."
             },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+            "series": "Rwby",
+            "copyright": "VIZ Media",
+            "rcost": 3,
+            "image": "../Assets/ORCards/Character/RubyRoseVale.jpg"
         },
-        "sybermatspecial": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
-            "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
+        "rubyrosevaleex": {
+            "name": "Ruby Rose - Vale EX",
+            "indexname": "rubyrosevaleex",
+            "archetype": "Enhanced Character",
+            "element": "Omni",
+            "hitpoints": 160,
             "ability": null,
             "attack1": {
-                "element": "Digital",
-                "cost": 1,
-                "name": "Byte",
-                "damage": 20,
+                "element": "Omni",
+                "cost": 2,
+                "element2": null,
+                "cost2": null,
+                "name": "Shot Boosted Slash",
+                "damage": 40,
                 "description": null
             },
             "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
-                "damage": null,
-                "description": null
+                "element": "Omni",
+                "cost": 4,
+                "element2": null,
+                "cost2": null,
+                "name": "Bullet Rain",
+                "damage": 100,
+                "description": "Does 20 damage to the opponent's Party Characters and applicable summons."
             },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+            "series": "Rwby",
+            "copyright": "VIZ Media",
+            "rcost": 3,
+            "image": "../Assets/ORCards/Character/RubyRoseValeEx.jpg"
         },
-        "sybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
+        "ryoyamada": {
+            "name": "Ryo Yamada",
+            "indexname": "ryoyamada",
             "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
+            "element": "Biological",
+            "hitpoints": 80,
             "ability": null,
             "attack1": {
-                "element": "Digital",
+                "element": "Biological",
                 "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
+                "element2": null,
+                "cost2": null,
+                "name": "Cheap Snack",
+                "damage": null,
+                "description": "Discard 1 biological energy. If you do, heal 20 damage from this card."
             },
             "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
-                "damage": null,
-                "description": null
+                "element": "Biological & Omni",
+                "cost": "1 & 2",
+                "element2": null,
+                "cost2": null,
+                "name": "Bass Line",
+                "damage": "30+",
+                "description": "If the party on this card's side is full, this attack does 30 more damage."
             },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
-        },
-        "sybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
-            "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
-            "ability": null,
-            "attack1": {
-                "element": "Digital",
-                "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
-            },
-            "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
-                "damage": null,
-                "description": null
-            },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
-        },
-        "sybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
-            "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
-            "ability": null,
-            "attack1": {
-                "element": "Digital",
-                "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
-            },
-            "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
-                "damage": null,
-                "description": null
-            },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
-        },
-        "sybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
-            "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
-            "ability": null,
-            "attack1": {
-                "element": "Digital",
-                "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
-            },
-            "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
-                "damage": null,
-                "description": null
-            },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
-        },
-        "sybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
-            "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
-            "ability": null,
-            "attack1": {
-                "element": "Digital",
-                "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
-            },
-            "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
-                "damage": null,
-                "description": null
-            },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
-        },
-        "sybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
-            "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
-            "ability": null,
-            "attack1": {
-                "element": "Digital",
-                "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
-            },
-            "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
-                "damage": null,
-                "description": null
-            },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
-        },
-        "sybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
-            "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
-            "ability": null,
-            "attack1": {
-                "element": "Digital",
-                "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
-            },
-            "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
-                "damage": null,
-                "description": null
-            },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+            "series": "Bocchi the Rock",
+            "copyright": "Aniplex",
+            "rcost": 2,
+            "image": "../Assets/ORCards/Character/RyoYamada.jpg"
         },
 
-        "tybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
+        "sakuyaizayoi": {
+            "name": "Sakuya Izayoi",
+            "indexname": "sakuyaizayoi",
             "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
-            "ability": null,
+            "element": "Time",
+            "hitpoints": 120,
+            "ability": "Exorcism Aura (Izayoi) -- When an energy is attached to this card, if the opponent’s attack would kill the active card, it does 50 less damage.",
             "attack1": {
-                "element": "Digital",
-                "cost": 1,
-                "name": "Byte",
+                "element": "Omni",
+                "cost": 2,
+                "element2": null,
+                "cost2": null,
+                "name": "Knife throw",
                 "damage": 20,
-                "description": null
+                "description": "Do 10 damage to the opponent’s Party 1 and Party 3"
             },
             "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
-                "damage": null,
-                "description": null
+                "element": "Time",
+                "cost": 4,
+                "element2": null,
+                "cost2": null,
+                "name": "Knife Web",
+                "damage": 50,
+                "description": "Do 20 damage to all of the opponent’s party, remove three energy from this card. Flip a coin every turn, if heads, any movement between the opponent’s active and party cards deals 10 damage to both moving cards."
             },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+            "series": "Touhou Project",
+            "copyright": "ZUN",
+            "rcost": 6,
+            "image": "../Assets/ORCards/Character/SakuyaIzayoi.jpg"
         },
-        "tybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
+        "sanaekochiya": {
+            "name": "Sanae Kochiya",
+            "indexname": "sanaekochiya",
             "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
-            "ability": null,
+            "element": "Wind",
+            "hitpoints": 90,
+            "ability": "Exorcism Aura (Kochiya) -- When an energy is attached to this card, the first attack against this card and any adjacent allied cards, if active then all allied Character cards does 30 less damage.",
             "attack1": {
-                "element": "Digital",
+                "element": "Wind",
                 "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
+                "element2": null,
+                "cost2": null,
+                "name": "Miracle",
+                "damage": null,
+                "description": "Flip a coin, if heads, the opponent's next coin flip fails."
             },
             "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
-                "damage": null,
-                "description": null
+                "element": "Wind",
+                "cost": 3,
+                "element2": null,
+                "cost2": null,
+                "name": "Triple Incantation",
+                "damage": 30,
+                "description": "Deal 10 damage to all non-active opposing cards."
             },
-            "series": "Doctor Who",
-            "copyright": "BBC",
+            "series": "Touhou Project",
+            "copyright": "ZUN",
             "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+            "image": "../Assets/ORCards/Character/SanaeKochiya.jpg"
         },
-        "tybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
+        "sayori": {
+            "name": "Sayori",
+            "indexname": "sayori",
             "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
-            "ability": null,
+            "element": "Positive",
+            "hitpoints": 80,
+            "ability": "Too much Negativity -- At the start of each turn, Sayori takes 10 damage for every Negative character on the field.",
             "attack1": {
-                "element": "Digital",
+                "element": "Positive",
                 "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
+                "element2": null,
+                "cost2": null,
+                "name": "Spirit Lifter",
+                "damage": null,
+                "description": "Heal all allied cards 30 hp and clear their status effects, this card takes 20 damage in turn."
             },
             "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
+                "element": "Positive",
+                "cost": 3,
+                "element2": null,
+                "cost2": null,
+                "name": "Argument Breakup",
                 "damage": null,
-                "description": null
+                "description": "If an allied character was discarded in the previous turn and the opponent has at least 1 party member, this attack sends the opponent’s active character back into their hand, the opponent can choose which party member to put into play."
             },
-            "series": "Doctor Who",
-            "copyright": "BBC",
+            "series": "Doki Doki Literature Club",
+            "copyright": "Dan Salvato",
             "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+            "image": "../Assets/ORCards/Character/Sayori.jpg"
         },
-        "tybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
+        "seiran": {
+            "name": "Seiran",
+            "indexname": "seiran",
             "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
-            "ability": null,
+            "element": "Negative",
+            "hitpoints": 90,
+            "ability": "Exorcism Aura (Seiran) -- When an energy is attached to this card, disable the opponent’s ability.",
             "attack1": {
-                "element": "Digital",
-                "cost": 1,
-                "name": "Byte",
-                "damage": 20,
+                "element": "Omni",
+                "cost": 2,
+                "element2": null,
+                "cost2": null,
+                "name": "Mochi Pound",
+                "damage": 40,
                 "description": null
             },
             "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
-                "damage": null,
-                "description": null
+                "element": "Negative",
+                "cost": 3,
+                "element2": null,
+                "cost2": null,
+                "name": "Rapid Fire",
+                "damage": "*10",
+                "description": "Flip a coin for every energy deal damage to any one of the opponent’s cards, if a party card is chosen, every two heads will count as 10 damage."
             },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+            "series": "Touhou Project",
+            "copyright": "ZUN",
+            "rcost": 2,
+            "image": "../Assets/ORCards/Character/Seiran.jpg"
         },
-        "tybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
+        "senrikururugiex": {
+            "name": "Senri Kururugi EX",
+            "indexname": "senrikururugiex",
             "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
-            "ability": null,
+            "element": "Negative",
+            "hitpoints": 150,
+            "ability": "Together or Alone -- Once in play, the player who played it can not put new non E characters in play or retreat any characters into their hand",
             "attack1": {
-                "element": "Digital",
-                "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
+                "element": "Omni",
+                "cost": 2,
+                "element2": null,
+                "cost2": null,
+                "name": "Slash",
+                "damage": 30,
+                "description": "This Attack can be directed to an allied party member."
             },
             "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
-                "damage": null,
-                "description": null
+                "element": "Negative",
+                "cost": 5,
+                "element2": null,
+                "cost2": null,
+                "name": "One-Shot Kill",
+                "damage": "100%",
+                "description": "This attack can only be triggered if a minimum of three prize-cards have been drawn by the opponent and either: all allied party slots or the opponent is on their final prize card. If this card is under the effect of an item, stage, summon, or ability that alters the amount of energy used to do this attack, this attack cannot be used. Discard 3 energies."
             },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+            "series": "Liar Liar",
+            "copyright": "BiliBili",
+            "rcost": 6,
+            "image": "../Assets/ORCards/Character/SenriKururugiEX.jpg"
         },
-        "tybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
+        "thesilence": {
+            "name": "The Silence",
+            "indexname": "thesilence",
             "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
-            "ability": null,
+            "element": "Electricity",
+            "hitpoints": "80",
+            "ability": "Forget -- Once this Card’s HP reaches 0, shuffle all cards in play and in both player’s hands into their respective decks, draw the same amount as suffled. Each side puts any non E character card that they get into play until they either run out of non E characters, or fill the Active slot and all three party slots.",
             "attack1": {
-                "element": "Digital",
-                "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
+                "element": "Electricity",
+                "cost": 3,
+                "element2": null,
+                "cost2": null,
+                "name": "Zap",
+                "damage": "*20",
+                "description": "Flip a coin for each Energy on this card, do 20 damage for each heads. Discard an energy for each tails."
             },
             "attack2": {
                 "element": null,
                 "cost": null,
+                "element2": null,
+                "cost2": null,
                 "name": null,
                 "damage": null,
                 "description": null
             },
             "series": "Doctor Who",
             "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+            "rcost": 4,
+            "image": "../Assets/ORCards/Character/TheSilence.jpg"
         },
-        "tybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
+        "silver": {
+            "name": "Silver",
+            "indexname": "silver",
             "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
+            "element": "Time",
+            "hitpoints": 110,
             "ability": null,
             "attack1": {
-                "element": "Digital",
-                "cost": 1,
-                "name": "Byte",
-                "damage": 20,
+                "element": "Time",
+                "cost": 2,
+                "element2": null,
+                "cost2": null,
+                "name": "Spin Kick",
+                "damage": 30,
                 "description": null
             },
             "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
-                "damage": null,
-                "description": null
+                "element": "Time",
+                "cost": 4,
+                "element2": null,
+                "cost2": null,
+                "name": "Psycho-Freeze",
+                "damage": 60,
+                "description": "On your opponent’s next turn, no cards can change positions. No new characters can be played, and active characters can not be retreated."
             },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+            "series": "Sonic the Hedgehog",
+            "copyright": "SEGA",
+            "rcost": 2,
+            "image": "../Assets/ORCards/Character/Silver.jpg"
         },
-        "tybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
+        "snakearcher": {
+            "name": "Snake Archer",
+            "indexname": "snakearcher",
             "archetype": "Character",
-            "element": "Digital",
+            "element": "biological",
             "hitpoints": 60,
             "ability": null,
             "attack1": {
-                "element": "Digital",
+                "element": "Biological",
                 "cost": 1,
-                "name": "Byte",
+                "element2": null,
+                "cost2": null,
+                "name": "Snake Arrow",
                 "damage": 20,
-                "description": null
+                "description": "This attack also does 10 damage to an opposing party member of your choice."
             },
             "attack2": {
                 "element": null,
                 "cost": null,
+                "element2": null,
+                "cost2": null,
                 "name": null,
                 "damage": null,
                 "description": null
             },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+            "series": "Totally Accurate Battle Simulator",
+            "copyright": "Landfall Games",
+            "rcost": 3,
+            "image": "../Assets/ORCards/Character/SnakeArcher.jpg"
         },
-
-        "uybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
+        "sninja": {
+            "name": "Sninja",
+            "indexname": "sninja",
             "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
-            "ability": null,
+            "element": "Frost",
+            "hitpoints": 80,
+            "ability": "Kakataku! -- While this card is active, damage is spread evenly amongst all Frost cards on this card’s side, including this card.",
             "attack1": {
-                "element": "Digital",
+                "element": "Frost",
                 "cost": 1,
-                "name": "Byte",
-                "damage": 20,
+                "element2": null,
+                "cost2": null,
+                "name": "Kee Ya!",
+                "damage": 10,
                 "description": null
             },
             "attack2": {
                 "element": null,
                 "cost": null,
+                "element2": null,
+                "cost2": null,
                 "name": null,
                 "damage": null,
                 "description": null
             },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+            "series": "Eureka",
+            "copyright": "Syfy",
+            "rcost": 3,
+            "image": "../Assets/ORCards/Character/Sninja.jpg"
         },
-        "uybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
-            "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
+        "sninja2": {
+            "name": "Sninja",
+            "indexname": "sninja2",
+            "archetype": "Enhanced Character",
+            "element": "Frost",
+            "hitpoints": 140,
             "ability": null,
             "attack1": {
-                "element": "Digital",
-                "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
+                "element": "Frost",
+                "cost": 2,
+                "element2": null,
+                "cost2": null,
+                "name": "Pokey Hands",
+                "damage": 30,
+                "description": "Flip a coin, if heads, the opponent’s active card can’t retreat."
             },
             "attack2": {
                 "element": null,
                 "cost": null,
+                "element2": null,
+                "cost2": null,
                 "name": null,
                 "damage": null,
                 "description": null
             },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+            "series": "Eureka",
+            "copyright": "Syfy",
+            "rcost": 5,
+            "image": "../Assets/ORCards/Character/Sninja2.jpg"
         },
-        "uybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
+        "sparky": {
+            "name": "Sparky",
+            "indexname": "sparky",
             "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
+            "element": "Electricity",
+            "hitpoints": 90,
             "ability": null,
             "attack1": {
-                "element": "Digital",
+                "element": "Electricity",
                 "cost": 1,
-                "name": "Byte",
+                "element2": null,
+                "cost2": null,
+                "name": "Bite",
                 "damage": 20,
                 "description": null
             },
             "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
-                "damage": null,
-                "description": null
+                "element": "Electricity",
+                "cost": 2,
+                "element2": null,
+                "cost2": null,
+                "name": "Stunning Glare",
+                "damage": 40,
+                "description": "The defending card is now paralyzed."
             },
-            "series": "Doctor Who",
-            "copyright": "BBC",
+            "series": "Murder Drones",
+            "copyright": "Glitch Productions",
             "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+            "image": "../Assets/ORCards/Character/Sparky.jpg"
         },
-
-        "wybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
+        "steve": {
+            "name": "Steve",
+            "indexname": "steve",
             "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
+            "element": "Earth",
+            "hitpoints": 100,
             "ability": null,
             "attack1": {
-                "element": "Digital",
+                "element": "Earth",
                 "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
+                "element2": null,
+                "cost2": null,
+                "name": "Block",
+                "damage": null,
+                "description": "All allied cards take -20 damage for the duration of the opponent’s next turn."
             },
             "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
-                "damage": null,
-                "description": null
+                "element": "Earth",
+                "cost": 2,
+                "element2": null,
+                "cost2": null,
+                "name": "Pickaxe",
+                "damage": "20+",
+                "description": "This attack does +20 damage for every additional energy attached to this card."
             },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+            "series": "Minecraft",
+            "copyright": "Microsoft",
+            "rcost": 3,
+            "image": "../Assets/ORCards/Character/Steve.jpg"
         },
-        "wybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
+        "stonetalusex": {
+            "name": "Stone Talus EX",
+            "indexname": "stonetalusex",
             "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
-            "ability": null,
+            "element": "Earth",
+            "hitpoints": 200,
+            "ability": "Gigantic -- When this card is active, attacks used by the opponent that target the party slots only do damage to Stone Talus EX.",
             "attack1": {
-                "element": "Digital",
-                "cost": 1,
-                "name": "Byte",
-                "damage": 20,
+                "element": "Earth",
+                "cost": 3,
+                "element2": null,
+                "cost2": null,
+                "name": "Boulder Crush",
+                "damage": 80,
                 "description": null
             },
             "attack2": {
                 "element": null,
                 "cost": null,
+                "element2": null,
+                "cost2": null,
                 "name": null,
                 "damage": null,
                 "description": null
             },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+            "series": "Legend of Zelda",
+            "copyright": "Nintendo",
+            "rcost": 10,
+            "image": "../Assets/ORCards/Character/StoneTalusEX.jpg"
         },
-        "wybermatspecial": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
+        "swoop": {
+            "name": "Swoop",
+            "indexname": "swoop",
             "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
+            "element": "Wind",
+            "hitpoints": 50,
             "ability": null,
             "attack1": {
-                "element": "Digital",
+                "element": "Wind",
                 "cost": 1,
-                "name": "Byte",
+                "element2": null,
+                "cost2": null,
+                "name": "Bat Ram",
                 "damage": 20,
                 "description": null
             },
             "attack2": {
                 "element": null,
                 "cost": null,
+                "element2": null,
+                "cost2": null,
                 "name": null,
                 "damage": null,
                 "description": null
             },
-            "series": "Doctor Who",
-            "copyright": "BBC",
+            "series": "Super Mario Bros",
+            "copyright": "Nintendo",
             "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
-        },
-        "wybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
-            "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
-            "ability": null,
-            "attack1": {
-                "element": "Digital",
-                "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
-            },
-            "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
-                "damage": null,
-                "description": null
-            },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
-        },
-        "wybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
-            "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
-            "ability": null,
-            "attack1": {
-                "element": "Digital",
-                "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
-            },
-            "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
-                "damage": null,
-                "description": null
-            },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
-        },
-        "wybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
-            "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
-            "ability": null,
-            "attack1": {
-                "element": "Digital",
-                "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
-            },
-            "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
-                "damage": null,
-                "description": null
-            },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
-        },
-        "wybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
-            "archetype": "Character",
-            "element": "Digital",
-            "hitpoints": 60,
-            "ability": null,
-            "attack1": {
-                "element": "Digital",
-                "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
-            },
-            "attack2": {
-                "element": null,
-                "cost": null,
-                "name": null,
-                "damage": null,
-                "description": null
-            },
-            "series": "Doctor Who",
-            "copyright": "BBC",
-            "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+            "image": "../Assets/ORCards/Character/Swoop.jpg"
         },
 
-        "yybermat": {
-            "name": "Cybermat",
-            "indexname": "cybermat",
+        "taki": {
+            "name": "Taki",
+            "indexname": "taki",
+            "archetype": "Character",
+            "element": "Fire",
+            "hitpoints": 110,
+            "ability": null,
+            "attack1": {
+                "element": "Fire",
+                "cost": 2,
+                "element2": null,
+                "cost2": null,
+                "name": "Fiery Purification",
+                "damage": "30+",
+                "description": "If the defending card is a negative element, this attack does +30 damage."
+            },
+            "attack2": {
+                "element": "Fire",
+                "cost": 4,
+                "element2": null,
+                "cost2": null,
+                "name": "Fatal Violet",
+                "damage": 70,
+                "description": "On your opponent’s next turn, the defending card can not retreat."
+            },
+            "series": "Soul Calibur",
+            "copyright": "Bandai Namco",
+            "rcost": 0,
+            "image": "../Assets/ORCards/Character/Taki.jpg"
+        },
+        "tempbot": {
+            "name": "TempBot",
+            "indexname": "tempbot",
             "archetype": "Character",
             "element": "Digital",
-            "hitpoints": 60,
-            "ability": null,
+            "hitpoints": 100,
+            "ability": "Infinite Coffee -- All active characters whilst this card is in play attack costs 1 energy, that they lose, and take damage equal to the amount of energies saved.",
             "attack1": {
                 "element": "Digital",
                 "cost": 1,
-                "name": "Byte",
-                "damage": 20,
-                "description": null
+                "element2": null,
+                "cost2": null,
+                "name": "Coffee Splash",
+                "damage": null,
+                "description": "Flip coins until you get tails, restore 10 damage from this card for each heads."
             },
             "attack2": {
                 "element": null,
                 "cost": null,
+                "element2": null,
+                "cost2": null,
                 "name": null,
                 "damage": null,
                 "description": null
             },
+            "series": "Job Simulator",
+            "copyright": "Owlchemy Labs",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/TempBot.jpg"
+        },
+        "tock": {
+            "name": "Tock",
+            "indexname": "tock",
+            "archetype": "Character",
+            "element": "Time",
+            "hitpoints": 60,
+            "ability": "Invulnerable -- Once this card is active, it becomes immune from all forms of damage for 6 turns. This effect can not be reactivated.",
+            "attack1": {
+                "element": "Time",
+                "cost": 2,
+                "element2": null,
+                "cost2": null,
+                "name": "Angry Bite",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": "Time",
+                "cost": 3,
+                "element2": null,
+                "cost2": null,
+                "name": "Slash",
+                "damage": 30,
+                "description": null
+            },
+            "series": "RWBY",
+            "copyright": "VIZ Media",
+            "rcost": 4,
+            "image": "../Assets/ORCards/Character/Tock.jpg"
+        },
+        "treeman": {
+            "name": "Tree Man",
+            "indexname": "treeman",
+            "archetype": "Character",
+            "element": "Biological",
+            "hitpoints": 150,
+            "ability": null,
+            "attack1": {
+                "element": "Biological",
+                "cost": 1,
+                "element2": null,
+                "cost2": null,
+                "name": "Tree Powers",
+                "damage": null,
+                "description": "From now on, any attack done against this character can only do a base max of 10 Damage (before type weaknesses), this card can’t retreat, but can be forced by an external force."
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "element2": null,
+                "cost2": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Asdfmovie",
+            "copyright": "TomSka",
+            "rcost": 0,
+            "image": "../Assets/ORCards/Character/TreeMan.jpg"
+        },
+        "trunksex": {
+            "name": "Trunks EX",
+            "indexname": "trunksex",
+            "archetype": "Character",
+            "element": "Time",
+            "hitpoints": 160,
+            "ability": null,
+            "attack1": {
+                "element": "Time",
+                "cost": 1,
+                "element2": null,
+                "cost2": null,
+                "name": "Booster Pack",
+                "damage": null,
+                "description": "Search your deck for three characters. If you have any open party slots, put the drawn characters on the party. Shuffle your deck afterwards."
+            },
+            "attack2": {
+                "element": "Time",
+                "cost": 4,
+                "element2": null,
+                "cost2": null,
+                "name": "Eternal Time Labyrinth",
+                "damage": "100+",
+                "description": "This attack ignores element resistances and immunities. On your opponent’s next turn, the defending card can not retreat. If the defending card is an EX Character, this attack does 50 extra damage."
+            },
+            "series": "Dragon Ball",
+            "copyright": "Shueisha",
+            "rcost": 4,
+            "image": "../Assets/ORCards/Character/TrunksEX.jpg"
+        },
+
+        "undyne": {
+            "name": "Undyne",
+            "indexname": "undyne",
+            "archetype": "Character",
+            "element": "Water",
+            "hitpoints": 100,
+            "ability": null,
+            "attack1": {
+                "element": "Water",
+                "cost": 1,
+                "element2": "Omni",
+                "cost2": 1,
+                "name": "Suplex",
+                "damage": 30,
+                "description": null
+            },
+            "attack2": {
+                "element": "Water",
+                "cost": 4,
+                "element2": null,
+                "cost2": null,
+                "name": "Spear of Justice",
+                "damage": 50,
+                "description": "Flip a coin for each party member of the opponent’s side. This attack does 20 damage to each party member that the coin lands on heads for."
+            },
+            "series": "Undertale",
+            "copyright": "Toby Fox",
+            "rcost": 2,
+            "image": "../Assets/ORCards/Character/Undyne.jpg"
+        },
+        "undynetheundyingex": {
+            "name": "Undyne the Undying EX",
+            "indexname": "undynetheundyingex",
+            "archetype": "Enhanced Character",
+            "element": "Water",
+            "hitpoints": 170,
+            "ability": "True Hero -- This card can not be affected by status conditions. This card’s attacks do +10 damage for every party member with damage counters on them.",
+            "attack1": {
+                "element": "Water",
+                "cost": 5,
+                "element2": null,
+                "cost2": null,
+                "name": "Spear Barrage",
+                "damage": "80+",
+                "description": "Flip a coin until you get tails. This attack does 10 additional damage for each heads."
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "element2": null,
+                "cost2": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Undertale",
+            "copyright": "Toby Fox",
+            "rcost": 2,
+            "image": "../Assets/ORCards/Character/UndynetheUndyingEX.jpg"
+        },
+        "urbosa": {
+            "name": "Urbosa",
+            "indexname": "urbosa",
+            "archetype": "Character",
+            "element": "Electricity",
+            "hitpoints": 120,
+            "ability": null,
+            "attack1": {
+                "element": "Electricity",
+                "cost": 2,
+                "element2": null,
+                "cost2": null,
+                "name": "Urbosa's Fury",
+                "damage": 20,
+                "description": "This attack does 30 electric damage to an enemy character of your choice."
+            },
+            "attack2": {
+                "element": "Electricity",
+                "cost": 4,
+                "element2": null,
+                "cost2": null,
+                "name": "Thunder Slash",
+                "damage": "50+",
+                "description": "The defending card is now paralyzed. If the defending card is already paralyzed, this attack does 40 extra damage"
+            },
+            "series": "The Legend of Zelda",
+            "copyright": "Nintendo",
+            "rcost": 3,
+            "image": "../Assets/ORCards/Character/Urbosa.jpg"
+        },
+
+        "weepingangel": {
+            "name": "Weeping Angel",
+            "indexname": "weepingangel",
+            "archetype": "Character",
+            "element": "Time",
+            "hitpoints": 110,
+            "ability": null,
+            "attack1": {
+                "element": "Time",
+                "cost": 1,
+                "element2": null,
+                "cost2": null,
+                "name": "Stone Claws",
+                "damage": 10,
+                "description": null
+            },
+            "attack2": {
+                "element": "Time",
+                "cost": 4,
+                "element2": null,
+                "cost2": null,
+                "name": "Reversion",
+                "damage": null,
+                "description": "If the opposing card is an E character, discard the enhanced character, reverting it back to the basic character."
+            },
             "series": "Doctor Who",
             "copyright": "BBC",
+            "rcost": 4,
+            "image": "../Assets/ORCards/Character/WeepingAngel.jpg"
+        },
+        "weissnightmareex": {
+            "name": "Weiss (Nightmare) EX",
+            "indexname": "weissnightmareex",
+            "archetype": "Character",
+            "element": "Frost",
+            "hitpoints": 180,
+            "ability": null,
+            "attack1": {
+                "element": "Frost",
+                "cost": 1,
+                "element2": null,
+                "cost2": null,
+                "name": "Homing Lasers",
+                "damage": null,
+                "description": "Deal 50 damage to any one of the opponent's characters or applicable Summons."
+            },
+            "attack2": {
+                "element": "Frost",
+                "cost": 4,
+                "element2": null,
+                "cost2": null,
+                "name": "Frostfire",
+                "damage": 100,
+                "description": "Flip a coin, If heads, Paralyze the opponent. Discard 3 energies."
+            },
+            "series": "RWBY",
+            "copyright": "VIZ Media",
+            "rcost": 5,
+            "image": "../Assets/ORCards/Character/Weiss(Nightmare)EX.jpg"
+        },
+        "weissschneeatlas": {
+            "name": "Weiss Schnee - Atlas",
+            "indexname": "weissschneeatlas",
+            "archetype": "Character",
+            "element": "Frost",
+            "hitpoints": 120,
+            "ability": null,
+            "attack1": {
+                "element": "Omni",
+                "cost": 1,
+                "element2": null,
+                "cost2": null,
+                "name": "Slash",
+                "damage": "10+",
+                "description": "At a sacrifice of an energy, add that energy’s type to this attack, if the energy is Frost, do 30 damage."
+            },
+            "attack2": {
+                "element": "Omni",
+                "cost": 2,
+                "element2": null,
+                "cost2": null,
+                "name": "Glyph",
+                "damage": 10,
+                "description": "Can only be used if this card has two identical energies. Each of your turns (including the turn this move is used), flip a coin: if heads, deal 10 damage based on the energies used and prevent the opponent’s active character from retreating. The effect ends if you flip tails or this card leaves the active spot. Once the effect ends discard the two energies."
+            },
+            "series": "RWBY",
+            "copyright": "VIZ Media",
+            "rcost": 3,
+            "image": "../Assets/ORCards/Character/WeissSchneeAtlas.jpg"
+        },
+        "weissschneeatlasex": {
+            "name": "Weiss Schnee - Atlas EX",
+            "indexname": "weissschneeatlasex",
+            "archetype": "Enhanced Character",
+            "element": "Frost",
+            "hitpoints": 160,
+            "ability": "Glyph Summon -- Place a summon from your hand to be covered by this card, once the summon is used up, shuffle it back into your draw deck. (Only one glyph summon can be played at a time)",
+            "attack1": {
+                "element": "Omni",
+                "cost": 1,
+                "element2": null,
+                "cost2": null,
+                "name": "Glyph Slash",
+                "damage": "+40",
+                "description": "At a sacrifice of an energy, add that energy’s type to this attack and 10 damage, at the sacrifice of more identical energies, add 10 more damage respectively"
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "element2": null,
+                "cost2": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "VIZ Media",
+            "copyright": "BBC",
+            "rcost": 3,
+            "image": "../Assets/ORCards/Character/WeissSchneeAtlasEX.jpg"
+        },
+        "wheatleycore": {
+            "name": "Wheatley Core",
+            "indexname": "wheatleycore",
+            "archetype": "Character",
+            "element": "Digital",
+            "hitpoints": 50,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 1,
+                "element2": null,
+                "cost2": null,
+                "name": "Guide",
+                "damage": null,
+                "description": "Take a character (not E or EX) from the deck, remove all energy from this card, move it into the party, and place the drawn card into the active spot (If no party slots are available, return this card to your hand)."
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "element2": null,
+                "cost2": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Portal",
+            "copyright": "Vale",
             "rcost": 1,
-            "image": "../Assets/ORCards/Character/Cybermat.jpg"
+            "image": "../Assets/ORCards/Character/WheatleyCore.jpg"
+        },
+        "wheatleyex": {
+            "name": "Wheatley EX",
+            "indexname": "wheatleyex",
+            "archetype": "Enhanced Character",
+            "element": "Digital",
+            "hitpoints": 170,
+            "ability": null,
+            "attack1": {
+                "element": "Digital",
+                "cost": 2,
+                "element2": null,
+                "cost2": null,
+                "name": "Rocket Turret",
+                "damage": 40,
+                "description": null
+            },
+            "attack2": {
+                "element": "Biological",
+                "cost": 2,
+                "element2": "Digital",
+                "cost2": 2,
+                "name": "Propulsion Gel",
+                "damage": 50,
+                "description": "Discard two energies, Send the opponent’s active card into the opponent’s hand"
+            },
+            "series": "Portal",
+            "copyright": "Vale",
+            "rcost": 5,
+            "image": "../Assets/ORCards/Character/WheatleyEX.jpg"
+        },
+
+        "yangxiaolongvale": {
+            "name": "Yang Xiao Long Vale",
+            "indexname": "yangxiaolongvale",
+            "archetype": "Character",
+            "element": "Fire",
+            "hitpoints": 130,
+            "ability": null,
+            "attack1": {
+                "element": "Fire",
+                "cost": 1,
+                "element2": null,
+                "cost2": null,
+                "name": "Punch",
+                "damage": 30,
+                "description": null
+            },
+            "attack2": {
+                "element": "Fire",
+                "cost": 4,
+                "element2": null,
+                "cost2": null,
+                "name": "I Burn",
+                "damage": 50,
+                "description": "Multiply the Amount of damage on this card by 2, add the product to the damage done by this attack. For the next three turns, this card takes +20 damage. Discard all energies on this card."
+            },
+            "series": "Rwby",
+            "copyright": "Viz Media",
+            "rcost": 4,
+            "image": "../Assets/ORCards/Character/YangXiaoLong(Vale).jpg"
         },
 
 
@@ -3909,6 +4354,8 @@
             "attack1": {
                 "element": "Earth",
                 "cost": 3,
+                "element2": null,
+                "cost2": null,
                 "name": "Iron Fists",
                 "damage": 40,
                 "description": null
@@ -3916,6 +4363,8 @@
             "attack2": {
                 "element": "Earth",
                 "cost": 5,
+                "element2": null,
+                "cost2": null,
                 "name": "Alchemical Spikes",
                 "damage": 70,
                 "description": "Does 40 damage to the opponent's party 2"
@@ -3935,6 +4384,8 @@
             "attack1": {
                 "element": "Positive",
                 "cost": 3,
+                "element2": null,
+                "cost2": null,
                 "name": "Texas Smash",
                 "damage": 50,
                 "description": null
@@ -3942,6 +4393,8 @@
             "attack2": {
                 "element": "Positive",
                 "cost": 7,
+                "element2": null,
+                "cost2": null,
                 "name": "United States of Smash",
                 "damage": 200,
                 "description": "If this attack succeeds, retreat this card back into your hand."
@@ -3961,6 +4414,8 @@
             "attack1": {
                 "element": "Omni",
                 "cost": 8,
+                "element2": null,
+                "cost2": null,
                 "name": "Willing to take that bet",
                 "damage": null,
                 "description": "Have the opponent search through their draw deck and pull out the first Character or E Character and shows it to the attacker, If their HP is below the amount of energies on this card (each energy being 10 hp), the opponent discards the drawn card and the attacker takes the reward respective to the discarded card, otherwise, the drawn card is moved to the opponent’s hand. Once this ability is used, discard ALL energy from this card."
@@ -3968,6 +4423,8 @@
             "attack2": {
                 "element": "Omni",
                 "cost": 1,
+                "element2": null,
+                "cost2": null,
                 "name": "Straight Bet",
                 "damage": "30",
                 "description": null
@@ -3987,6 +4444,8 @@
             "attack1": {
                 "element": "Fire",
                 "cost": 2,
+                "element2": null,
+                "cost2": null,
                 "name": "Flaming Brew",
                 "damage": 20,
                 "description": "The defending characteris now burned."
@@ -3994,6 +4453,8 @@
             "attack2": {
                 "element": "Fire",
                 "cost": 5,
+                "element2": null,
+                "cost2": null,
                 "name": "Glorious Inferno",
                 "damage": 90,
                 "description": "Every card in both parties take 20 fire damage, excluding active cards."
@@ -4013,6 +4474,8 @@
             "attack1": {
                 "element": "Omni",
                 "cost": 1,
+                "element2": null,
+                "cost2": null,
                 "name": "Slash",
                 "damage": 10,
                 "description": null
@@ -4020,6 +4483,8 @@
             "attack2": {
                 "element": "Electricity",
                 "cost": 5,
+                "element2": null,
+                "cost2": null,
                 "name": "Lightning bolt",
                 "damage": 70,
                 "description": "Discard all but 1 energy from this card and paralyze the opponent."
@@ -4039,6 +4504,8 @@
             "attack1": {
                 "element": "Water",
                 "cost": 1,
+                "element2": null,
+                "cost2": null,
                 "name": "Cata-Flip",
                 "damage": 20,
                 "description": "If this attack is successful, the opponent swaps the active card with a character in the party."
@@ -4046,6 +4513,8 @@
             "attack2": {
                 "element": null,
                 "cost": null,
+                "element2": null,
+                "cost2": null,
                 "name": null,
                 "damage": null,
                 "description": null
@@ -4065,6 +4534,8 @@
             "attack1": {
                 "element": "Fire",
                 "cost": 3,
+                "element2": null,
+                "cost2": null,
                 "name": "Lava Dive",
                 "damage": 50,
                 "description": null
@@ -4072,6 +4543,8 @@
             "attack2": {
                 "element": "Fire",
                 "cost": 7,
+                "element2": null,
+                "cost2": null,
                 "name": "Molten Monster",
                 "damage": "80+",
                 "description": "Discard all energies from this card. If the stage boosts the power of fire moves, this attack does +50 damage."
@@ -4091,6 +4564,8 @@
             "attack1": {
                 "element": "Wind",
                 "cost": 3,
+                "element2": null,
+                "cost2": null,
                 "name": "Failnaught",
                 "damage": "70+",
                 "description": "You may discard a wind energy from this card, if you do, this attack does 30 more damage to the opponent’s active character and 30 damage to the party member directly behind the active slot."
@@ -4098,6 +4573,8 @@
             "attack2": {
                 "element": null,
                 "cost": null,
+                "element2": null,
+                "cost2": null,
                 "name": null,
                 "damage": null,
                 "description": null
@@ -4117,6 +4594,8 @@
             "attack1": {
                 "element": "Digital",
                 "cost": 1,
+                "element2": null,
+                "cost2": null,
                 "name": "Call for Help",
                 "damage": null,
                 "description": "Search your hand for any Tech card and place it into an empty party slot."
@@ -4124,6 +4603,8 @@
             "attack2": {
                 "element": "Digital",
                 "cost": 2,
+                "element2": null,
+                "cost2": null,
                 "name": "Delete",
                 "damage": 60,
                 "description": null
@@ -4143,6 +4624,8 @@
             "attack1": {
                 "element": "Earth",
                 "cost": 4,
+                "element2": null,
+                "cost2": null,
                 "name": "Stone Arms",
                 "damage": "40+",
                 "description": "Flip a coin. If heads, this attack does 20 extra damage."
@@ -4150,6 +4633,8 @@
             "attack2": {
                 "element": null,
                 "cost": null,
+                "element2": null,
+                "cost2": null,
                 "name": null,
                 "damage": null,
                 "description": null
@@ -4169,6 +4654,8 @@
             "attack1": {
                 "element": "Electricity",
                 "cost": 1,
+                "element2": null,
+                "cost2": null,
                 "name": "Mercy is not Forgiveness",
                 "damage": "30+",
                 "description": "Deal 20 damage to all of the opponent’s party characters. Flip a coin, if heads paralyze the opponent’s active card. If the opponent’s active card is paralyzed, this attack does +20 damage to all cards."
@@ -4176,6 +4663,8 @@
             "attack2": {
                 "element": "Electricity",
                 "cost": 4,
+                "element2": null,
+                "cost2": null,
                 "name": "Twilight Twirl",
                 "damage": 120,
                 "description": "Deal 50 damage to the opponent’s party cards and applicable summons, discard all energies from this card."
@@ -4195,6 +4684,8 @@
             "attack1": {
                 "element": "Frost",
                 "cost": 5,
+                "element2": null,
+                "cost2": null,
                 "name": "Genki Desu ka Eureka",
                 "damage": "70*",
                 "description": "Flip 3 coins, for each coin do 70 damage to a unique character card on the opponent’s side. If the opponent has less than three characters, land as many hits as both the coins and the Opponent's characters can permit."
@@ -4202,6 +4693,8 @@
             "attack2": {
                 "element": null,
                 "cost": null,
+                "element2": null,
+                "cost2": null,
                 "name": null,
                 "damage": null,
                 "description": null
@@ -4221,6 +4714,8 @@
             "attack1": {
                 "element": "Water",
                 "cost": 4,
+                "element2": null,
+                "cost2": null,
                 "name": "Oh Yeah!",
                 "damage": 80,
                 "description": "This attack ignores any damage modifiers that would lower its damage."
@@ -4228,6 +4723,8 @@
             "attack2": {
                 "element": null,
                 "cost": null,
+                "element2": null,
+                "cost2": null,
                 "name": null,
                 "damage": null,
                 "description": null
@@ -4247,6 +4744,8 @@
             "attack1": {
                 "element": "Fire",
                 "cost": 2,
+                "element2": null,
+                "cost2": null,
                 "name": "Dragon Arm",
                 "damage": null,
                 "description": "This attack does 30 fire damage to a party member of your choice."
@@ -4254,6 +4753,8 @@
             "attack2": {
                 "element": "Electricity",
                 "cost": 2,
+                "element2": null,
+                "cost2": null,
                 "name": "Megawatt Arm",
                 "damage": null,
                 "description": "This attack does 30 electric damage to a party member of your choice."
@@ -4273,6 +4774,8 @@
             "attack1": {
                 "element": "Digital",
                 "cost": 1,
+                "element2": null,
+                "cost2": null,
                 "name": "Code Search",
                 "damage": null,
                 "description": "Search the top three cards of your deck. Select a card and place it in your hand. Shuffle the other two cards back into your deck."
@@ -4280,6 +4783,8 @@
             "attack2": {
                 "element": "Digital",
                 "cost": 5,
+                "element2": null,
+                "cost2": null,
                 "name": "Your Reality",
                 "damage": 130,
                 "description": "Discard 3 energies from this character."
@@ -4299,6 +4804,8 @@
             "attack1": {
                 "element": "Negative",
                 "cost": 4,
+                "element2": null,
+                "cost2": null,
                 "name": "Kingslayer be King",
                 "damage": 90,
                 "description": "Flip a coin, if tails remove two energies"
@@ -4306,6 +4813,8 @@
             "attack2": {
                 "element": null,
                 "cost": null,
+                "element2": null,
+                "cost2": null,
                 "name": null,
                 "damage": null,
                 "description": null
@@ -4325,6 +4834,8 @@
             "attack1": {
                 "element": "Biological",
                 "cost": 5,
+                "element2": null,
+                "cost2": null,
                 "name": "Time Loop",
                 "damage": "10*",
                 "description": "Flip coins until you get tails, then do 10 times 2 to the power of the ammount of heads. Discard two energies."
@@ -4332,6 +4843,8 @@
             "attack2": {
                 "element": "Biological",
                 "cost": 3,
+                "element2": null,
+                "cost2": null,
                 "name": "Mass Dream",
                 "damage": "30+",
                 "description": "Flip a coin for each card on the field, for every heads put the respective card (Left to Right, Top to Bottom, from this card's player's perspective) to sleep, for each sleeping character after the coin flips, add 30 damage."
@@ -4351,6 +4864,8 @@
             "attack1": {
                 "element": "Negative",
                 "cost": 3,
+                "element2": null,
+                "cost2": null,
                 "name": "Heavy Slash",
                 "damage": 40,
                 "description": null
@@ -4358,6 +4873,8 @@
             "attack2": {
                 "element": "Negative",
                 "cost": 4,
+                "element2": null,
+                "cost2": null,
                 "name": "Soul Harvest",
                 "damage": 70,
                 "description": "Heal 30 damage from this character."
@@ -4377,6 +4894,8 @@
             "attack1": {
                 "element": "Biological",
                 "cost": 2,
+                "element2": null,
+                "cost2": null,
                 "name": "Cage Snare",
                 "damage": 20,
                 "description": "Take two opposing bench characters. Until this card doesn't use Cage Snare, any attacks used against this card also do half damage to the bench cards selected."
@@ -4384,6 +4903,8 @@
             "attack2": {
                 "element": "Biological",
                 "cost": 4,
+                "element2": null,
+                "cost2": null,
                 "name": "Toxic Belch",
                 "damage": 90,
                 "description": "The defending card is now poisoned."
@@ -4392,6 +4913,156 @@
             "copyright": "Nintendo",
             "rcost": 5,
             "image": "../Assets/ORCards/Character/PeteyPiranhaEX(Full).jpg"
+        },
+        "reimuhakureispecial": {
+            "name": "Reimu Hakurei",
+            "indexname": "reimuhakureispecial",
+            "archetype": "Character",
+            "element": "Positive",
+            "hitpoints": 110,
+            "ability": "Exorcism Aura (Hakurei) -- When an energy is attached to this card, this character takes 30 less damage from the first attack against it.",
+            "attack1": {
+                "element": "Omni",
+                "cost": 1,
+                "element2": null,
+                "cost2": null,
+                "name": "Ofuda",
+                "damage": 10,
+                "description": null
+            },
+            "attack2": {
+                "element": "Negative & Positive",
+                "cost": "2 & 2",
+                "element2": null,
+                "cost2": null,
+                "name": "Yin-Yang Orbs",
+                "damage": "*30",
+                "description": "Flip coins until you get tails, cap 8, 30 damage per heads. Evenly distribute the damage across all of the opponent's cards, any excess damage placed on the opponent's active card. Discard half of this card's total energy."
+            },
+            "series": "Touhou Project",
+            "copyright": "ZUN",
+            "rcost": 4,
+            "image": "../Assets/ORCards/Character/ReimuHakurei(ColorArt).jpg"
+        },
+        "riversongspecial": {
+            "name": "River Song",
+            "indexname": "riversongspecial",
+            "archetype": "Character",
+            "element": "Time",
+            "hitpoints": 120,
+            "ability": null,
+            "attack1": {
+                "element": "Time",
+                "cost": 5,
+                "element2": null,
+                "cost2": null,
+                "name": "Poisonous Lipstick",
+                "damage": null,
+                "description": "Poison the opponent’s active card, while the card is still in play, the opponent must flip a coin, if tails, they must immediately discard the card, and the player draws a single prize card. This effect can only be active for one opposing card at a time. If this card has the status effect cleared by an external force or is moved into the deck, this effect clears as well. Discard all energies from this card."
+            },
+            "attack2": {
+                "element": "Omni",
+                "cost": 1,
+                "element2": null,
+                "cost2": null,
+                "name": "Gun",
+                "damage": 30,
+                "description": null
+            },
+            "series": "Doctor Who",
+            "copyright": "BBC",
+            "rcost": 6,
+            "image": "../Assets/ORCards/Character/RiverSong(FullArt).jpg"
+        },
+        "rubyroseatlasspecial": {
+            "name": "Ruby Rose - Atlas",
+            "indexname": "rubyroseatlasspecial",
+            "archetype": "Character",
+            "element": "Wind",
+            "hitpoints": 120,
+            "ability": "Petal Burst -- For the cost of one wind energy, roll a d-6. if the number rolls above a 5, then the opponent's next attack misses.",
+            "attack1": {
+                "element": "Wind",
+                "cost": 1,
+                "element2": null,
+                "cost2": null,
+                "name": "Slash",
+                "damage": 10,
+                "description": null
+            },
+            "attack2": {
+                "element": "Omni",
+                "cost": 2,
+                "element2": null,
+                "cost2": null,
+                "name": "Energized bullet",
+                "damage": "30+",
+                "description": "Sacrifice two or more identical energies to apply that energy to the enemy, every extra energy does and extra 10 damage."
+            },
+            "series": "Rwby",
+            "copyright": "VIZ Media",
+            "rcost": 3,
+            "image": "../Assets/ORCards/Character/RubyRoseAtlas(FullArt).jpg"
+        },
+        "silverspecial": {
+            "name": "Silver",
+            "indexname": "silverspecial",
+            "archetype": "Character",
+            "element": "Time",
+            "hitpoints": 110,
+            "ability": null,
+            "attack1": {
+                "element": "Time",
+                "cost": 2,
+                "element2": null,
+                "cost2": null,
+                "name": "Spin Kick",
+                "damage": 30,
+                "description": null
+            },
+            "attack2": {
+                "element": "Time",
+                "cost": 4,
+                "element2": null,
+                "cost2": null,
+                "name": "Psycho-Freeze",
+                "damage": 60,
+                "description": "On your opponent’s next turn, no cards can change positions. No new characters can be played, and active characters can not be retreated."
+            },
+            "series": "Sonic the Hedgehog",
+            "copyright": "SEGA",
+            "rcost": 2,
+            "image": "../Assets/ORCards/Character/Silver(ColorArt).jpg"
+        },
+        "weissnightmareexspecial": {
+            "name": "Weiss (Nightmare) EX",
+            "indexname": "weissnightmareexspecial",
+            "archetype": "Character",
+            "element": "Frost",
+            "hitpoints": 180,
+            "ability": null,
+            "attack1": {
+                "element": "Frost",
+                "cost": 1,
+                "element2": null,
+                "cost2": null,
+                "name": "Homing Lasers",
+                "damage": null,
+                "description": "Deal 50 damage to any one of the opponent's characters or applicable Summons."
+            },
+            "attack2": {
+                "element": "Frost",
+                "cost": 4,
+                "element2": null,
+                "cost2": null,
+                "name": "Frostfire",
+                "damage": 100,
+                "description": "Flip a coin, If heads, Paralyze the opponent. Discard 3 energies."
+            },
+            "series": "RWBY",
+            "copyright": "VIZ Media",
+            "rcost": 5,
+            "image": "../Assets/ORCards/Character/Weiss(Nightmare)EX[ColorArt].jpg"
         }
     }
 ]
