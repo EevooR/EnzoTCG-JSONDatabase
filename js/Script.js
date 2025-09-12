@@ -43,6 +43,16 @@ const elements = [
   null
 ];
 
+const arches = [
+  "Character",
+  "Enhanced Character",
+  "Setting",
+  "Item",
+  "Summon",
+  "Duo"
+]
+
+
 
 // Corrected function declaration
 const orFullCards = async () => {
@@ -70,19 +80,19 @@ window.onload = async (event) => {
     if (item[key] && item[key].name !== undefined) {
       console.log(`${key}: ${item[key].name}`);
       if (elements.includes(item[key].element)) {} else {
-        alert(item[key].element + "Is not valid in" + item[key])
+        alert(item[key].element + "Is not valid in" + item[key].indexname + "element")
       }
       if (elements.includes(item[key].attack1.element)) {} else {
-        alert(item[key].attack1.element + "Is not valid in" + item[key])
+        alert(item[key].attack1.element + "Is not valid in" + item[key].indexname + "At1 element")
       }
       if (elements.includes(item[key].attack1.element2)) {} else {
-        alert(item[key].attack1.element2 + "Is not valid in" + item[key])
+        alert(item[key].attack1.element2 + "Is not valid in" + item[key].indexname + "At1 element2")
       }
       if (elements.includes(item[key].attack2.element)) {} else {
-        alert(item[key].attack2.element + "Is not valid in" + item[key])
+        alert(item[key].attack2.element + "Is not valid in" + item[key].indexname + "At2 element1")
       }
       if (elements.includes(item[key].attack2.element2)) {} else {
-        alert(item[key].attack2.element2 + "Is not valid in" + item[key])
+        alert(item[key].attack2.element2 + "Is not valid in" + item[key].indexname + "At2 element2")
       }
       const newCard = document.createElement('div');
       newCard.classList.add('Card');
