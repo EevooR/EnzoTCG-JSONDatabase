@@ -29,12 +29,13 @@
    border-radius: 10px;
 }
 #CardZoom {
-  height: 55rem;
+  height: 100%;
   width: 0rem;
   background: #00000030;
   display: block;
   background: blue;
   overflow-x: hidden;
+  /* position: fixed; */
 }
 
 #CardDisplay {
@@ -45,6 +46,7 @@
   /* flex-wrap: wrap; */
   background: green;
   height: 100%;
+ align-items: stretch;
 }
 
 #BigCard {

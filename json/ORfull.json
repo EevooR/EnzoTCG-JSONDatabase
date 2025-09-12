@@ -3135,9 +3135,9 @@
             "rcost": 5,
             "image": "../Assets/ORCards/Character/PiranhaPlant.jpg"
         },
-        "prodoboo": {
-            "name": "Prodoboo",
-            "indexname": "prodoboo",
+        "podoboo": {
+            "name": "Podoboo",
+            "indexname": "podoboo",
             "archetype": "Character",
             "element": "Fire",
             "hitpoints": 50,
@@ -3163,7 +3163,7 @@
             "series": "Super Mario Bros",
             "copyright": "Nintendo",
             "rcost": 2,
-            "image": "../Assets/ORCards/Character/Prodoboo.jpg"
+            "image": "../Assets/ORCards/Character/Podoboo.jpg"
         },
         "pokey": {
             "name": "Pokey",
@@ -3681,7 +3681,7 @@
             "name": "Snake Archer",
             "indexname": "snakearcher",
             "archetype": "Character",
-            "element": "biological",
+            "element": "Biological",
             "hitpoints": 60,
             "ability": null,
             "attack1": {
