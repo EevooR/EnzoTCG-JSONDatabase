@@ -49,13 +49,21 @@ const arches = [
   "Item",
   "Summon",
   "Duo"
-]
+];
 
+const backers = [
+  "ORbackground",
+  "TTbackground",
+  "HYbackground",
+  "ColorArt",
+  "FullArt"
+];
 
 
 // Corrected function declaration
 const orFullCards = async () => {
   const orresponse = await fetch('https://eevoor.github.io/EnzoTCG-JSONDatabase/json/ORfull.json');
+  // const orresponse = await fetch('ORfull.lnk');
   const ordata = await orresponse.json();
   return ordata;
 };
@@ -93,6 +101,13 @@ window.onload = async (event) => {
       if (elements.includes(item[key].attack2.element2)) {} else {
         alert(item[key].attack2.element2 + "Is not valid in" + item[key].indexname + "At2 element2")
       }
+      if (arches.includes(item[key].archetype)) {} else {
+        alert(item[key].archetype + "Is not valid in" + item[key].indexname + "archetype")
+      }
+      if (backers.includes(item[key].background)) {} else {
+        alert(item[key].background + "Is not valid in" + item[key].indexname + "background")
+      }
+
       const newCard = document.createElement('div');
       newCard.classList.add('Card');
       cardList.appendChild(newCard);
@@ -218,6 +233,8 @@ async function makebig(url, indexnamelocal) {
         cardSeries.innerHTML = item[key].series;
         cardCopyright.innerHTML = item[key].copyright;
         cardRCost.innerHTML = item[key].rcost;
+
+        interactUI.style.background = "var(--iu" + item[key].background + ")";
 
         console.log(item[key].name);
         console.log(item[key].archetype);

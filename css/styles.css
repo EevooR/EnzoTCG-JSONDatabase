@@ -37,6 +37,10 @@
 
   --Windm : #37b5ffE6;
   --Winds : #5ce1e6ff;
+
+  --iuORbackground : rgb(174,174,174);
+  --iuColorArt : #eeff41;
+  --iuFullArt : #fd0200;
 }
 
 * {
@@ -123,4 +127,19 @@ body {
 .Attack {
   background: rgba(0, 0, 0, 0.3);
   color: white;
+}
+
+
+#EnzoTCGLogo {
+  animation: spin 5s linear infinite;
+  width: 5em;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg); /* Starting point: no rotation */
+  }
+  to {
+    transform: rotate(360deg); /* Ending point: full rotation */
+  }
 }
