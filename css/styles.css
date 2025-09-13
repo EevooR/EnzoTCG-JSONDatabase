@@ -1,10 +1,51 @@
 
 
 
+:root {
+  --Biologicalm : #c1ff72E6;
+  --Biologicals : #7dd957FF;
+
+  --Digitalm : #7ed957E6;
+  --Digitals : #000000ff;
+
+  --Earthm : #ffde58E6;
+  --Earths : #a06a00ff;
+
+  --Electricitym : #b0b00fE6;
+  --Electricitys : #ffde58ff;
+
+  --Firem : #f1463aE6;
+  --Fires : #ff904dff;
+
+  --Frostm : #5ce1e6E6;
+  --Frosts : #0cbfdeff;
+
+  --Negativem : #8b52ffE6;
+  --Negatives : #5d17ebff;
+
+  --Omnim : #c1ff72E6;
+  --Omnis : #c1ff72ff;
+
+  --Positivem : #ffffffE6;
+  --Positives : #d9d9d9ff;
+
+  --Timem : #ffffffE6;
+  --Times : #535353ff;
+
+  --Waterm : #3059c2E6;
+  --Waters : #5270ffff;
+
+  --Windm : #37b5ffE6;
+  --Winds : #5ce1e6ff;
+}
+
 * {
   transition: 2s ease-in-out;
 }
-
+body {
+  margin:0;
+  background: gray;
+}
 
 .Button-Interface {
   display: flex;
@@ -33,7 +74,7 @@
   width: 0rem;
   background: #00000030;
   display: block;
-  background: blue;
+  /* background: blue; */
   overflow-x: hidden;
   /* position: fixed; */
 }
@@ -44,18 +85,23 @@
   display: flex;
   justify-content: space-evenly;
   /* flex-wrap: wrap; */
-  background: green;
+  background: rgb(174,174,174);
+  border-radius: 10px;
   height: 100%;
  align-items: stretch;
+ min-height: 100vh;
 }
 
 #BigCard {
    width:20rem;
-   height:50rem;
+   height: 35rem;
    border: 1em solid #00000000;
    display: none;
    margin: auto;
    position: fixed;
+   background: rgba(255,255,255,0.9);
+   border-radius: 10px;
+   text-align: center;
 }
 #zoomedInCard {
   width: 100%;
@@ -67,4 +113,14 @@
   overflow-y: scroll;
   scrollbar-color: red #00000000;
   height: 20%;
+}
+
+
+.elementalCost {
+  width: 3.5em;
+}
+
+.Attack {
+  background: rgba(0, 0, 0, 0.3);
+  color: white;
 }

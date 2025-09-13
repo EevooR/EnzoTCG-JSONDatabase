@@ -3,6 +3,7 @@ const cardZoomArea = document.querySelector('#CardZoom');
 const imgCardBig = document.querySelector('#zoomedInCard');
 const interactUI = document.querySelector('#CardDisplay');
 const cardList = document.querySelector('#Cardlist');
+const htmlbody = document.querySelector('#body');
 
 const cardName = document.querySelector('#cardName');
 const cardArche = document.querySelector('#cardArche');
@@ -12,13 +13,11 @@ const cardAbility = document.querySelector('#cardAbility');
 
 const cardAttack1name = document.querySelector('#cardAttack1name');
 const cardAttack1Element = document.querySelector('#cardAttack1Element');
-const cardAttack1Cost = document.querySelector('#cardAttack1Cost');
 const cardAttack1Damage = document.querySelector('#cardAttack1Damage');
 const cardAttack1Description = document.querySelector('#cardAttack1Description');
 
 const cardAttack2name = document.querySelector('#cardAttack2name');
 const cardAttack2Element = document.querySelector('#cardAttack2Element');
-const cardAttack2Cost = document.querySelector('#cardAttack2Cost');
 const cardAttack2Damage = document.querySelector('#cardAttack2Damage');
 const cardAttack2Description = document.querySelector('#cardAttack2Description');
 
@@ -192,21 +191,27 @@ async function makebig(url, indexnamelocal) {
       console.log(indexnamelocal);
       if (item[key] && item[key].indexname == indexnamelocal) {
 
+        cardAttack1Element.innerHTML = "";
+        cardAttack2Element.innerHTML = "";
+        cardElement.innerHTML = "";
+        cardZoomImg.style.background = "var(--" + item[key].element + "m)";
+        htmlbody.style.background = "var(--" + item[key].element + "s)";
+
         cardName.innerHTML = item[key].name;
         cardArche.innerHTML = item[key].archetype;
-        cardElement.innerHTML = item[key].element;
+        fillelement(1, item[key].element, cardElement)
         cardHP.innerHTML = item[key].hitpoints;
         cardAbility.innerHTML = item[key].ability;
 
         cardAttack1name.innerHTML = item[key].attack1.name;
-        cardAttack1Element.innerHTML = item[key].attack1.element;
-        cardAttack1Cost.innerHTML = item[key].attack1.cost;
+        fillelement(item[key].attack1.cost, item[key].attack1.element, cardAttack1Element)
+        fillelement(item[key].attack1.cost2, item[key].attack1.element2, cardAttack1Element)
         cardAttack1Damage.innerHTML = item[key].attack1.damage;
         cardAttack1Description.innerHTML = item[key].attack1.description;
 
         cardAttack2name.innerHTML = item[key].attack2.name;
-        cardAttack2Element.innerHTML = item[key].attack2.element;
-        cardAttack2Cost.innerHTML = item[key].attack2.cost;
+        fillelement(item[key].attack2.cost, item[key].attack2.element, cardAttack2Element)
+        fillelement(item[key].attack2.cost2, item[key].attack2.element2, cardAttack2Element)
         cardAttack2Damage.innerHTML = item[key].attack2.damage;
         cardAttack2Description.innerHTML = item[key].attack2.description;
 
@@ -221,12 +226,10 @@ async function makebig(url, indexnamelocal) {
         console.log(item[key].ability);
         console.log(item[key].attack1.name);
         console.log(item[key].attack1.element);
-        console.log(item[key].attack1.cost);
         console.log(item[key].attack1.damage);
         console.log(item[key].attack1.description);
         console.log(item[key].attack2.name);
         console.log(item[key].attack2.element);
-        console.log(item[key].attack2.cost);
         console.log(item[key].attack2.damage);
         console.log(item[key].attack2.description);
         console.log(item[key].series);
@@ -245,4 +248,14 @@ async function makebig(url, indexnamelocal) {
   }
 
   console.log(url);
+}
+
+function fillelement(numLoops, element, location){
+  for (let i = 0; i < numLoops; i++) {
+    const newelem = document.createElement('img');
+    newelem.classList.add('elementalCost');
+    location.appendChild(newelem);
+    newelem.title = element;
+    newelem.src = "../Assets/Elements/" + element + ".png"
+  }
 }
