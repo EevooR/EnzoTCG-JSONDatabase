@@ -50,7 +50,6 @@ body {
   margin:0;
   background: gray;
 }
-
 .Button-Interface {
   display: flex;
   justify-content: space-around;
@@ -122,6 +121,14 @@ body {
 
 .elementalCost {
   width: 3.5em;
+}
+
+.filtericon {
+  width: 3.5em;
+  border-radius: 100px;
+  border-width: .2em;
+  border-color: black;
+  border-style: solid;
 }
 
 .Attack {

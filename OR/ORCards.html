@@ -37,21 +37,36 @@
         <button type="button" name="button">Energies</button>
       </a>
     </div>
+    <!-- Reset -->
+    <button type="button" name="button" onclick="resetfilters()"><img src="../Assets/ClearFilters.png" alt="Clear Filters" class="filtericon" title="Clear Filters"></button>
+    <!-- Elements -->
+    <button type="button" name="button" onclick="filtertype('Biological')"><img src="../Assets/Elements/Biological.png" alt="Filter to only Biological" class="filtericon" title="Filter to only Biological"></button>
+    <button type="button" name="button" onclick="filtertype('Digital')"><img src="../Assets/Elements/Digital.png" alt="Filter to only Digital" class="filtericon" title="Filter to only Digital"></button>
+    <button type="button" name="button" onclick="filtertype('Earth')"><img src="../Assets/Elements/Earth.png" alt="Filter to only Earth" class="filtericon" title="Filter to only Earth"></button>
+    <button type="button" name="button" onclick="filtertype('Electricity')"><img src="../Assets/Elements/Electricity.png" alt="Filter to only Electricity" class="filtericon" title="Filter to only Electricity"></button>
+    <button type="button" name="button" onclick="filtertype('Fire')"><img src="../Assets/Elements/Fire.png" alt="Filter to only Fire" class="filtericon" title="Filter to only Fire"></button>
+    <button type="button" name="button" onclick="filtertype('Frost')"><img src="../Assets/Elements/Frost.png" alt="Filter to only Frost" class="filtericon" title="Filter to only Frost"></button>
+    <button type="button" name="button" onclick="filtertype('Negative')"><img src="../Assets/Elements/Negative.png" alt="Filter to only Negative" class="filtericon" title="Filter to only Negative"></button>
+    <button type="button" name="button" onclick="filtertype('Omni')"><img src="../Assets/Elements/Omni.png" alt="Filter to only Omni" class="filtericon" title="Filter to only Omni"></button>
+    <button type="button" name="button" onclick="filtertype('Positive')"><img src="../Assets/Elements/Positive.png" alt="Filter to only Positive" class="filtericon" title="Filter to only Positive"></button>
+    <button type="button" name="button" onclick="filtertype('Time')"><img src="../Assets/Elements/Time.png" alt="Filter to only Time" class="filtericon" title="Filter to only Time"></button>
+    <button type="button" name="button" onclick="filtertype('Water')"><img src="../Assets/Elements/Water.png" alt="Filter to only Water" class="filtericon" title="Filter to only Water"></button>
+    <button type="button" name="button" onclick="filtertype('Wind')"><img src="../Assets/Elements/Wind.png" alt="Filter to only Wind" class="filtericon" title="Filter to only Wind"></button>
+    <!-- EX -->
+    <button type="button" name="button" onclick="filterex(true)"><img src="../Assets/Ex.png" alt="Filter to only EX" class="filtericon" title="Filter to only EX"></button>
+    <button type="button" name="button" onclick="filterex(false)"><img src="../Assets/noEX.png" alt="Filter to only non-EX" class="filtericon" title="Filter to only non-EX"></button>
+    <!-- Archetypes -->
+    <button type="button" name="button" onclick="filterarcheall()"><img src="../Assets/Characters.png" alt="Filter to only Characters" class="filtericon" title="Filter to only Characters"></button>
+    <button type="button" name="button" onclick="filterarche('Character')"><img src="../Assets/BasicCharacter.png" alt="Filter to only basic characters" class="filtericon" title="Filter to only basic characters"></button>
+    <button type="button" name="button" onclick="filterarche('Enhanced Character')"><img src="../Assets/Echaracter.png" alt="Filter to only Enhanced Characters" class="filtericon" title="Filter to only Enhanced Characters"></button>
+    <!-- Rarity -->
+    <button type="button" name="button" onclick="filterrar('Common')"><img src="../Assets/CommonCards.png" alt="Filter to only Common Cards" class="filtericon" title="Filter to only Common Cards"></button>
+    <button type="button" name="button" onclick="filterrar('Rare')"><img src="../Assets/RareCards.png" alt="Filter to only Rare Cards" class="filtericon" title="Filter to only Rare Cards"></button>
+    <button type="button" name="button" onclick="filterrar('ColorArt')"><img src="../Assets/ColorArt.png" alt="Filter to only Color Arts" class="filtericon" title="Filter to only Color Arts"></button>
+    <button type="button" name="button" onclick="filterrar('FullArt')"><img src="../Assets/FullArt.png" alt="Filter to only Full Arts" class="filtericon" title="Filter to only Full Arts"></button>
 
-    <button type="button" name="button" onclick="resetfilters()">Filter Reset</button>
-    <button type="button" name="button" onclick="filtertype('Biological')">Filter to only Biological</button>
-    <button type="button" name="button" onclick="filtertype('Digital')">Filter to only Digital</button>
-    <button type="button" name="button" onclick="filtertype('Earth')">Filter to only Earth</button>
-    <button type="button" name="button" onclick="filtertype('Electricity')">Filter to only Electricity</button>
-    <button type="button" name="button" onclick="filtertype('Fire')">Filter to only Fire</button>
-    <button type="button" name="button" onclick="filtertype('Frost')">Filter to only Frost</button>
-    <button type="button" name="button" onclick="filtertype('Negative')">Filter to only Negative</button>
-    <button type="button" name="button" onclick="filtertype('Omni')">Filter to only Omni</button>
-    <button type="button" name="button" onclick="filtertype('Positive')">Filter to only Positive</button>
-    <button type="button" name="button" onclick="filtertype('Time')">Filter to only Time</button>
-    <button type="button" name="button" onclick="filtertype('Water')">Filter to only Water</button>
-    <button type="button" name="button" onclick="filtertype('Wind')">Filter to only Wind</button>
-    <button type="button" name="button" style="background:red;" onclick="hidezoom()">Hide the Side Pannel</button>
+    <!-- Misc. -->
+    <button type="button" name="button" style="background:red;" onclick="hidezoom()"><img src="../Assets/SidePanel.png" alt="Hide the Side Pannel" class="filtericon" title="Hide the Side Pannel"></button>
 
     <div id="CardDisplay">
       <div id="Cardlist">

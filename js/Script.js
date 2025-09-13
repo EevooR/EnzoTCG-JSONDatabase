@@ -161,6 +161,135 @@ async function filtertype(type) {
     console.log(error);
   }
 };
+async function filterex(trFa) {
+  try {
+    cardList.innerHTML = "";
+    const data = await orFullCards(); // await the async function
+    console.log(data);
+
+    data.forEach(item => {
+  for (const key in item) {
+    if (item[key] && item[key].name !== undefined) {
+      console.log(`${key}: ${item[key].ex}`);
+      if (item[key].ex == trFa) {
+        const newCard = document.createElement('div');
+        newCard.classList.add('Card');
+        cardList.appendChild(newCard);
+        newCard.title = item[key].indexname;
+        newCard.style.background = "url('" + item[key].image + "')";
+        newCard.style.backgroundSize = "contain";
+        newCard.style.backgroundRepeat = "no-repeat";
+        newCard.setAttribute('onclick', 'makebig("' + item[key].image + '", "' + item[key].indexname + '")');
+      }
+
+    }
+  }
+});
+
+  } catch (error) {
+    console.log(error);
+  }
+};
+async function filterarche(archet) {
+  try {
+    cardList.innerHTML = "";
+    const data = await orFullCards(); // await the async function
+    console.log(data);
+
+    data.forEach(item => {
+  for (const key in item) {
+    if (item[key] && item[key].name !== undefined) {
+      console.log(`${key}: ${item[key].archetype}`);
+      if (item[key].archetype == archet) {
+        const newCard = document.createElement('div');
+        newCard.classList.add('Card');
+        cardList.appendChild(newCard);
+        newCard.title = item[key].indexname;
+        newCard.style.background = "url('" + item[key].image + "')";
+        newCard.style.backgroundSize = "contain";
+        newCard.style.backgroundRepeat = "no-repeat";
+        newCard.setAttribute('onclick', 'makebig("' + item[key].image + '", "' + item[key].indexname + '")');
+      }
+
+    }
+  }
+});
+
+  } catch (error) {
+    console.log(error);
+  }
+};
+async function filterrar(rarity) {
+  try {
+    cardList.innerHTML = "";
+    const data = await orFullCards(); // await the async function
+    console.log(data);
+    if (rarity !== "Common") {
+      if (rarity == "Rare") {
+        data.forEach(item => {
+          for (const key in item) {
+            if (item[key] && item[key].name !== undefined) {
+              console.log(`${key}: ${item[key].background}`);
+              if (["FullArt","ColorArt"].includes(item[key].background)) {
+        const newCard = document.createElement('div');
+        newCard.classList.add('Card');
+        cardList.appendChild(newCard);
+        newCard.title = item[key].indexname;
+        newCard.style.background = "url('" + item[key].image + "')";
+        newCard.style.backgroundSize = "contain";
+        newCard.style.backgroundRepeat = "no-repeat";
+        newCard.setAttribute('onclick', 'makebig("' + item[key].image + '", "' + item[key].indexname + '")');
+      }
+
+      }
+    }
+  });
+      } else {
+        data.forEach(item => {
+          for (const key in item) {
+            if (item[key] && item[key].name !== undefined) {
+              console.log(`${key}: ${item[key].background}`);
+              if (item[key].background == rarity) {
+        const newCard = document.createElement('div');
+        newCard.classList.add('Card');
+        cardList.appendChild(newCard);
+        newCard.title = item[key].indexname;
+        newCard.style.background = "url('" + item[key].image + "')";
+        newCard.style.backgroundSize = "contain";
+        newCard.style.backgroundRepeat = "no-repeat";
+        newCard.setAttribute('onclick', 'makebig("' + item[key].image + '", "' + item[key].indexname + '")');
+      }
+
+      }
+    }
+  });
+      }
+
+} else {
+  data.forEach(item => {
+for (const key in item) {
+if (item[key] && item[key].name !== undefined) {
+  console.log(`${key}: ${item[key].background}`);
+  if (["FullArt","ColorArt"].includes(item[key].background)) {
+  } else {
+    const newCard = document.createElement('div');
+    newCard.classList.add('Card');
+    cardList.appendChild(newCard);
+    newCard.title = item[key].indexname;
+    newCard.style.background = "url('" + item[key].image + "')";
+    newCard.style.backgroundSize = "contain";
+    newCard.style.backgroundRepeat = "no-repeat";
+    newCard.setAttribute('onclick', 'makebig("' + item[key].image + '", "' + item[key].indexname + '")');
+  }
+
+}
+}
+});
+}
+  } catch (error) {
+    console.log(error);
+  }
+};
 
 async function resetfilters() {
   try {
@@ -180,6 +309,35 @@ async function resetfilters() {
         newCard.style.backgroundSize = "contain";
         newCard.style.backgroundRepeat = "no-repeat";
         newCard.setAttribute('onclick', 'makebig("' + item[key].image + '", "' + item[key].indexname + '")');
+    }
+  }
+});
+
+  } catch (error) {
+    console.log(error);
+  }
+};
+async function filterarcheall() {
+  try {
+    cardList.innerHTML = "";
+    const data = await orFullCards(); // await the async function
+    console.log(data);
+
+    data.forEach(item => {
+  for (const key in item) {
+    if (item[key] && item[key].name !== undefined) {
+      console.log(`${key}: ${item[key].archetype}`);
+      if (["Character", "Enhanced Character"].includes(item[key].archetype)) {
+        const newCard = document.createElement('div');
+        newCard.classList.add('Card');
+        cardList.appendChild(newCard);
+        newCard.title = item[key].indexname;
+        newCard.style.background = "url('" + item[key].image + "')";
+        newCard.style.backgroundSize = "contain";
+        newCard.style.backgroundRepeat = "no-repeat";
+        newCard.setAttribute('onclick', 'makebig("' + item[key].image + '", "' + item[key].indexname + '")');
+      }
+
     }
   }
 });
