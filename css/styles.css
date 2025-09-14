@@ -83,7 +83,7 @@ body {
 }
 
 #CardDisplay {
-  width: 100%;
+  width: 100vw;
   margin: auto;
   display: flex;
   justify-content: space-evenly;
@@ -149,4 +149,8 @@ body {
   to {
     transform: rotate(360deg); /* Ending point: full rotation */
   }
+}
+
+.TitleHeader {
+  /* display: flex; */
 }

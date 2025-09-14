@@ -4632,6 +4632,996 @@
 
 
 
+        "adventuresphere": {
+            "name": "Adventure Sphere",
+            "indexname": "adventuresphere",
+            "archetype": "Item",
+            "background": "ORbackground",
+            "ability": "All Summons +1 timer",
+            "attack1": {
+                "element": null,
+                "cost": null,
+                "element2": null,
+                "cost2": null,
+                "name": null,
+                "damage": null,
+                "description": "When Space Sphere, Adventure Sphere, and Fact Sphere are all in play, on the same side, the opponent must return their Wheatley Core and/or Wheatley Ex card to their deck and shuffle their deck. Discard all three spheres and take the reward for defeating a single standard character."
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "element2": null,
+                "cost2": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Portal",
+            "copyright": "Valve",
+            "image": "../Assets/ORCards/Items/AdventureSphere.jpg"
+        },
+        "angercore": {
+          "name": "Anger Core",
+          "indexname": "angercore",
+          "archetype": "Item",
+          "background": "ORbackground",
+          "ability": "The opponent’s active character does twice as much damage, but takes twice the damage.",
+          "attack1": {
+              "element": null,
+              "cost": null,
+              "element2": null,
+              "cost2": null,
+              "name": null,
+              "damage": null,
+              "description": "When Morality Core, Curiosity Core, Intelligence Core, and Anger Core are all in play, on the same side, the opponent must return their GLaDOS card to their deck and shuffle their deck. Discard all four cores and take the reward for defeating a single standard character."
+          },
+          "attack2": {
+              "element": null,
+              "cost": null,
+              "element2": null,
+              "cost2": null,
+              "name": null,
+              "damage": null,
+              "description": null
+          },
+          "series": "Portal",
+          "copyright": "Valve",
+          "image": "../Assets/ORCards/Items/AngerCore.jpg"
+        },
+
+        "birdpassport": {
+          "name": "Bird Passport",
+          "indexname": "birdpassport",
+          "archetype": "Item",
+          "background": "ORbackground",
+          "ability": "Attach to a character, this character is now considered a Wind card, losing it’s original element. Any energies that the card needs to attack, excluding Omni and Wind, now require Wind energies instead.",
+          "attack1": {
+              "element": null,
+              "cost": null,
+              "element2": null,
+              "cost2": null,
+              "name": null,
+              "damage": null,
+              "description": null
+          },
+          "attack2": {
+              "element": null,
+              "cost": null,
+              "element2": null,
+              "cost2": null,
+              "name": null,
+              "damage": null,
+              "description": null
+          },
+          "series": "A Hat in Time",
+          "copyright": "Gears for Breakfast",
+          "image": "../Assets/ORCards/Items/BirdPassport.jpg"
+        },
+        "bishop": {
+          "name": "Bishop",
+          "indexname": "bishop",
+          "archetype": "Item",
+          "background": "ORbackground",
+          "ability": "Show this card to your opponent and turn it face down, you are allowed to turn this card to check what it is at any time then turn it face down again. When it seems that you are about to lose discard this card and knock out the opponent’s active card.",
+          "attack1": {
+              "element": null,
+              "cost": null,
+              "element2": null,
+              "cost2": null,
+              "name": null,
+              "damage": null,
+              "description": null
+          },
+          "attack2": {
+              "element": null,
+              "cost": null,
+              "element2": null,
+              "cost2": null,
+              "name": null,
+              "damage": null,
+              "description": null
+          },
+          "series": null,
+          "copyright": null,
+          "image": "../Assets/ORCards/Items/Bishop.jpg"
+        },
+        "brla": {
+          "name": "BRL-A",
+          "indexname": "brla",
+          "archetype": "Item",
+          "background": "ORbackground",
+          "ability": "The next attack done to the Active character, Flip a coin, If tails, reflect the damage that would have been afflicted to the active character before elemental weaknesses back to the attacker, if heads, add half the damage to the amount done to the attacker.",
+          "attack1": {
+              "element": null,
+              "cost": null,
+              "element2": null,
+              "cost2": null,
+              "name": null,
+              "damage": null,
+              "description": null
+          },
+          "attack2": {
+              "element": null,
+              "cost": null,
+              "element2": null,
+              "cost2": null,
+              "name": null,
+              "damage": null,
+              "description": null
+          },
+          "series": "Wall•E",
+          "copyright": "Pixar",
+          "image": "../Assets/ORCards/Items/BRLA.jpg"
+        },
+
+        "coldstar": {
+          "name": "Cold Star",
+          "indexname": "coldstar",
+          "archetype": "Item",
+          "background": "ORbackground",
+          "ability": "Can not be played in the same turn as Dreamscape Leadworth or Dream Lord Cards. Deals 10 Frost damage to all cards per turn.",
+          "attack1": {
+              "element": null,
+              "cost": null,
+              "element2": null,
+              "cost2": null,
+              "name": null,
+              "damage": null,
+              "description": null
+          },
+          "attack2": {
+              "element": null,
+              "cost": null,
+              "element2": null,
+              "cost2": null,
+              "name": null,
+              "damage": null,
+              "description": null
+          },
+          "series": "Doctor Who",
+          "copyright": "BBC",
+          "image": "../Assets/ORCards/Items/ColdStar.jpg"
+        },
+        "curiositycore": {
+          "name": "Curiosity Core",
+          "indexname": "curiositycore",
+          "archetype": "Item",
+          "background": "ORbackground",
+          "ability": "All attacks require half the energies, rounded up.",
+          "attack1": {
+              "element": null,
+              "cost": null,
+              "element2": null,
+              "cost2": null,
+              "name": null,
+              "damage": null,
+              "description": "When Morality Core, Curiosity Core, Intelligence Core, and Anger Core are all in play, on the same side, the opponent must return their GLaDOS card to their deck and shuffle their deck. Discard all four cores and take the reward for defeating a single standard character."
+          },
+          "attack2": {
+              "element": null,
+              "cost": null,
+              "element2": null,
+              "cost2": null,
+              "name": null,
+              "damage": null,
+              "description": null
+          },
+          "series": "Portal",
+          "copyright": "Valve",
+          "image": "../Assets/ORCards/Items/CuriosityCore.jpg"
+        },
+
+        "elytra": {
+          "name": "Elytra",
+          "indexname": "elytra",
+          "archetype": "Item",
+          "background": "ORbackground",
+          "ability": "Attach this card to a character. If a character has this equipped, they ignore traps that would otherwise force them to stay in the active slot.",
+          "attack1": {
+              "element": null,
+              "cost": null,
+              "element2": null,
+              "cost2": null,
+              "name": null,
+              "damage": null,
+              "description": null
+          },
+          "attack2": {
+              "element": null,
+              "cost": null,
+              "element2": null,
+              "cost2": null,
+              "name": null,
+              "damage": null,
+              "description": null
+          },
+          "series": "Rwby",
+          "copyright": "Minecraft",
+          "image": "../Assets/ORCards/Items/Elytra.jpg"
+        },
+        "eangxiaolongvale": {
+          "name": "Yang Xiao Long Vale",
+          "indexname": "yangxiaolongvale",
+          "archetype": "Item",
+          "background": "ORbackground",
+          "ability": null,
+          "attack1": {
+              "element": "Fire",
+              "cost": 1,
+              "element2": null,
+              "cost2": null,
+              "name": "Punch",
+              "damage": 30,
+              "description": null
+          },
+          "attack2": {
+              "element": null,
+              "cost": null,
+              "element2": null,
+              "cost2": null,
+              "name": null,
+              "damage": null,
+              "description": null
+          },
+          "series": "Rwby",
+          "copyright": "Viz Media",
+          "image": "../Assets/ORCards/Items/YangXiaoLong(Vale).jpg"
+        },
+        "eangxiaolongvale": {
+          "name": "Yang Xiao Long Vale",
+          "indexname": "yangxiaolongvale",
+          "archetype": "Item",
+          "background": "ORbackground",
+          "ability": null,
+          "attack1": {
+              "element": "Fire",
+              "cost": 1,
+              "element2": null,
+              "cost2": null,
+              "name": "Punch",
+              "damage": 30,
+              "description": null
+          },
+          "attack2": {
+              "element": null,
+              "cost": null,
+              "element2": null,
+              "cost2": null,
+              "name": null,
+              "damage": null,
+              "description": null
+          },
+          "series": "Rwby",
+          "copyright": "Viz Media",
+          "image": "../Assets/ORCards/Items/YangXiaoLong(Vale).jpg"
+        },
+
+        "fangxiaolongvale": {
+          "name": "Yang Xiao Long Vale",
+          "indexname": "yangxiaolongvale",
+          "archetype": "Item",
+          "background": "ORbackground",
+          "ability": null,
+          "attack1": {
+              "element": "Fire",
+              "cost": 1,
+              "element2": null,
+              "cost2": null,
+              "name": "Punch",
+              "damage": 30,
+              "description": null
+          },
+          "attack2": {
+              "element": null,
+              "cost": null,
+              "element2": null,
+              "cost2": null,
+              "name": null,
+              "damage": null,
+              "description": null
+          },
+          "series": "Rwby",
+          "copyright": "Viz Media",
+          "image": "../Assets/ORCards/Items/YangXiaoLong(Vale).jpg"
+        },
+        "fangxiaolongvale": {
+          "name": "Yang Xiao Long Vale",
+          "indexname": "yangxiaolongvale",
+          "archetype": "Item",
+          "background": "ORbackground",
+          "ability": null,
+          "attack1": {
+              "element": "Fire",
+              "cost": 1,
+              "element2": null,
+              "cost2": null,
+              "name": "Punch",
+              "damage": 30,
+              "description": null
+          },
+          "attack2": {
+              "element": null,
+              "cost": null,
+              "element2": null,
+              "cost2": null,
+              "name": null,
+              "damage": null,
+              "description": null
+          },
+          "series": "Rwby",
+          "copyright": "Viz Media",
+          "image": "../Assets/ORCards/Items/YangXiaoLong(Vale).jpg"
+        },
+
+        "gangxiaolongvale": {
+          "name": "Yang Xiao Long Vale",
+          "indexname": "yangxiaolongvale",
+          "archetype": "Item",
+          "background": "ORbackground",
+          "ability": null,
+          "attack1": {
+              "element": "Fire",
+              "cost": 1,
+              "element2": null,
+              "cost2": null,
+              "name": "Punch",
+              "damage": 30,
+              "description": null
+          },
+          "attack2": {
+              "element": null,
+              "cost": null,
+              "element2": null,
+              "cost2": null,
+              "name": null,
+              "damage": null,
+              "description": null
+          },
+          "series": "Rwby",
+          "copyright": "Viz Media",
+          "image": "../Assets/ORCards/Items/YangXiaoLong(Vale).jpg"
+        },
+        "gangxiaolongvale": {
+          "name": "Yang Xiao Long Vale",
+          "indexname": "yangxiaolongvale",
+          "archetype": "Item",
+          "background": "ORbackground",
+          "ability": null,
+          "attack1": {
+              "element": "Fire",
+              "cost": 1,
+              "element2": null,
+              "cost2": null,
+              "name": "Punch",
+              "damage": 30,
+              "description": null
+          },
+          "attack2": {
+              "element": null,
+              "cost": null,
+              "element2": null,
+              "cost2": null,
+              "name": null,
+              "damage": null,
+              "description": null
+          },
+          "series": "Rwby",
+          "copyright": "Viz Media",
+          "image": "../Assets/ORCards/Items/YangXiaoLong(Vale).jpg"
+        },
+
+        "iangxiaolongvale": {
+          "name": "Yang Xiao Long Vale",
+          "indexname": "yangxiaolongvale",
+          "archetype": "Item",
+          "background": "ORbackground",
+          "ability": null,
+          "attack1": {
+              "element": "Fire",
+              "cost": 1,
+              "element2": null,
+              "cost2": null,
+              "name": "Punch",
+              "damage": 30,
+              "description": null
+          },
+          "attack2": {
+              "element": null,
+              "cost": null,
+              "element2": null,
+              "cost2": null,
+              "name": null,
+              "damage": null,
+              "description": null
+          },
+          "series": "Rwby",
+          "copyright": "Viz Media",
+          "image": "../Assets/ORCards/Items/YangXiaoLong(Vale).jpg"
+        },
+        "iangxiaolongvale": {
+          "name": "Yang Xiao Long Vale",
+          "indexname": "yangxiaolongvale",
+          "archetype": "Item",
+          "background": "ORbackground",
+          "ability": null,
+          "attack1": {
+              "element": "Fire",
+              "cost": 1,
+              "element2": null,
+              "cost2": null,
+              "name": "Punch",
+              "damage": 30,
+              "description": null
+          },
+          "attack2": {
+              "element": null,
+              "cost": null,
+              "element2": null,
+              "cost2": null,
+              "name": null,
+              "damage": null,
+              "description": null
+          },
+          "series": "Rwby",
+          "copyright": "Viz Media",
+          "image": "../Assets/ORCards/Items/YangXiaoLong(Vale).jpg"
+        },
+        "iangxiaolongvale": {
+          "name": "Yang Xiao Long Vale",
+          "indexname": "yangxiaolongvale",
+          "archetype": "Item",
+          "background": "ORbackground",
+          "ability": null,
+          "attack1": {
+              "element": "Fire",
+              "cost": 1,
+              "element2": null,
+              "cost2": null,
+              "name": "Punch",
+              "damage": 30,
+              "description": null
+          },
+          "attack2": {
+              "element": null,
+              "cost": null,
+              "element2": null,
+              "cost2": null,
+              "name": null,
+              "damage": null,
+              "description": null
+          },
+          "series": "Rwby",
+          "copyright": "Viz Media",
+          "image": "../Assets/ORCards/Items/YangXiaoLong(Vale).jpg"
+        },
+
+        "langxiaolongvale": {
+          "name": "Yang Xiao Long Vale",
+          "indexname": "yangxiaolongvale",
+          "archetype": "Item",
+          "background": "ORbackground",
+          "ability": null,
+          "attack1": {
+              "element": "Fire",
+              "cost": 1,
+              "element2": null,
+              "cost2": null,
+              "name": "Punch",
+              "damage": 30,
+              "description": null
+          },
+          "attack2": {
+              "element": null,
+              "cost": null,
+              "element2": null,
+              "cost2": null,
+              "name": null,
+              "damage": null,
+              "description": null
+          },
+          "series": "Rwby",
+          "copyright": "Viz Media",
+          "image": "../Assets/ORCards/Items/YangXiaoLong(Vale).jpg"
+        },
+
+        "mangxiaolongvale": {
+          "name": "Yang Xiao Long Vale",
+          "indexname": "yangxiaolongvale",
+          "archetype": "Item",
+          "background": "ORbackground",
+          "ability": null,
+          "attack1": {
+              "element": "Fire",
+              "cost": 1,
+              "element2": null,
+              "cost2": null,
+              "name": "Punch",
+              "damage": 30,
+              "description": null
+          },
+          "attack2": {
+              "element": null,
+              "cost": null,
+              "element2": null,
+              "cost2": null,
+              "name": null,
+              "damage": null,
+              "description": null
+          },
+          "series": "Rwby",
+          "copyright": "Viz Media",
+          "image": "../Assets/ORCards/Items/YangXiaoLong(Vale).jpg"
+        },
+        "mangxiaolongvale": {
+          "name": "Yang Xiao Long Vale",
+          "indexname": "yangxiaolongvale",
+          "archetype": "Item",
+          "background": "ORbackground",
+          "ability": null,
+          "attack1": {
+              "element": "Fire",
+              "cost": 1,
+              "element2": null,
+              "cost2": null,
+              "name": "Punch",
+              "damage": 30,
+              "description": null
+          },
+          "attack2": {
+              "element": null,
+              "cost": null,
+              "element2": null,
+              "cost2": null,
+              "name": null,
+              "damage": null,
+              "description": null
+          },
+          "series": "Rwby",
+          "copyright": "Viz Media",
+          "image": "../Assets/ORCards/Items/YangXiaoLong(Vale).jpg"
+        },
+
+        "nangxiaolongvale": {
+          "name": "Yang Xiao Long Vale",
+          "indexname": "yangxiaolongvale",
+          "archetype": "Item",
+          "background": "ORbackground",
+          "ability": null,
+          "attack1": {
+              "element": "Fire",
+              "cost": 1,
+              "element2": null,
+              "cost2": null,
+              "name": "Punch",
+              "damage": 30,
+              "description": null
+          },
+          "attack2": {
+              "element": null,
+              "cost": null,
+              "element2": null,
+              "cost2": null,
+              "name": null,
+              "damage": null,
+              "description": null
+          },
+          "series": "Rwby",
+          "copyright": "Viz Media",
+          "image": "../Assets/ORCards/Items/YangXiaoLong(Vale).jpg"
+        },
+
+        "oangxiaolongvale": {
+          "name": "Yang Xiao Long Vale",
+          "indexname": "yangxiaolongvale",
+          "archetype": "Item",
+          "background": "ORbackground",
+          "ability": null,
+          "attack1": {
+              "element": "Fire",
+              "cost": 1,
+              "element2": null,
+              "cost2": null,
+              "name": "Punch",
+              "damage": 30,
+              "description": null
+          },
+          "attack2": {
+              "element": null,
+              "cost": null,
+              "element2": null,
+              "cost2": null,
+              "name": null,
+              "damage": null,
+              "description": null
+          },
+          "series": "Rwby",
+          "copyright": "Viz Media",
+          "image": "../Assets/ORCards/Items/YangXiaoLong(Vale).jpg"
+        },
+
+        "pangxiaolongvale": {
+          "name": "Yang Xiao Long Vale",
+          "indexname": "yangxiaolongvale",
+          "archetype": "Item",
+          "background": "ORbackground",
+          "ability": null,
+          "attack1": {
+              "element": "Fire",
+              "cost": 1,
+              "element2": null,
+              "cost2": null,
+              "name": "Punch",
+              "damage": 30,
+              "description": null
+          },
+          "attack2": {
+              "element": null,
+              "cost": null,
+              "element2": null,
+              "cost2": null,
+              "name": null,
+              "damage": null,
+              "description": null
+          },
+          "series": "Rwby",
+          "copyright": "Viz Media",
+          "image": "../Assets/ORCards/Items/YangXiaoLong(Vale).jpg"
+        },
+        "pangxiaolongvale": {
+          "name": "Yang Xiao Long Vale",
+          "indexname": "yangxiaolongvale",
+          "archetype": "Item",
+          "background": "ORbackground",
+          "ability": null,
+          "attack1": {
+              "element": "Fire",
+              "cost": 1,
+              "element2": null,
+              "cost2": null,
+              "name": "Punch",
+              "damage": 30,
+              "description": null
+          },
+          "attack2": {
+              "element": null,
+              "cost": null,
+              "element2": null,
+              "cost2": null,
+              "name": null,
+              "damage": null,
+              "description": null
+          },
+          "series": "Rwby",
+          "copyright": "Viz Media",
+          "image": "../Assets/ORCards/Items/YangXiaoLong(Vale).jpg"
+        },
+        "pangxiaolongvale": {
+          "name": "Yang Xiao Long Vale",
+          "indexname": "yangxiaolongvale",
+          "archetype": "Item",
+          "background": "ORbackground",
+          "ability": null,
+          "attack1": {
+              "element": "Fire",
+              "cost": 1,
+              "element2": null,
+              "cost2": null,
+              "name": "Punch",
+              "damage": 30,
+              "description": null
+          },
+          "attack2": {
+              "element": null,
+              "cost": null,
+              "element2": null,
+              "cost2": null,
+              "name": null,
+              "damage": null,
+              "description": null
+          },
+          "series": "Rwby",
+          "copyright": "Viz Media",
+          "image": "../Assets/ORCards/Items/YangXiaoLong(Vale).jpg"
+        },
+        "pangxiaolongvale": {
+          "name": "Yang Xiao Long Vale",
+          "indexname": "yangxiaolongvale",
+          "archetype": "Item",
+          "background": "ORbackground",
+          "ability": null,
+          "attack1": {
+              "element": "Fire",
+              "cost": 1,
+              "element2": null,
+              "cost2": null,
+              "name": "Punch",
+              "damage": 30,
+              "description": null
+          },
+          "attack2": {
+              "element": null,
+              "cost": null,
+              "element2": null,
+              "cost2": null,
+              "name": null,
+              "damage": null,
+              "description": null
+          },
+          "series": "Rwby",
+          "copyright": "Viz Media",
+          "image": "../Assets/ORCards/Items/YangXiaoLong(Vale).jpg"
+        },
+
+        "rangxiaolongvale": {
+          "name": "Yang Xiao Long Vale",
+          "indexname": "yangxiaolongvale",
+          "archetype": "Item",
+          "background": "ORbackground",
+          "ability": null,
+          "attack1": {
+              "element": "Fire",
+              "cost": 1,
+              "element2": null,
+              "cost2": null,
+              "name": "Punch",
+              "damage": 30,
+              "description": null
+          },
+          "attack2": {
+              "element": null,
+              "cost": null,
+              "element2": null,
+              "cost2": null,
+              "name": null,
+              "damage": null,
+              "description": null
+          },
+          "series": "Rwby",
+          "copyright": "Viz Media",
+          "image": "../Assets/ORCards/Items/YangXiaoLong(Vale).jpg"
+        },
+
+        "sangxiaolongvale": {
+          "name": "Yang Xiao Long Vale",
+          "indexname": "yangxiaolongvale",
+          "archetype": "Item",
+          "background": "ORbackground",
+          "ability": null,
+          "attack1": {
+              "element": "Fire",
+              "cost": 1,
+              "element2": null,
+              "cost2": null,
+              "name": "Punch",
+              "damage": 30,
+              "description": null
+          },
+          "attack2": {
+              "element": null,
+              "cost": null,
+              "element2": null,
+              "cost2": null,
+              "name": null,
+              "damage": null,
+              "description": null
+          },
+          "series": "Rwby",
+          "copyright": "Viz Media",
+          "image": "../Assets/ORCards/Items/YangXiaoLong(Vale).jpg"
+        },
+
+        "the angxiaolongvale": {
+          "name": "Yang Xiao Long Vale",
+          "indexname": "yangxiaolongvale",
+          "archetype": "Item",
+          "background": "ORbackground",
+          "ability": null,
+          "attack1": {
+              "element": "Fire",
+              "cost": 1,
+              "element2": null,
+              "cost2": null,
+              "name": "Punch",
+              "damage": 30,
+              "description": null
+          },
+          "attack2": {
+              "element": null,
+              "cost": null,
+              "element2": null,
+              "cost2": null,
+              "name": null,
+              "damage": null,
+              "description": null
+          },
+          "series": "Rwby",
+          "copyright": "Viz Media",
+          "image": "../Assets/ORCards/Items/YangXiaoLong(Vale).jpg"
+        },
+        "the angxiaolongvale": {
+          "name": "Yang Xiao Long Vale",
+          "indexname": "yangxiaolongvale",
+          "archetype": "Item",
+          "background": "ORbackground",
+          "ability": null,
+          "attack1": {
+              "element": "Fire",
+              "cost": 1,
+              "element2": null,
+              "cost2": null,
+              "name": "Punch",
+              "damage": 30,
+              "description": null
+          },
+          "attack2": {
+              "element": null,
+              "cost": null,
+              "element2": null,
+              "cost2": null,
+              "name": null,
+              "damage": null,
+              "description": null
+          },
+          "series": "Rwby",
+          "copyright": "Viz Media",
+          "image": "../Assets/ORCards/Items/YangXiaoLong(Vale).jpg"
+        },
+        "the angxiaolongvale": {
+          "name": "Yang Xiao Long Vale",
+          "indexname": "yangxiaolongvale",
+          "archetype": "Item",
+          "background": "ORbackground",
+          "ability": null,
+          "attack1": {
+              "element": "Fire",
+              "cost": 1,
+              "element2": null,
+              "cost2": null,
+              "name": "Punch",
+              "damage": 30,
+              "description": null
+          },
+          "attack2": {
+              "element": null,
+              "cost": null,
+              "element2": null,
+              "cost2": null,
+              "name": null,
+              "damage": null,
+              "description": null
+          },
+          "series": "Rwby",
+          "copyright": "Viz Media",
+          "image": "../Assets/ORCards/Items/YangXiaoLong(Vale).jpg"
+        },
+
+        "wangxiaolongvale": {
+          "name": "Yang Xiao Long Vale",
+          "indexname": "yangxiaolongvale",
+          "archetype": "Item",
+          "background": "ORbackground",
+          "ability": null,
+          "attack1": {
+              "element": "Fire",
+              "cost": 1,
+              "element2": null,
+              "cost2": null,
+              "name": "Punch",
+              "damage": 30,
+              "description": null
+          },
+          "attack2": {
+              "element": null,
+              "cost": null,
+              "element2": null,
+              "cost2": null,
+              "name": null,
+              "damage": null,
+              "description": null
+          },
+          "series": "Rwby",
+          "copyright": "Viz Media",
+          "image": "../Assets/ORCards/Items/YangXiaoLong(Vale).jpg"
+        },
+        "wangxiaolongvale": {
+          "name": "Yang Xiao Long Vale",
+          "indexname": "yangxiaolongvale",
+          "archetype": "Item",
+          "background": "ORbackground",
+          "ability": null,
+          "attack1": {
+              "element": "Fire",
+              "cost": 1,
+              "element2": null,
+              "cost2": null,
+              "name": "Punch",
+              "damage": 30,
+              "description": null
+          },
+          "attack2": {
+              "element": null,
+              "cost": null,
+              "element2": null,
+              "cost2": null,
+              "name": null,
+              "damage": null,
+              "description": null
+          },
+          "series": "Rwby",
+          "copyright": "Viz Media",
+          "image": "../Assets/ORCards/Items/YangXiaoLong(Vale).jpg"
+        },
+
+        "zangxiaolongvale": {
+          "name": "Yang Xiao Long Vale",
+          "indexname": "yangxiaolongvale",
+          "archetype": "Item",
+          "background": "ORbackground",
+          "ability": null,
+          "attack1": {
+              "element": "Fire",
+              "cost": 1,
+              "element2": null,
+              "cost2": null,
+              "name": "Punch",
+              "damage": 30,
+              "description": null
+          },
+          "attack2": {
+              "element": null,
+              "cost": null,
+              "element2": null,
+              "cost2": null,
+              "name": null,
+              "damage": null,
+              "description": null
+          },
+          "series": "Rwby",
+          "copyright": "Viz Media",
+          "image": "../Assets/ORCards/Items/YangXiaoLong(Vale).jpg"
+        },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         "alexlouisarmstrongexspecial": {
             "name": "Alex Louis Armstrong EX",
             "indexname": "alexlouisarmstrongexspecial",
