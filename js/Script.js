@@ -159,10 +159,11 @@ async function filtertype(type) {
     const data = await orFullCards(); // await the async function
     console.log(data);
 
-    if (item[key].archetype !== "Item") {
+
       data.forEach(item => {
     for (const key in item) {
       if (item[key] && item[key].name !== undefined) {
+        if (item[key].archetype !== "Item") {
         console.log(`${key}: ${item[key].element}`);
         if (item[key].element == type) {
           const newCard = document.createElement('div');
@@ -174,11 +175,11 @@ async function filtertype(type) {
           newCard.style.backgroundRepeat = "no-repeat";
           newCard.setAttribute('onclick', 'makebig("' + item[key].image + '", "' + item[key].indexname + '")');
         }
-
+}
       }
     }
   });
-    }
+
 
   } catch (error) {
     console.log(error);
@@ -190,10 +191,11 @@ async function filterex(trFa) {
     const data = await orFullCards(); // await the async function
     console.log(data);
 
-    if (item[key].archetype !== "Item") {
+
       data.forEach(item => {
     for (const key in item) {
       if (item[key] && item[key].name !== undefined) {
+            if (item[key].archetype !== "Item") {
         console.log(`${key}: ${item[key].ex}`);
         if (item[key].ex == trFa) {
           const newCard = document.createElement('div');
@@ -207,9 +209,10 @@ async function filterex(trFa) {
         }
 
       }
+      }
     }
   });
-    }
+
 
   } catch (error) {
     console.log(error);
@@ -413,7 +416,6 @@ async function makebig(url, indexnamelocal) {
 
           cardSeries.innerHTML = item[key].series;
           cardCopyright.innerHTML = item[key].copyright;
-          cardRCost.innerHTML = item[key].rcost;
 
           interactUI.style.background = "var(--iu" + item[key].background + ")";
 
@@ -430,7 +432,6 @@ async function makebig(url, indexnamelocal) {
           console.log(item[key].attack2.description);
           console.log(item[key].series);
           console.log(item[key].copyright);
-          console.log(item[key].rcost);
         }
         if (["Character", "Enhanced Character"].includes(item[key].archetype)) {
           cardAttack1Element.innerHTML = "";
