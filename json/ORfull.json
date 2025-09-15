@@ -4855,23 +4855,23 @@
               "damage": null,
               "description": null
           },
-          "series": "Rwby",
-          "copyright": "Minecraft",
+          "series": "Minecraft",
+          "copyright": "Microsoft",
           "image": "../Assets/ORCards/Items/Elytra.jpg"
         },
-        "eangxiaolongvale": {
-          "name": "Yang Xiao Long Vale",
-          "indexname": "yangxiaolongvale",
+        "emotionalsupportdemon": {
+          "name": "Emotional Support Demon",
+          "indexname": "emotionalsupportdemon",
           "archetype": "Item",
           "background": "ORbackground",
-          "ability": null,
+          "ability": "Heal 30 Damage from all allied characters on the field. Discard after use.",
           "attack1": {
-              "element": "Fire",
-              "cost": 1,
+              "element": null,
+              "cost": null,
               "element2": null,
               "cost2": null,
-              "name": "Punch",
-              "damage": 30,
+              "name": null,
+              "damage": null,
               "description": null
           },
           "attack2": {
@@ -4883,23 +4883,23 @@
               "damage": null,
               "description": null
           },
-          "series": "Rwby",
-          "copyright": "Viz Media",
-          "image": "../Assets/ORCards/Items/YangXiaoLong(Vale).jpg"
+          "series": null,
+          "copyright": "The Click",
+          "image": "../Assets/ORCards/Items/EmotionalSupportDemon.jpg"
         },
-        "eangxiaolongvale": {
-          "name": "Yang Xiao Long Vale",
-          "indexname": "yangxiaolongvale",
+        "eyedrive": {
+          "name": "Eye Drive",
+          "indexname": "eyedrive",
           "archetype": "Item",
           "background": "ORbackground",
-          "ability": null,
+          "ability": "Attach to a character, this character is now immune to The Silence’s ability “Forget”; however, this card will take x2 the damage from The Silence’s attack “Zap”.",
           "attack1": {
-              "element": "Fire",
-              "cost": 1,
+              "element": null,
+              "cost": null,
               "element2": null,
               "cost2": null,
-              "name": "Punch",
-              "damage": 30,
+              "name": null,
+              "damage": null,
               "description": null
           },
           "attack2": {
@@ -4911,82 +4911,25 @@
               "damage": null,
               "description": null
           },
-          "series": "Rwby",
-          "copyright": "Viz Media",
-          "image": "../Assets/ORCards/Items/YangXiaoLong(Vale).jpg"
-        },
-
-        "fangxiaolongvale": {
-          "name": "Yang Xiao Long Vale",
-          "indexname": "yangxiaolongvale",
-          "archetype": "Item",
-          "background": "ORbackground",
-          "ability": null,
-          "attack1": {
-              "element": "Fire",
-              "cost": 1,
-              "element2": null,
-              "cost2": null,
-              "name": "Punch",
-              "damage": 30,
-              "description": null
-          },
-          "attack2": {
-              "element": null,
-              "cost": null,
-              "element2": null,
-              "cost2": null,
-              "name": null,
-              "damage": null,
-              "description": null
-          },
-          "series": "Rwby",
-          "copyright": "Viz Media",
-          "image": "../Assets/ORCards/Items/YangXiaoLong(Vale).jpg"
-        },
-        "fangxiaolongvale": {
-          "name": "Yang Xiao Long Vale",
-          "indexname": "yangxiaolongvale",
-          "archetype": "Item",
-          "background": "ORbackground",
-          "ability": null,
-          "attack1": {
-              "element": "Fire",
-              "cost": 1,
-              "element2": null,
-              "cost2": null,
-              "name": "Punch",
-              "damage": 30,
-              "description": null
-          },
-          "attack2": {
-              "element": null,
-              "cost": null,
-              "element2": null,
-              "cost2": null,
-              "name": null,
-              "damage": null,
-              "description": null
-          },
-          "series": "Rwby",
-          "copyright": "Viz Media",
-          "image": "../Assets/ORCards/Items/YangXiaoLong(Vale).jpg"
+          "series": "Doctor Who",
+          "copyright": "BBC",
+          "image": "../Assets/ORCards/Items/EyeDrive.jpg"
         },
 
-        "gangxiaolongvale": {
-          "name": "Yang Xiao Long Vale",
-          "indexname": "yangxiaolongvale",
+        "factsphere": {
+          "name": "Fact Sphere",
+          "indexname": "factsphere",
           "archetype": "Item",
           "background": "ORbackground",
-          "ability": null,
+          "ability": "All Attacks cost twice as many Energies",
           "attack1": {
-              "element": "Fire",
-              "cost": 1,
+              "element": null,
+              "cost": null,
               "element2": null,
               "cost2": null,
-              "name": "Punch",
-              "damage": 30,
-              "description": null
+              "name": null,
+              "damage": null,
+              "description": "When Space Sphere, Adventure Sphere, and Fact Sphere are all in play, on the same side, the opponent must return their Wheatley Core and/or Wheatley Ex card to their deck and shuffle their deck. Discard all three spheres and take the reward for defeating a single standard character."
           },
           "attack2": {
               "element": null,
@@ -4997,24 +4940,24 @@
               "damage": null,
               "description": null
           },
-          "series": "Rwby",
-          "copyright": "Viz Media",
-          "image": "../Assets/ORCards/Items/YangXiaoLong(Vale).jpg"
+          "series": "Portal",
+          "copyright": "Valve",
+          "image": "../Assets/ORCards/Items/FactSphere.jpg"
         },
-        "gangxiaolongvale": {
-          "name": "Yang Xiao Long Vale",
-          "indexname": "yangxiaolongvale",
+        "focalorsguillotine": {
+          "name": "Focalors' Guillotine",
+          "indexname": "focalorsguillotine",
           "archetype": "Item",
           "background": "ORbackground",
-          "ability": null,
+          "ability": "This Card can only be attached to a Focalors or Furina Card.",
           "attack1": {
-              "element": "Fire",
-              "cost": 1,
+              "element": "Water",
+              "cost": 5,
               "element2": null,
               "cost2": null,
-              "name": "Punch",
-              "damage": 30,
-              "description": null
+              "name": "The Death Sentence",
+              "damage": 120,
+              "description": "Flip a coin, if tails, discard the character that this is attached to, if heads, discard 2 energies instead."
           },
           "attack2": {
               "element": null,
@@ -5025,109 +4968,24 @@
               "damage": null,
               "description": null
           },
-          "series": "Rwby",
-          "copyright": "Viz Media",
-          "image": "../Assets/ORCards/Items/YangXiaoLong(Vale).jpg"
-        },
-
-        "iangxiaolongvale": {
-          "name": "Yang Xiao Long Vale",
-          "indexname": "yangxiaolongvale",
-          "archetype": "Item",
-          "background": "ORbackground",
-          "ability": null,
-          "attack1": {
-              "element": "Fire",
-              "cost": 1,
-              "element2": null,
-              "cost2": null,
-              "name": "Punch",
-              "damage": 30,
-              "description": null
-          },
-          "attack2": {
-              "element": null,
-              "cost": null,
-              "element2": null,
-              "cost2": null,
-              "name": null,
-              "damage": null,
-              "description": null
-          },
-          "series": "Rwby",
-          "copyright": "Viz Media",
-          "image": "../Assets/ORCards/Items/YangXiaoLong(Vale).jpg"
-        },
-        "iangxiaolongvale": {
-          "name": "Yang Xiao Long Vale",
-          "indexname": "yangxiaolongvale",
-          "archetype": "Item",
-          "background": "ORbackground",
-          "ability": null,
-          "attack1": {
-              "element": "Fire",
-              "cost": 1,
-              "element2": null,
-              "cost2": null,
-              "name": "Punch",
-              "damage": 30,
-              "description": null
-          },
-          "attack2": {
-              "element": null,
-              "cost": null,
-              "element2": null,
-              "cost2": null,
-              "name": null,
-              "damage": null,
-              "description": null
-          },
-          "series": "Rwby",
-          "copyright": "Viz Media",
-          "image": "../Assets/ORCards/Items/YangXiaoLong(Vale).jpg"
-        },
-        "iangxiaolongvale": {
-          "name": "Yang Xiao Long Vale",
-          "indexname": "yangxiaolongvale",
-          "archetype": "Item",
-          "background": "ORbackground",
-          "ability": null,
-          "attack1": {
-              "element": "Fire",
-              "cost": 1,
-              "element2": null,
-              "cost2": null,
-              "name": "Punch",
-              "damage": 30,
-              "description": null
-          },
-          "attack2": {
-              "element": null,
-              "cost": null,
-              "element2": null,
-              "cost2": null,
-              "name": null,
-              "damage": null,
-              "description": null
-          },
-          "series": "Rwby",
-          "copyright": "Viz Media",
-          "image": "../Assets/ORCards/Items/YangXiaoLong(Vale).jpg"
+          "series": "Genshin Impact",
+          "copyright": "HoYoverse",
+          "image": "../Assets/ORCards/Items/FocalorsGuillotine.jpg"
         },
 
-        "langxiaolongvale": {
-          "name": "Yang Xiao Long Vale",
-          "indexname": "yangxiaolongvale",
+        "gemdestabilizer": {
+          "name": "Gem Destabilizer",
+          "indexname": "gemdestabilizer",
           "archetype": "Item",
           "background": "ORbackground",
-          "ability": null,
+          "ability": "Select one active summon to force into the discard pile without triggering, discard this card after use.",
           "attack1": {
-              "element": "Fire",
-              "cost": 1,
+              "element": null,
+              "cost": null,
               "element2": null,
               "cost2": null,
-              "name": "Punch",
-              "damage": 30,
+              "name": null,
+              "damage": null,
               "description": null
           },
           "attack2": {
@@ -5139,24 +4997,52 @@
               "damage": null,
               "description": null
           },
-          "series": "Rwby",
-          "copyright": "Viz Media",
-          "image": "../Assets/ORCards/Items/YangXiaoLong(Vale).jpg"
+          "series": "Steven Universe",
+          "copyright": "HBO",
+          "image": "../Assets/ORCards/Items/GemDestabilizer.jpg"
+        },
+        "greenstar": {
+          "name": "Green Star",
+          "indexname": "greenstar",
+          "archetype": "Item",
+          "background": "ORbackground",
+          "ability": "Either:",
+          "attack1": {
+              "element": null,
+              "cost": null,
+              "element2": null,
+              "cost2": null,
+              "name": null,
+              "damage": null,
+              "description": " 1. Force the opponent to speak everything they think that’s game relevant. \n \n 2. Force the opponent to close their eyes and the player of this card stays silent until the end of the turn."
+          },
+          "attack2": {
+              "element": null,
+              "cost": null,
+              "element2": null,
+              "cost2": null,
+              "name": null,
+              "damage": null,
+              "description": "And discard this Card."
+          },
+          "series": "Liar Liar",
+          "copyright": "BiliBili",
+          "image": "../Assets/ORCards/Items/GreenStar.jpg"
         },
 
-        "mangxiaolongvale": {
-          "name": "Yang Xiao Long Vale",
-          "indexname": "yangxiaolongvale",
+        "theimitater": {
+          "name": "The Imitater",
+          "indexname": "theimitater",
           "archetype": "Item",
           "background": "ORbackground",
-          "ability": null,
+          "ability": "Place in the party and take any basic card from the discard pile to play on The Imitater, discard all cards on The Imitater once the hp of the top most card reaches Zero.",
           "attack1": {
-              "element": "Fire",
-              "cost": 1,
+              "element": null,
+              "cost": null,
               "element2": null,
               "cost2": null,
-              "name": "Punch",
-              "damage": 30,
+              "name": null,
+              "damage": null,
               "description": null
           },
           "attack2": {
@@ -5168,24 +5054,24 @@
               "damage": null,
               "description": null
           },
-          "series": "Rwby",
-          "copyright": "Viz Media",
-          "image": "../Assets/ORCards/Items/YangXiaoLong(Vale).jpg"
+          "series": "Plants Vs. Zombies",
+          "copyright": "EA",
+          "image": "../Assets/ORCards/Items/TheImitater.jpg"
         },
-        "mangxiaolongvale": {
-          "name": "Yang Xiao Long Vale",
-          "indexname": "yangxiaolongvale",
+        "indigostar": {
+          "name": "Indigo Star",
+          "indexname": "indigostar",
           "archetype": "Item",
           "background": "ORbackground",
-          "ability": null,
+          "ability": "Either:",
           "attack1": {
-              "element": "Fire",
-              "cost": 1,
+              "element": null,
+              "cost": null,
               "element2": null,
               "cost2": null,
-              "name": "Punch",
-              "damage": 30,
-              "description": null
+              "name": null,
+              "damage": null,
+              "description": " 1. Look at the opponent’s Hand and choose a card in their hand to shuffle back into the deck. \n \n 2.Look in your deck for a setting, put it in play."
           },
           "attack2": {
               "element": null,
@@ -5194,27 +5080,26 @@
               "cost2": null,
               "name": null,
               "damage": null,
-              "description": null
+              "description": "And discard this card."
           },
-          "series": "Rwby",
-          "copyright": "Viz Media",
-          "image": "../Assets/ORCards/Items/YangXiaoLong(Vale).jpg"
+          "series": "Liar Liar",
+          "copyright": "BiliBili",
+          "image": "../Assets/ORCards/Items/IndigoStar.jpg"
         },
-
-        "nangxiaolongvale": {
-          "name": "Yang Xiao Long Vale",
-          "indexname": "yangxiaolongvale",
+        "intelligencecore": {
+          "name": "Intelligence Core",
+          "indexname": "intelligencecore",
           "archetype": "Item",
           "background": "ORbackground",
-          "ability": null,
+          "ability": "Flip a coin every turn, If heads, paralyze the opponent’s active Character.",
           "attack1": {
-              "element": "Fire",
-              "cost": 1,
+              "element": null,
+              "cost": null,
               "element2": null,
               "cost2": null,
-              "name": "Punch",
-              "damage": 30,
-              "description": null
+              "name": null,
+              "damage": null,
+              "description": "When Morality Core, Curiosity Core, Intelligence Core, and Anger Core are all in play, on the same side, the opponent must return their GLaDOS card to their deck and shuffle their deck. Discard all four cores and take the reward for defeating a single standard character."
           },
           "attack2": {
               "element": null,
@@ -5225,24 +5110,23 @@
               "damage": null,
               "description": null
           },
-          "series": "Rwby",
-          "copyright": "Viz Media",
-          "image": "../Assets/ORCards/Items/YangXiaoLong(Vale).jpg"
+          "series": "Portal",
+          "copyright": "Valve",
+          "image": "../Assets/ORCards/Items/IntelligenceCore.jpg"
         },
-
-        "oangxiaolongvale": {
-          "name": "Yang Xiao Long Vale",
-          "indexname": "yangxiaolongvale",
+        "invitation": {
+          "name": "Invitation",
+          "indexname": "invitation",
           "archetype": "Item",
           "background": "ORbackground",
-          "ability": null,
+          "ability": "Search your deck for a basic character and put that character in your hand. Shuffle the deck afterwards.",
           "attack1": {
-              "element": "Fire",
-              "cost": 1,
+              "element": null,
+              "cost": null,
               "element2": null,
               "cost2": null,
-              "name": "Punch",
-              "damage": 30,
+              "name": null,
+              "damage": null,
               "description": null
           },
           "attack2": {
@@ -5254,24 +5138,24 @@
               "damage": null,
               "description": null
           },
-          "series": "Rwby",
-          "copyright": "Viz Media",
-          "image": "../Assets/ORCards/Items/YangXiaoLong(Vale).jpg"
+          "series": "Super Smash Bros",
+          "copyright": "Nintendo",
+          "image": "../Assets/ORCards/Items/Invitation.jpg"
         },
 
-        "pangxiaolongvale": {
-          "name": "Yang Xiao Long Vale",
-          "indexname": "yangxiaolongvale",
+        "labrava": {
+          "name": "La Brava",
+          "indexname": "labrava",
           "archetype": "Item",
           "background": "ORbackground",
-          "ability": null,
+          "ability": "The character this card is attached to gains 20 hp and does +20 digital damage when attacking.",
           "attack1": {
-              "element": "Fire",
-              "cost": 1,
+              "element": null,
+              "cost": null,
               "element2": null,
               "cost2": null,
-              "name": "Punch",
-              "damage": 30,
+              "name": null,
+              "damage": null,
               "description": null
           },
           "attack2": {
@@ -5285,106 +5169,22 @@
           },
           "series": "Rwby",
           "copyright": "Viz Media",
-          "image": "../Assets/ORCards/Items/YangXiaoLong(Vale).jpg"
-        },
-        "pangxiaolongvale": {
-          "name": "Yang Xiao Long Vale",
-          "indexname": "yangxiaolongvale",
-          "archetype": "Item",
-          "background": "ORbackground",
-          "ability": null,
-          "attack1": {
-              "element": "Fire",
-              "cost": 1,
-              "element2": null,
-              "cost2": null,
-              "name": "Punch",
-              "damage": 30,
-              "description": null
-          },
-          "attack2": {
-              "element": null,
-              "cost": null,
-              "element2": null,
-              "cost2": null,
-              "name": null,
-              "damage": null,
-              "description": null
-          },
-          "series": "Rwby",
-          "copyright": "Viz Media",
-          "image": "../Assets/ORCards/Items/YangXiaoLong(Vale).jpg"
-        },
-        "pangxiaolongvale": {
-          "name": "Yang Xiao Long Vale",
-          "indexname": "yangxiaolongvale",
-          "archetype": "Item",
-          "background": "ORbackground",
-          "ability": null,
-          "attack1": {
-              "element": "Fire",
-              "cost": 1,
-              "element2": null,
-              "cost2": null,
-              "name": "Punch",
-              "damage": 30,
-              "description": null
-          },
-          "attack2": {
-              "element": null,
-              "cost": null,
-              "element2": null,
-              "cost2": null,
-              "name": null,
-              "damage": null,
-              "description": null
-          },
-          "series": "Rwby",
-          "copyright": "Viz Media",
-          "image": "../Assets/ORCards/Items/YangXiaoLong(Vale).jpg"
-        },
-        "pangxiaolongvale": {
-          "name": "Yang Xiao Long Vale",
-          "indexname": "yangxiaolongvale",
-          "archetype": "Item",
-          "background": "ORbackground",
-          "ability": null,
-          "attack1": {
-              "element": "Fire",
-              "cost": 1,
-              "element2": null,
-              "cost2": null,
-              "name": "Punch",
-              "damage": 30,
-              "description": null
-          },
-          "attack2": {
-              "element": null,
-              "cost": null,
-              "element2": null,
-              "cost2": null,
-              "name": null,
-              "damage": null,
-              "description": null
-          },
-          "series": "Rwby",
-          "copyright": "Viz Media",
-          "image": "../Assets/ORCards/Items/YangXiaoLong(Vale).jpg"
+          "image": "../Assets/ORCards/Items/LaBrava.jpg"
         },
 
-        "rangxiaolongvale": {
-          "name": "Yang Xiao Long Vale",
-          "indexname": "yangxiaolongvale",
+        "mjolnir": {
+          "name": "Mjölnir",
+          "indexname": "mjolnir",
           "archetype": "Item",
           "background": "ORbackground",
-          "ability": null,
+          "ability": "Only characters with the lightning or positive element can use this item. If attached to a character with the correct element, attacks done by the character do +30 damage.",
           "attack1": {
-              "element": "Fire",
-              "cost": 1,
+              "element": null,
+              "cost": null,
               "element2": null,
               "cost2": null,
-              "name": "Punch",
-              "damage": 30,
+              "name": null,
+              "damage": null,
               "description": null
           },
           "attack2": {
@@ -5396,24 +5196,52 @@
               "damage": null,
               "description": null
           },
-          "series": "Rwby",
-          "copyright": "Viz Media",
-          "image": "../Assets/ORCards/Items/YangXiaoLong(Vale).jpg"
+          "series": "Marvel",
+          "copyright": "Disney",
+          "image": "../Assets/ORCards/Items/Mjolnir.jpg"
+        },
+        "moralitycore": {
+          "name": "Morality Core",
+          "indexname": "moralitycore",
+          "archetype": "Item",
+          "background": "ORbackground",
+          "ability": "If the opponent’s card attempts to attack, they must flip a coin, if tails, their attack fails",
+          "attack1": {
+              "element": null,
+              "cost": null,
+              "element2": null,
+              "cost2": null,
+              "name": null,
+              "damage": null,
+              "description": "When Morality Core, Curiosity Core, Intelligence Core, and Anger Core are all in play, on the same side, the opponent must return their GLaDOS card to their deck and shuffle their deck. Discard all four cores and take the reward for defeating a single standard character."
+          },
+          "attack2": {
+              "element": null,
+              "cost": null,
+              "element2": null,
+              "cost2": null,
+              "name": null,
+              "damage": null,
+              "description": null
+          },
+          "series": "Portal",
+          "copyright": "Valve",
+          "image": "../Assets/ORCards/Items/MoralityCore.jpg"
         },
 
-        "sangxiaolongvale": {
-          "name": "Yang Xiao Long Vale",
-          "indexname": "yangxiaolongvale",
+        "nightmareenterprises": {
+          "name": "Nightmare Enterprises",
+          "indexname": "nightmareenterprises",
           "archetype": "Item",
           "background": "ORbackground",
-          "ability": null,
+          "ability": "Search through your deck and put the first 3 summons you find into play. If deck has less than three summons, search your hand, and then search the discard pile. If there are still less than three, summon the ones found. Discard this Card after use.",
           "attack1": {
-              "element": "Fire",
-              "cost": 1,
+              "element": null,
+              "cost": null,
               "element2": null,
               "cost2": null,
-              "name": "Punch",
-              "damage": 30,
+              "name": null,
+              "damage": null,
               "description": null
           },
           "attack2": {
@@ -5425,24 +5253,24 @@
               "damage": null,
               "description": null
           },
-          "series": "Rwby",
-          "copyright": "Viz Media",
-          "image": "../Assets/ORCards/Items/YangXiaoLong(Vale).jpg"
+          "series": "Kirby",
+          "copyright": "Nintendo",
+          "image": "../Assets/ORCards/Items/NightmareEnterprises.jpg"
         },
 
-        "the angxiaolongvale": {
-          "name": "Yang Xiao Long Vale",
-          "indexname": "yangxiaolongvale",
+        "ozpinswisdom": {
+          "name": "Ozpin's Wisdom",
+          "indexname": "ozpinswisdom",
           "archetype": "Item",
           "background": "ORbackground",
-          "ability": null,
+          "ability": "Draw four cards. Discard this card after use.",
           "attack1": {
-              "element": "Fire",
-              "cost": 1,
+              "element": null,
+              "cost": null,
               "element2": null,
               "cost2": null,
-              "name": "Punch",
-              "damage": 30,
+              "name": null,
+              "damage": null,
               "description": null
           },
           "attack2": {
@@ -5456,78 +5284,22 @@
           },
           "series": "Rwby",
           "copyright": "Viz Media",
-          "image": "../Assets/ORCards/Items/YangXiaoLong(Vale).jpg"
-        },
-        "the angxiaolongvale": {
-          "name": "Yang Xiao Long Vale",
-          "indexname": "yangxiaolongvale",
-          "archetype": "Item",
-          "background": "ORbackground",
-          "ability": null,
-          "attack1": {
-              "element": "Fire",
-              "cost": 1,
-              "element2": null,
-              "cost2": null,
-              "name": "Punch",
-              "damage": 30,
-              "description": null
-          },
-          "attack2": {
-              "element": null,
-              "cost": null,
-              "element2": null,
-              "cost2": null,
-              "name": null,
-              "damage": null,
-              "description": null
-          },
-          "series": "Rwby",
-          "copyright": "Viz Media",
-          "image": "../Assets/ORCards/Items/YangXiaoLong(Vale).jpg"
-        },
-        "the angxiaolongvale": {
-          "name": "Yang Xiao Long Vale",
-          "indexname": "yangxiaolongvale",
-          "archetype": "Item",
-          "background": "ORbackground",
-          "ability": null,
-          "attack1": {
-              "element": "Fire",
-              "cost": 1,
-              "element2": null,
-              "cost2": null,
-              "name": "Punch",
-              "damage": 30,
-              "description": null
-          },
-          "attack2": {
-              "element": null,
-              "cost": null,
-              "element2": null,
-              "cost2": null,
-              "name": null,
-              "damage": null,
-              "description": null
-          },
-          "series": "Rwby",
-          "copyright": "Viz Media",
-          "image": "../Assets/ORCards/Items/YangXiaoLong(Vale).jpg"
+          "image": "../Assets/ORCards/Items/OzpinsWisdom.jpg"
         },
 
-        "wangxiaolongvale": {
-          "name": "Yang Xiao Long Vale",
-          "indexname": "yangxiaolongvale",
+        "thepaleduck": {
+          "name": "The Pale Duck",
+          "indexname": "thepaleduck",
           "archetype": "Item",
           "background": "ORbackground",
-          "ability": null,
+          "ability": "Whenever the player decides to detonate the Pale Duck, all active characters take 30 damage, and all benched take 10.",
           "attack1": {
-              "element": "Fire",
-              "cost": 1,
+              "element": null,
+              "cost": null,
               "element2": null,
               "cost2": null,
-              "name": "Punch",
-              "damage": 30,
+              "name": null,
+              "damage": null,
               "description": null
           },
           "attack2": {
@@ -5539,23 +5311,23 @@
               "damage": null,
               "description": null
           },
-          "series": "Rwby",
-          "copyright": "Viz Media",
-          "image": "../Assets/ORCards/Items/YangXiaoLong(Vale).jpg"
+          "series": "Hitman Trilogy",
+          "copyright": "IO Interactive",
+          "image": "../Assets/ORCards/Items/ThePaleDuck.jpg"
         },
-        "wangxiaolongvale": {
-          "name": "Yang Xiao Long Vale",
-          "indexname": "yangxiaolongvale",
+        "perfectsandwich": {
+          "name": "Perfect Sandwich",
+          "indexname": "perfectsandwich",
           "archetype": "Item",
           "background": "ORbackground",
-          "ability": null,
+          "ability": "Heal 50HP from a character of your choice. Discard this card after use.",
           "attack1": {
-              "element": "Fire",
-              "cost": 1,
+              "element": null,
+              "cost": null,
               "element2": null,
               "cost2": null,
-              "name": "Punch",
-              "damage": 30,
+              "name": null,
+              "damage": null,
               "description": null
           },
           "attack2": {
@@ -5567,23 +5339,135 @@
               "damage": null,
               "description": null
           },
-          "series": "Rwby",
-          "copyright": "Viz Media",
-          "image": "../Assets/ORCards/Items/YangXiaoLong(Vale).jpg"
+          "series": "Adventure Time",
+          "copyright": "Cartoon Network",
+          "image": "../Assets/ORCards/Items/PerfectSandwich.jpg"
+        },
+        "philosophersstone": {
+          "name": "Philosopher's Stone",
+          "indexname": "philosophersstone",
+          "archetype": "Item",
+          "background": "ORbackground",
+          "ability": "Attach this card to a character. The attached card no longer requires energy for actions, but takes 20 damage for each energy it would have used otherwise.",
+          "attack1": {
+              "element": null,
+              "cost": null,
+              "element2": null,
+              "cost2": null,
+              "name": null,
+              "damage": null,
+              "description": null
+          },
+          "attack2": {
+              "element": null,
+              "cost": null,
+              "element2": null,
+              "cost2": null,
+              "name": null,
+              "damage": null,
+              "description": null
+          },
+          "series": "Fullmetal Alchemist",
+          "copyright": "Square Enix",
+          "image": "../Assets/ORCards/Items/PhilosophersStone.jpg"
+        },
+        "plantfood": {
+          "name": "Plant Food",
+          "indexname": "plantfood",
+          "archetype": "Item",
+          "background": "ORbackground",
+          "ability": "Any attack this turn requires no energy, discard this card.",
+          "attack1": {
+              "element": null,
+              "cost": null,
+              "element2": null,
+              "cost2": null,
+              "name": null,
+              "damage": null,
+              "description": null
+          },
+          "attack2": {
+              "element": null,
+              "cost": null,
+              "element2": null,
+              "cost2": null,
+              "name": null,
+              "damage": null,
+              "description": null
+          },
+          "series": "Plants Vs. Zombies",
+          "copyright": "EA",
+          "image": "../Assets/ORCards/Items/PlantFood.jpg"
+        },
+        "pumpkin": {
+          "name": "Pumpkin",
+          "indexname": "pumpkin",
+          "archetype": "Item",
+          "background": "ORbackground",
+          "ability": "Place on top of a card that can be attacked and add 30 hp. Once the bonus HP is used, remove the respective damage counters and discard this card.",
+          "attack1": {
+              "element": null,
+              "cost": null,
+              "element2": null,
+              "cost2": null,
+              "name": null,
+              "damage": null,
+              "description": null
+          },
+          "attack2": {
+              "element": null,
+              "cost": null,
+              "element2": null,
+              "cost2": null,
+              "name": null,
+              "damage": null,
+              "description": null
+          },
+          "series": "Plants Vs. Zombies",
+          "copyright": "EA",
+          "image": "../Assets/ORCards/Items/Pumpkin.jpg"
         },
 
-        "zangxiaolongvale": {
-          "name": "Yang Xiao Long Vale",
-          "indexname": "yangxiaolongvale",
+        "redstar": {
+          "name": "Red Star",
+          "indexname": "redstar",
           "archetype": "Item",
           "background": "ORbackground",
-          "ability": null,
+          "ability": "Either:",
           "attack1": {
-              "element": "Fire",
+              "element": null,
+              "cost": null,
+              "element2": null,
+              "cost2": null,
+              "name": null,
+              "damage": null,
+              "description": " 1. Force a player to draw a card or put a card from their hand in into their deck. \n 2. Add or claim a prize card on either side, as long as it does not exceed the amount started with or equal zero. /n 3. Remove a or add a damage counter from a character as long as it doesn’t make their HP less than or equal to zero. \n 4. Move an energy from one character to another."
+          },
+          "attack2": {
+              "element": null,
+              "cost": null,
+              "element2": null,
+              "cost2": null,
+              "name": null,
+              "damage": null,
+              "description": "And discard this card."
+          },
+          "series": "Liar Liar",
+          "copyright": "BiliBili",
+          "image": "../Assets/ORCards/Items/RedStar.jpg"
+        },
+        "therubyrudesniperrifle": {
+          "name": "The Ruby Rude Sniper Rifle",
+          "indexname": "therubyrudesniperrifle",
+          "archetype": "Item",
+          "background": "ORbackground",
+          "ability": "Attach to a character, if the character is not active, they can attack the opponent’s active card, if the character is active, they can attack the opponent’s party cards.",
+          "attack1": {
+              "element": "Omni",
               "cost": 1,
               "element2": null,
               "cost2": null,
-              "name": "Punch",
+              "name": "Snipe",
               "damage": 30,
               "description": null
           },
@@ -5596,9 +5480,124 @@
               "damage": null,
               "description": null
           },
-          "series": "Rwby",
-          "copyright": "Viz Media",
-          "image": "../Assets/ORCards/Items/YangXiaoLong(Vale).jpg"
+          "series": "Hitman",
+          "copyright": "IO Interactive",
+          "image": "../Assets/ORCards/Items/TheRubyRudeSniperRifle.jpg"
+        },
+
+        "spacesphere": {
+          "name": "Space Sphere",
+          "indexname": "spacesphere",
+          "archetype": "Item",
+          "background": "ORbackground",
+          "ability": "Negative Cards do 10 extra damage and take 10 less damage.",
+          "attack1": {
+              "element": null,
+              "cost": null,
+              "element2": null,
+              "cost2": null,
+              "name": null,
+              "damage": null,
+              "description": "When Space Sphere, Adventure Sphere, and Fact Sphere are all in play, on the same side, the opponent must return their Wheatley Core and/or Wheatley Ex card to their deck and shuffle their deck. Discard all three spheres and take the reward for defeating a single standard character."
+          },
+          "attack2": {
+              "element": null,
+              "cost": null,
+              "element2": null,
+              "cost2": null,
+              "name": null,
+              "damage": null,
+              "description": null
+          },
+          "series": "Portal",
+          "copyright": "Valve",
+          "image": "../Assets/ORCards/Items/SpaceSphere.jpg"
+        },
+
+        "wabbajack": {
+          "name": "Wabbajack",
+          "indexname": "wabbajack",
+          "archetype": "Item",
+          "background": "ORbackground",
+          "ability": "Roll a D6, Inflict:",
+          "attack1": {
+              "element": null,
+              "cost": null,
+              "element2": null,
+              "cost2": null,
+              "name": null,
+              "damage": null,
+              "description": " 1. Burn \n 2. 50 Fire Damage \n 3. Poison \n 4. Confusion \n 5. Nothing \n 6. Sleep"
+          },
+          "attack2": {
+              "element": null,
+              "cost": null,
+              "element2": null,
+              "cost2": null,
+              "name": null,
+              "damage": null,
+              "description": "Respective to the rolled number on the D6. Discard this card after use."
+          },
+          "series": "The Elder Scrolls: Skyrim",
+          "copyright": "Bethesda Studios",
+          "image": "../Assets/ORCards/Items/Wabbajack.jpg"
+        },
+        "winrysrepair": {
+          "name": "Winry's Repair",
+          "indexname": "winrysrepair",
+          "archetype": "Item",
+          "background": "ORbackground",
+          "ability": "Bring an item card from your discard pile into your hand. Discard this card afterwards.",
+          "attack1": {
+              "element": null,
+              "cost": null,
+              "element2": null,
+              "cost2": null,
+              "name": null,
+              "damage": null,
+              "description": null
+          },
+          "attack2": {
+              "element": null,
+              "cost": null,
+              "element2": null,
+              "cost2": null,
+              "name": null,
+              "damage": null,
+              "description": null
+          },
+          "series": "Fullmetal Alchemist",
+          "copyright": "Square Enix",
+          "image": "../Assets/ORCards/Items/WinrysRepair.jpg"
+        },
+
+        "zipties": {
+          "name": "Zip Ties",
+          "indexname": "zipties",
+          "archetype": "Item",
+          "background": "ORbackground",
+          "ability": "Attach to a Bocchi: The Rock character +50 HP to that character.",
+          "attack1": {
+              "element": null,
+              "cost": null,
+              "element2": null,
+              "cost2": null,
+              "name": null,
+              "damage": null,
+              "description": null
+          },
+          "attack2": {
+              "element": null,
+              "cost": null,
+              "element2": null,
+              "cost2": null,
+              "name": null,
+              "damage": null,
+              "description": null
+          },
+          "series": "Bocchi: The Rock",
+          "copyright": "Aniplex",
+          "image": "../Assets/ORCards/Items/ZipTies.jpg"
         },
 
 

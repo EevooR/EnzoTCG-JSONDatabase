@@ -85,37 +85,58 @@ window.onload = async (event) => {
     data.forEach(item => {
   for (const key in item) {
     if (item[key] && item[key].name !== undefined) {
-      console.log(`${key}: ${item[key].name}`);
-      if (elements.includes(item[key].element)) {} else {
-        alert(item[key].element + "Is not valid in" + item[key].indexname + "element")
+      if (item[key].archetype == "Item") {
+        console.log(`${key}: ${item[key].name}`);
+        if (elements.includes(item[key].attack1.element)) {} else {
+          alert(item[key].attack1.element + "Is not valid in" + item[key].indexname + "At1 element")
+        }
+        if (elements.includes(item[key].attack1.element2)) {} else {
+          alert(item[key].attack1.element2 + "Is not valid in" + item[key].indexname + "At1 element2")
+        }
+        if (elements.includes(item[key].attack2.element)) {} else {
+          alert(item[key].attack2.element + "Is not valid in" + item[key].indexname + "At2 element1")
+        }
+        if (elements.includes(item[key].attack2.element2)) {} else {
+          alert(item[key].attack2.element2 + "Is not valid in" + item[key].indexname + "At2 element2")
+        }
+        if (arches.includes(item[key].archetype)) {} else {
+          alert(item[key].archetype + "Is not valid in" + item[key].indexname + "archetype")
+        }
+        if (backers.includes(item[key].background)) {} else {
+          alert(item[key].background + "Is not valid in" + item[key].indexname + "background")
+        }
+      } else {
+        console.log(`${key}: ${item[key].name}`);
+        if (elements.includes(item[key].element)) {} else {
+          alert(item[key].element + "Is not valid in" + item[key].indexname + "element")
+        }
+        if (elements.includes(item[key].attack1.element)) {} else {
+          alert(item[key].attack1.element + "Is not valid in" + item[key].indexname + "At1 element")
+        }
+        if (elements.includes(item[key].attack1.element2)) {} else {
+          alert(item[key].attack1.element2 + "Is not valid in" + item[key].indexname + "At1 element2")
+        }
+        if (elements.includes(item[key].attack2.element)) {} else {
+          alert(item[key].attack2.element + "Is not valid in" + item[key].indexname + "At2 element1")
+        }
+        if (elements.includes(item[key].attack2.element2)) {} else {
+          alert(item[key].attack2.element2 + "Is not valid in" + item[key].indexname + "At2 element2")
+        }
+        if (arches.includes(item[key].archetype)) {} else {
+          alert(item[key].archetype + "Is not valid in" + item[key].indexname + "archetype")
+        }
+        if (backers.includes(item[key].background)) {} else {
+          alert(item[key].background + "Is not valid in" + item[key].indexname + "background")
+        }
       }
-      if (elements.includes(item[key].attack1.element)) {} else {
-        alert(item[key].attack1.element + "Is not valid in" + item[key].indexname + "At1 element")
-      }
-      if (elements.includes(item[key].attack1.element2)) {} else {
-        alert(item[key].attack1.element2 + "Is not valid in" + item[key].indexname + "At1 element2")
-      }
-      if (elements.includes(item[key].attack2.element)) {} else {
-        alert(item[key].attack2.element + "Is not valid in" + item[key].indexname + "At2 element1")
-      }
-      if (elements.includes(item[key].attack2.element2)) {} else {
-        alert(item[key].attack2.element2 + "Is not valid in" + item[key].indexname + "At2 element2")
-      }
-      if (arches.includes(item[key].archetype)) {} else {
-        alert(item[key].archetype + "Is not valid in" + item[key].indexname + "archetype")
-      }
-      if (backers.includes(item[key].background)) {} else {
-        alert(item[key].background + "Is not valid in" + item[key].indexname + "background")
-      }
-
-      const newCard = document.createElement('div');
-      newCard.classList.add('Card');
-      cardList.appendChild(newCard);
-      newCard.title = item[key].indexname;
-      newCard.style.background = "url('" + item[key].image + "')";
-      newCard.style.backgroundSize = "contain";
-      newCard.style.backgroundRepeat = "no-repeat";
-      newCard.setAttribute('onclick', 'makebig("' + item[key].image + '", "' + item[key].indexname + '")');
+        const newCard = document.createElement('div');
+        newCard.classList.add('Card');
+        cardList.appendChild(newCard);
+        newCard.title = item[key].indexname;
+        newCard.style.background = "url('" + item[key].image + "')";
+        newCard.style.backgroundSize = "contain";
+        newCard.style.backgroundRepeat = "no-repeat";
+        newCard.setAttribute('onclick', 'makebig("' + item[key].image + '", "' + item[key].indexname + '")');
     }
   }
 });
@@ -138,24 +159,26 @@ async function filtertype(type) {
     const data = await orFullCards(); // await the async function
     console.log(data);
 
-    data.forEach(item => {
-  for (const key in item) {
-    if (item[key] && item[key].name !== undefined) {
-      console.log(`${key}: ${item[key].element}`);
-      if (item[key].element == type) {
-        const newCard = document.createElement('div');
-        newCard.classList.add('Card');
-        cardList.appendChild(newCard);
-        newCard.title = item[key].indexname;
-        newCard.style.background = "url('" + item[key].image + "')";
-        newCard.style.backgroundSize = "contain";
-        newCard.style.backgroundRepeat = "no-repeat";
-        newCard.setAttribute('onclick', 'makebig("' + item[key].image + '", "' + item[key].indexname + '")');
-      }
+    if (item[key].archetype !== "Item") {
+      data.forEach(item => {
+    for (const key in item) {
+      if (item[key] && item[key].name !== undefined) {
+        console.log(`${key}: ${item[key].element}`);
+        if (item[key].element == type) {
+          const newCard = document.createElement('div');
+          newCard.classList.add('Card');
+          cardList.appendChild(newCard);
+          newCard.title = item[key].indexname;
+          newCard.style.background = "url('" + item[key].image + "')";
+          newCard.style.backgroundSize = "contain";
+          newCard.style.backgroundRepeat = "no-repeat";
+          newCard.setAttribute('onclick', 'makebig("' + item[key].image + '", "' + item[key].indexname + '")');
+        }
 
+      }
     }
-  }
-});
+  });
+    }
 
   } catch (error) {
     console.log(error);
@@ -167,24 +190,26 @@ async function filterex(trFa) {
     const data = await orFullCards(); // await the async function
     console.log(data);
 
-    data.forEach(item => {
-  for (const key in item) {
-    if (item[key] && item[key].name !== undefined) {
-      console.log(`${key}: ${item[key].ex}`);
-      if (item[key].ex == trFa) {
-        const newCard = document.createElement('div');
-        newCard.classList.add('Card');
-        cardList.appendChild(newCard);
-        newCard.title = item[key].indexname;
-        newCard.style.background = "url('" + item[key].image + "')";
-        newCard.style.backgroundSize = "contain";
-        newCard.style.backgroundRepeat = "no-repeat";
-        newCard.setAttribute('onclick', 'makebig("' + item[key].image + '", "' + item[key].indexname + '")');
-      }
+    if (item[key].archetype !== "Item") {
+      data.forEach(item => {
+    for (const key in item) {
+      if (item[key] && item[key].name !== undefined) {
+        console.log(`${key}: ${item[key].ex}`);
+        if (item[key].ex == trFa) {
+          const newCard = document.createElement('div');
+          newCard.classList.add('Card');
+          cardList.appendChild(newCard);
+          newCard.title = item[key].indexname;
+          newCard.style.background = "url('" + item[key].image + "')";
+          newCard.style.backgroundSize = "contain";
+          newCard.style.backgroundRepeat = "no-repeat";
+          newCard.setAttribute('onclick', 'makebig("' + item[key].image + '", "' + item[key].indexname + '")');
+        }
 
+      }
     }
-  }
-});
+  });
+    }
 
   } catch (error) {
     console.log(error);
@@ -363,53 +388,98 @@ async function makebig(url, indexnamelocal) {
     if (item[key] && item[key].name !== undefined) {
       console.log(indexnamelocal);
       if (item[key] && item[key].indexname == indexnamelocal) {
+        if (item[key].archetype == "Item") {
+          cardAttack1Element.innerHTML = "";
+          cardAttack2Element.innerHTML = "";
+          cardElement.innerHTML = "";
+          cardZoomImg.style.background = "var(--item)";
+          htmlbody.style.background = "var(--item)";
 
-        cardAttack1Element.innerHTML = "";
-        cardAttack2Element.innerHTML = "";
-        cardElement.innerHTML = "";
-        cardZoomImg.style.background = "var(--" + item[key].element + "m)";
-        htmlbody.style.background = "var(--" + item[key].element + "s)";
+          cardName.innerHTML = item[key].name;
+          cardArche.innerHTML = item[key].archetype;
+          cardAbility.innerHTML = item[key].ability;
 
-        cardName.innerHTML = item[key].name;
-        cardArche.innerHTML = item[key].archetype;
-        fillelement(1, item[key].element, cardElement)
-        cardHP.innerHTML = item[key].hitpoints;
-        cardAbility.innerHTML = item[key].ability;
+          cardAttack1name.innerHTML = item[key].attack1.name;
+          fillelement(item[key].attack1.cost, item[key].attack1.element, cardAttack1Element)
+          fillelement(item[key].attack1.cost2, item[key].attack1.element2, cardAttack1Element)
+          cardAttack1Damage.innerHTML = item[key].attack1.damage;
+          cardAttack1Description.innerHTML = item[key].attack1.description;
 
-        cardAttack1name.innerHTML = item[key].attack1.name;
-        fillelement(item[key].attack1.cost, item[key].attack1.element, cardAttack1Element)
-        fillelement(item[key].attack1.cost2, item[key].attack1.element2, cardAttack1Element)
-        cardAttack1Damage.innerHTML = item[key].attack1.damage;
-        cardAttack1Description.innerHTML = item[key].attack1.description;
+          cardAttack2name.innerHTML = item[key].attack2.name;
+          fillelement(item[key].attack2.cost, item[key].attack2.element, cardAttack2Element)
+          fillelement(item[key].attack2.cost2, item[key].attack2.element2, cardAttack2Element)
+          cardAttack2Damage.innerHTML = item[key].attack2.damage;
+          cardAttack2Description.innerHTML = item[key].attack2.description;
 
-        cardAttack2name.innerHTML = item[key].attack2.name;
-        fillelement(item[key].attack2.cost, item[key].attack2.element, cardAttack2Element)
-        fillelement(item[key].attack2.cost2, item[key].attack2.element2, cardAttack2Element)
-        cardAttack2Damage.innerHTML = item[key].attack2.damage;
-        cardAttack2Description.innerHTML = item[key].attack2.description;
+          cardSeries.innerHTML = item[key].series;
+          cardCopyright.innerHTML = item[key].copyright;
+          cardRCost.innerHTML = item[key].rcost;
 
-        cardSeries.innerHTML = item[key].series;
-        cardCopyright.innerHTML = item[key].copyright;
-        cardRCost.innerHTML = item[key].rcost;
+          interactUI.style.background = "var(--iu" + item[key].background + ")";
 
-        interactUI.style.background = "var(--iu" + item[key].background + ")";
+          console.log(item[key].name);
+          console.log(item[key].archetype);
+          console.log(item[key].ability);
+          console.log(item[key].attack1.name);
+          console.log(item[key].attack1.element);
+          console.log(item[key].attack1.damage);
+          console.log(item[key].attack1.description);
+          console.log(item[key].attack2.name);
+          console.log(item[key].attack2.element);
+          console.log(item[key].attack2.damage);
+          console.log(item[key].attack2.description);
+          console.log(item[key].series);
+          console.log(item[key].copyright);
+          console.log(item[key].rcost);
+        }
+        if (["Character", "Enhanced Character"].includes(item[key].archetype)) {
+          cardAttack1Element.innerHTML = "";
+          cardAttack2Element.innerHTML = "";
+          cardElement.innerHTML = "";
+          cardZoomImg.style.background = "var(--" + item[key].element + "m)";
+          htmlbody.style.background = "var(--" + item[key].element + "s)";
 
-        console.log(item[key].name);
-        console.log(item[key].archetype);
-        console.log(item[key].element);
-        console.log(item[key].hitpoints);
-        console.log(item[key].ability);
-        console.log(item[key].attack1.name);
-        console.log(item[key].attack1.element);
-        console.log(item[key].attack1.damage);
-        console.log(item[key].attack1.description);
-        console.log(item[key].attack2.name);
-        console.log(item[key].attack2.element);
-        console.log(item[key].attack2.damage);
-        console.log(item[key].attack2.description);
-        console.log(item[key].series);
-        console.log(item[key].copyright);
-        console.log(item[key].rcost);
+          cardName.innerHTML = item[key].name;
+          cardArche.innerHTML = item[key].archetype;
+          fillelement(1, item[key].element, cardElement)
+          cardHP.innerHTML = item[key].hitpoints;
+          cardAbility.innerHTML = item[key].ability;
+
+          cardAttack1name.innerHTML = item[key].attack1.name;
+          fillelement(item[key].attack1.cost, item[key].attack1.element, cardAttack1Element)
+          fillelement(item[key].attack1.cost2, item[key].attack1.element2, cardAttack1Element)
+          cardAttack1Damage.innerHTML = item[key].attack1.damage;
+          cardAttack1Description.innerHTML = item[key].attack1.description;
+
+          cardAttack2name.innerHTML = item[key].attack2.name;
+          fillelement(item[key].attack2.cost, item[key].attack2.element, cardAttack2Element)
+          fillelement(item[key].attack2.cost2, item[key].attack2.element2, cardAttack2Element)
+          cardAttack2Damage.innerHTML = item[key].attack2.damage;
+          cardAttack2Description.innerHTML = item[key].attack2.description;
+
+          cardSeries.innerHTML = item[key].series;
+          cardCopyright.innerHTML = item[key].copyright;
+          cardRCost.innerHTML = item[key].rcost;
+
+          interactUI.style.background = "var(--iu" + item[key].background + ")";
+
+          console.log(item[key].name);
+          console.log(item[key].archetype);
+          console.log(item[key].element);
+          console.log(item[key].hitpoints);
+          console.log(item[key].ability);
+          console.log(item[key].attack1.name);
+          console.log(item[key].attack1.element);
+          console.log(item[key].attack1.damage);
+          console.log(item[key].attack1.description);
+          console.log(item[key].attack2.name);
+          console.log(item[key].attack2.element);
+          console.log(item[key].attack2.damage);
+          console.log(item[key].attack2.description);
+          console.log(item[key].series);
+          console.log(item[key].copyright);
+          console.log(item[key].rcost);
+        }
 
 
 
