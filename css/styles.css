@@ -87,7 +87,7 @@ body {
 }
 
 #CardDisplay {
-  width: 100vw;
+  width: 97vw;
   margin: auto;
   display: flex;
   justify-content: space-evenly;
