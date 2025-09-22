@@ -48,6 +48,7 @@ const arches = [
   "Setting",
   "Item",
   "Summon",
+  "Enhanced Summon",
   "Duo"
 ];
 
@@ -58,6 +59,15 @@ const backers = [
   "ColorArt",
   "FullArt"
 ];
+
+
+
+
+
+
+
+
+
 
 
 // Corrected function declaration
@@ -425,6 +435,26 @@ async function makebig(url, indexnamelocal) {
 
     const data = await orFullCards();
 
+    cardName.style.display = "block";
+    cardArche.style.display = "block";
+    cardElement.style.display = "block";
+    cardHP.style.display = "block";
+    cardAbility.style.display = "block";
+    cardAttack1name.style.display = "block";
+    cardAttack1Element.style.display = "block";
+    cardAttack1Damage.style.display = "block";
+    cardAttack1Description.style.display = "block";
+    cardAttack2name.style.display = "block";
+    cardAttack2Element.style.display = "block";
+    cardAttack2Damage.style.display = "block";
+    cardAttack2Description.style.display = "block";
+    cardSeries.style.display = "block";
+    cardCopyright.style.display = "block";
+    cardRCost.style.display = "block";
+
+
+
+
     data.forEach(item => {
   for (const key in item) {
     if (item[key] && item[key].name !== undefined) {
@@ -459,18 +489,57 @@ async function makebig(url, indexnamelocal) {
           interactUI.style.background = "var(--iu" + item[key].background + ")";
 
           console.log(item[key].name);
+          if (item[key].name == null) {
+            cardName.style.display = "none";
+          };
           console.log(item[key].archetype);
+          if (item[key].archetype == null) {
+            cardArche.style.display = "none";
+          };
           console.log(item[key].ability);
+          if (item[key].ability == null) {
+            cardAbility.style.display = "none";
+          };
           console.log(item[key].attack1.name);
+          if (item[key].attack1.name == null) {
+            cardAttack1name.style.display = "none";
+          };
           console.log(item[key].attack1.element);
+          if (item[key].attack1.element == null) {
+            cardAttack1Element.style.display = "none";
+          };
           console.log(item[key].attack1.damage);
+          if (item[key].attack1.damage == null) {
+            cardAttack1Damage.style.display = "none";
+          };
           console.log(item[key].attack1.description);
+          if (item[key].attack1.description == null) {
+            cardAttack1Description.style.display = "none";
+          };
           console.log(item[key].attack2.name);
+          if (item[key].attack2.name == null) {
+            cardAttack2name.style.display = "none";
+          };
           console.log(item[key].attack2.element);
+          if (item[key].attack2.element == null) {
+            cardAttack2Element.style.display = "none";
+          };
           console.log(item[key].attack2.damage);
+          if (item[key].attack2.damage == null) {
+            cardAttack2Damage.style.display = "none";
+          };
           console.log(item[key].attack2.description);
+          if (item[key].attack2.description == null) {
+            cardAttack2Description.style.display = "none";
+          };
           console.log(item[key].series);
+          if (item[key].series == null) {
+            cardSeries.style.display = "none";
+          };
           console.log(item[key].copyright);
+          if (item[key].copyright == null) {
+            cardCopyright.style.display = "none";
+          };
         }
         if (["Character", "Enhanced Character"].includes(item[key].archetype)) {
           cardAttack1Element.innerHTML = "";
@@ -504,21 +573,69 @@ async function makebig(url, indexnamelocal) {
           interactUI.style.background = "var(--iu" + item[key].background + ")";
 
           console.log(item[key].name);
+          if (item[key].name == null) {
+            cardName.style.display = "none";
+          };
           console.log(item[key].archetype);
+          if (item[key].archetype == null) {
+            cardArche.style.display = "none";
+          };
           console.log(item[key].element);
+          if (item[key].element == null) {
+            cardElement.style.display = "none";
+          };
           console.log(item[key].hitpoints);
+          if (item[key].hitpoints == null) {
+            cardHP.style.display = "none";
+          };
           console.log(item[key].ability);
+          if (item[key].ability == null) {
+            cardAbility.style.display = "none";
+          };
           console.log(item[key].attack1.name);
+          if (item[key].attack1.name == null) {
+            cardAttack1name.style.display = "none";
+          };
           console.log(item[key].attack1.element);
+          if (item[key].attack1.element == null) {
+            cardAttack1Element.style.display = "none";
+          };
           console.log(item[key].attack1.damage);
+          if (item[key].attack1.damage == null) {
+            cardAttack1Damage.style.display = "none";
+          };
           console.log(item[key].attack1.description);
+          if (item[key].attack1.description == null) {
+            cardAttack1Description.style.display = "none";
+          };
           console.log(item[key].attack2.name);
+          if (item[key].attack2.name == null) {
+            cardAttack2name.style.display = "none";
+          };
           console.log(item[key].attack2.element);
+          if (item[key].attack2.element == null) {
+            cardAttack2Element.style.display = "none";
+          };
           console.log(item[key].attack2.damage);
+          if (item[key].attack2.damage == null) {
+            cardAttack2Damage.style.display = "none";
+          };
           console.log(item[key].attack2.description);
+          if (item[key].attack2.description == null) {
+            cardAttack2Description.style.display = "none";
+          };
           console.log(item[key].series);
+          if (item[key].series == null) {
+            cardSeries.style.display = "none";
+          };
           console.log(item[key].copyright);
+          if (item[key].copyright == null) {
+            cardCopyright.style.display = "none";
+          };
           console.log(item[key].rcost);
+          if (item[key].rcost == null) {
+            cardRCost.style.display = "none";
+          };
         }
 
 
