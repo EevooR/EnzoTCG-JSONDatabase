@@ -4632,6 +4632,9 @@
 
 
 
+
+
+
         "adventuresphere": {
             "name": "Adventure Sphere",
             "indexname": "adventuresphere",
@@ -5603,10 +5606,327 @@
 
 
 
+        "bigdonut": {
+          "name": "Big Donut",
+          "indexname": "bigdonut",
+          "archetype": "Setting",
+          "background": "ORbackground",
+          "ability": null,
+          "negativeint" : {
+            "50" : null,
+            "40" : "Water",
+            "30" : "Frost",
+            "20" : "Omni",
+            "10" : null
+          },
+          "positiveint" : {
+            "50" : null,
+            "40" : "Fire",
+            "30" : "Negative",
+            "20" : "Positive",
+            "10" : null
+          },
+          "series": "Mario Kart 7",
+          "copyright": "Nintendo",
+          "image": "../Assets/Settings/Items/BigDonut.jpg"
+        },
 
+        "classroom3e": {
+          "name": "Classroom 3-E",
+          "indexname": "classroom3e",
+          "archetype": "Setting",
+          "background": "ORbackground",
+          "ability": "The maximum amount of non-active party members on one side is 6 as long as this card is in effect.",
+          "negativeint" : {
+            "50" : null,
+            "40" : "Negative",
+            "30" : null,
+            "20" : null,
+            "10" : null
+          },
+          "positiveint" : {
+            "50" : null,
+            "40" : "Positive",
+            "30" : null,
+            "20" : "Wind",
+            "10" : null
+          },
+          "series": "Assassination Classroom",
+          "copyright": "VIZ Media",
+          "image": "../Assets/Settings/Items/Classroom3E.jpg"
+        },
 
+        "deepdark": {
+          "name": "Deep Dark",
+          "indexname": "deepdark",
+          "archetype": "Setting",
+          "background": "ORbackground",
+          "ability": null,
+          "negativeint" : {
+            "50" : null,
+            "40" : "Positive",
+            "30" : "Biological",
+            "20" : "Omni",
+            "10" : null
+          },
+          "positiveint" : {
+            "50" : null,
+            "40" : "Negative",
+            "30" : "Earth",
+            "20" : "Time",
+            "10" : null
+          },
+          "series": "Minecraft",
+          "copyright": "Mojang",
+          "image": "../Assets/Settings/Items/DeepDark.jpg"
+        },
+        "deepocean": {
+          "name": "Deep Ocean",
+          "indexname": "deepocean",
+          "archetype": "Setting",
+          "background": "ORbackground",
+          "ability": null,
+          "negativeint" : {
+            "50" : null,
+            "40" : "Fire",
+            "30" : "Earth",
+            "20" : "Frost",
+            "10" : null
+          },
+          "positiveint" : {
+            "50" : null,
+            "40" : "Water",
+            "30" : "Electricity",
+            "20" : "Biological",
+            "10" : null
+          },
+          "series": "Minecraft",
+          "copyright": "Mojang",
+          "image": "../Assets/Settings/Items/DeepOcean.jpg"
+        },
+        "thedistortionworld": {
+          "name": "The Distortion World",
+          "indexname": "thedistortionworld",
+          "archetype": "Setting",
+          "background": "ORbackground",
+          "ability": "Inverse the type match up table.",
+          "negativeint" : {
+            "50" : null,
+            "40" : null,
+            "30" : null,
+            "20" : null,
+            "10" : null
+          },
+          "positiveint" : {
+            "50" : null,
+            "40" : null,
+            "30" : null,
+            "20" : null,
+            "10" : null
+          },
+          "series": "Pokemon",
+          "copyright": "The Pokemon Company",
+          "image": "../Assets/Settings/Items/TheDistortionWorld.jpg"
+        },
+        "dreamscapeleadworth": {
+          "name": "Dreamscape Leadworth",
+          "indexname": "dreamscapeleadworth",
+          "archetype": "Setting",
+          "background": "ORbackground",
+          "ability": "Can not be played in the same turn as Cold Star or Dream Lord cards.",
+          "negativeint" : {
+            "50" : null,
+            "40" : "Positive",
+            "30" : null,
+            "20" : null,
+            "10" : null
+          },
+          "positiveint" : {
+            "50" : null,
+            "40" : "Time",
+            "30" : "Negative",
+            "20" : null,
+            "10" : "Wind"
+          },
+          "series": "Doctor Who",
+          "copyright": "BBC",
+          "image": "../Assets/Settings/Items/DreamscapeLeadworth.jpg"
+        },
 
+        "emeraldforest": {
+          "name": "Emerald Forest",
+          "indexname": "emeraldforest",
+          "archetype": "Setting",
+          "background": "ORbackground",
+          "ability": "Turn one bench spot on both sides into an active spot, making both sides have 2 active characters and 2 bench slots.",
+          "negativeint" : {
+            "50" : null,
+            "40" : null,
+            "30" : null,
+            "20" : null,
+            "10" : null
+          },
+          "positiveint" : {
+            "50" : null,
+            "40" : null,
+            "30" : null,
+            "20" : null,
+            "10" : null
+          },
+          "series": "RWBY",
+          "copyright": "VIZ Media",
+          "image": "../Assets/Settings/Items/EmeraldForest.jpg"
+        },
 
+        "firebirdsvolcano": {
+          "name": "Firebird's Volcano",
+          "indexname": "firebirdsvolcano",
+          "archetype": "Setting",
+          "background": "ORbackground",
+          "ability": null,
+          "negativeint" : {
+            "50" : null,
+            "40" : "Frost",
+            "30" : "Biological",
+            "20" : "Positive",
+            "10" : null
+          },
+          "positiveint" : {
+            "50" : null,
+            "40" : "Fire",
+            "30" : "Negative",
+            "20" : null,
+            "10" : null
+          },
+          "series": "Fantasia 2000",
+          "copyright": "Disney",
+          "image": "../Assets/Settings/Items/FirebirdsVolcano.jpg"
+        },
+
+        "mistymountain": {
+          "name": "Misty Mountain",
+          "indexname": "mistymountain",
+          "archetype": "Setting",
+          "background": "ORbackground",
+          "ability": null,
+          "negativeint" : {
+            "50" : null,
+            "40" : "Biological",
+            "30" : "Negative",
+            "20" : "Earth",
+            "10" : null
+          },
+          "positiveint" : {
+            "50" : null,
+            "40" : "Positive",
+            "30" : "Digital",
+            "20" : "Wind",
+            "10" : null
+          },
+          "series": "Jelle's Marble Runs",
+          "copyright": "Youtube",
+          "image": "../Assets/Settings/Items/MistyMountain.jpg"
+        },
+
+        "peachsicegarden": {
+          "name": "Peach's Ice Garden",
+          "indexname": "peachsicegarden",
+          "archetype": "Setting",
+          "background": "ORbackground",
+          "ability": null,
+          "negativeint" : {
+            "50" : null,
+            "40" : "Fire",
+            "30" : "Omni",
+            "20" : null,
+            "10" : null
+          },
+          "positiveint" : {
+            "50" : null,
+            "40" : "Frost",
+            "30" : "Biological",
+            "20" : "Positive",
+            "10" : null
+          },
+          "series": "Super Mario: Super Sluggers",
+          "copyright": "Nintendo",
+          "image": "../Assets/Settings/Items/PeachsIceGarden.jpg"
+        },
+
+        "rosalinasiceworld": {
+          "name": "Rosalina's Ice World",
+          "indexname": "rosalinasiceworld",
+          "archetype": "Setting",
+          "background": "ORbackground",
+          "ability": null,
+          "negativeint" : {
+            "50" : null,
+            "40" : "Negative",
+            "30" : "Wind",
+            "20" : "Digital",
+            "10" : null
+          },
+          "positiveint" : {
+            "50" : null,
+            "40" : "Frost",
+            "30" : "Positive",
+            "20" : "Omni",
+            "10" : null
+          },
+          "series": "Mario Kart",
+          "copyright": "Nintendo",
+          "image": "../Assets/Settings/Items/RosalinasIceWorld.jpg"
+        },
+
+        "train": {
+          "name": "Train",
+          "indexname": "train",
+          "archetype": "Setting",
+          "background": "ORbackground",
+          "ability": "Both sides must flip a coin every 5 turns while this is Active, if it lands tails, they must discard their active card. No Prize Cards are Forfeited.",
+          "negativeint" : {
+            "50" : null,
+            "40" : "Earth",
+            "30" : null,
+            "20" : "Fire",
+            "10" : null
+          },
+          "positiveint" : {
+            "50" : null,
+            "40" : "Wind",
+            "30" : null,
+            "20" : "Omni",
+            "10" : null
+          },
+          "series": null,
+          "copyright": null,
+          "image": "../Assets/Settings/Items/Train.jpg"
+        },
+
+        "windseeker": {
+          "name": "Windseeker",
+          "indexname": "windseeker",
+          "archetype": "Setting",
+          "background": "ORbackground",
+          "ability": "If both sides' active cards are Wind then no attacks that use wind energy can be used.",
+          "negativeint" : {
+            "50" : null,
+            "40" : "Earth",
+            "30" : "Omni",
+            "20" : null,
+            "10" : null
+          },
+          "positiveint" : {
+            "50" : null,
+            "40" : "Wind",
+            "30" : "Positive",
+            "20" : null,
+            "10" : null
+          },
+          "series": "Kings Island",
+          "copyright": "Six Flags",
+          "image": "../Assets/Settings/Items/Windseeker.jpg"
+        },
 
 
 

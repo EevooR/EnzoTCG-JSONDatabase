@@ -104,8 +104,8 @@ window.onload = async (event) => {
         }
         if (backers.includes(item[key].background)) {} else {
           alert(item[key].background + "Is not valid in" + item[key].indexname + "background")
-        }
-      } else {
+        }}
+      if (["Character","Enhanced Character"].includes(item[key].archetype) {
         console.log(`${key}: ${item[key].name}`);
         if (elements.includes(item[key].element)) {} else {
           alert(item[key].element + "Is not valid in" + item[key].indexname + "element")
