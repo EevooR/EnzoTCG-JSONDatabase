@@ -5628,7 +5628,7 @@
           },
           "series": "Mario Kart 7",
           "copyright": "Nintendo",
-          "image": "../Assets/Settings/Items/BigDonut.jpg"
+          "image": "../Assets/ORCards/Settings/BigDonut.jpg"
         },
 
         "classroom3e": {
@@ -5653,7 +5653,7 @@
           },
           "series": "Assassination Classroom",
           "copyright": "VIZ Media",
-          "image": "../Assets/Settings/Items/Classroom3E.jpg"
+          "image": "../Assets/ORCards/Settings/Classroom3E.jpg"
         },
 
         "deepdark": {
@@ -5678,7 +5678,7 @@
           },
           "series": "Minecraft",
           "copyright": "Mojang",
-          "image": "../Assets/Settings/Items/DeepDark.jpg"
+          "image": "../Assets/ORCards/Settings/DeepDark.jpg"
         },
         "deepocean": {
           "name": "Deep Ocean",
@@ -5702,7 +5702,7 @@
           },
           "series": "Minecraft",
           "copyright": "Mojang",
-          "image": "../Assets/Settings/Items/DeepOcean.jpg"
+          "image": "../Assets/ORCards/Settings/DeepOcean.jpg"
         },
         "thedistortionworld": {
           "name": "The Distortion World",
@@ -5726,7 +5726,7 @@
           },
           "series": "Pokemon",
           "copyright": "The Pokemon Company",
-          "image": "../Assets/Settings/Items/TheDistortionWorld.jpg"
+          "image": "../Assets/ORCards/Settings/TheDistortionWorld.jpg"
         },
         "dreamscapeleadworth": {
           "name": "Dreamscape Leadworth",
@@ -5750,7 +5750,7 @@
           },
           "series": "Doctor Who",
           "copyright": "BBC",
-          "image": "../Assets/Settings/Items/DreamscapeLeadworth.jpg"
+          "image": "../Assets/ORCards/Settings/DreamscapeLeadworth.jpg"
         },
 
         "emeraldforest": {
@@ -5775,7 +5775,7 @@
           },
           "series": "RWBY",
           "copyright": "VIZ Media",
-          "image": "../Assets/Settings/Items/EmeraldForest.jpg"
+          "image": "../Assets/ORCards/Settings/EmeraldForest.jpg"
         },
 
         "firebirdsvolcano": {
@@ -5800,7 +5800,7 @@
           },
           "series": "Fantasia 2000",
           "copyright": "Disney",
-          "image": "../Assets/Settings/Items/FirebirdsVolcano.jpg"
+          "image": "../Assets/ORCards/Settings/FirebirdsVolcano.jpg"
         },
 
         "mistymountain": {
@@ -5825,7 +5825,7 @@
           },
           "series": "Jelle's Marble Runs",
           "copyright": "Youtube",
-          "image": "../Assets/Settings/Items/MistyMountain.jpg"
+          "image": "../Assets/ORCards/Settings/MistyMountain.jpg"
         },
 
         "peachsicegarden": {
@@ -5850,7 +5850,7 @@
           },
           "series": "Super Mario: Super Sluggers",
           "copyright": "Nintendo",
-          "image": "../Assets/Settings/Items/PeachsIceGarden.jpg"
+          "image": "../Assets/ORCards/Settings/PeachsIceGarden.jpg"
         },
 
         "rosalinasiceworld": {
@@ -5875,7 +5875,7 @@
           },
           "series": "Mario Kart",
           "copyright": "Nintendo",
-          "image": "../Assets/Settings/Items/RosalinasIceWorld.jpg"
+          "image": "../Assets/ORCards/Settings/RosalinasIceWorld.jpg"
         },
 
         "train": {
@@ -5900,7 +5900,7 @@
           },
           "series": null,
           "copyright": null,
-          "image": "../Assets/Settings/Items/Train.jpg"
+          "image": "../Assets/ORCards/Settings/Train.jpg"
         },
 
         "windseeker": {
@@ -5925,7 +5925,7 @@
           },
           "series": "Kings Island",
           "copyright": "Six Flags",
-          "image": "../Assets/Settings/Items/Windseeker.jpg"
+          "image": "../Assets/ORCards/Settings/Windseeker.jpg"
         },
 
 

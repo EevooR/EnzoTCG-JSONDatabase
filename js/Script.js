@@ -105,7 +105,7 @@ window.onload = async (event) => {
         if (backers.includes(item[key].background)) {} else {
           alert(item[key].background + "Is not valid in" + item[key].indexname + "background")
         }}
-      if (["Character","Enhanced Character"].includes(item[key].archetype) {
+      if (["Character","Enhanced Character"].includes(item[key].archetype)) {
         console.log(`${key}: ${item[key].name}`);
         if (elements.includes(item[key].element)) {} else {
           alert(item[key].element + "Is not valid in" + item[key].indexname + "element")
@@ -129,6 +129,45 @@ window.onload = async (event) => {
           alert(item[key].background + "Is not valid in" + item[key].indexname + "background")
         }
       }
+      if (item[key].archetype == "Setting") {
+        console.log(`${key}: ${item[key].name}`);
+        if (elements.includes(item[key].negativeint["50"])) {} else {
+          alert(item[key].negativeint["50"] + "Is not valid in" + item[key].indexname + " -50")
+        }
+        if (elements.includes(item[key].negativeint["40"])) {} else {
+          alert(item[key].negativeint["40"] + "Is not valid in" + item[key].indexname + " -40")
+        }
+        if (elements.includes(item[key].negativeint["30"])) {} else {
+          alert(item[key].negativeint["30"] + "Is not valid in" + item[key].indexname + " -30")
+        }
+        if (elements.includes(item[key].negativeint["20"])) {} else {
+          alert(item[key].negativeint["20"] + "Is not valid in" + item[key].indexname + " -20")
+        }
+        if (elements.includes(item[key].negativeint["10"])) {} else {
+          alert(item[key].negativeint["10"] + "Is not valid in" + item[key].indexname + " -10")
+        }
+        if (elements.includes(item[key].positiveint["50"])) {} else {
+          alert(item[key].positiveint["50"] + "Is not valid in" + item[key].indexname + " +50")
+        }
+        if (elements.includes(item[key].positiveint["40"])) {} else {
+          alert(item[key].positiveint["40"] + "Is not valid in" + item[key].indexname + " +40")
+        }
+        if (elements.includes(item[key].positiveint["30"])) {} else {
+          alert(item[key].positiveint["30"] + "Is not valid in" + item[key].indexname + " +30")
+        }
+        if (elements.includes(item[key].positiveint["20"])) {} else {
+          alert(item[key].positiveint["20"] + "Is not valid in" + item[key].indexname + " +20")
+        }
+        if (elements.includes(item[key].positiveint["10"])) {} else {
+          alert(item[key].positiveint["10"] + "Is not valid in" + item[key].indexname + " +10")
+        }
+
+        if (arches.includes(item[key].archetype)) {} else {
+          alert(item[key].archetype + "Is not valid in" + item[key].indexname + "archetype")
+        }
+        if (backers.includes(item[key].background)) {} else {
+          alert(item[key].background + "Is not valid in" + item[key].indexname + "background")
+        }}
         const newCard = document.createElement('div');
         newCard.classList.add('Card');
         cardList.appendChild(newCard);
