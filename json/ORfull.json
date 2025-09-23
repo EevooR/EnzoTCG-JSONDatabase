@@ -5612,6 +5612,7 @@
           "archetype": "Setting",
           "background": "ORbackground",
           "ability": null,
+          "caninteract" : true,
           "negativeint" : {
             "50" : null,
             "40" : "Water",
@@ -5637,6 +5638,7 @@
           "archetype": "Setting",
           "background": "ORbackground",
           "ability": "The maximum amount of non-active party members on one side is 6 as long as this card is in effect.",
+          "caninteract" : true,
           "negativeint" : {
             "50" : null,
             "40" : "Negative",
@@ -5662,6 +5664,7 @@
           "archetype": "Setting",
           "background": "ORbackground",
           "ability": null,
+          "caninteract" : true,
           "negativeint" : {
             "50" : null,
             "40" : "Positive",
@@ -5686,6 +5689,7 @@
           "archetype": "Setting",
           "background": "ORbackground",
           "ability": null,
+          "caninteract" : true,
           "negativeint" : {
             "50" : null,
             "40" : "Fire",
@@ -5710,6 +5714,7 @@
           "archetype": "Setting",
           "background": "ORbackground",
           "ability": "Inverse the type match up table.",
+          "caninteract" : false,
           "negativeint" : {
             "50" : null,
             "40" : null,
@@ -5734,6 +5739,7 @@
           "archetype": "Setting",
           "background": "ORbackground",
           "ability": "Can not be played in the same turn as Cold Star or Dream Lord cards.",
+          "caninteract" : true,
           "negativeint" : {
             "50" : null,
             "40" : "Positive",
@@ -5759,6 +5765,7 @@
           "archetype": "Setting",
           "background": "ORbackground",
           "ability": "Turn one bench spot on both sides into an active spot, making both sides have 2 active characters and 2 bench slots.",
+          "caninteract" : false,
           "negativeint" : {
             "50" : null,
             "40" : null,
@@ -5784,6 +5791,7 @@
           "archetype": "Setting",
           "background": "ORbackground",
           "ability": null,
+          "caninteract" : true,
           "negativeint" : {
             "50" : null,
             "40" : "Frost",
@@ -5809,6 +5817,7 @@
           "archetype": "Setting",
           "background": "ORbackground",
           "ability": null,
+          "caninteract" : true,
           "negativeint" : {
             "50" : null,
             "40" : "Biological",
@@ -5834,6 +5843,7 @@
           "archetype": "Setting",
           "background": "ORbackground",
           "ability": null,
+          "caninteract" : true,
           "negativeint" : {
             "50" : null,
             "40" : "Fire",
@@ -5859,6 +5869,7 @@
           "archetype": "Setting",
           "background": "ORbackground",
           "ability": null,
+          "caninteract" : true,
           "negativeint" : {
             "50" : null,
             "40" : "Negative",
@@ -5884,6 +5895,7 @@
           "archetype": "Setting",
           "background": "ORbackground",
           "ability": "Both sides must flip a coin every 5 turns while this is Active, if it lands tails, they must discard their active card. No Prize Cards are Forfeited.",
+          "caninteract" : true,
           "negativeint" : {
             "50" : null,
             "40" : "Earth",
@@ -5909,6 +5921,7 @@
           "archetype": "Setting",
           "background": "ORbackground",
           "ability": "If both sides' active cards are Wind then no attacks that use wind energy can be used.",
+          "caninteract" : true,
           "negativeint" : {
             "50" : null,
             "40" : "Earth",

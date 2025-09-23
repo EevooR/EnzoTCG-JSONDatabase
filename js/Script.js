@@ -25,6 +25,27 @@ const cardSeries = document.querySelector('#cardSeries');
 const cardCopyright = document.querySelector('#cardCopyright');
 const cardRCost = document.querySelector('#cardRCost');
 
+const elIntall = document.querySelector('#elementInteractions');
+const elintneg50 = document.querySelectorAll(".neg50");
+const elintpos50 = document.querySelectorAll(".pos50");
+const elintneg40 = document.querySelectorAll(".neg40");
+const elintpos40 = document.querySelectorAll(".pos40");
+const elintneg30 = document.querySelectorAll(".neg30");
+const elintpos30 = document.querySelectorAll(".pos30");
+const elintneg20 = document.querySelectorAll(".neg20");
+const elintpos20 = document.querySelectorAll(".pos20");
+const elintneg10 = document.querySelectorAll(".neg10");
+const elintpos10 = document.querySelectorAll(".pos10");
+const elintneg50Elem = document.querySelector("#neg50Elem");
+const elintpos50Elem = document.querySelector("#pos50Elem");
+const elintneg40Elem = document.querySelector("#neg40Elem");
+const elintpos40Elem = document.querySelector("#pos40Elem");
+const elintneg30Elem = document.querySelector("#neg30Elem");
+const elintpos30Elem = document.querySelector("#pos30Elem");
+const elintneg20Elem = document.querySelector("#neg20Elem");
+const elintpos20Elem = document.querySelector("#pos20Elem");
+const elintneg10Elem = document.querySelector("#neg10Elem");
+const elintpos10Elem = document.querySelector("#pos10Elem");
 
 const elements = [
   "Biological",
@@ -435,24 +456,45 @@ async function makebig(url, indexnamelocal) {
 
     const data = await orFullCards();
 
-    cardName.style.display = "block";
-    cardArche.style.display = "block";
-    cardElement.style.display = "block";
-    cardHP.style.display = "block";
-    cardAbility.style.display = "block";
-    cardAttack1name.style.display = "block";
-    cardAttack1Element.style.display = "block";
-    cardAttack1Damage.style.display = "block";
-    cardAttack1Description.style.display = "block";
-    cardAttack2name.style.display = "block";
-    cardAttack2Element.style.display = "block";
-    cardAttack2Damage.style.display = "block";
-    cardAttack2Description.style.display = "block";
-    cardSeries.style.display = "block";
-    cardCopyright.style.display = "block";
-    cardRCost.style.display = "block";
+    cardName.style.display = "none";
+    cardArche.style.display = "none";
+    cardElement.style.display = "none";
+    cardHP.style.display = "none";
+    cardAbility.style.display = "none";
+    cardAttack1name.style.display = "none";
+    cardAttack1Element.style.display = "none";
+    cardAttack1Damage.style.display = "none";
+    cardAttack1Description.style.display = "none";
+    cardAttack2name.style.display = "none";
+    cardAttack2Element.style.display = "none";
+    cardAttack2Damage.style.display = "none";
+    cardAttack2Description.style.display = "none";
+    cardSeries.style.display = "none";
+    cardCopyright.style.display = "none";
+    cardRCost.style.display = "none";
 
+    elIntall.style.display = "none";
 
+    elintneg50.style.background = "black";
+    elintpos50.style.background = "black";
+    elintneg40.style.background = "black";
+    elintpos40.style.background = "black";
+    elintneg30.style.background = "black";
+    elintpos30.style.background = "black";
+    elintneg20.style.background = "black";
+    elintpos20.style.background = "black";
+    elintneg10.style.background = "black";
+    elintpos10.style.background = "black";
+    elintneg50Elem.style.display = "none";
+    elintpos50Elem.style.display = "none";
+    elintneg40Elem.style.display = "none";
+    elintpos40Elem.style.display = "none";
+    elintneg30Elem.style.display = "none";
+    elintpos30Elem.style.display = "none";
+    elintneg20Elem.style.display = "none";
+    elintpos20Elem.style.display = "none";
+    elintneg10Elem.style.display = "none";
+    elintpos10Elem.style.display = "none";
 
 
     data.forEach(item => {
@@ -489,56 +531,56 @@ async function makebig(url, indexnamelocal) {
           interactUI.style.background = "var(--iu" + item[key].background + ")";
 
           console.log(item[key].name);
-          if (item[key].name == null) {
-            cardName.style.display = "none";
+          if (item[key].name !== null) {
+            cardName.style.display = "block";
           };
           console.log(item[key].archetype);
-          if (item[key].archetype == null) {
-            cardArche.style.display = "none";
+          if (item[key].archetype !== null) {
+            cardArche.style.display = "block";
           };
           console.log(item[key].ability);
-          if (item[key].ability == null) {
-            cardAbility.style.display = "none";
+          if (item[key].ability !== null) {
+            cardAbility.style.display = "block";
           };
           console.log(item[key].attack1.name);
-          if (item[key].attack1.name == null) {
-            cardAttack1name.style.display = "none";
+          if (item[key].attack1.name !== null) {
+            cardAttack1name.style.display = "block";
           };
           console.log(item[key].attack1.element);
-          if (item[key].attack1.element == null) {
-            cardAttack1Element.style.display = "none";
+          if (item[key].attack1.element !== null) {
+            cardAttack1Element.style.display = "block";
           };
           console.log(item[key].attack1.damage);
-          if (item[key].attack1.damage == null) {
-            cardAttack1Damage.style.display = "none";
+          if (item[key].attack1.damage !== null) {
+            cardAttack1Damage.style.display = "block";
           };
           console.log(item[key].attack1.description);
-          if (item[key].attack1.description == null) {
-            cardAttack1Description.style.display = "none";
+          if (item[key].attack1.description !== null) {
+            cardAttack1Description.style.display = "block";
           };
           console.log(item[key].attack2.name);
-          if (item[key].attack2.name == null) {
-            cardAttack2name.style.display = "none";
+          if (item[key].attack2.name !== null) {
+            cardAttack2name.style.display = "block";
           };
           console.log(item[key].attack2.element);
-          if (item[key].attack2.element == null) {
-            cardAttack2Element.style.display = "none";
+          if (item[key].attack2.element !== null) {
+            cardAttack2Element.style.display = "block";
           };
           console.log(item[key].attack2.damage);
-          if (item[key].attack2.damage == null) {
-            cardAttack2Damage.style.display = "none";
+          if (item[key].attack2.damage !== null) {
+            cardAttack2Damage.style.display = "block";
           };
           console.log(item[key].attack2.description);
-          if (item[key].attack2.description == null) {
-            cardAttack2Description.style.display = "none";
+          if (item[key].attack2.description !== null) {
+            cardAttack2Description.style.display = "block";
           };
           console.log(item[key].series);
-          if (item[key].series == null) {
-            cardSeries.style.display = "none";
+          if (item[key].series !== null) {
+            cardSeries.style.display = "block";
           };
           console.log(item[key].copyright);
-          if (item[key].copyright == null) {
-            cardCopyright.style.display = "none";
+          if (item[key].copyright !== null) {
+            cardCopyright.style.display = "block";
           };
         }
         if (["Character", "Enhanced Character"].includes(item[key].archetype)) {
@@ -573,71 +615,172 @@ async function makebig(url, indexnamelocal) {
           interactUI.style.background = "var(--iu" + item[key].background + ")";
 
           console.log(item[key].name);
-          if (item[key].name == null) {
-            cardName.style.display = "none";
+          if (item[key].name !== null) {
+            cardName.style.display = "block";
           };
           console.log(item[key].archetype);
-          if (item[key].archetype == null) {
-            cardArche.style.display = "none";
+          if (item[key].archetype !== null) {
+            cardArche.style.display = "block";
           };
           console.log(item[key].element);
-          if (item[key].element == null) {
-            cardElement.style.display = "none";
+          if (item[key].element !== null) {
+            cardElement.style.display = "block";
           };
           console.log(item[key].hitpoints);
-          if (item[key].hitpoints == null) {
-            cardHP.style.display = "none";
+          if (item[key].hitpoints !== null) {
+            cardHP.style.display = "block";
           };
           console.log(item[key].ability);
-          if (item[key].ability == null) {
-            cardAbility.style.display = "none";
+          if (item[key].ability !== null) {
+            cardAbility.style.display = "block";
           };
           console.log(item[key].attack1.name);
-          if (item[key].attack1.name == null) {
-            cardAttack1name.style.display = "none";
+          if (item[key].attack1.name !== null) {
+            cardAttack1name.style.display = "block";
           };
           console.log(item[key].attack1.element);
-          if (item[key].attack1.element == null) {
-            cardAttack1Element.style.display = "none";
+          if (item[key].attack1.element !== null) {
+            cardAttack1Element.style.display = "block";
           };
           console.log(item[key].attack1.damage);
-          if (item[key].attack1.damage == null) {
-            cardAttack1Damage.style.display = "none";
+          if (item[key].attack1.damage !== null) {
+            cardAttack1Damage.style.display = "block";
           };
           console.log(item[key].attack1.description);
-          if (item[key].attack1.description == null) {
-            cardAttack1Description.style.display = "none";
+          if (item[key].attack1.description !== null) {
+            cardAttack1Description.style.display = "block";
           };
           console.log(item[key].attack2.name);
-          if (item[key].attack2.name == null) {
-            cardAttack2name.style.display = "none";
+          if (item[key].attack2.name !== null) {
+            cardAttack2name.style.display = "block";
           };
           console.log(item[key].attack2.element);
-          if (item[key].attack2.element == null) {
-            cardAttack2Element.style.display = "none";
+          if (item[key].attack2.element !== null) {
+            cardAttack2Element.style.display = "block";
           };
           console.log(item[key].attack2.damage);
-          if (item[key].attack2.damage == null) {
-            cardAttack2Damage.style.display = "none";
+          if (item[key].attack2.damage !== null) {
+            cardAttack2Damage.style.display = "block";
           };
           console.log(item[key].attack2.description);
-          if (item[key].attack2.description == null) {
-            cardAttack2Description.style.display = "none";
+          if (item[key].attack2.description !== null) {
+            cardAttack2Description.style.display = "block";
           };
           console.log(item[key].series);
-          if (item[key].series == null) {
-            cardSeries.style.display = "none";
+          if (item[key].series !== null) {
+            cardSeries.style.display = "block";
           };
           console.log(item[key].copyright);
-          if (item[key].copyright == null) {
-            cardCopyright.style.display = "none";
+          if (item[key].copyright !== null) {
+            cardCopyright.style.display = "block";
           };
           console.log(item[key].rcost);
-          if (item[key].rcost == null) {
-            cardRCost.style.display = "none";
+          if (item[key].rcost !== null) {
+            cardRCost.style.display = "block";
           };
         }
+        if (item[key].archetype == "Setting") {
+          cardAttack1Element.innerHTML = "";
+          cardAttack2Element.innerHTML = "";
+          cardElement.innerHTML = "";
+          cardZoomImg.style.background = "var(--setting)";
+          htmlbody.style.background = "var(--item)";
 
+          cardName.innerHTML = item[key].name;
+          cardArche.innerHTML = item[key].archetype;
+          cardAbility.innerHTML = item[key].ability;
+
+          if (item[key].negativeint["50"] !== null) {
+            elintneg50.style.background = "#ff7070";
+            elintneg50Elem.style.display = "block";
+            elintneg50Elem.title = item[key].negativeint["50"];
+            elintneg50Elem.src = "../Assets/Elements/" + item[key].negativeint["50"] + ".jpg";
+          }
+          if (item[key].negativeint["40"] !== null) {
+            elintneg40.style.background = "#ff7070";
+            elintneg40Elem.style.display = "block";
+            elintneg40Elem.title = item[key].negativeint["40"];
+            elintneg40Elem.src = "../Assets/Elements/" + item[key].negativeint["40"] + ".jpg";
+          }
+          if (item[key].negativeint["30"] !== null) {
+            elintneg30.style.background = "#ff7070";
+            elintneg30Elem.style.display = "block";
+            elintneg30Elem.title = item[key].negativeint["30"];
+            elintneg30Elem.src = "../Assets/Elements/" + item[key].negativeint["30"] + ".jpg";
+          }
+          if (item[key].negativeint["20"] !== null) {
+            elintneg20.style.background = "#ff7070";
+            elintneg20Elem.style.display = "block";
+            elintneg20Elem.title = item[key].negativeint["20"];
+            elintneg20Elem.src = "../Assets/Elements/" + item[key].negativeint["20"] + ".jpg";
+          }
+          if (item[key].negativeint["10"] !== null) {
+            elintneg10.style.background = "#ff7070";
+            elintneg10Elem.style.display = "block";
+            elintneg10Elem.title = item[key].negativeint["10"];
+            elintneg10Elem.src = "../Assets/Elements/" + item[key].negativeint["10"] + ".jpg";
+          }
+
+          if (item[key].positiveint["50"] !== null) {
+            elintpos50.style.background = "#92ff70";
+            elintpos50Elem.style.display = "block";
+            elintpos50Elem.title = item[key].positiveint["50"];
+            elintpos50Elem.src = "../Assets/Elements/" + item[key].positiveint["50"] + ".jpg";
+          }
+          if (item[key].positiveint["40"] !== null) {
+            elintpos40.style.background = "#92ff70";
+            elintpos40Elem.style.display = "block";
+            elintpos40Elem.title = item[key].positiveint["40"];
+            elintpos40Elem.src = "../Assets/Elements/" + item[key].positiveint["40"] + ".jpg";
+          }
+          if (item[key].positiveint["30"] !== null) {
+            elintpos30.style.background = "#92ff70";
+            elintpos30Elem.style.display = "block";
+            elintpos30Elem.title = item[key].positiveint["30"];
+            elintpos30Elem.src = "../Assets/Elements/" + item[key].positiveint["30"] + ".jpg";
+          }
+          if (item[key].positiveint["20"] !== null) {
+            elintpos20.style.background = "#92ff70";
+            elintpos20Elem.style.display = "block";
+            elintpos20Elem.title = item[key].positiveint["20"];
+            elintpos20Elem.src = "../Assets/Elements/" + item[key].positiveint["20"] + ".jpg";
+          }
+          if (item[key].positiveint["10"] !== null) {
+            elintpos10.style.background = "#92ff70";
+            elintpos10Elem.style.display = "block";
+            elintpos10Elem.title = item[key].positiveint["10"];
+            elintpos10Elem.src = "../Assets/Elements/" + item[key].positiveint["10"] + ".jpg";
+          }
+
+          cardSeries.innerHTML = item[key].series;
+          cardCopyright.innerHTML = item[key].copyright;
+
+          interactUI.style.background = "var(--iu" + item[key].background + ")";
+
+          console.log(item[key].name);
+          if (item[key].name !== null) {
+            cardName.style.display = "block";
+          };
+          console.log(item[key].archetype);
+          if (item[key].archetype !== null) {
+            cardArche.style.display = "block";
+          };
+          console.log(item[key].ability);
+          if (item[key].ability !== null) {
+            cardAbility.style.display = "block";
+          };
+          if (item[key].caninteract == true) {
+            elIntall.style.display = "block";
+          };
+          console.log(item[key].series);
+          if (item[key].series !== null) {
+            cardSeries.style.display = "block";
+          };
+          console.log(item[key].copyright);
+          if (item[key].copyright !== null) {
+            cardCopyright.style.display = "block";
+          };
+        }
 
 
       }

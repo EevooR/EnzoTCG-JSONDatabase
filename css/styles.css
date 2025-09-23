@@ -43,6 +43,7 @@
   --iuFullArt : #fd0200;
 
   --item : #ffab41;
+  --setting : #22a700;
 }
 
 * {
@@ -141,6 +142,29 @@ body {
   background: rgba(0, 0, 0, 0.3);
   color: white;
 }
+
+
+
+table, tr, th, thead, tbody, td, tfoot {
+  border-style: solid;
+  border-color: black;
+  border-collapse: collapse;
+  /* margin: 5px; */
+  /* background: #00000050; */
+  /* color: var(--AuxH);
+  scrollbar-color: var(--AuxH) #00000000; */
+}
+table {
+  min-width: 100%;
+  margin-bottom: 20px;
+}
+td {
+  text-align: center;
+}
+
+
+
+
 
 
 #EnzoTCGLogo {
