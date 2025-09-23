@@ -26,16 +26,27 @@ const cardCopyright = document.querySelector('#cardCopyright');
 const cardRCost = document.querySelector('#cardRCost');
 
 const elIntall = document.querySelector('#elementInteractions');
-const elintneg50 = document.querySelectorAll(".neg50");
-const elintpos50 = document.querySelectorAll(".pos50");
-const elintneg40 = document.querySelectorAll(".neg40");
-const elintpos40 = document.querySelectorAll(".pos40");
-const elintneg30 = document.querySelectorAll(".neg30");
-const elintpos30 = document.querySelectorAll(".pos30");
-const elintneg20 = document.querySelectorAll(".neg20");
-const elintpos20 = document.querySelectorAll(".pos20");
-const elintneg10 = document.querySelectorAll(".neg10");
-const elintpos10 = document.querySelectorAll(".pos10");
+const elintneg50 = document.querySelector("#neg50");
+const elintpos50 = document.querySelector("#pos50");
+const elintneg40 = document.querySelector("#neg40");
+const elintpos40 = document.querySelector("#pos40");
+const elintneg30 = document.querySelector("#neg30");
+const elintpos30 = document.querySelector("#pos30");
+const elintneg20 = document.querySelector("#neg20");
+const elintpos20 = document.querySelector("#pos20");
+const elintneg10 = document.querySelector("#neg10");
+const elintpos10 = document.querySelector("#pos10");
+const elintneg50e = document.querySelector("#neg50e");
+const elintpos50e = document.querySelector("#pos50e");
+const elintneg40e = document.querySelector("#neg40e");
+const elintpos40e = document.querySelector("#pos40e");
+const elintneg30e = document.querySelector("#neg30e");
+const elintpos30e = document.querySelector("#pos30e");
+const elintneg20e = document.querySelector("#neg20e");
+const elintpos20e = document.querySelector("#pos20e");
+const elintneg10e = document.querySelector("#neg10e");
+const elintpos10e = document.querySelector("#pos10e");
+
 const elintneg50Elem = document.querySelector("#neg50Elem");
 const elintpos50Elem = document.querySelector("#pos50Elem");
 const elintneg40Elem = document.querySelector("#neg40Elem");
@@ -485,6 +496,16 @@ async function makebig(url, indexnamelocal) {
     elintpos20.style.background = "black";
     elintneg10.style.background = "black";
     elintpos10.style.background = "black";
+    elintneg50e.style.background = "black";
+    elintpos50e.style.background = "black";
+    elintneg40e.style.background = "black";
+    elintpos40e.style.background = "black";
+    elintneg30e.style.background = "black";
+    elintpos30e.style.background = "black";
+    elintneg20e.style.background = "black";
+    elintpos20e.style.background = "black";
+    elintneg10e.style.background = "black";
+    elintpos10e.style.background = "black";
     elintneg50Elem.style.display = "none";
     elintpos50Elem.style.display = "none";
     elintneg40Elem.style.display = "none";
@@ -692,64 +713,74 @@ async function makebig(url, indexnamelocal) {
 
           if (item[key].negativeint["50"] !== null) {
             elintneg50.style.background = "#ff7070";
+            elintneg50e.style.background = "#ff7070";
             elintneg50Elem.style.display = "block";
             elintneg50Elem.title = item[key].negativeint["50"];
-            elintneg50Elem.src = "../Assets/Elements/" + item[key].negativeint["50"] + ".jpg";
+            elintneg50Elem.src = "../Assets/Elements/" + item[key].negativeint["50"] + ".png";
           }
           if (item[key].negativeint["40"] !== null) {
             elintneg40.style.background = "#ff7070";
+            elintneg40e.style.background = "#ff7070";
             elintneg40Elem.style.display = "block";
             elintneg40Elem.title = item[key].negativeint["40"];
-            elintneg40Elem.src = "../Assets/Elements/" + item[key].negativeint["40"] + ".jpg";
+            elintneg40Elem.src = "../Assets/Elements/" + item[key].negativeint["40"] + ".png";
           }
           if (item[key].negativeint["30"] !== null) {
             elintneg30.style.background = "#ff7070";
+            elintneg30e.style.background = "#ff7070";
             elintneg30Elem.style.display = "block";
             elintneg30Elem.title = item[key].negativeint["30"];
-            elintneg30Elem.src = "../Assets/Elements/" + item[key].negativeint["30"] + ".jpg";
+            elintneg30Elem.src = "../Assets/Elements/" + item[key].negativeint["30"] + ".png";
           }
           if (item[key].negativeint["20"] !== null) {
             elintneg20.style.background = "#ff7070";
+            elintneg20e.style.background = "#ff7070";
             elintneg20Elem.style.display = "block";
             elintneg20Elem.title = item[key].negativeint["20"];
-            elintneg20Elem.src = "../Assets/Elements/" + item[key].negativeint["20"] + ".jpg";
+            elintneg20Elem.src = "../Assets/Elements/" + item[key].negativeint["20"] + ".png";
           }
           if (item[key].negativeint["10"] !== null) {
             elintneg10.style.background = "#ff7070";
+            elintneg10e.style.background = "#ff7070";
             elintneg10Elem.style.display = "block";
             elintneg10Elem.title = item[key].negativeint["10"];
-            elintneg10Elem.src = "../Assets/Elements/" + item[key].negativeint["10"] + ".jpg";
+            elintneg10Elem.src = "../Assets/Elements/" + item[key].negativeint["10"] + ".png";
           }
 
           if (item[key].positiveint["50"] !== null) {
             elintpos50.style.background = "#92ff70";
+            elintpos50e.style.background = "#92ff70";
             elintpos50Elem.style.display = "block";
             elintpos50Elem.title = item[key].positiveint["50"];
-            elintpos50Elem.src = "../Assets/Elements/" + item[key].positiveint["50"] + ".jpg";
+            elintpos50Elem.src = "../Assets/Elements/" + item[key].positiveint["50"] + ".png";
           }
           if (item[key].positiveint["40"] !== null) {
             elintpos40.style.background = "#92ff70";
+            elintpos40e.style.background = "#92ff70";
             elintpos40Elem.style.display = "block";
             elintpos40Elem.title = item[key].positiveint["40"];
-            elintpos40Elem.src = "../Assets/Elements/" + item[key].positiveint["40"] + ".jpg";
+            elintpos40Elem.src = "../Assets/Elements/" + item[key].positiveint["40"] + ".png";
           }
           if (item[key].positiveint["30"] !== null) {
             elintpos30.style.background = "#92ff70";
+            elintpos30e.style.background = "#92ff70";
             elintpos30Elem.style.display = "block";
             elintpos30Elem.title = item[key].positiveint["30"];
-            elintpos30Elem.src = "../Assets/Elements/" + item[key].positiveint["30"] + ".jpg";
+            elintpos30Elem.src = "../Assets/Elements/" + item[key].positiveint["30"] + ".png";
           }
           if (item[key].positiveint["20"] !== null) {
             elintpos20.style.background = "#92ff70";
+            elintpos20e.style.background = "#92ff70";
             elintpos20Elem.style.display = "block";
             elintpos20Elem.title = item[key].positiveint["20"];
-            elintpos20Elem.src = "../Assets/Elements/" + item[key].positiveint["20"] + ".jpg";
+            elintpos20Elem.src = "../Assets/Elements/" + item[key].positiveint["20"] + ".png";
           }
           if (item[key].positiveint["10"] !== null) {
             elintpos10.style.background = "#92ff70";
+            elintpos10e.style.background = "#92ff70";
             elintpos10Elem.style.display = "block";
             elintpos10Elem.title = item[key].positiveint["10"];
-            elintpos10Elem.src = "../Assets/Elements/" + item[key].positiveint["10"] + ".jpg";
+            elintpos10Elem.src = "../Assets/Elements/" + item[key].positiveint["10"] + ".png";
           }
 
           cardSeries.innerHTML = item[key].series;
