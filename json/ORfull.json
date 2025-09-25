@@ -5952,6 +5952,248 @@
 
 
 
+        "bathroom": {
+          "name": "Bathroom",
+          "indexname": "bathroom",
+          "element": "Water",
+          "archetype": "Summon",
+          "background": "ORbackground",
+          "ability": "The opponent's active card must sacrifice an energy every one of the opponent’s turns.",
+          "rcost": 6,
+          "series": "Rollercoaster Tycoon",
+          "copyright": "Atari",
+          "image": "../Assets/ORCards/Summons/Bathroom.jpg"
+        },
+        "bonzibuddy": {
+          "name": "Bonzi Buddy",
+          "indexname": "bonzibuddy",
+          "element": "Digital",
+          "archetype": "Summon",
+          "background": "ORbackground",
+          "ability": "The opponent must put their hand on the table, visible to everyone and keep it visible until this card’s duration runs to zero.",
+          "rcost": 6,
+          "series": "null",
+          "copyright": "Bonzi Software, Inc,",
+          "image": "../Assets/ORCards/Summons/BonziBuddy.jpg"
+        },
+
+        "clippy": {
+          "name": "Clippy",
+          "indexname": "clippy",
+          "element": "Digital",
+          "archetype": "Summon",
+          "background": "ORbackground",
+          "ability": "During your opponent’s turn, you are allowed to make suggestions for changes on what actions they do. Once you make a suggestion, flip a coin, if heads, the opponent must do the suggestion, if tails, the opponent doesn’t have to, though they still have the option. You can not suggest against the destruction of this card.",
+          "rcost": 6,
+          "series": "null",
+          "copyright": "Microsoft",
+          "image": "../Assets/ORCards/Summons/Clippy.jpg"
+        },
+        "cloverebi": {
+          "name": "CloverEbi",
+          "indexname": "cloverebi",
+          "element": "Positive",
+          "archetype": "Summon",
+          "background": "ORbackground",
+          "ability": "On the turn this card is played, every coin flip is treated as if it only lands on heads (for a maximum of 5 flips). The effect of this card overrides the effects of “Qrow Branwen”.",
+          "rcost": 1,
+          "series": "RWBY",
+          "copyright": "VIZ Media",
+          "image": "../Assets/ORCards/Summons/CloverEbi.jpg"
+        },
+        "coinsquirtbank": {
+          "name": "Coin Squirt Bank",
+          "indexname": "coinsquirtbank",
+          "element": "Omni",
+          "archetype": "Summon",
+          "background": "ORbackground",
+          "ability": "As long as this card is in play, the one who played it can freely move energies between cards, the opponent can not play a CoinSquirt Bank card, as they do not take CoinSquirt.",
+          "rcost": 4,
+          "series": "null",
+          "copyright": "AtomicShrimp",
+          "image": "../Assets/ORCards/Summons/CoinSquirtBank.jpg"
+        },
+
+        "dreamlord": {
+          "name": "Dream Lord",
+          "indexname": "dreamlord",
+          "element": "Negative",
+          "archetype": "Summon",
+          "background": "ORbackground",
+          "ability": "Can not be played in the same turn as Cold Star or Dreamscape Leadworth Cards. \n On play, puts opponent’s active card to sleep. \n Once Dream lord, Cold Star, and Dreamscape Leadworth are all in play on the same side, flip a coin for all characters on the field. For each head put the respective card to sleep, user’s top left as 1, and draw a card, keep flipping until all characters are accounted for. Discard all three cards, (Dreamscape Leadworth to its respective deck.)",
+          "rcost": 6,
+          "series": "Doctor Who",
+          "copyright": "BBC",
+          "image": "../Assets/ORCards/Summons/DreamLord.jpg"
+        },
+
+        "mem": {
+          "name": "Mem",
+          "indexname": "mem",
+          "element": "Time",
+          "archetype": "Summon",
+          "background": "ORbackground",
+          "ability": "After 12 turns, (6 pairs) this card skips the opponent’s next turn. The next attack that the player who played this card performs does +40 damage.",
+          "rcost": 12,
+          "series": "Honkai: Star Rail",
+          "copyright": "HoYoverse",
+          "image": "../Assets/ORCards/Summons/Mem.jpg"
+        },
+
+        "pawn": {
+          "name": "Pawn",
+          "indexname": "pawn",
+          "element": "Omni",
+          "archetype": "Summon",
+          "background": "ORbackground",
+          "ability": "This card does nothing. If it remains on the field for 8 turns, search your deck for a Queen card and attach it to this summon.",
+          "rcost": 8,
+          "series": "null",
+          "copyright": "null",
+          "image": "../Assets/ORCards/Summons/Pawn.jpg"
+        },
+
+        "qrowbranwen": {
+          "name": "Qrow Branwen",
+          "indexname": "qrowbranwen",
+          "element": "Negative",
+          "archetype": "Summon",
+          "background": "ORbackground",
+          "ability": "As long as this card is in play, any action that uses a coin flip is treated as if the coin only lands on tails.",
+          "rcost": 5,
+          "series": "RWBY",
+          "copyright": "VIZ Media",
+          "image": "../Assets/ORCards/Summons/QrowBranwen.jpg"
+        },
+        "queen": {
+          "name": "Queen",
+          "indexname": "queen",
+          "element": "Omni",
+          "archetype": "Enhanced Summon",
+          "background": "ORbackground",
+          "ability": "This card has 80HP. Any attacks used against the opponent do +40 damage.",
+          "rcost": "Until Knocked Out",
+          "series": "null",
+          "copyright": "null",
+          "image": "../Assets/ORCards/Summons/Queen.jpg"
+        },
+
+        "sunflower": {
+          "name": "Sunflower",
+          "indexname": "sunflower",
+          "element": "Positive",
+          "archetype": "Summon",
+          "background": "ORbackground",
+          "ability": "Pull an extra energy per turn.",
+          "rcost": "Until Hit",
+          "series": "Plants vs. Zombies",
+          "copyright": "EA Games",
+          "image": "../Assets/ORCards/Summons/Sunflower.jpg"
+        },
+        "thesiren": {
+          "name": "The Siren",
+          "indexname": "thesiren",
+          "element": "Water",
+          "archetype": "Summon",
+          "background": "ORbackground",
+          "ability": "As long as this card is in play, the player who played this card’s active card is treated as the only card on the field*. Choose up to three characters with damage and/or status effects to take out of play, Once this card’s timer runs out, the chosen characters return to play fully healed. If the opponent attempts to attack a chosen card, deal 20 Fire damage to the attacking card. \n *If less than 3 cards are taken out of play, those cards are considered in play as well, if the active card gets defeated and all other cards are under this card’s effect, the game will still end.",
+          "rcost": 6,
+          "series": "Doctor Who",
+          "copyright": "BBC",
+          "image": "../Assets/ORCards/Summons/TheSiren.jpg"
+        },
+        "thestorm": {
+          "name": "The Storm",
+          "indexname": "thestorm",
+          "element": "Time",
+          "archetype": "Summon",
+          "background": "ORbackground",
+          "ability": "When this card runs out of its timer, remove all damage from all characters, then move two characters from both sides’ parties into their respective discard piles.",
+          "rcost": 4,
+          "series": "Reverse 1999",
+          "copyright": "Bluepoch",
+          "image": "../Assets/ORCards/Summons/TheStorm.jpg"
+        },
+
+        "transmutationcircle": {
+          "name": "Transmutation Circle",
+          "indexname": "transmutationcircle",
+          "element": "Omni",
+          "archetype": "Summon",
+          "background": "ORbackground",
+          "ability": "Discard as many cards as you want from your hand and attach an energy from the energy stockpile for each sacrificed card to your active card.",
+          "rcost": 1,
+          "series": "Fullmetal Alchemist",
+          "copyright": "Aniplex",
+          "image": "../Assets/ORCards/Summons/TransmutationCircle.jpg"
+        },
+        "turret": {
+          "name": "Turret",
+          "indexname": "turret",
+          "element": "Time",
+          "archetype": "Summon",
+          "background": "ORbackground",
+          "ability": "Every turn, the opponent’s active card takes 10 damage, this card can be taken out by an attack as well.",
+          "rcost": 10,
+          "series": "Portal",
+          "copyright": "Valve",
+          "image": "../Assets/ORCards/Summons/Turret.jpg"
+        },
+        "twinsunflower": {
+          "name": "Twin Sunflower",
+          "indexname": "twinsunflower",
+          "element": "Positive",
+          "archetype": "Enhanced Summon",
+          "background": "ORbackground",
+          "ability": "Pull 2 extra energies per turn",
+          "rcost": "Until hit",
+          "series": "Plants Vs. Zombies",
+          "copyright": "EA",
+          "image": "../Assets/ORCards/Summons/TwinSunflower.jpg"
+        },
+
+        "warptrotter": {
+          "name": "Warp Trotter",
+          "indexname": "warptrotter",
+          "element": "Positive",
+          "archetype": "Summon",
+          "background": "ORbackground",
+          "ability": "Turns all allied characters’ weaknesses to -0.",
+          "rcost": 4,
+          "series": "Honkai: Star Rail",
+          "copyright": "HoYoverse",
+          "image": "../Assets/ORCards/Summons/WarpTrotter.jpg"
+        },
+        "thewatcher": {
+          "name": "The Watcher",
+          "indexname": "thewatcher",
+          "element": "Time",
+          "archetype": "Summon",
+          "background": "ORbackground",
+          "ability": "While this card is active, flip over all prize cards. Once the card leaves, reshuffle the prize cards into the deck and draw an equivalent amount of prize cards as replacements.",
+          "rcost": 10,
+          "series": "Marvel",
+          "copyright": "Marvel Comics",
+          "image": "../Assets/ORCards/Summons/TheWatcher.jpg"
+        },
+        "weinermobile": {
+          "name": "Weinermobile",
+          "indexname": "weinermobile",
+          "element": "Omni",
+          "archetype": "Summon",
+          "background": "ORbackground",
+          "ability": "While this card is active, negative energy can not be attached or used for attacks.",
+          "rcost": 6,
+          "series": "null",
+          "copyright": "Oscar Meyer",
+          "image": "../Assets/ORCards/Summons/Weinermobile.jpg"
+        },
+
+
+
+
+
+
 
 
         "alexlouisarmstrongexspecial": {
