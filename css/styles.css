@@ -72,7 +72,8 @@ body {
 .Card {
    width:10rem;
    height:14rem;
-   border: 1em solid #00000000;
+   border: .2em solid #000000;
+   margin: .8em;
    border-radius: 10px;
 }
 #CardZoom {
@@ -117,7 +118,7 @@ body {
   width: 100%;
   margin: 0;
   border-radius: 10px;
-
+ border: .2em solid #000000;
 }
 #CardInfo {
   overflow-y: scroll;
@@ -164,7 +165,10 @@ td {
 
 
 
-
+.ButtonBox {
+  display: flex;
+  width: 8rem;
+}
 
 
 #EnzoTCGLogo {
@@ -183,4 +187,22 @@ td {
 
 .TitleHeader {
   /* display: flex; */
+}
+.ButtonList {
+  margin: auto;
+  width: 97vw;
+  margin-bottom: 1vh;
+  margin-top: 1vh;
+}
+
+header * {
+  margin: auto;
+  /* min-width: 1vw; */
+  display: block;
+  /* text-align: center; */
+  z-index: 1;
+}
+header span {
+  font-size: 5em;
+  z-index: 0;
 }

@@ -5,6 +5,8 @@ const interactUI = document.querySelector('#CardDisplay');
 const cardList = document.querySelector('#Cardlist');
 const htmlbody = document.querySelector('#body');
 
+const filterButtons = document.querySelectorAll('.FilterButtons');
+
 const cardName = document.querySelector('#cardName');
 const cardArche = document.querySelector('#cardArche');
 const cardElement = document.querySelector('#cardElement');
@@ -72,6 +74,21 @@ const elements = [
   "Water",
   "Wind",
   null
+];
+
+const elements2 = [
+  "Biological",
+  "Digital",
+  "Earth",
+  "Electricity",
+  "Fire",
+  "Frost",
+  "Negative",
+  "Omni",
+  "Positive",
+  "Time",
+  "Water",
+  "Wind"
 ];
 
 const arches = [
@@ -149,7 +166,7 @@ window.onload = async (event) => {
         }}
       if (["Character","Enhanced Character"].includes(item[key].archetype)) {
         console.log(`${key}: ${item[key].name}`);
-        if (elements.includes(item[key].element)) {} else {
+        if (elements2.includes(item[key].element)) {} else {
           alert(item[key].element + "Is not valid in" + item[key].indexname + "element")
         }
         if (elements.includes(item[key].attack1.element)) {} else {
@@ -210,6 +227,18 @@ window.onload = async (event) => {
         if (backers.includes(item[key].background)) {} else {
           alert(item[key].background + "Is not valid in" + item[key].indexname + "background")
         }}
+      if (["Summon","Enhanced Summon"].includes(item[key].archetype)) {
+          console.log(`${key}: ${item[key].name}`);
+          if (elements2.includes(item[key].element)) {} else {
+            alert(item[key].element + "Is not valid in" + item[key].indexname + "element")
+          }
+          if (arches.includes(item[key].archetype)) {} else {
+            alert(item[key].archetype + "Is not valid in" + item[key].indexname + "archetype")
+          }
+          if (backers.includes(item[key].background)) {} else {
+            alert(item[key].background + "Is not valid in" + item[key].indexname + "background")
+          }
+        }
         const newCard = document.createElement('div');
         newCard.classList.add('Card');
         cardList.appendChild(newCard);
@@ -455,6 +484,35 @@ async function filterarcheall() {
     console.log(error);
   }
 };
+async function filterarcheallsum() {
+  try {
+    cardList.innerHTML = "";
+    const data = await orFullCards(); // await the async function
+    console.log(data);
+
+    data.forEach(item => {
+  for (const key in item) {
+    if (item[key] && item[key].name !== undefined) {
+      console.log(`${key}: ${item[key].archetype}`);
+      if (["Summon", "Enhanced Summon"].includes(item[key].archetype)) {
+        const newCard = document.createElement('div');
+        newCard.classList.add('Card');
+        cardList.appendChild(newCard);
+        newCard.title = item[key].indexname;
+        newCard.style.background = "url('" + item[key].image + "')";
+        newCard.style.backgroundSize = "contain";
+        newCard.style.backgroundRepeat = "no-repeat";
+        newCard.setAttribute('onclick', 'makebig("' + item[key].image + '", "' + item[key].indexname + '")');
+      }
+
+    }
+  }
+});
+
+  } catch (error) {
+    console.log(error);
+  }
+};
 
 async function makebig(url, indexnamelocal) {
   try {
@@ -529,6 +587,11 @@ async function makebig(url, indexnamelocal) {
           cardElement.innerHTML = "";
           cardZoomImg.style.background = "var(--item)";
           htmlbody.style.background = "var(--item)";
+
+          filterButtons.forEach((item) => {
+            item.style.background = "var(--item)";
+          });
+
 
           cardName.innerHTML = item[key].name;
           cardArche.innerHTML = item[key].archetype;
@@ -611,6 +674,13 @@ async function makebig(url, indexnamelocal) {
           cardZoomImg.style.background = "var(--" + item[key].element + "m)";
           htmlbody.style.background = "var(--" + item[key].element + "s)";
 
+          let bac ="var(--" + item[key].element + "m)";
+
+          filterButtons.forEach((item) => {
+            item.style.background = bac;
+          });
+
+
           cardName.innerHTML = item[key].name;
           cardArche.innerHTML = item[key].archetype;
           fillelement(1, item[key].element, cardElement)
@@ -631,7 +701,7 @@ async function makebig(url, indexnamelocal) {
 
           cardSeries.innerHTML = item[key].series;
           cardCopyright.innerHTML = item[key].copyright;
-          cardRCost.innerHTML = item[key].rcost;
+          cardRCost.innerHTML = "R - " + item[key].rcost;
 
           interactUI.style.background = "var(--iu" + item[key].background + ")";
 
@@ -705,7 +775,13 @@ async function makebig(url, indexnamelocal) {
           cardAttack2Element.innerHTML = "";
           cardElement.innerHTML = "";
           cardZoomImg.style.background = "var(--setting)";
-          htmlbody.style.background = "var(--item)";
+          htmlbody.style.background = "var(--setting)";
+
+          let bac ="var(--setting)";
+
+          filterButtons.forEach((item) => {
+            item.style.background = bac;
+          });
 
           cardName.innerHTML = item[key].name;
           cardArche.innerHTML = item[key].archetype;
@@ -812,8 +888,56 @@ async function makebig(url, indexnamelocal) {
             cardCopyright.style.display = "block";
           };
         }
+        if (["Summon", "Enhanced Summon"].includes(item[key].archetype)) {
+          cardElement.innerHTML = "";
+          cardZoomImg.style.background = "var(--" + item[key].element + "m)";
+          htmlbody.style.background = "var(--" + item[key].element + "s)";
+          let bac ="var(--" + item[key].element + "m)";
 
+          filterButtons.forEach((item) => {
+            item.style.background = bac;
+          });
+          cardName.innerHTML = item[key].name;
+          cardArche.innerHTML = item[key].archetype;
+          fillelement(1, item[key].element, cardElement)
+          cardAbility.innerHTML = item[key].ability;
 
+          cardSeries.innerHTML = item[key].series;
+          cardCopyright.innerHTML = item[key].copyright;
+          cardRCost.innerHTML = "Timer - " + item[key].rcost;
+
+          interactUI.style.background = "var(--iu" + item[key].background + ")";
+
+          console.log(item[key].name);
+          if (item[key].name !== null) {
+            cardName.style.display = "block";
+          };
+          console.log(item[key].archetype);
+          if (item[key].archetype !== null) {
+            cardArche.style.display = "block";
+          };
+          console.log(item[key].element);
+          if (item[key].element !== null) {
+            cardElement.style.display = "block";
+          };
+
+          console.log(item[key].ability);
+          if (item[key].ability !== null) {
+            cardAbility.style.display = "block";
+          };
+          console.log(item[key].series);
+          if (item[key].series !== null) {
+            cardSeries.style.display = "block";
+          };
+          console.log(item[key].copyright);
+          if (item[key].copyright !== null) {
+            cardCopyright.style.display = "block";
+          };
+          console.log(item[key].rcost);
+          if (item[key].rcost !== null) {
+            cardRCost.style.display = "block";
+          };
+        }
       }
     }
   }

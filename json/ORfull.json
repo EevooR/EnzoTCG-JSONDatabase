@@ -5972,7 +5972,7 @@
           "background": "ORbackground",
           "ability": "The opponent must put their hand on the table, visible to everyone and keep it visible until this card’s duration runs to zero.",
           "rcost": 6,
-          "series": "null",
+          "series": null,
           "copyright": "Bonzi Software, Inc,",
           "image": "../Assets/ORCards/Summons/BonziBuddy.jpg"
         },
@@ -5985,7 +5985,7 @@
           "background": "ORbackground",
           "ability": "During your opponent’s turn, you are allowed to make suggestions for changes on what actions they do. Once you make a suggestion, flip a coin, if heads, the opponent must do the suggestion, if tails, the opponent doesn’t have to, though they still have the option. You can not suggest against the destruction of this card.",
           "rcost": 6,
-          "series": "null",
+          "series": null,
           "copyright": "Microsoft",
           "image": "../Assets/ORCards/Summons/Clippy.jpg"
         },
@@ -6009,7 +6009,7 @@
           "background": "ORbackground",
           "ability": "As long as this card is in play, the one who played it can freely move energies between cards, the opponent can not play a CoinSquirt Bank card, as they do not take CoinSquirt.",
           "rcost": 4,
-          "series": "null",
+          "series": null,
           "copyright": "AtomicShrimp",
           "image": "../Assets/ORCards/Summons/CoinSquirtBank.jpg"
         },
@@ -6048,8 +6048,8 @@
           "background": "ORbackground",
           "ability": "This card does nothing. If it remains on the field for 8 turns, search your deck for a Queen card and attach it to this summon.",
           "rcost": 8,
-          "series": "null",
-          "copyright": "null",
+          "series": null,
+          "copyright": null,
           "image": "../Assets/ORCards/Summons/Pawn.jpg"
         },
 
@@ -6073,8 +6073,8 @@
           "background": "ORbackground",
           "ability": "This card has 80HP. Any attacks used against the opponent do +40 damage.",
           "rcost": "Until Knocked Out",
-          "series": "null",
-          "copyright": "null",
+          "series": null,
+          "copyright": null,
           "image": "../Assets/ORCards/Summons/Queen.jpg"
         },
 
@@ -6184,7 +6184,7 @@
           "background": "ORbackground",
           "ability": "While this card is active, negative energy can not be attached or used for attacks.",
           "rcost": 6,
-          "series": "null",
+          "series": null,
           "copyright": "Oscar Meyer",
           "image": "../Assets/ORCards/Summons/Weinermobile.jpg"
         },
