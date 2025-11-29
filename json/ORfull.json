@@ -32,6 +32,70 @@
             "rcost": 2,
             "image": "../Assets/ORCards/Character/Aerith.jpg"
         },
+        "alastorex": {
+            "name": "Alastor EX",
+            "indexname": "alastorex",
+            "archetype": "Character",
+            "ex" : true,
+            "background": "TTbackground",
+            "element": "Negative",
+            "hitpoints": 140,
+            "ability": "Made for Radio -- This card does double damage to Tech and Electric element cards.",
+            "attack1": {
+                "element": "Negative",
+                "cost": 1,
+                "element2": null,
+                "cost2": null,
+                "name": "Contract Call",
+                "damage": null,
+                "description": "Search your deck for a Niffty or Husk card. Reveal it, and place in the active slot alongside Alastor EX, each card in the active slot can attack once per turn. If this card is knocked out, any cards summoned by Contract Call go back into the player’s hand. Reshuffle the deck after using this move."
+            },
+            "attack2": {
+                "element": "Negative",
+                "cost": 3,
+                "element2": null,
+                "cost2": null,
+                "name": "Shadow Smash",
+                "damage": 80,
+                "description": null
+            },
+            "series": "Hazbin Hotel",
+            "copyright": "SpindleHorse",
+            "rcost": 6,
+            "image": "../Assets/ORCards/Character/AlastorEX.jpg"
+        },
+        "alechardison": {
+          "name": "Alec Hardison",
+          "indexname": "alechardison",
+          "archetype": "Character",
+          "ex" : false,
+          "background": "TTbackground",
+          "element": "Digital",
+          "hitpoints":80,
+          "ability": null,
+          "attack1": {
+            "element":"Digital",
+            "cost": 1,
+            "element2": null,
+            "cost2": null,
+            "name":"Hack",
+            "damage": 20,
+            "description": "If the Opponent’s active character is digital, force the opponent to retreat it into their party, and discard all or its retreat cost in energies from the card, whichever is smaller."
+          },
+          "attack2": {
+            "element":"Digital",
+            "cost": 3,
+            "element2": null,
+            "cost2": null,
+            "name":"Lucille",
+            "damage": 200,
+            "description": "This attack can only be used if this card has <30 Hp. This card takes 30hp damage."
+          },
+          "series": "Leverage",
+          "copyright": "Electric Entertainment",
+          "rcost": 4,
+          "image": "../Assets/ORCards/Character/AlecHardison.jpg"
+        },
         "alexlouisarmstrongex": {
             "name": "Alex Louis Armstrong EX",
             "indexname": "alexlouisarmstrongex",
@@ -159,6 +223,38 @@
             "copyright": "KadoKawa",
             "rcost": 1,
             "image": "../Assets/ORCards/Character/Aqua.jpg"
+        },
+        "armoredchompy": {
+            "name": "Armored Chompy",
+            "indexname": "armoredchompy",
+            "archetype": "Enhanced Character",
+            "ex" : false,
+            "background": "TTbackground",
+            "element": "Biological",
+            "hitpoints": 120,
+            "ability": null,
+            "attack1": {
+                "element": "Omni",
+                "cost": 1,
+                "element2": null,
+                "cost2": null,
+                "name": "Chomp",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": "Biological",
+                "cost": 2,
+                "element2": null,
+                "cost2": null,
+                "name": "Summon Chompies",
+                "damage": null,
+                "description": "Put an ability counter on this card, for each, double the amount of damage this card does."
+            },
+            "series": "Skylanders",
+            "copyright": "Activision",
+            "rcost": 3,
+            "image": "../Assets/ORCards/Character/ArmoredChompy.jpg"
         },
         "artoriapendragonex": {
             "name": "Artoria Pendragon EX",
@@ -385,6 +481,70 @@
             "rcost": 0,
             "image": "../Assets/ORCards/Character/Birb.jpg"
         },
+        "blackarmoredchompy": {
+            "name": "Black Armored Chompy",
+            "indexname": "blackarmoredchompy",
+            "archetype": "Enhanced Character",
+            "ex" : false,
+            "background": "TTbackground",
+            "element": "Omni",
+            "hitpoints": 120,
+            "ability": null,
+            "attack1": {
+                "element": "Omni",
+                "cost": 1,
+                "element2": null,
+                "cost2": null,
+                "name": "Chomp",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "element2": null,
+                "cost2": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Skylanders",
+            "copyright": "Activision",
+            "rcost": 2,
+            "image": "../Assets/ORCards/Character/BlackArmoredChompy.jpg"
+        },
+        "blackchompy": {
+            "name": "Black Chompy",
+            "indexname": "blackchompy",
+            "archetype": "Character",
+            "ex" : false,
+            "background": "TTbackground",
+            "element": "Omni",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Omni",
+                "cost": 1,
+                "element2": null,
+                "cost2": null,
+                "name": "Chomp",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "element2": null,
+                "cost2": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Skylanders",
+            "copyright": "Activision",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/BlackChompy.jpg"
+        },
         "blakebelladonnamistral": {
             "name": "Blake Belladonna - Mistral",
             "indexname": "blakebelladonnamistral",
@@ -448,6 +608,70 @@
             "copyright": "Level 5",
             "rcost": 2,
             "image": "../Assets/ORCards/Character/Blizzaria.jpg"
+        },
+        "bonechompy": {
+            "name": "Bone Chompy",
+            "indexname": "bonechompy",
+            "archetype": "Character",
+            "ex" : false,
+            "background": "TTbackground",
+            "element": "Negative",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Omni",
+                "cost": 1,
+                "element2": null,
+                "cost2": null,
+                "name": "Chomp",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": "Omni",
+                "cost": 2,
+                "element2": null,
+                "cost2": null,
+                "name": "Chompy Trap",
+                "damage": null,
+                "description": "This card can not do any other attack, the opponent must flip a coin each turn, if it lands tails, this card deals 10 damage. If is lands heads or either card leaves the active spot, this attack ends."
+            },
+            "series": "Skylanders",
+            "copyright": "Activision",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/BoneChompy.jpg"
+        },
+        "boneheadchompy": {
+            "name": "Bonehead Chompy",
+            "indexname": "boneheadchompy",
+            "archetype": "Enhanced Character",
+            "ex" : false,
+            "background": "TTbackground",
+            "element": "Negative",
+            "hitpoints": 120,
+            "ability": null,
+            "attack1": {
+                "element": "Omni",
+                "cost": 1,
+                "element2": null,
+                "cost2": null,
+                "name": "Chomp",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": "Omni",
+                "cost": 2,
+                "element2": null,
+                "cost2": null,
+                "name": "Chompy Trap",
+                "damage": null,
+                "description": "This card can not do any other attack, the opponent must flip a coin each turn, if it lands tails, this card deals 10 damage. If is lands heads or either card leaves the active spot, this attack ends."
+            },
+            "series": "Skylanders",
+            "copyright": "Activision",
+            "rcost": 3,
+            "image": "../Assets/ORCards/Character/BoneheadChompy.jpg"
         },
         "theboulder": {
             "name": "The Boulder",
@@ -546,6 +770,38 @@
             "rcost": 3,
             "image": "../Assets/ORCards/Character/CaelusRememberence.jpg"
         },
+        "captainfalconex": {
+            "name": "Captain Falcon EX",
+            "indexname": "captainfalconex",
+            "archetype": "Character",
+            "ex" : true,
+            "background": "TTbackground",
+            "element": "Fire",
+            "hitpoints": 110,
+            "ability": null,
+            "attack1": {
+                "element": "Fire",
+                "cost": 1,
+                "element2": null,
+                "cost2": null,
+                "name": "Raptor Boost",
+                "damage": 30,
+                "description": "Flip a coin. If heads, the defending character is now burned."
+            },
+            "attack2": {
+                "element": "Fire",
+                "cost": 3,
+                "element2": null,
+                "cost2": null,
+                "name": "Falcon Punch",
+                "damage": 110,
+                "description": null
+            },
+            "series": "F-Zero",
+            "copyright": "Nintendo",
+            "rcost": 4,
+            "image": "../Assets/ORCards/Character/CaptainFalconEX.jpg"
+        },
         "cassandraalexandra": {
             "name": "Cassandra Alexandra",
             "indexname": "cassandraalexandra",
@@ -642,6 +898,102 @@
             "rcost": 8,
             "image": "../Assets/ORCards/Character/Charvaargh.jpg"
         },
+        "chengxiaoshi": {
+            "name": "Cheng Xiaoshi",
+            "indexname": "chengxiaoshi",
+            "archetype": "Character",
+            "ex" : false,
+            "background": "TTbackground",
+            "element": "Time",
+            "hitpoints": 100,
+            "ability": "Dive Back In Time -- If this character is active with Lu Guang, this ability can be used as an attack. Once used, both sides completely reset their boards, including prize cards. However, allied cards in play stay in play when this is used. Allow the opponent to set up their party, and discard Lu Guang. The opponent will claim two prize cards.",
+            "attack1": {
+                "element": "Omni",
+                "cost": 1,
+                "element2": null,
+                "cost2": null,
+                "name": "Hit",
+                "damage": 40,
+                "description": null
+            },
+            "attack2": {
+                "element": "Time",
+                "cost": 3,
+                "element2": null,
+                "cost2": null,
+                "name": "Time Hop",
+                "damage": 60,
+                "description": "Ignore Resistances or Immunities"
+            },
+            "series": "Link Click",
+            "copyright": "BiliBili",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/ChengXiaoshi.jpg"
+        },
+        "chompy": {
+            "name": "Chompy",
+            "indexname": "chompy",
+            "archetype": "Character",
+            "ex" : false,
+            "background": "TTbackground",
+            "element": "Biological",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Omni",
+                "cost": 1,
+                "element2": null,
+                "cost2": null,
+                "name": "Chomp",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": "Biological",
+                "cost": 2,
+                "element2": null,
+                "cost2": null,
+                "name": "Summon Chompies",
+                "damage": null,
+                "description": "Put an ability counter on this card, for each, double the amount of damage this card does."
+            },
+            "series": "Skylanders",
+            "copyright": "Activision",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Chompy.jpg"
+        },
+        "chompybot9000": {
+            "name": "ChompyBot9000",
+            "indexname": "chompybot9000",
+            "archetype": "Enhanced Character",
+            "ex" : false,
+            "background": "TTbackground",
+            "element": "Omni",
+            "hitpoints": 130,
+            "ability": null,
+            "attack1": {
+                "element": "Omni",
+                "cost": 1,
+                "element2": null,
+                "cost2": null,
+                "name": "Stomp",
+                "damage": 40,
+                "description": null
+            },
+            "attack2": {
+                "element": "Omni",
+                "cost": 3,
+                "element2": null,
+                "cost2": null,
+                "name": "Chompy Launch",
+                "damage": 60,
+                "description": "Discard an energy, this attack is treated as an attack of that energy type."
+            },
+            "series": "Skylanders",
+            "copyright": "Activision",
+            "rcost": 4,
+            "image": "../Assets/ORCards/Character/ChompyBot9000.jpg"
+        },
         "chompymage": {
             "name": "Chompy Mage",
             "indexname": "chompymage",
@@ -673,6 +1025,102 @@
             "copyright": "Activision",
             "rcost": 4,
             "image": "../Assets/ORCards/Character/ChompyMage.jpg"
+        },
+        "chompypastepetal": {
+            "name": "Chompy Pastepetal",
+            "indexname": "chompypastepetal",
+            "archetype": "Character",
+            "ex" : false,
+            "background": "TTbackground",
+            "element": "Water",
+            "hitpoints": 120,
+            "ability": "Multiply -- For each ability counter on this card, Chomp does +20 damage",
+            "attack1": {
+                "element": "Omni",
+                "cost": 1,
+                "element2": null,
+                "cost2": null,
+                "name": "Chomp",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": "Water",
+                "cost": 2,
+                "element2": null,
+                "cost2": null,
+                "name": "Duplicate",
+                "damage": null,
+                "description": "Halve this card’s current HP, and add an ability counter."
+            },
+            "series": "Skylanders",
+            "copyright": "Activision",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/ChompyPastepetal.jpg"
+        },
+        "chompyrustbud": {
+            "name": "Chompy Rustbud",
+            "indexname": "chompyrustbud",
+            "archetype": "Character",
+            "ex" : false,
+            "background": "TTbackground",
+            "element": "Digital",
+            "hitpoints": 120,
+            "ability": null,
+            "attack1": {
+                "element": "Omni",
+                "cost": 1,
+                "element2": null,
+                "cost2": null,
+                "name": "Chomp",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": "Digital",
+                "cost": 2,
+                "element2": null,
+                "cost2": null,
+                "name": "Mecha teeth",
+                "damage": null,
+                "description": "Discard one energy and either discard an attached item on any card or draw an item from your draw deck."
+            },
+            "series": "Skylanders",
+            "copyright": "Activision",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/ChompyRustbud.jpg"
+        },
+        "chompyworm": {
+            "name": "Chompy Worm",
+            "indexname": "chompyworm",
+            "archetype": "Character",
+            "ex" : false,
+            "background": "TTbackground",
+            "element": "Earth",
+            "hitpoints": 120,
+            "ability": "Sand Hide -- This card can only be affected by attacks if it is in the Active spot.",
+            "attack1": {
+                "element": "Omni",
+                "cost": 1,
+                "element2": null,
+                "cost2": null,
+                "name": "chomp",
+                "damage": 60,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "element2": null,
+                "cost2": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Skylanders",
+            "copyright": "Activision",
+            "rcost": 3,
+            "image": "../Assets/ORCards/Character/ChompyWorm.jpg"
         },
         "claude": {
             "name": "Claude",
@@ -769,6 +1217,70 @@
             "copyright": "HoYoverse",
             "rcost": 2,
             "image": "../Assets/ORCards/Character/Clockie.jpg"
+        },
+        "cruncher": {
+            "name": "Cruncher",
+            "indexname": "cruncher",
+            "archetype": "Character",
+            "ex" : false,
+            "background": "TTbackground",
+            "element": "Wind",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Omni",
+                "cost": 1,
+                "element2": null,
+                "cost2": null,
+                "name": "Chomp",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": "Omni",
+                "cost": 2,
+                "element2": null,
+                "cost2": null,
+                "name": "Latch",
+                "damage": null,
+                "description": "This card can not do any other attack, the opponent must flip a coin each turn, if it lands tails, this card deals 10 damage. If is lands heads or either card leaves the active spot, this attack ends."
+            },
+            "series": "Skylanders",
+            "copyright": "Activision",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Cruncher.jpg"
+        },
+        "crusherex": {
+            "name": "Crusher EX",
+            "indexname": "crusherex",
+            "archetype": "Character",
+            "ex" : true,
+            "background": "TTbackground",
+            "element": "Earth",
+            "hitpoints": 200,
+            "ability": "Giant -- This character takes up 2 spots on the party.",
+            "attack1": {
+                "element": "Earth",
+                "cost": 2,
+                "element2": null,
+                "cost2": null,
+                "name": "Turn To Stone",
+                "damage": null,
+                "description": "The opposing character is now paralyzed."
+            },
+            "attack2": {
+                "element": "Earth",
+                "cost": 4,
+                "element2": null,
+                "cost2": null,
+                "name": "Crusher's Crusher",
+                "damage": 100,
+                "description": null
+            },
+            "series": "Skylanders",
+            "copyright": "Activision",
+            "rcost": 10,
+            "image": "../Assets/ORCards/Character/CrusherEX.jpg"
         },
         "cyberman": {
             "name": "Cyberman",
@@ -1316,6 +1828,38 @@
             "rcost": 4,
             "image": "../Assets/ORCards/Character/EijiroKirishima.jpg"
         },
+        "enfuegochompy": {
+            "name": "Enfuego Chompy",
+            "indexname": "enfuegochompy",
+            "archetype": "Character",
+            "ex" : false,
+            "background": "TTbackground",
+            "element": "Fire",
+            "hitpoints": 60,
+            "ability": "Explosive Death -- Upon this card’s defeat, use the attack Explode without using energy.",
+            "attack1": {
+                "element": "Omni",
+                "cost": 1,
+                "element2": null,
+                "cost2": null,
+                "name": "Chomp",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": "Fire",
+                "cost": 6,
+                "element2": null,
+                "cost2": null,
+                "name": "Explode",
+                "damage": 100,
+                "description": "Deal 20 damage all party members in play and burn all cards in play, discard this card and let the opponent draw a prize card."
+            },
+            "series": "Skylanders",
+            "copyright": "Activision",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/EnfuegoChompy.jpg"
+        },
         "eve": {
             "name": "EVE",
             "indexname": "eve",
@@ -1444,6 +1988,102 @@
             "copyright": "HoYoverse",
             "rcost": 1,
             "image": "../Assets/ORCards/Character/Focalors.jpg"
+        },
+        "freddyfazbear": {
+            "name": "Freddy Fazbear",
+            "indexname": "freddyfazbear",
+            "archetype": "Character",
+            "ex" : false,
+            "background": "TTbackground",
+            "element": "Digital",
+            "hitpoints": 130,
+            "ability": null,
+            "attack1": {
+                "element": "Omni",
+                "cost": 1,
+                "element2": null,
+                "cost2": null,
+                "name": "Bite",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": "Digital",
+                "cost": 3,
+                "element2": null,
+                "cost2": null,
+                "name": "Jumpscare",
+                "damage": 50,
+                "description": "If the opposing character is blinded, this attack does +70 damage"
+            },
+            "series": "Five Nights at Freddy’s",
+            "copyright": "Scott Cawthon",
+            "rcost": 4,
+            "image": "../Assets/ORCards/Character/FreddyFazbear.jpg"
+        },
+        "frigidchompy": {
+            "name": "Frigid Chompy",
+            "indexname": "frigidchompy",
+            "archetype": "Character",
+            "ex" : false,
+            "background": "TTbackground",
+            "element": "Frost",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Omni",
+                "cost": 1,
+                "element2": null,
+                "cost2": null,
+                "name": "Chomp",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": "Frost",
+                "cost": 3,
+                "element2": null,
+                "cost2": null,
+                "name": "Freezing Breath",
+                "damage": null,
+                "description": "Paralyze the opponent’s active character."
+            },
+            "series": "Skylanders",
+            "copyright": "Activision",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/FrigidChompy.jpg"
+        },
+        "frostchompy": {
+            "name": "Frost Chompy",
+            "indexname": "frostchompy",
+            "archetype": "Character",
+            "ex" : false,
+            "background": "TTbackground",
+            "element": "Frost",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Omni",
+                "cost": 1,
+                "element2": null,
+                "cost2": null,
+                "name": "Chomp",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": "Frost",
+                "cost": 2,
+                "element2": null,
+                "cost2": null,
+                "name": "Snowball Drop",
+                "damage": 40,
+                "description": null
+            },
+            "series": "Skylanders",
+            "copyright": "Activision",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/FrostChompy.jpg"
         },
         "furina": {
             "name": "Furina",
@@ -1606,6 +2246,38 @@
             "rcost": 1,
             "image": "../Assets/ORCards/Character/GLaDOSPotato.jpg"
         },
+        "goochompy": {
+            "name": "Goo Chompy",
+            "indexname": "goochompy",
+            "archetype": "Character",
+            "ex" : false,
+            "background": "TTbackground",
+            "element": "Earth",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Omni",
+                "cost": 1,
+                "element2": null,
+                "cost2": null,
+                "name": "Chomp",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": "Earth",
+                "cost": 2,
+                "element2": null,
+                "cost2": null,
+                "name": "Goo Pile",
+                "damage": null,
+                "description": "Move this Character to the summon Area for 6 turns, once the 6 turns are up, return this card to your hand. While in the summon spot, poison the opponent’s active character."
+            },
+            "series": "Skylanders",
+            "copyright": "Activision",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/GooChompy.jpg"
+        },
         "goose": {
             "name": "Goose",
             "indexname": "goose",
@@ -1767,6 +2439,38 @@
             "rcost": 1,
             "image": "../Assets/ORCards/Character/HatsuneMikuGekishou.jpg"
         },
+        "hazama": {
+            "name": "Hazama",
+            "indexname": "hazama",
+            "archetype": "Character",
+            "ex" : false,
+            "background": "TTbackground",
+            "element": "Negative",
+            "hitpoints": 120,
+            "ability": "Inept to pain -- If a move’s effect or an ability does damage to this card, he does not take the effects damage, any move that’s damage is dictated by the effect, the move does the amount of damage listed next to the move’s name.",
+            "attack1": {
+                "element": "Omni",
+                "cost": 1,
+                "element2": null,
+                "cost2": null,
+                "name": "Balisong",
+                "damage": "30*",
+                "description": "Flip 2 coins, do 30 damage for each heads"
+            },
+            "attack2": {
+                "element": "Negative",
+                "cost": 3,
+                "element2": null,
+                "cost2": null,
+                "name": "Ouroboros Ensnare",
+                "damage": null,
+                "description": "The opponent’s active card is unable to attack, use their ability, or retreat during the next turn."
+            },
+            "series": "Blazblue",
+            "copyright": "Arc System Works",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Hazama.jpg"
+        },
         "hazelrainart": {
             "name": "Hazel Rainart",
             "indexname": "hazelrainart",
@@ -1862,6 +2566,38 @@
             "copyright": "Aniplex",
             "rcost": 0,
             "image": "../Assets/ORCards/Character/HitoriGotoh.jpg"
+        },
+        "husk": {
+            "name": "Husk",
+            "indexname": "husk",
+            "archetype": "Character",
+            "ex" : false,
+            "background": "TTbackground",
+            "element": "Negative",
+            "hitpoints": 80,
+            "ability": null,
+            "attack1": {
+                "element": "Negative",
+                "cost": 1,
+                "element2": null,
+                "cost2": null,
+                "name": "Card Trick",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": "Negative",
+                "cost": 5,
+                "element2": null,
+                "cost2": null,
+                "name": "All In",
+                "damage": "50+",
+                "description": "Discard all energies attached to your active cards. This card does +10 damage for each energy discarded from other cards."
+            },
+            "series": "Hazbin Hotel",
+            "copyright": "SpindleHorse",
+            "rcost": 3,
+            "image": "../Assets/ORCards/Character/Husk.jpg"
         },
 
         "icearcher": {
@@ -1993,6 +2729,70 @@
             "image": "../Assets/ORCards/Character/IronGolem.jpg"
         },
 
+        "jade": {
+            "name": "Jade",
+            "indexname": "jade",
+            "archetype": "Character",
+            "ex" : false,
+            "background": "TTbackground",
+            "element": "Negative",
+            "hitpoints": 120,
+            "ability": "Acquisition Surety -- Once per turn, move 1 energy from a benched character to this character.",
+            "attack1": {
+                "element": "Omni",
+                "cost": 1,
+                "element2": null,
+                "cost2": null,
+                "name": "Lash",
+                "damage": 20,
+                "description": "Deal 10 damage to the opponent’s party characters"
+            },
+            "attack2": {
+                "element": "Negative",
+                "cost": 1,
+                "element2": null,
+                "cost2": null,
+                "name": "Equivalent Value",
+                "damage": null,
+                "description": "Sacrifice one energy, if this card is knocked out in the next turn, then it will deal damage equal to the amounts of negative energies attached to it to all of the opponent’s party characters."
+            },
+            "series": "Honkai: Star Rail",
+            "copyright": "HoYoverse",
+            "rcost": 10,
+            "image": "../Assets/ORCards/Character/Jade.jpg"
+        },
+        "jadexhazamaduo": {
+            "name": "Jade X Hazama Duo",
+            "indexname": "jadexhazamaduo",
+            "archetype": "Duo",
+            "ex" : false,
+            "background": "TTbackground",
+            "element": "Negative",
+            "hitpoints": 240,
+            "ability": "Serpent’s tongue -- Flip a coin, if heads the opponent’s active card is now confused.",
+            "attack1": {
+                "element": "Negative",
+                "cost": 1,
+                "element2": null,
+                "cost2": null,
+                "name": "Apple Trick",
+                "damage": null,
+                "description": "Ignore abilities and immunities, blind the opponent’s active character."
+            },
+            "attack2": {
+                "element": "Negative",
+                "cost": 4,
+                "element2": null,
+                "cost2": null,
+                "name": "Jade Ring",
+                "damage": 60,
+                "description": "Heal 60 hp to this card."
+            },
+            "series": "Blazblue + Honkai: Star Rail",
+            "copyright": "Arc System Works + HoYoverse",
+            "rcost": 7,
+            "image": "../Assets/ORCards/Character/JadeXHazamaDUO.jpg"
+        },
         "jarl": {
             "name": "Jarl",
             "indexname": "jarl",
@@ -2089,6 +2889,38 @@
             "copyright": "HoYoverse",
             "rcost": 3,
             "image": "../Assets/ORCards/Character/KafkaEX.jpg"
+        },
+        "kafkaxmakimaduo": {
+            "name": "Kafka X Makima Duo",
+            "indexname": "kafkaxmakimaduo",
+            "archetype": "DUO",
+            "ex" : false,
+            "background": "TTbackground",
+            "element": "Negative",
+            "hitpoints": 390,
+            "ability": "Dominate —- If the opponent’s Active card is Paralyzed, once per turn, you can use their weakest attack against an opposing party card. This does not end the turn.",
+            "attack1": {
+                "element": "Negative",
+                "cost": 1,
+                "element2": null,
+                "cost2": null,
+                "name": "Spirit Whisper",
+                "damage": null,
+                "description": "Paralyze the opponent"
+            },
+            "attack2": {
+                "element": "Negative",
+                "cost": 4,
+                "element2": null,
+                "cost2": null,
+                "name": "Bang Twirl",
+                "damage": 90,
+                "description": "Deal 90 damage to the opponent’s party cards and applicable summons, discard all energies from this card. This attack ignores damage modifiers and elemental resistances/immunities."
+            },
+            "series": "Chainsaw Man + Honkai: Star Rail",
+            "copyright": "Viz Media + HoYoverse",
+            "rcost": 7,
+            "image": "../Assets/ORCards/Character/KafkaXMakimaDUO.jpg"
         },
         "kagura": {
             "name": "Kagura",
@@ -2475,6 +3307,102 @@
             "rcost": 3,
             "image": "../Assets/ORCards/Character/LightYagami.jpg"
         },
+        "lucifermorningstar": {
+            "name": "Lucifer Morningstar",
+            "indexname": "lucifermorningstar",
+            "archetype": "Character",
+            "ex" : false,
+            "background": "TTbackground",
+            "element": "Fire",
+            "hitpoints": 150,
+            "ability": null,
+            "attack1": {
+                "element": "Fire",
+                "cost": 1,
+                "element2": null,
+                "cost2": null,
+                "name": "Fireball",
+                "damage": 30,
+                "description": null
+            },
+            "attack2": {
+                "element": "Omni",
+                "cost": 3,
+                "element2": null,
+                "cost2": null,
+                "name": "Duck Cascade",
+                "damage": null,
+                "description": "Flip coins until tails, for each heads, deal 30 damage to the highest health opposing card after the previous attack. Discard all of the energies from this card."
+            },
+            "series": "Hazbin Hotel",
+            "copyright": "SpindleHorse",
+            "rcost": 3,
+            "image": "../Assets/ORCards/Character/LuciferMorningstar.jpg"
+        },
+        "luguang": {
+            "name": "Lu Guang",
+            "indexname": "luguang",
+            "archetype": "Character",
+            "ex" : false,
+            "background": "TTbackground",
+            "element": "Time",
+            "hitpoints": 100,
+            "ability": "Dive Back In Time -- If this character is active with Cheng Xiaoshi, this ability can be used as an attack. Once used, both sides completely reset their boards, including prize cards. However, allied cards in play stay in play when this is used. Allow the opponent to set up their party, and discard Lu Guang. The opponent will claim two prize cards.",
+            "attack1": {
+                "element": "Omni",
+                "cost": 1,
+                "element2": null,
+                "cost2": null,
+                "name": "Hit",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": "Time",
+                "cost": 3,
+                "element2": null,
+                "cost2": null,
+                "name": "Guide",
+                "damage": null,
+                "description": "Swap with a party character and make them immune to damage for the next turn."
+            },
+            "series": "Link Click",
+            "copyright": "BiliBili",
+            "rcost": 2,
+            "image": "../Assets/ORCards/Character/LuGuang.jpg"
+        },
+        "lute": {
+            "name": "Lute",
+            "indexname": "lute",
+            "archetype": "Character",
+            "ex" : false,
+            "background": "TTbackground",
+            "element": "Positive",
+            "hitpoints": 90,
+            "ability": "Angelic Weakness -- This card takes *2 damage from attacks from positive cards, ignoring resistances and immunities.",
+            "attack1": {
+                "element": "Positive",
+                "cost": 1,
+                "element2": null,
+                "cost2": null,
+                "name": "Angelic Spear",
+                "damage": 30,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "element2": null,
+                "cost2": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Hazbin Hotel",
+            "copyright": "SpindleHorse",
+            "rcost": 2,
+            "image": "../Assets/ORCards/Character/Lute.jpg"
+        },
 
         "machionaruzo": {
             "name": "Machio Naruzo",
@@ -2507,6 +3435,38 @@
             "copyright": "Seven Seas entertainment",
             "rcost": 4,
             "image": "../Assets/ORCards/Character/MachioNaruzo.jpg"
+        },
+        "makimaex": {
+            "name": "Makima EX",
+            "indexname": "makimaex",
+            "archetype": "Character",
+            "ex" : false,
+            "background": "TTbackground",
+            "element": "Negative",
+            "hitpoints": 190,
+            "ability": "Contract Devil -- Damage done to this card instead is sent to the member of the party with the most hp. If the hp is tied, it goes to the leftmost character (player’s POV). This card can only be damaged if there are no other cards in the party.",
+            "attack1": {
+                "element": "Omni",
+                "cost": 1,
+                "element2": null,
+                "cost2": null,
+                "name": "Bang",
+                "damage": 70,
+                "description": "This attack ignores damage modifiers and elemental resistances/immunities."
+            },
+            "attack2": {
+                "element": "Negative",
+                "cost": 3,
+                "element2": null,
+                "cost2": null,
+                "name": "Control Devil",
+                "damage": null,
+                "description": "If the opposing character has less base HP than Makima EX, this card can use any attack the opposing character has, regardless of energy cost."
+            },
+            "series": "Chainsaw Man",
+            "copyright": "VIZ Media",
+            "rcost": 4,
+            "image": "../Assets/ORCards/Character/MakimaEX.jpg"
         },
         "marisakirisame": {
             "name": "Marisa Kirisame",
@@ -2571,6 +3531,70 @@
             "copyright": "HoYoverse",
             "rcost": 5,
             "image": "../Assets/ORCards/Character/MavuikaEx.jpg"
+        },
+        "megachompydeflated": {
+            "name": "Mega Chompy Deflated",
+            "indexname": "megachompydeflated",
+            "archetype": "Character",
+            "ex" : false,
+            "background": "TTbackground",
+            "element": "Earth",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Omni",
+                "cost": 1,
+                "element2": null,
+                "cost2": null,
+                "name": "Chomp",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "element2": null,
+                "cost2": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Skylanders",
+            "copyright": "Activision",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/MegaChompyDeflated.jpg"
+        },
+        "megachompyinflated": {
+            "name": "Mega Chompy Inflated",
+            "indexname": "megachompyinflated",
+            "archetype": "Enhanced Character",
+            "ex" : false,
+            "background": "TTbackground",
+            "element": "Earth",
+            "hitpoints": 120,
+            "ability": null,
+            "attack1": {
+                "element": "Omni",
+                "cost": 1,
+                "element2": null,
+                "cost2": null,
+                "name": "Chomp",
+                "damage": 40,
+                "description": null
+            },
+            "attack2": {
+                "element": "Earth",
+                "cost": 4,
+                "element2": null,
+                "cost2": null,
+                "name": "Belly Flop",
+                "damage": 80,
+                "description": "Discard 2 energies and draw a character card from your draw deck."
+            },
+            "series": "Skylanders",
+            "copyright": "Activision",
+            "rcost": 3,
+            "image": "../Assets/ORCards/Character/MegaChompyInflated.jpg"
         },
         "megumin": {
             "name": "Megumin",
@@ -2668,6 +3692,38 @@
             "rcost": 2,
             "image": "../Assets/ORCards/Character/MinaAshido.jpg"
         },
+        "mira": {
+            "name": "Mira",
+            "indexname": "mira",
+            "archetype": "Character",
+            "ex" : false,
+            "background": "TTbackground",
+            "element": "Positive",
+            "hitpoints": 90,
+            "ability": "Golden -- If this character is active with Rumi EX and Zoey in the party, no negative cards can be summoned.",
+            "attack1": {
+                "element": "Positive",
+                "cost": 2,
+                "element2": "Fire",
+                "cost2": 1,
+                "name": "Napalm Naginata",
+                "damage": 40,
+                "description": "This attack does Positive and Fire damage, this attack does +30 damage to negative characters"
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "element2": null,
+                "cost2": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "KPop Demon Hunters",
+            "copyright": "Sony Animation",
+            "rcost": 4,
+            "image": "../Assets/ORCards/Character/Mira.jpg"
+        },
         "missy": {
             "name": "Missy",
             "indexname": "missy",
@@ -2699,6 +3755,38 @@
             "copyright": "BBC",
             "rcost": 6,
             "image": "../Assets/ORCards/Character/Missy.jpg"
+        },
+        "mobius": {
+            "name": "Mobius",
+            "indexname": "mobius",
+            "archetype": "Character",
+            "ex" : false,
+            "background": "TTbackground",
+            "element": "Biological",
+            "hitpoints": 120,
+            "ability": "MANTIS -- Upon this card reaching 0hp, if there is overflow damage, flip coins equivalent to the amount of overflow damage divided by 10. If there is no overflow damage, flip 1 coin. If every coin lands heads, this card will heal 120 hp minus the amount of coins flipped divided by 10.",
+            "attack1": {
+                "element": "Omni",
+                "cost": 1,
+                "element2": null,
+                "cost2": null,
+                "name": "Immoral Experiment",
+                "damage": 40,
+                "description": null
+            },
+            "attack2": {
+                "element": "Biological",
+                "cost": 4,
+                "element2": null,
+                "cost2": null,
+                "name": "A \"Bounty\"",
+                "damage": null,
+                "description": "Apply Asleep, Blinded, Burn, Confused, Poisoned, or Paralyzed to the opponent’s active character."
+            },
+            "series": "Honkai Impact 3rd",
+            "copyright": "HoYoverse",
+            "rcost": 6,
+            "image": "../Assets/ORCards/Character/Mobius.jpg"
         },
         "mobiusmmobius": {
             "name": "Mobius M. Mobius",
@@ -2828,6 +3916,38 @@
             "rcost": 5,
             "image": "../Assets/ORCards/Character/MonikaEX.jpg"
         },
+        "mutantchompy": {
+            "name": "Mutant Chompy",
+            "indexname": "mutantchompy",
+            "archetype": "Character",
+            "ex" : false,
+            "background": "TTbackground",
+            "element": "Wind",
+            "hitpoints": 120,
+            "ability": null,
+            "attack1": {
+                "element": "Omni",
+                "cost": 1,
+                "element2": null,
+                "cost2": null,
+                "name": "Chomp",
+                "damage": 40,
+                "description": null
+            },
+            "attack2": {
+                "element": "Wind",
+                "cost": 4,
+                "element2": null,
+                "cost2": null,
+                "name": "Expansive wave",
+                "damage": null,
+                "description": "Deal 20 damage to all opposing characters"
+            },
+            "series": "Skylanders",
+            "copyright": "Activision",
+            "rcost": 3,
+            "image": "../Assets/ORCards/Character/MutantChompy.jpg"
+        },
         "mydei": {
             "name": "Mydei",
             "indexname": "mydei",
@@ -2925,6 +4045,38 @@
             "rcost": 7,
             "image": "../Assets/ORCards/Character/NahidaEX.jpg"
         },
+        "natasha": {
+            "name": "Natasha",
+            "indexname": "natasha",
+            "archetype": "Character",
+            "ex" : false,
+            "background": "TTbackground",
+            "element": "Omni",
+            "hitpoints": 90,
+            "ability": null,
+            "attack1": {
+                "element": "Omni",
+                "cost": 30,
+                "element2": null,
+                "cost2": null,
+                "name": "Behind the Kindness",
+                "damage": 30,
+                "description": null
+            },
+            "attack2": {
+                "element": "Omni",
+                "cost": 4,
+                "element2": null,
+                "cost2": null,
+                "name": "Gift of Rebirth",
+                "damage": null,
+                "description": "Heal all allied party characters the amount of damage on this card, discard 4 energies."
+            },
+            "series": "Honkai: Star Rail",
+            "copyright": "HoYoverse",
+            "rcost": 2,
+            "image": "../Assets/ORCards/Character/Natasha.jpg"
+        },
         "nazrin": {
             "name": "Nazrin",
             "indexname": "nazrin",
@@ -2956,6 +4108,38 @@
             "copyright": "ZUN",
             "rcost": 2,
             "image": "../Assets/ORCards/Character/Nazrin.jpg"
+        },
+        "niffty": {
+            "name": "Niffty",
+            "indexname": "niffty",
+            "archetype": "Character",
+            "ex" : false,
+            "background": "TTbackground",
+            "element": "Negative",
+            "hitpoints": 40,
+            "ability": null,
+            "attack1": {
+                "element": "Omni",
+                "cost": 1,
+                "element2": null,
+                "cost2": null,
+                "name": "Stab",
+                "damage": 10,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "element2": null,
+                "cost2": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Hazbin Hotel",
+            "copyright": "SpindleHorse",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Niffty.jpg"
         },
         "nightmare": {
             "name": "Nightmare",
@@ -3118,6 +4302,38 @@
             "copyright": "CBS Studios",
             "rcost": 3,
             "image": "../Assets/ORCards/Character/PaigeMatthews.jpg"
+        },
+        "parabiddybud": {
+            "name": "Para-Biddybud",
+            "indexname": "parabiddybud",
+            "archetype": "Character",
+            "ex" : false,
+            "background": "TTbackground",
+            "element": "Wind",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Omni",
+                "cost": 1,
+                "element2": null,
+                "cost2": null,
+                "name": "Flutter Tackle",
+                "damage": 10,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "element2": null,
+                "cost2": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Super Mario Bros",
+            "copyright": "Nintendo",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/ParaBiddybud.jpg"
         },
         "parker": {
             "name": "Parker",
@@ -3439,7 +4655,71 @@
             "rcost": 5,
             "image": "../Assets/ORCards/Character/PoseidonEX.jpg"
         },
+        "purplechompy": {
+            "name": "Purple Chompy",
+            "indexname": "purplechompy",
+            "archetype": "Character",
+            "ex" : false,
+            "background": "TTbackground",
+            "element": "Negative",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Omni",
+                "cost": 1,
+                "element2": null,
+                "cost2": null,
+                "name": "Chomp",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": "Negative",
+                "cost": 2,
+                "element2": null,
+                "cost2": null,
+                "name": "Magic Chomp",
+                "damage": 40,
+                "description": null
+            },
+            "series": "Skylanders",
+            "copyright": "Activision",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/PurpleChompy.jpg"
+        },
 
+        "redchompy": {
+            "name": "Red Chompy",
+            "indexname": "redchompy",
+            "archetype": "Character",
+            "ex" : false,
+            "background": "TTbackground",
+            "element": "Omni",
+            "hitpoints": 60,
+            "ability": null,
+            "attack1": {
+                "element": "Omni",
+                "cost": 1,
+                "element2": null,
+                "cost2": null,
+                "name": "Chomp",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "element2": null,
+                "cost2": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Skylanders",
+            "copyright": "Activision",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/RedChompy.jpg"
+        },
         "reimuhakurei": {
             "name": "Reimu Hakurei",
             "indexname": "reimuhakurei",
@@ -3600,6 +4880,38 @@
             "rcost": 3,
             "image": "../Assets/ORCards/Character/RubyRoseAtlas.jpg"
         },
+        "rubyroseminstral": {
+            "name": "Ruby Rose - Minstral",
+            "indexname": "rubyroseminstral",
+            "archetype": "Character",
+            "ex" : false,
+            "background": "TTbackground",
+            "element": "Biological",
+            "hitpoints": 80,
+            "ability": null,
+            "attack1": {
+                "element": "Omni",
+                "cost": 1,
+                "element2": null,
+                "cost2": null,
+                "name": "Slash",
+                "damage": 10,
+                "description": null
+            },
+            "attack2": {
+                "element": "Omni",
+                "cost": 1,
+                "element2": null,
+                "cost2": null,
+                "name": "Lazy Deflect",
+                "damage": null,
+                "description": "Sacrifice one energy during the opponent's turn if Ruby didn’t make a move in the user’s turn and block the opponent’s attack."
+            },
+            "series": "RWBY",
+            "copyright": "Viz Media",
+            "rcost": 3,
+            "image": "../Assets/ORCards/Character/RubyRoseMinstral.jpg"
+        },
         "rubyrosevale": {
             "name": "Ruby Rose - Vale",
             "indexname": "rubyrosevale",
@@ -3663,6 +4975,38 @@
             "copyright": "VIZ Media",
             "rcost": 3,
             "image": "../Assets/ORCards/Character/RubyRoseValeEx.jpg"
+        },
+        "rumiex": {
+            "name": "Rumi EX",
+            "indexname": "rumiex",
+            "archetype": "Character",
+            "ex" : true,
+            "background": "TTbackground",
+            "element": "Positive",
+            "hitpoints": 130,
+            "ability": "Golden -- If this character is active with Mira and Zoey in the party, no negative cards can be summoned.",
+            "attack1": {
+                "element": "Omni",
+                "cost": 2,
+                "element2": null,
+                "cost2": null,
+                "name": "Demon-Killing Sword",
+                "damage": 50,
+                "description": "This attack does +30 damage to negative characters"
+            },
+            "attack2": {
+                "element": "Positive",
+                "cost": 2,
+                "element2": "Negative",
+                "cost2": 2,
+                "name": "Half-Demon Rage",
+                "damage": null,
+                "description": "This attack does 30 negative damage to all cards on the field. Any active settings are discarded."
+            },
+            "series": "KPop Demon Hunters",
+            "copyright": "Sony Animation",
+            "rcost": 4,
+            "image": "../Assets/ORCards/Character/RumiEX.jpg"
         },
         "ryoyamada": {
             "name": "Ryo Yamada",
@@ -3857,6 +5201,38 @@
             "rcost": 6,
             "image": "../Assets/ORCards/Character/SenriKururugiEX.jpg"
         },
+        "shyguy": {
+            "name": "Shy Guy",
+            "indexname": "shyguy",
+            "archetype": "Character",
+            "ex" : false,
+            "background": "TTbackground",
+            "element": "Omni",
+            "hitpoints": 50,
+            "ability": "Stack -- there can be more than two Shy Guys in the deck, shy guy can’t have any items attached, but multiple Shy Guys can be attached, once per turn, when a shy guy is knocked out discard it and keep the rest of the stack in play. A prize card will only be awarded when the entire stack is knocked out by the opponent.",
+            "attack1": {
+                "element": "Omni",
+                "cost": 1,
+                "element2": null,
+                "cost2": null,
+                "name": "bonk",
+                "damage": 10,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "element2": null,
+                "cost2": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Super Mario Bros.",
+            "copyright": "Nintendo",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/ShyGuy.jpg"
+        },
         "thesilence": {
             "name": "The Silence",
             "indexname": "thesilence",
@@ -3953,6 +5329,38 @@
             "rcost": 3,
             "image": "../Assets/ORCards/Character/SnakeArcher.jpg"
         },
+        "snifit": {
+            "name": "Snifit",
+            "indexname": "snifit",
+            "archetype": "Character",
+            "ex" : false,
+            "background": "TTbackground",
+            "element": "Omni",
+            "hitpoints": 50,
+            "ability": null,
+            "attack1": {
+                "element": "Omni",
+                "cost": 1,
+                "element2": null,
+                "cost2": null,
+                "name": "Bullet",
+                "damage": 30,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "element2": null,
+                "cost2": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Super Mario Bros.",
+            "copyright": "Nintendo",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Snifit.jpg"
+        },
         "sninja": {
             "name": "Sninja",
             "indexname": "sninja",
@@ -4048,6 +5456,38 @@
             "copyright": "Glitch Productions",
             "rcost": 1,
             "image": "../Assets/ORCards/Character/Sparky.jpg"
+        },
+        "spearguy": {
+            "name": "Spear Guy",
+            "indexname": "spearguy",
+            "archetype": "Character",
+            "ex" : false,
+            "background": "TTbackground",
+            "element": "Omni",
+            "hitpoints": 50,
+            "ability": null,
+            "attack1": {
+                "element": "Omni",
+                "cost": 1,
+                "element2": null,
+                "cost2": null,
+                "name": "Stab",
+                "damage": 30,
+                "description": "This can damage an opponent’s party character."
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "element2": null,
+                "cost2": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Super Mario Bros.",
+            "copyright": "Nintendo",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/SpearGuy.jpg"
         },
         "steve": {
             "name": "Steve",
@@ -4209,6 +5649,38 @@
             "copyright": "Owlchemy Labs",
             "rcost": 1,
             "image": "../Assets/ORCards/Character/TempBot.jpg"
+        },
+        "tingyun": {
+            "name": "Tingyun",
+            "indexname": "tingyun",
+            "archetype": "Character",
+            "ex" : false,
+            "background": "TTbackground",
+            "element": "Electricity",
+            "hitpoints": 80,
+            "ability": "The Blessing of Destruction -- While Tingyun is in play, if an attack is not intended to target her, flip a coin for each character in play on her side, if any land tails, the attack targets Tingyun instead.",
+            "attack1": {
+                "element": "Omni",
+                "cost": 1,
+                "element2": null,
+                "cost2": null,
+                "name": "Dislodged",
+                "damage": 20,
+                "description": null
+            },
+            "attack2": {
+                "element": "Omni",
+                "cost": 3,
+                "element2": null,
+                "cost2": null,
+                "name": "Amidst the Rejoicing Clouds",
+                "damage": null,
+                "description": "This can be used while in the party. Move three energies from this card to any character in play however you like."
+            },
+            "series": "Honkai: Star Rail",
+            "copyright": "HoYoverse",
+            "rcost": 2,
+            "image": "../Assets/ORCards/Character/Tingyun.jpg"
         },
         "tock": {
             "name": "Tock",
@@ -4402,6 +5874,39 @@
             "copyright": "Nintendo",
             "rcost": 3,
             "image": "../Assets/ORCards/Character/Urbosa.jpg"
+        },
+
+        "voxex": {
+            "name": "Vox EX",
+            "indexname": "voxex",
+            "archetype": "Character",
+            "ex" : true,
+            "background": "TTbackground",
+            "element": "Electricity",
+            "hitpoints": 130,
+            "ability": null,
+            "attack1": {
+                "element": "Electricity",
+                "cost": 2,
+                "element2": null,
+                "cost2": null,
+                "name": "Vox Populi",
+                "damage": "30+",
+                "description": "This attack does +30 damage for each party member."
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "element2": null,
+                "cost2": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Hazbin Hotel",
+            "copyright": "SpindleHorse",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/VoxEX.jpg"
         },
 
         "weepingangel": {
@@ -4630,6 +6135,39 @@
             "image": "../Assets/ORCards/Character/YangXiaoLong(Vale).jpg"
         },
 
+        "zoey": {
+            "name": "Zoey",
+            "indexname": "zoey",
+            "archetype": "Character",
+            "ex" : false,
+            "background": "TTbackground",
+            "element": "Positive",
+            "hitpoints": 80,
+            "ability": "Golden -- If this character is active with Rumi EX and Mira in the party, no negative cards can be summoned.",
+            "attack1": {
+                "element": "Positive",
+                "cost": 1,
+                "element2": null,
+                "cost2": null,
+                "name": "Purity Daggers",
+                "damage": 10,
+                "description": "This attack does +30 damage to negative characters"
+            },
+            "attack2": {
+                "element": "Positive",
+                "cost": 2,
+                "element2": null,
+                "cost2": null,
+                "name": "Snack time",
+                "damage": null,
+                "description": "Each card on the player’s side regains 10hp"
+            },
+            "series": "KPop Demon Hunters",
+            "copyright": "Sony Animation",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/Zoey.jpg"
+        },
+
 
 
 
@@ -4748,6 +6286,34 @@
           "copyright": null,
           "image": "../Assets/ORCards/Items/Bishop.jpg"
         },
+        "blahaj": {
+          "name": "Blåhaj",
+          "indexname": "blahaj",
+          "archetype": "Item",
+          "background": "TTbackground",
+          "ability": "When this card is played, the person who played the card may add one water energy to each character in play.",
+          "attack1": {
+              "element": null,
+              "cost": null,
+              "element2": null,
+              "cost2": null,
+              "name": null,
+              "damage": null,
+              "description": null
+          },
+          "attack2": {
+              "element": null,
+              "cost": null,
+              "element2": null,
+              "cost2": null,
+              "name": null,
+              "damage": null,
+              "description": null
+          },
+          "series": null,
+          "copyright": "Ikea",
+          "image": "../Assets/ORCards/Items/Blahaj.jpg"
+        },
         "brla": {
           "name": "BRL-A",
           "indexname": "brla",
@@ -4777,6 +6343,34 @@
           "image": "../Assets/ORCards/Items/BRLA.jpg"
         },
 
+        "caineswackyidea": {
+          "name": "Caine's Wacky Idea",
+          "indexname": "caineswackyidea",
+          "archetype": "Item",
+          "background": "TTbackground",
+          "ability": "When this card is played, both players flip a coin. If heads, that player may take a prize card. Discard this card after use.",
+          "attack1": {
+              "element": null,
+              "cost": null,
+              "element2": null,
+              "cost2": null,
+              "name": null,
+              "damage": null,
+              "description": null
+          },
+          "attack2": {
+              "element": null,
+              "cost": null,
+              "element2": null,
+              "cost2": null,
+              "name": null,
+              "damage": null,
+              "description": null
+          },
+          "series": "The Amazing Digital Circus",
+          "copyright": "Glitch Productions",
+          "image": "../Assets/ORCards/Items/CainesWackyIdea.jpg"
+        },
         "coldstar": {
           "name": "Cold Star",
           "indexname": "coldstar",
@@ -5146,6 +6740,35 @@
           "image": "../Assets/ORCards/Items/Invitation.jpg"
         },
 
+        "kingersbutterfly": {
+          "name": "Kinger's Butterfly",
+          "indexname": "kingersbutterfly",
+          "archetype": "Item",
+          "background": "TTbackground",
+          "ability": "Take a basic character from the discard pile and place them in the party. Discard this card after use.",
+          "attack1": {
+              "element": null,
+              "cost": null,
+              "element2": null,
+              "cost2": null,
+              "name": null,
+              "damage": null,
+              "description": null
+          },
+          "attack2": {
+              "element": null,
+              "cost": null,
+              "element2": null,
+              "cost2": null,
+              "name": null,
+              "damage": null,
+              "description": null
+          },
+          "series": "The Amazing Digital Circus",
+          "copyright": "Glitch Productions",
+          "image": "../Assets/ORCards/Items/KingersButterfly.jpg"
+        },
+
         "labrava": {
           "name": "La Brava",
           "indexname": "labrava",
@@ -5175,6 +6798,34 @@
           "image": "../Assets/ORCards/Items/LaBrava.jpg"
         },
 
+        "mightoflilith": {
+          "name": "Might of Lilith",
+          "indexname": "mightoflilith",
+          "archetype": "Item",
+          "background": "TTbackground",
+          "ability": "Attach this card to Lucifer Morningstar. Once Might of Lilith is used, shuffle Lucifer back into the draw deck.",
+          "attack1": {
+              "element": "Omni",
+              "cost": 5,
+              "element2": null,
+              "cost2": null,
+              "name": "Might of Lilith",
+              "damage": 200,
+              "description": "Deal 50 damage to all opposing non-active cards."
+          },
+          "attack2": {
+              "element": null,
+              "cost": null,
+              "element2": null,
+              "cost2": null,
+              "name": null,
+              "damage": null,
+              "description": null
+          },
+          "series": "Hazbin Hotel",
+          "copyright": "SpindleHorse",
+          "image": "../Assets/ORCards/Items/MightofLilith.jpg"
+        },
         "mjolnir": {
           "name": "Mjölnir",
           "indexname": "mjolnir",
@@ -5402,6 +7053,34 @@
           "copyright": "EA",
           "image": "../Assets/ORCards/Items/PlantFood.jpg"
         },
+        "portalofpower": {
+          "name": "Portal of Power",
+          "indexname": "portalofpower",
+          "archetype": "Item",
+          "background": "TTbackground",
+          "ability": "If this card is in play, the player who activated it can place a character on this card. The character on the card can not be attacked, but counts as a party slot for the sake of damage on the player’s end.",
+          "attack1": {
+              "element": null,
+              "cost": null,
+              "element2": null,
+              "cost2": null,
+              "name": null,
+              "damage": null,
+              "description": null
+          },
+          "attack2": {
+              "element": null,
+              "cost": null,
+              "element2": null,
+              "cost2": null,
+              "name": null,
+              "damage": null,
+              "description": null
+          },
+          "series": "Skylanders",
+          "copyright": "Activision",
+          "image": "../Assets/ORCards/Items/PortalofPower.jpg"
+        },
         "pumpkin": {
           "name": "Pumpkin",
           "indexname": "pumpkin",
@@ -5431,6 +7110,34 @@
           "image": "../Assets/ORCards/Items/Pumpkin.jpg"
         },
 
+        "ragathaskindness": {
+          "name": "Ragatha's Kindness",
+          "indexname": "ragathaskindness",
+          "archetype": "Item",
+          "background": "TTbackground",
+          "ability": "The active character heals 20hp and all status conditions. Discard this card after use.",
+          "attack1": {
+              "element": null,
+              "cost": null,
+              "element2": null,
+              "cost2": null,
+              "name": null,
+              "damage": null,
+              "description": null
+          },
+          "attack2": {
+              "element": null,
+              "cost": null,
+              "element2": null,
+              "cost2": null,
+              "name": null,
+              "damage": null,
+              "description": null
+          },
+          "series": "The Amazing Digital Circus",
+          "copyright": "Glitch Productions",
+          "image": "../Assets/ORCards/Items/RagathasKindness.jpg"
+        },
         "redstar": {
           "name": "Red Star",
           "indexname": "redstar",
@@ -5515,6 +7222,63 @@
           "series": "Portal",
           "copyright": "Valve",
           "image": "../Assets/ORCards/Items/SpaceSphere.jpg"
+        },
+        "stopwatchfruit": {
+          "name": "Stopwatch Fruit",
+          "indexname": "stopwatchfruit",
+          "archetype": "Item",
+          "background": "TTbackground",
+          "ability": "Search your deck for an evolution card to one of your characters in play. Reveal it, and immediately play the card. Shuffle your deck afterwards.",
+          "attack1": {
+              "element": null,
+              "cost": null,
+              "element2": null,
+              "cost2": null,
+              "name": null,
+              "damage": null,
+              "description": null
+          },
+          "attack2": {
+              "element": null,
+              "cost": null,
+              "element2": null,
+              "cost2": null,
+              "name": null,
+              "damage": null,
+              "description": null
+          },
+          "series": "RWBY",
+          "copyright": "VIZ Media",
+          "image": "../Assets/ORCards/Items/StopwatchFruit.jpg"
+        },
+
+        "valentinosdeal": {
+          "name": "Valentino's Deal",
+          "indexname": "valentinosdeal",
+          "archetype": "Item",
+          "background": "TTbackground",
+          "ability": "The character this card is attached to is now poisoned, but attacks from the character do +30 damage. If the holder is cured of their poisoning, discard this card.",
+          "attack1": {
+              "element": null,
+              "cost": null,
+              "element2": null,
+              "cost2": null,
+              "name": null,
+              "damage": null,
+              "description": null
+          },
+          "attack2": {
+              "element": null,
+              "cost": null,
+              "element2": null,
+              "cost2": null,
+              "name": null,
+              "damage": null,
+              "description": null
+          },
+          "series": "Hazbin Hotel",
+          "copyright": "SpindleHorse",
+          "image": "../Assets/ORCards/Items/ValentinosDeal.jpg"
         },
 
         "wabbajack": {
@@ -5915,6 +7679,32 @@
           "image": "../Assets/ORCards/Settings/Train.jpg"
         },
 
+        "vtower": {
+          "name": "V Tower",
+          "indexname": "vtower",
+          "archetype": "Setting",
+          "background": "TTbackground",
+          "ability": null,
+          "caninteract" : true,
+          "negativeint" : {
+            "50" : null,
+            "40" : "Positive",
+            "30" : "Biological",
+            "20" : "Wind",
+            "10" : null
+          },
+          "positiveint" : {
+            "50" : null,
+            "40" : "Digital",
+            "30" : "Electricity",
+            "20" : "Negative",
+            "10" : null
+          },
+          "series": "Hazbin Hotel",
+          "copyright": "SpindleHorse",
+          "image": "../Assets/ORCards/Settings/VTower.jpg"
+        },
+
         "windseeker": {
           "name": "Windseeker",
           "indexname": "windseeker",
@@ -5949,8 +7739,30 @@
 
 
 
-
-
+        "aha": {
+          "name": "Aha",
+          "indexname": "aha",
+          "element": "Negative",
+          "archetype": "Summon",
+          "background": "TTbackground",
+          "ability": "While this summon is active, the player who played THEM is now allowed to attach as many energies as they wish to any allied character. When this card’s timer runs out, place it at the bottom of your draw deck and have the opposing side take a card from their discard pile and put it in their hand.",
+          "rcost": 1,
+          "series": "Honkai: Star Rail",
+          "copyright": "HoYoverse",
+          "image": "../Assets/ORCards/Summons/Aha.jpg"
+        },
+        "appa": {
+          "name": "Appa",
+          "indexname": "appa",
+          "element": "Wind",
+          "archetype": "Summon",
+          "background": "TTbackground",
+          "ability": "While this summon is in play, all cards on this side of the field take no damage from attacks that use the earth element.",
+          "rcost": 5,
+          "series": "Avatar: The Last Airbender",
+          "copyright": "Nickelodeon",
+          "image": "../Assets/ORCards/Summons/Appa.jpg"
+        },
 
         "bathroom": {
           "name": "Bathroom",
@@ -6152,6 +7964,32 @@
           "image": "../Assets/ORCards/Summons/TwinSunflower.jpg"
         },
 
+        "velvette": {
+          "name": "Velvette",
+          "indexname": "velvette",
+          "element": "Digital",
+          "archetype": "Summon",
+          "background": "TTbackground",
+          "ability": "While this summon is in play, any attacks used by the player also do tech damage.",
+          "rcost": 4,
+          "series": "Hazbin Hotel",
+          "copyright": "SpindleHorse",
+          "image": "../Assets/ORCards/Summons/Velvette.jpg"
+        },
+
+        "wallnut": {
+          "name": "Wall-Nut",
+          "indexname": "wallnut",
+          "element": "Biological",
+          "archetype": "Summon",
+          "background": "TTbackground",
+          "ability": "This card has 100hp. When this card is active, all attacks from the opposing player are redirected to this card. Once this card reaches 0hp, discard this card.",
+          "rcost": "Until Knocked Out",
+          "series": "Plants Vs. Zombies",
+          "copyright": "EA",
+          "image": "../Assets/ORCards/Summons/WallNut.jpg"
+        },
+
         "warptrotter": {
           "name": "Warp Trotter",
           "indexname": "warptrotter",
@@ -6195,7 +8033,38 @@
 
 
 
-
+        "alastorexspecial": {
+            "name": "Alastor EX",
+            "indexname": "alastorex",
+            "archetype": "Character",
+            "ex" : true,
+            "background": "ColorArt",
+            "element": "Negative",
+            "hitpoints": 140,
+            "ability": "Made for Radio -- This card does double damage to Tech and Electric element cards.",
+            "attack1": {
+                "element": "Negative",
+                "cost": 1,
+                "element2": null,
+                "cost2": null,
+                "name": "Contract Call",
+                "damage": null,
+                "description": "Search your deck for a Niffty or Husk card. Reveal it, and place in the active slot alongside Alastor EX, each card in the active slot can attack once per turn. If this card is knocked out, any cards summoned by Contract Call go back into the player’s hand. Reshuffle the deck after using this move."
+            },
+            "attack2": {
+                "element": "Negative",
+                "cost": 3,
+                "element2": null,
+                "cost2": null,
+                "name": "Shadow Smash",
+                "damage": 80,
+                "description": null
+            },
+            "series": "Hazbin Hotel",
+            "copyright": "SpindleHorse",
+            "rcost": 6,
+            "image": "../Assets/ORCards/Character/AlastorEX(ColorArt).jpg"
+        },
         "alexlouisarmstrongexspecial": {
             "name": "Alex Louis Armstrong EX",
             "indexname": "alexlouisarmstrongexspecial",
@@ -6612,6 +8481,38 @@
             "rcost": 4,
             "image": "../Assets/ORCards/Character/Kool-AidMan(Splash).jpg"
         },
+        "makimaexspecial": {
+            "name": "Makima EX",
+            "indexname": "makimaexspecial",
+            "archetype": "Character",
+            "ex" : false,
+            "background": "FullArt",
+            "element": "Negative",
+            "hitpoints": 190,
+            "ability": "Contract Devil -- Damage done to this card instead is sent to the member of the party with the most hp. If the hp is tied, it goes to the leftmost character (player’s POV). This card can only be damaged if there are no other cards in the party.",
+            "attack1": {
+                "element": "Omni",
+                "cost": 1,
+                "element2": null,
+                "cost2": null,
+                "name": "Bang",
+                "damage": 70,
+                "description": "This attack ignores damage modifiers and elemental resistances/immunities."
+            },
+            "attack2": {
+                "element": "Negative",
+                "cost": 3,
+                "element2": null,
+                "cost2": null,
+                "name": "Control Devil",
+                "damage": null,
+                "description": "If the opposing character has less base HP than Makima EX, this card can use any attack the opposing character has, regardless of energy cost."
+            },
+            "series": "Chainsaw Man",
+            "copyright": "VIZ Media",
+            "rcost": 4,
+            "image": "../Assets/ORCards/Character/MakimaEX(FullArt).jpg"
+        },
         "minminspecial": {
             "name": "Min-Min",
             "indexname": "minminspecial",
@@ -6804,6 +8705,38 @@
             "rcost": 5,
             "image": "../Assets/ORCards/Character/PeteyPiranhaEX(Full).jpg"
         },
+        "podoboospecial": {
+            "name": "Podoboo",
+            "indexname": "podoboospecial",
+            "archetype": "Character",
+            "ex" : false,
+            "background": "FullArt",
+            "element": "Fire",
+            "hitpoints": 50,
+            "ability": null,
+            "attack1": {
+                "element": "Fire",
+                "cost": 1,
+                "element2": null,
+                "cost2": null,
+                "name": "Lava Bubble",
+                "damage": 10,
+                "description": null
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "element2": null,
+                "cost2": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Super Mario Bros",
+            "copyright": "Nintendo",
+            "rcost": 2,
+            "image": "../Assets/ORCards/Character/Podoboo(FullArt).jpg"
+        },
         "reimuhakureispecial": {
             "name": "Reimu Hakurei",
             "indexname": "reimuhakureispecial",
@@ -6931,6 +8864,38 @@
             "copyright": "SEGA",
             "rcost": 2,
             "image": "../Assets/ORCards/Character/Silver(ColorArt).jpg"
+        },
+        "voxexspecial": {
+            "name": "Vox EX",
+            "indexname": "voxexspecial",
+            "archetype": "Character",
+            "ex" : true,
+            "background": "FullArt",
+            "element": "Electricity",
+            "hitpoints": 130,
+            "ability": null,
+            "attack1": {
+                "element": "Electricity",
+                "cost": 2,
+                "element2": null,
+                "cost2": null,
+                "name": "Vox Populi",
+                "damage": "30+",
+                "description": "This attack does +30 damage for each party member."
+            },
+            "attack2": {
+                "element": null,
+                "cost": null,
+                "element2": null,
+                "cost2": null,
+                "name": null,
+                "damage": null,
+                "description": null
+            },
+            "series": "Hazbin Hotel",
+            "copyright": "SpindleHorse",
+            "rcost": 1,
+            "image": "../Assets/ORCards/Character/VoxEX(FullArt).jpg"
         },
         "weissnightmareexspecial": {
             "name": "Weiss (Nightmare) EX",

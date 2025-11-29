@@ -308,14 +308,16 @@ async function filterex(trFa) {
             if (item[key].archetype !== "Item") {
         console.log(`${key}: ${item[key].ex}`);
         if (item[key].ex == trFa) {
-          const newCard = document.createElement('div');
-          newCard.classList.add('Card');
-          cardList.appendChild(newCard);
-          newCard.title = item[key].indexname;
-          newCard.style.background = "url('" + item[key].image + "')";
-          newCard.style.backgroundSize = "contain";
-          newCard.style.backgroundRepeat = "no-repeat";
-          newCard.setAttribute('onclick', 'makebig("' + item[key].image + '", "' + item[key].indexname + '")');
+          if (item[key].archetype !== "DUO") {
+            const newCard = document.createElement('div');
+            newCard.classList.add('Card');
+            cardList.appendChild(newCard);
+            newCard.title = item[key].indexname;
+            newCard.style.background = "url('" + item[key].image + "')";
+            newCard.style.backgroundSize = "contain";
+            newCard.style.backgroundRepeat = "no-repeat";
+            newCard.setAttribute('onclick', 'makebig("' + item[key].image + '", "' + item[key].indexname + '")');
+          }
         }
 
       }
@@ -512,6 +514,7 @@ async function filterarcheallsum() {
   } catch (error) {
     console.log(error);
   }
+
 };
 
 async function makebig(url, indexnamelocal) {
@@ -959,3 +962,104 @@ function fillelement(numLoops, element, location){
     newelem.src = "../Assets/Elements/" + element + ".png"
   }
 }
+
+
+
+
+// Robit is helping
+
+// === ARROW KEY NAVIGATION BETWEEN CARDS ===
+
+// Returns all visible cards inside Cardlist
+function getCards() {
+    return Array.from(document.querySelectorAll("#Cardlist > div"));
+}
+
+// Finds which card is marked as selected
+function getActiveCardIndex() {
+    return getCards().findIndex(card => card.classList.contains("activeCard"));
+}
+// Allow clicking a card to activate it
+document.getElementById("Cardlist").addEventListener("click", (e) => {
+    const card = e.target.closest("#Cardlist > div");
+    if (!card) return;
+
+    const cards = getCards();
+    const index = cards.indexOf(card);
+
+    if (index !== -1) {
+        activateCard(index);
+    }
+});
+
+// Activates a card by index
+// let fullCardData = null;
+
+async function activateCard(index) {
+    const cards = getCards();
+    if (index < 0 || index >= cards.length) return;
+
+    // Remove previous active classes
+    cards.forEach(c => c.classList.remove("activeCard"));
+
+    const card = cards[index];
+    card.classList.add("activeCard");
+
+    // Scroll into view
+    card.scrollIntoView({ behavior: "smooth", block: "center" });
+
+    // Load card data only once
+    // if (!fullCardData) {
+    //     fullCardData = await orFullCards();
+    // }
+    //
+    // // Find the matching card object
+    // const info = fullCardData.find(obj == card.title);
+    //
+    // if (info) {
+    //     makebig(info.image, info.indexname);
+    // } else {
+    //     console.warn("No match found for:", card.title);
+    // }
+
+
+    try {
+      const data = await orFullCards(); // await the async function
+      console.log(data);
+      let cardtitle = card.title
+      data.forEach(item => {
+    for (const key in item) {
+      if (item[key] && item[key].name !== undefined) {
+        console.log(`${key}: ${item[key].index}`);
+        if (cardtitle.includes(item[key].indexname)) {
+          makebig(item[key].image, item[key].indexname)
+
+        }
+
+      }
+    }
+  });
+
+    } catch (error) {
+      console.log(error);
+    }
+}
+
+
+// Listen for arrow keys
+document.addEventListener("keydown", (e) => {
+    const cards = getCards();
+    if (!cards.length) return;
+
+    let idx = getActiveCardIndex();
+
+    // If nothing selected yet, select the first
+    if (idx === -1) idx = 0;
+
+    if (e.key === "ArrowRight" || e.key === "ArrowDown") {
+        activateCard(idx + 1);
+    }
+    else if (e.key === "ArrowLeft" || e.key === "ArrowUp") {
+        activateCard(idx - 1);
+    }
+});

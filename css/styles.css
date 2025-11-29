@@ -39,6 +39,7 @@
   --Winds : #5ce1e6ff;
 
   --iuORbackground : rgb(174,174,174);
+  --iuTTbackground : rgb(011,083,148);
   --iuColorArt : #eeff41;
   --iuFullArt : #fd0200;
 
@@ -205,4 +206,9 @@ header * {
 header span {
   font-size: 5em;
   z-index: 0;
+}
+
+.activeCard {
+  outline: 4px solid cyan;
+  border-radius: 8px;
 }
