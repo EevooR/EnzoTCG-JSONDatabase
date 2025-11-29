@@ -98,7 +98,7 @@ const arches = [
   "Item",
   "Summon",
   "Enhanced Summon",
-  "Duo"
+  "DUO"
 ];
 
 const backers = [
@@ -164,7 +164,7 @@ window.onload = async (event) => {
         if (backers.includes(item[key].background)) {} else {
           alert(item[key].background + "Is not valid in" + item[key].indexname + "background")
         }}
-      if (["Character","Enhanced Character"].includes(item[key].archetype)) {
+      if (["Character","Enhanced Character", "DUO"].includes(item[key].archetype)) {
         // console.log(`${key}: ${item[key].name}`);
         if (elements2.includes(item[key].element)) {} else {
           alert(item[key].element + "Is not valid in" + item[key].indexname + "element")
@@ -671,7 +671,7 @@ async function makebig(url, indexnamelocal) {
             cardCopyright.style.display = "block";
           };
         }
-        if (["Character", "Enhanced Character", "DUO"].includes(item[key].archetype)) {
+        if (["Character", "Enhanced Character","DUO"].includes(item[key].archetype)) {
           cardAttack1Element.innerHTML = "";
           cardAttack2Element.innerHTML = "";
           cardElement.innerHTML = "";
@@ -1032,8 +1032,8 @@ async function activateCard(index) {
     for (const key in item) {
       if (item[key] && item[key].name !== undefined) {
         // console.log(`${key}: ${item[key].index}`);
-        console.log(cardtitle, item[key].indexname);
-        console.log(item[key]);
+        // console.log(cardtitle, item[key].indexname);
+        // console.log(item[key]);
         if (cardtitle == item[key].indexname) {
           makebig(item[key].image, item[key].indexname)
 
