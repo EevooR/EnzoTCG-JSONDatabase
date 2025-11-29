@@ -131,21 +131,21 @@ window.onload = async (event) => {
   try {
 
     const data = await orFullCards(); // await the async function
-    console.log(data);
+    // console.log(data);
 //     Object.keys(data).forEach((key) => {
-//   console.log(key);
+//   // console.log(key);
 // });
 
     //
     // data.forEach((i) => {
-    //   console.log(i[key].name);
+    //   // console.log(i[key].name);
     // });
 
     data.forEach(item => {
   for (const key in item) {
     if (item[key] && item[key].name !== undefined) {
       if (item[key].archetype == "Item") {
-        console.log(`${key}: ${item[key].name}`);
+        // console.log(`${key}: ${item[key].name}`);
         if (elements.includes(item[key].attack1.element)) {} else {
           alert(item[key].attack1.element + "Is not valid in" + item[key].indexname + "At1 element")
         }
@@ -165,7 +165,7 @@ window.onload = async (event) => {
           alert(item[key].background + "Is not valid in" + item[key].indexname + "background")
         }}
       if (["Character","Enhanced Character"].includes(item[key].archetype)) {
-        console.log(`${key}: ${item[key].name}`);
+        // console.log(`${key}: ${item[key].name}`);
         if (elements2.includes(item[key].element)) {} else {
           alert(item[key].element + "Is not valid in" + item[key].indexname + "element")
         }
@@ -189,7 +189,7 @@ window.onload = async (event) => {
         }
       }
       if (item[key].archetype == "Setting") {
-        console.log(`${key}: ${item[key].name}`);
+        // console.log(`${key}: ${item[key].name}`);
         if (elements.includes(item[key].negativeint["50"])) {} else {
           alert(item[key].negativeint["50"] + "Is not valid in" + item[key].indexname + " -50")
         }
@@ -228,7 +228,7 @@ window.onload = async (event) => {
           alert(item[key].background + "Is not valid in" + item[key].indexname + "background")
         }}
       if (["Summon","Enhanced Summon"].includes(item[key].archetype)) {
-          console.log(`${key}: ${item[key].name}`);
+          // console.log(`${key}: ${item[key].name}`);
           if (elements2.includes(item[key].element)) {} else {
             alert(item[key].element + "Is not valid in" + item[key].indexname + "element")
           }
@@ -252,7 +252,7 @@ window.onload = async (event) => {
 });
 
   } catch (error) {
-    console.log(error);
+    // console.log(error);
   }
 };
 function hidezoom() {
@@ -267,14 +267,14 @@ async function filtertype(type) {
   try {
     cardList.innerHTML = "";
     const data = await orFullCards(); // await the async function
-    console.log(data);
+    // console.log(data);
 
 
       data.forEach(item => {
     for (const key in item) {
       if (item[key] && item[key].name !== undefined) {
         if (item[key].archetype !== "Item") {
-        console.log(`${key}: ${item[key].element}`);
+        // console.log(`${key}: ${item[key].element}`);
         if (item[key].element == type) {
           const newCard = document.createElement('div');
           newCard.classList.add('Card');
@@ -292,21 +292,21 @@ async function filtertype(type) {
 
 
   } catch (error) {
-    console.log(error);
+    // console.log(error);
   }
 };
 async function filterex(trFa) {
   try {
     cardList.innerHTML = "";
     const data = await orFullCards(); // await the async function
-    console.log(data);
+    // console.log(data);
 
 
       data.forEach(item => {
     for (const key in item) {
       if (item[key] && item[key].name !== undefined) {
             if (item[key].archetype !== "Item") {
-        console.log(`${key}: ${item[key].ex}`);
+        // console.log(`${key}: ${item[key].ex}`);
         if (item[key].ex == trFa) {
           if (item[key].archetype !== "DUO") {
             const newCard = document.createElement('div');
@@ -327,19 +327,19 @@ async function filterex(trFa) {
 
 
   } catch (error) {
-    console.log(error);
+    // console.log(error);
   }
 };
 async function filterarche(archet) {
   try {
     cardList.innerHTML = "";
     const data = await orFullCards(); // await the async function
-    console.log(data);
+    // console.log(data);
 
     data.forEach(item => {
   for (const key in item) {
     if (item[key] && item[key].name !== undefined) {
-      console.log(`${key}: ${item[key].archetype}`);
+      // console.log(`${key}: ${item[key].archetype}`);
       if (item[key].archetype == archet) {
         const newCard = document.createElement('div');
         newCard.classList.add('Card');
@@ -356,20 +356,20 @@ async function filterarche(archet) {
 });
 
   } catch (error) {
-    console.log(error);
+    // console.log(error);
   }
 };
 async function filterrar(rarity) {
   try {
     cardList.innerHTML = "";
     const data = await orFullCards(); // await the async function
-    console.log(data);
+    // console.log(data);
     if (rarity !== "Common") {
       if (rarity == "Rare") {
         data.forEach(item => {
           for (const key in item) {
             if (item[key] && item[key].name !== undefined) {
-              console.log(`${key}: ${item[key].background}`);
+              // console.log(`${key}: ${item[key].background}`);
               if (["FullArt","ColorArt"].includes(item[key].background)) {
         const newCard = document.createElement('div');
         newCard.classList.add('Card');
@@ -388,7 +388,7 @@ async function filterrar(rarity) {
         data.forEach(item => {
           for (const key in item) {
             if (item[key] && item[key].name !== undefined) {
-              console.log(`${key}: ${item[key].background}`);
+              // console.log(`${key}: ${item[key].background}`);
               if (item[key].background == rarity) {
         const newCard = document.createElement('div');
         newCard.classList.add('Card');
@@ -409,7 +409,7 @@ async function filterrar(rarity) {
   data.forEach(item => {
 for (const key in item) {
 if (item[key] && item[key].name !== undefined) {
-  console.log(`${key}: ${item[key].background}`);
+  // console.log(`${key}: ${item[key].background}`);
   if (["FullArt","ColorArt"].includes(item[key].background)) {
   } else {
     const newCard = document.createElement('div');
@@ -427,7 +427,7 @@ if (item[key] && item[key].name !== undefined) {
 });
 }
   } catch (error) {
-    console.log(error);
+    // console.log(error);
   }
 };
 
@@ -435,12 +435,12 @@ async function resetfilters() {
   try {
     cardList.innerHTML = "";
     const data = await orFullCards(); // await the async function
-    console.log(data);
+    // console.log(data);
 
     data.forEach(item => {
   for (const key in item) {
     if (item[key] && item[key].name !== undefined) {
-      console.log(`${key}: ${item[key].element}`);
+      // console.log(`${key}: ${item[key].element}`);
         const newCard = document.createElement('div');
         newCard.classList.add('Card');
         cardList.appendChild(newCard);
@@ -454,19 +454,19 @@ async function resetfilters() {
 });
 
   } catch (error) {
-    console.log(error);
+    // console.log(error);
   }
 };
 async function filterarcheall() {
   try {
     cardList.innerHTML = "";
     const data = await orFullCards(); // await the async function
-    console.log(data);
+    // console.log(data);
 
     data.forEach(item => {
   for (const key in item) {
     if (item[key] && item[key].name !== undefined) {
-      console.log(`${key}: ${item[key].archetype}`);
+      // console.log(`${key}: ${item[key].archetype}`);
       if (["Character", "Enhanced Character"].includes(item[key].archetype)) {
         const newCard = document.createElement('div');
         newCard.classList.add('Card');
@@ -483,19 +483,19 @@ async function filterarcheall() {
 });
 
   } catch (error) {
-    console.log(error);
+    // console.log(error);
   }
 };
 async function filterarcheallsum() {
   try {
     cardList.innerHTML = "";
     const data = await orFullCards(); // await the async function
-    console.log(data);
+    // console.log(data);
 
     data.forEach(item => {
   for (const key in item) {
     if (item[key] && item[key].name !== undefined) {
-      console.log(`${key}: ${item[key].archetype}`);
+      // console.log(`${key}: ${item[key].archetype}`);
       if (["Summon", "Enhanced Summon"].includes(item[key].archetype)) {
         const newCard = document.createElement('div');
         newCard.classList.add('Card');
@@ -512,12 +512,13 @@ async function filterarcheallsum() {
 });
 
   } catch (error) {
-    console.log(error);
+    // console.log(error);
   }
 
 };
 
 async function makebig(url, indexnamelocal) {
+  console.log("CLICKED:", url, indexnamelocal);
   try {
     imgCardBig.src = url;
     cardZoomArea.style.width = '30%';
@@ -582,7 +583,7 @@ async function makebig(url, indexnamelocal) {
     data.forEach(item => {
   for (const key in item) {
     if (item[key] && item[key].name !== undefined) {
-      console.log(indexnamelocal);
+      // console.log(indexnamelocal);
       if (item[key] && item[key].indexname == indexnamelocal) {
         if (item[key].archetype == "Item") {
           cardAttack1Element.innerHTML = "";
@@ -617,55 +618,55 @@ async function makebig(url, indexnamelocal) {
 
           interactUI.style.background = "var(--iu" + item[key].background + ")";
 
-          console.log(item[key].name);
+          // console.log(item[key].name);
           if (item[key].name !== null) {
             cardName.style.display = "block";
           };
-          console.log(item[key].archetype);
+          // console.log(item[key].archetype);
           if (item[key].archetype !== null) {
             cardArche.style.display = "block";
           };
-          console.log(item[key].ability);
+          // console.log(item[key].ability);
           if (item[key].ability !== null) {
             cardAbility.style.display = "block";
           };
-          console.log(item[key].attack1.name);
+          // console.log(item[key].attack1.name);
           if (item[key].attack1.name !== null) {
             cardAttack1name.style.display = "block";
           };
-          console.log(item[key].attack1.element);
+          // console.log(item[key].attack1.element);
           if (item[key].attack1.element !== null) {
             cardAttack1Element.style.display = "block";
           };
-          console.log(item[key].attack1.damage);
+          // console.log(item[key].attack1.damage);
           if (item[key].attack1.damage !== null) {
             cardAttack1Damage.style.display = "block";
           };
-          console.log(item[key].attack1.description);
+          // console.log(item[key].attack1.description);
           if (item[key].attack1.description !== null) {
             cardAttack1Description.style.display = "block";
           };
-          console.log(item[key].attack2.name);
+          // console.log(item[key].attack2.name);
           if (item[key].attack2.name !== null) {
             cardAttack2name.style.display = "block";
           };
-          console.log(item[key].attack2.element);
+          // console.log(item[key].attack2.element);
           if (item[key].attack2.element !== null) {
             cardAttack2Element.style.display = "block";
           };
-          console.log(item[key].attack2.damage);
+          // console.log(item[key].attack2.damage);
           if (item[key].attack2.damage !== null) {
             cardAttack2Damage.style.display = "block";
           };
-          console.log(item[key].attack2.description);
+          // console.log(item[key].attack2.description);
           if (item[key].attack2.description !== null) {
             cardAttack2Description.style.display = "block";
           };
-          console.log(item[key].series);
+          // console.log(item[key].series);
           if (item[key].series !== null) {
             cardSeries.style.display = "block";
           };
-          console.log(item[key].copyright);
+          // console.log(item[key].copyright);
           if (item[key].copyright !== null) {
             cardCopyright.style.display = "block";
           };
@@ -708,67 +709,67 @@ async function makebig(url, indexnamelocal) {
 
           interactUI.style.background = "var(--iu" + item[key].background + ")";
 
-          console.log(item[key].name);
+          // console.log(item[key].name);
           if (item[key].name !== null) {
             cardName.style.display = "block";
           };
-          console.log(item[key].archetype);
+          // console.log(item[key].archetype);
           if (item[key].archetype !== null) {
             cardArche.style.display = "block";
           };
-          console.log(item[key].element);
+          // console.log(item[key].element);
           if (item[key].element !== null) {
             cardElement.style.display = "block";
           };
-          console.log(item[key].hitpoints);
+          // console.log(item[key].hitpoints);
           if (item[key].hitpoints !== null) {
             cardHP.style.display = "block";
           };
-          console.log(item[key].ability);
+          // console.log(item[key].ability);
           if (item[key].ability !== null) {
             cardAbility.style.display = "block";
           };
-          console.log(item[key].attack1.name);
+          // console.log(item[key].attack1.name);
           if (item[key].attack1.name !== null) {
             cardAttack1name.style.display = "block";
           };
-          console.log(item[key].attack1.element);
+          // console.log(item[key].attack1.element);
           if (item[key].attack1.element !== null) {
             cardAttack1Element.style.display = "block";
           };
-          console.log(item[key].attack1.damage);
+          // console.log(item[key].attack1.damage);
           if (item[key].attack1.damage !== null) {
             cardAttack1Damage.style.display = "block";
           };
-          console.log(item[key].attack1.description);
+          // console.log(item[key].attack1.description);
           if (item[key].attack1.description !== null) {
             cardAttack1Description.style.display = "block";
           };
-          console.log(item[key].attack2.name);
+          // console.log(item[key].attack2.name);
           if (item[key].attack2.name !== null) {
             cardAttack2name.style.display = "block";
           };
-          console.log(item[key].attack2.element);
+          // console.log(item[key].attack2.element);
           if (item[key].attack2.element !== null) {
             cardAttack2Element.style.display = "block";
           };
-          console.log(item[key].attack2.damage);
+          // console.log(item[key].attack2.damage);
           if (item[key].attack2.damage !== null) {
             cardAttack2Damage.style.display = "block";
           };
-          console.log(item[key].attack2.description);
+          // console.log(item[key].attack2.description);
           if (item[key].attack2.description !== null) {
             cardAttack2Description.style.display = "block";
           };
-          console.log(item[key].series);
+          // console.log(item[key].series);
           if (item[key].series !== null) {
             cardSeries.style.display = "block";
           };
-          console.log(item[key].copyright);
+          // console.log(item[key].copyright);
           if (item[key].copyright !== null) {
             cardCopyright.style.display = "block";
           };
-          console.log(item[key].rcost);
+          // console.log(item[key].rcost);
           if (item[key].rcost !== null) {
             cardRCost.style.display = "block";
           };
@@ -867,26 +868,26 @@ async function makebig(url, indexnamelocal) {
 
           interactUI.style.background = "var(--iu" + item[key].background + ")";
 
-          console.log(item[key].name);
+          // console.log(item[key].name);
           if (item[key].name !== null) {
             cardName.style.display = "block";
           };
-          console.log(item[key].archetype);
+          // console.log(item[key].archetype);
           if (item[key].archetype !== null) {
             cardArche.style.display = "block";
           };
-          console.log(item[key].ability);
+          // console.log(item[key].ability);
           if (item[key].ability !== null) {
             cardAbility.style.display = "block";
           };
           if (item[key].caninteract == true) {
             elIntall.style.display = "block";
           };
-          console.log(item[key].series);
+          // console.log(item[key].series);
           if (item[key].series !== null) {
             cardSeries.style.display = "block";
           };
-          console.log(item[key].copyright);
+          // console.log(item[key].copyright);
           if (item[key].copyright !== null) {
             cardCopyright.style.display = "block";
           };
@@ -911,32 +912,32 @@ async function makebig(url, indexnamelocal) {
 
           interactUI.style.background = "var(--iu" + item[key].background + ")";
 
-          console.log(item[key].name);
+          // console.log(item[key].name);
           if (item[key].name !== null) {
             cardName.style.display = "block";
           };
-          console.log(item[key].archetype);
+          // console.log(item[key].archetype);
           if (item[key].archetype !== null) {
             cardArche.style.display = "block";
           };
-          console.log(item[key].element);
+          // console.log(item[key].element);
           if (item[key].element !== null) {
             cardElement.style.display = "block";
           };
 
-          console.log(item[key].ability);
+          // console.log(item[key].ability);
           if (item[key].ability !== null) {
             cardAbility.style.display = "block";
           };
-          console.log(item[key].series);
+          // console.log(item[key].series);
           if (item[key].series !== null) {
             cardSeries.style.display = "block";
           };
-          console.log(item[key].copyright);
+          // console.log(item[key].copyright);
           if (item[key].copyright !== null) {
             cardCopyright.style.display = "block";
           };
-          console.log(item[key].rcost);
+          // console.log(item[key].rcost);
           if (item[key].rcost !== null) {
             cardRCost.style.display = "block";
           };
@@ -947,10 +948,10 @@ async function makebig(url, indexnamelocal) {
 });
 
   } catch (error) {
-    console.log(error);
+    // console.log(error);
   }
 
-  console.log(url);
+  // console.log(url);
 }
 
 function fillelement(numLoops, element, location){
@@ -1025,23 +1026,26 @@ async function activateCard(index) {
 
     try {
       const data = await orFullCards(); // await the async function
-      console.log(data);
+      // console.log(data);
       let cardtitle = card.title
       data.forEach(item => {
     for (const key in item) {
       if (item[key] && item[key].name !== undefined) {
-        console.log(`${key}: ${item[key].index}`);
-        if (cardtitle.includes(item[key].indexname)) {
+        // console.log(`${key}: ${item[key].index}`);
+        console.log(cardtitle, item[key].indexname);
+        console.log(item[key]);
+        if (cardtitle == item[key].indexname) {
           makebig(item[key].image, item[key].indexname)
 
         }
+
 
       }
     }
   });
 
     } catch (error) {
-      console.log(error);
+      // console.log(error);
     }
 }
 
