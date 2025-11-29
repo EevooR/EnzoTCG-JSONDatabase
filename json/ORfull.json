@@ -2764,7 +2764,7 @@
         "jadexhazamaduo": {
             "name": "Jade X Hazama Duo",
             "indexname": "jadexhazamaduo",
-            "archetype": "Duo",
+            "archetype": "DUO",
             "ex" : false,
             "background": "TTbackground",
             "element": "Negative",
@@ -8035,7 +8035,7 @@
 
         "alastorexspecial": {
             "name": "Alastor EX",
-            "indexname": "alastorex",
+            "indexname": "alastorexspecial",
             "archetype": "Character",
             "ex" : true,
             "background": "ColorArt",
