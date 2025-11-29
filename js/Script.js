@@ -671,7 +671,7 @@ async function makebig(url, indexnamelocal) {
             cardCopyright.style.display = "block";
           };
         }
-        if (["Character", "Enhanced Character"].includes(item[key].archetype)) {
+        if (["Character", "Enhanced Character", "DUO"].includes(item[key].archetype)) {
           cardAttack1Element.innerHTML = "";
           cardAttack2Element.innerHTML = "";
           cardElement.innerHTML = "";
